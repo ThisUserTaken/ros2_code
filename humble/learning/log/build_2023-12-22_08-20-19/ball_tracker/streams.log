@@ -1,0 +1,53 @@
+[1.030s] Invoking command in '/root/ros2_code/learning/src/ball_tracker-main': PYTHONPATH=/root/ros2_code/learning/build/ball_tracker/prefix_override:/root/ros2_code/learning/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /root/ros2_code/learning/build/ball_tracker/build install --record /root/ros2_code/learning/build/ball_tracker/install.log --single-version-externally-managed
+[1.321s] running egg_info
+[1.322s] creating ../../build/ball_tracker/ball_tracker.egg-info
+[1.322s] writing ../../build/ball_tracker/ball_tracker.egg-info/PKG-INFO
+[1.322s] writing dependency_links to ../../build/ball_tracker/ball_tracker.egg-info/dependency_links.txt
+[1.322s] writing entry points to ../../build/ball_tracker/ball_tracker.egg-info/entry_points.txt
+[1.322s] writing requirements to ../../build/ball_tracker/ball_tracker.egg-info/requires.txt
+[1.322s] writing top-level names to ../../build/ball_tracker/ball_tracker.egg-info/top_level.txt
+[1.323s] writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[1.324s] reading manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[1.325s] writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[1.325s] running build
+[1.325s] running build_py
+[1.326s] creating /root/ros2_code/learning/build/ball_tracker/build
+[1.326s] creating /root/ros2_code/learning/build/ball_tracker/build/lib
+[1.326s] creating /root/ros2_code/learning/build/ball_tracker/build/lib/ball_tracker
+[1.326s] copying ball_tracker/follow_ball.py -> /root/ros2_code/learning/build/ball_tracker/build/lib/ball_tracker
+[1.326s] copying ball_tracker/detect_ball.py -> /root/ros2_code/learning/build/ball_tracker/build/lib/ball_tracker
+[1.327s] copying ball_tracker/detect_ball_3d.py -> /root/ros2_code/learning/build/ball_tracker/build/lib/ball_tracker
+[1.327s] copying ball_tracker/__init__.py -> /root/ros2_code/learning/build/ball_tracker/build/lib/ball_tracker
+[1.327s] copying ball_tracker/process_image.py -> /root/ros2_code/learning/build/ball_tracker/build/lib/ball_tracker
+[1.327s] running install
+[1.327s] running install_lib
+[1.328s] creating /root/ros2_code/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.328s] copying /root/ros2_code/learning/build/ball_tracker/build/lib/ball_tracker/follow_ball.py -> /root/ros2_code/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.328s] copying /root/ros2_code/learning/build/ball_tracker/build/lib/ball_tracker/detect_ball.py -> /root/ros2_code/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.328s] copying /root/ros2_code/learning/build/ball_tracker/build/lib/ball_tracker/detect_ball_3d.py -> /root/ros2_code/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.329s] copying /root/ros2_code/learning/build/ball_tracker/build/lib/ball_tracker/__init__.py -> /root/ros2_code/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.329s] copying /root/ros2_code/learning/build/ball_tracker/build/lib/ball_tracker/process_image.py -> /root/ros2_code/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.329s] byte-compiling /root/ros2_code/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/follow_ball.py to follow_ball.cpython-310.pyc
+[1.331s] byte-compiling /root/ros2_code/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/detect_ball.py to detect_ball.cpython-310.pyc
+[1.332s] byte-compiling /root/ros2_code/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/detect_ball_3d.py to detect_ball_3d.cpython-310.pyc
+[1.332s] byte-compiling /root/ros2_code/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/__init__.py to __init__.cpython-310.pyc
+[1.332s] byte-compiling /root/ros2_code/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/process_image.py to process_image.cpython-310.pyc
+[1.333s] running install_data
+[1.334s] creating /root/ros2_code/learning/install/ball_tracker/share/ament_index
+[1.334s] creating /root/ros2_code/learning/install/ball_tracker/share/ament_index/resource_index
+[1.334s] creating /root/ros2_code/learning/install/ball_tracker/share/ament_index/resource_index/packages
+[1.335s] copying resource/ball_tracker -> /root/ros2_code/learning/install/ball_tracker/share/ament_index/resource_index/packages
+[1.335s] copying package.xml -> /root/ros2_code/learning/install/ball_tracker/share/ball_tracker
+[1.335s] creating /root/ros2_code/learning/install/ball_tracker/share/ball_tracker/launch
+[1.335s] copying launch/example_launch_include.launch.py -> /root/ros2_code/learning/install/ball_tracker/share/ball_tracker/launch
+[1.335s] copying launch/ball_tracker.launch.py -> /root/ros2_code/learning/install/ball_tracker/share/ball_tracker/launch
+[1.335s] creating /root/ros2_code/learning/install/ball_tracker/share/ball_tracker/config
+[1.335s] copying config/ball_tracker_params_example.yaml -> /root/ros2_code/learning/install/ball_tracker/share/ball_tracker/config
+[1.335s] running install_egg_info
+[1.337s] Copying ../../build/ball_tracker/ball_tracker.egg-info to /root/ros2_code/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker-0.0.0-py3.10.egg-info
+[1.338s] running install_scripts
+[1.357s] Installing detect_ball script to /root/ros2_code/learning/install/ball_tracker/lib/ball_tracker
+[1.358s] Installing detect_ball_3d script to /root/ros2_code/learning/install/ball_tracker/lib/ball_tracker
+[1.358s] Installing follow_ball script to /root/ros2_code/learning/install/ball_tracker/lib/ball_tracker
+[1.358s] writing list of installed files to '/root/ros2_code/learning/build/ball_tracker/install.log'
+[1.376s] Invoked command in '/root/ros2_code/learning/src/ball_tracker-main' returned '0': PYTHONPATH=/root/ros2_code/learning/build/ball_tracker/prefix_override:/root/ros2_code/learning/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /root/ros2_code/learning/build/ball_tracker/build install --record /root/ros2_code/learning/build/ball_tracker/install.log --single-version-externally-managed
