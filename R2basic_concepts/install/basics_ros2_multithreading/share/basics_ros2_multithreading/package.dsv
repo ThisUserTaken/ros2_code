@@ -1,0 +1,8 @@
+source;share/basics_ros2_multithreading/hook/cmake_prefix_path.ps1
+source;share/basics_ros2_multithreading/hook/cmake_prefix_path.dsv
+source;share/basics_ros2_multithreading/hook/cmake_prefix_path.sh
+source;share/basics_ros2_multithreading/local_setup.bash
+source;share/basics_ros2_multithreading/local_setup.dsv
+source;share/basics_ros2_multithreading/local_setup.ps1
+source;share/basics_ros2_multithreading/local_setup.sh
+source;share/basics_ros2_multithreading/local_setup.zsh

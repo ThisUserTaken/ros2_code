@@ -1,0 +1,62 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading
+-- Install configuration: ""
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/function.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/haarcascade_frontalface.xml
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/yello_tshirt_detector.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/callback_function.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/face_searcher_multithreading_callbackgroups.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/deepbot_movehead.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/callback_spinonce_function.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/face_searcher_multithreading.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/face_searcher.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/face_searcher_multithreading.launch.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/yello_tshirt_detector.launch.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/face_searcher_multithreading_callbackgroups.launch.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/face_searcher.launch.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/callback_function.launch.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/function.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/callback_function.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/callback_spinonce_function.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/face_searcher.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/face_searcher_multithreading.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/face_searcher_multithreading_callbackgroups.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/yello_tshirt_detector.py
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/ament_index/resource_index/package_run_dependencies/basics_ros2_multithreading
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/ament_index/resource_index/parent_prefix_path/basics_ros2_multithreading
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/path.sh
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/path.dsv
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.bash
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.sh
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.zsh
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.dsv
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.dsv
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/ament_index/resource_index/packages/basics_ros2_multithreading
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/cmake/basics_ros2_multithreadingConfig.cmake
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/cmake/basics_ros2_multithreadingConfig-version.cmake
+-- Installing: /root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.xml

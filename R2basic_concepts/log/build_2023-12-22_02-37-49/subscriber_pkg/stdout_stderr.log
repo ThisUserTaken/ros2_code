@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/subscriber_pkg/subscriber_pkg.egg-info
+writing ../../build/subscriber_pkg/subscriber_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/subscriber_pkg/subscriber_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/subscriber_pkg/subscriber_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/subscriber_pkg/subscriber_pkg.egg-info/requires.txt
+writing top-level names to ../../build/subscriber_pkg/subscriber_pkg.egg-info/top_level.txt
+writing manifest file '../../build/subscriber_pkg/subscriber_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/subscriber_pkg/subscriber_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/subscriber_pkg/subscriber_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_code/R2basic_concepts/build/subscriber_pkg/build
+creating /root/ros2_code/R2basic_concepts/build/subscriber_pkg/build/lib
+creating /root/ros2_code/R2basic_concepts/build/subscriber_pkg/build/lib/subscriber_pkg
+copying subscriber_pkg/simple_subscriber.py -> /root/ros2_code/R2basic_concepts/build/subscriber_pkg/build/lib/subscriber_pkg
+copying subscriber_pkg/__init__.py -> /root/ros2_code/R2basic_concepts/build/subscriber_pkg/build/lib/subscriber_pkg
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg
+copying /root/ros2_code/R2basic_concepts/build/subscriber_pkg/build/lib/subscriber_pkg/simple_subscriber.py -> /root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg
+copying /root/ros2_code/R2basic_concepts/build/subscriber_pkg/build/lib/subscriber_pkg/__init__.py -> /root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg
+byte-compiling /root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+byte-compiling /root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/ament_index
+creating /root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/ament_index/resource_index
+creating /root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/ament_index/resource_index/packages
+copying resource/subscriber_pkg -> /root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/subscriber_pkg
+copying launch/subscriber_pkg_launch_file.launch.py -> /root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/subscriber_pkg
+running install_egg_info
+Copying ../../build/subscriber_pkg/subscriber_pkg.egg-info to /root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing simple_subscriber script to /root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/subscriber_pkg
+writing list of installed files to '/root/ros2_code/R2basic_concepts/build/subscriber_pkg/install.log'

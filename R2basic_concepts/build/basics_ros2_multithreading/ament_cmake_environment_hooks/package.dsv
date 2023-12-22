@@ -1,0 +1,4 @@
+source;share/basics_ros2_multithreading/local_setup.bash
+source;share/basics_ros2_multithreading/local_setup.dsv
+source;share/basics_ros2_multithreading/local_setup.sh
+source;share/basics_ros2_multithreading/local_setup.zsh

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/exercise31_pkg/exercise31_pkg.egg-info/PKG-INFO
+../../build/exercise31_pkg/exercise31_pkg.egg-info/SOURCES.txt
+../../build/exercise31_pkg/exercise31_pkg.egg-info/dependency_links.txt
+../../build/exercise31_pkg/exercise31_pkg.egg-info/entry_points.txt
+../../build/exercise31_pkg/exercise31_pkg.egg-info/requires.txt
+../../build/exercise31_pkg/exercise31_pkg.egg-info/top_level.txt
+../../build/exercise31_pkg/exercise31_pkg.egg-info/zip-safe
+exercise31_pkg/__init__.py
+exercise31_pkg/exercise31.py
+launch/exercise31_pkg_launch_file.launch.py
+resource/exercise31_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

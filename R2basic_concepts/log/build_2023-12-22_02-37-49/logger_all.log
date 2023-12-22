@@ -1,0 +1,734 @@
+[1.130s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.130s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9947a85de0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9947a86050>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9947a86050>>)
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.182s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/R2basic_concepts'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/basics_ros2_multithreading) by extensions ['ignore', 'ignore_ament_install']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/basics_ros2_multithreading) by extension 'ignore'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/basics_ros2_multithreading) by extension 'ignore_ament_install'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/basics_ros2_multithreading) by extensions ['colcon_pkg']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/basics_ros2_multithreading) by extension 'colcon_pkg'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/basics_ros2_multithreading) by extensions ['colcon_meta']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/basics_ros2_multithreading) by extension 'colcon_meta'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/basics_ros2_multithreading) by extensions ['ros']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/basics_ros2_multithreading) by extension 'ros'
+[1.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/basics_ros2_multithreading' with type 'ros.ament_cmake' and name 'basics_ros2_multithreading'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/client_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/client_pkg) by extension 'ignore'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/client_pkg) by extension 'ignore_ament_install'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/client_pkg) by extensions ['colcon_pkg']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/client_pkg) by extension 'colcon_pkg'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/client_pkg) by extensions ['colcon_meta']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/client_pkg) by extension 'colcon_meta'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/client_pkg) by extensions ['ros']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/client_pkg) by extension 'ros'
+[1.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/client_pkg' with type 'ros.ament_python' and name 'client_pkg'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/exercise31_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/exercise31_pkg) by extension 'ignore'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/exercise31_pkg) by extension 'ignore_ament_install'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/exercise31_pkg) by extensions ['colcon_pkg']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/exercise31_pkg) by extension 'colcon_pkg'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/exercise31_pkg) by extensions ['colcon_meta']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/exercise31_pkg) by extension 'colcon_meta'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/exercise31_pkg) by extensions ['ros']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/exercise31_pkg) by extension 'ros'
+[1.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/exercise31_pkg' with type 'ros.ament_python' and name 'exercise31_pkg'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_client) by extensions ['ignore', 'ignore_ament_install']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_client) by extension 'ignore'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_client) by extension 'ignore_ament_install'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_client) by extensions ['colcon_pkg']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_client) by extension 'colcon_pkg'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_client) by extensions ['colcon_meta']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_client) by extension 'colcon_meta'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_client) by extensions ['ros']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_client) by extension 'ros'
+[1.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_action_client' with type 'ros.ament_python' and name 'my_action_client'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_server) by extensions ['ignore', 'ignore_ament_install']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_server) by extension 'ignore'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_server) by extension 'ignore_ament_install'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_server) by extensions ['colcon_pkg']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_server) by extension 'colcon_pkg'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_server) by extensions ['colcon_meta']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_server) by extension 'colcon_meta'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_server) by extensions ['ros']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_action_server) by extension 'ros'
+[1.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_action_server' with type 'ros.ament_python' and name 'my_action_server'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'ignore'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'ignore_ament_install'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extensions ['colcon_pkg']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'colcon_pkg'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extensions ['colcon_meta']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'colcon_meta'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extensions ['ros']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'ros'
+[1.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_box_bot_description' with type 'ros.ament_cmake' and name 'my_box_bot_description'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'ignore'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'ignore_ament_install'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extensions ['colcon_pkg']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'colcon_pkg'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extensions ['colcon_meta']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'colcon_meta'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extensions ['ros']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'ros'
+[1.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_box_bot_gazebo' with type 'ros.ament_cmake' and name 'my_box_bot_gazebo'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[1.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_python' and name 'my_package'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_pkg) by extension 'ignore'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_pkg) by extension 'ignore_ament_install'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_pkg) by extensions ['colcon_pkg']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_pkg) by extension 'colcon_pkg'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_pkg) by extensions ['colcon_meta']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_pkg) by extension 'colcon_meta'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_pkg) by extensions ['ros']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_pkg) by extension 'ros'
+[1.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/publisher_pkg' with type 'ros.ament_python' and name 'publisher_pkg'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_server_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_server_pkg) by extension 'ignore'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_server_pkg) by extension 'ignore_ament_install'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_server_pkg) by extensions ['colcon_pkg']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_server_pkg) by extension 'colcon_pkg'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_server_pkg) by extensions ['colcon_meta']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_server_pkg) by extension 'colcon_meta'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_server_pkg) by extensions ['ros']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_server_pkg) by extension 'ros'
+[1.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/service_server_pkg' with type 'ros.ament_python' and name 'service_server_pkg'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber_pkg) by extension 'ignore'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber_pkg) by extension 'ignore_ament_install'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber_pkg) by extensions ['colcon_pkg']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber_pkg) by extension 'colcon_pkg'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber_pkg) by extensions ['colcon_meta']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber_pkg) by extension 'colcon_meta'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber_pkg) by extensions ['ros']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscriber_pkg) by extension 'ros'
+[1.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/subscriber_pkg' with type 'ros.ament_python' and name 'subscriber_pkg'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extension 'ignore'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extension 'ignore_ament_install'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extensions ['colcon_pkg']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extension 'colcon_pkg'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extensions ['colcon_meta']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extension 'colcon_meta'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extensions ['ros']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extension 'ros'
+[1.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urdfbot_description' with type 'ros.ament_cmake' and name 'urdfbot_description'
+[1.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'basics_ros2_multithreading' build argument 'cmake_args' from command line to 'None'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'basics_ros2_multithreading' build argument 'cmake_target' from command line to 'None'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'basics_ros2_multithreading' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'basics_ros2_multithreading' build argument 'cmake_clean_cache' from command line to 'False'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'basics_ros2_multithreading' build argument 'cmake_clean_first' from command line to 'False'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'basics_ros2_multithreading' build argument 'cmake_force_configure' from command line to 'False'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'basics_ros2_multithreading' build argument 'ament_cmake_args' from command line to 'None'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'basics_ros2_multithreading' build argument 'catkin_cmake_args' from command line to 'None'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'basics_ros2_multithreading' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.302s] DEBUG:colcon.colcon_core.verb:Building package 'basics_ros2_multithreading' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading', 'merge_install': False, 'path': '/root/ros2_code/R2basic_concepts/src/basics_ros2_multithreading', 'symlink_install': False, 'test_result_base': None}
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'cmake_args' from command line to 'None'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'cmake_target' from command line to 'None'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.319s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.319s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.319s] DEBUG:colcon.colcon_core.verb:Building package 'client_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/R2basic_concepts/build/client_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/R2basic_concepts/install/client_pkg', 'merge_install': False, 'path': '/root/ros2_code/R2basic_concepts/src/client_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'exercise31_pkg' build argument 'cmake_args' from command line to 'None'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'exercise31_pkg' build argument 'cmake_target' from command line to 'None'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'exercise31_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'exercise31_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'exercise31_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'exercise31_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'exercise31_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'exercise31_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'exercise31_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.336s] DEBUG:colcon.colcon_core.verb:Building package 'exercise31_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/R2basic_concepts/build/exercise31_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/R2basic_concepts/install/exercise31_pkg', 'merge_install': False, 'path': '/root/ros2_code/R2basic_concepts/src/exercise31_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.353s] Level 5:colcon.colcon_core.verb:set package 'my_action_client' build argument 'cmake_args' from command line to 'None'
+[1.353s] Level 5:colcon.colcon_core.verb:set package 'my_action_client' build argument 'cmake_target' from command line to 'None'
+[1.353s] Level 5:colcon.colcon_core.verb:set package 'my_action_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.353s] Level 5:colcon.colcon_core.verb:set package 'my_action_client' build argument 'cmake_clean_cache' from command line to 'False'
+[1.353s] Level 5:colcon.colcon_core.verb:set package 'my_action_client' build argument 'cmake_clean_first' from command line to 'False'
+[1.353s] Level 5:colcon.colcon_core.verb:set package 'my_action_client' build argument 'cmake_force_configure' from command line to 'False'
+[1.353s] Level 5:colcon.colcon_core.verb:set package 'my_action_client' build argument 'ament_cmake_args' from command line to 'None'
+[1.353s] Level 5:colcon.colcon_core.verb:set package 'my_action_client' build argument 'catkin_cmake_args' from command line to 'None'
+[1.353s] Level 5:colcon.colcon_core.verb:set package 'my_action_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.353s] DEBUG:colcon.colcon_core.verb:Building package 'my_action_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/R2basic_concepts/build/my_action_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/R2basic_concepts/install/my_action_client', 'merge_install': False, 'path': '/root/ros2_code/R2basic_concepts/src/my_action_client', 'symlink_install': False, 'test_result_base': None}
+[1.370s] Level 5:colcon.colcon_core.verb:set package 'my_action_server' build argument 'cmake_args' from command line to 'None'
+[1.370s] Level 5:colcon.colcon_core.verb:set package 'my_action_server' build argument 'cmake_target' from command line to 'None'
+[1.370s] Level 5:colcon.colcon_core.verb:set package 'my_action_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.370s] Level 5:colcon.colcon_core.verb:set package 'my_action_server' build argument 'cmake_clean_cache' from command line to 'False'
+[1.370s] Level 5:colcon.colcon_core.verb:set package 'my_action_server' build argument 'cmake_clean_first' from command line to 'False'
+[1.370s] Level 5:colcon.colcon_core.verb:set package 'my_action_server' build argument 'cmake_force_configure' from command line to 'False'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'my_action_server' build argument 'ament_cmake_args' from command line to 'None'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'my_action_server' build argument 'catkin_cmake_args' from command line to 'None'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'my_action_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.371s] DEBUG:colcon.colcon_core.verb:Building package 'my_action_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/R2basic_concepts/build/my_action_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/R2basic_concepts/install/my_action_server', 'merge_install': False, 'path': '/root/ros2_code/R2basic_concepts/src/my_action_server', 'symlink_install': False, 'test_result_base': None}
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_args' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_target' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.388s] DEBUG:colcon.colcon_core.verb:Building package 'my_box_bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/R2basic_concepts/build/my_box_bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/R2basic_concepts/install/my_box_bot_description', 'merge_install': False, 'path': '/root/ros2_code/R2basic_concepts/src/my_box_bot_description', 'symlink_install': False, 'test_result_base': None}
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.404s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/R2basic_concepts/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/R2basic_concepts/install/my_package', 'merge_install': False, 'path': '/root/ros2_code/R2basic_concepts/src/my_package', 'symlink_install': False, 'test_result_base': None}
+[1.421s] Level 5:colcon.colcon_core.verb:set package 'publisher_pkg' build argument 'cmake_args' from command line to 'None'
+[1.421s] Level 5:colcon.colcon_core.verb:set package 'publisher_pkg' build argument 'cmake_target' from command line to 'None'
+[1.421s] Level 5:colcon.colcon_core.verb:set package 'publisher_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.421s] Level 5:colcon.colcon_core.verb:set package 'publisher_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.421s] Level 5:colcon.colcon_core.verb:set package 'publisher_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.421s] Level 5:colcon.colcon_core.verb:set package 'publisher_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.421s] Level 5:colcon.colcon_core.verb:set package 'publisher_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.421s] Level 5:colcon.colcon_core.verb:set package 'publisher_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.421s] Level 5:colcon.colcon_core.verb:set package 'publisher_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.421s] DEBUG:colcon.colcon_core.verb:Building package 'publisher_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/R2basic_concepts/build/publisher_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/R2basic_concepts/install/publisher_pkg', 'merge_install': False, 'path': '/root/ros2_code/R2basic_concepts/src/publisher_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'service_server_pkg' build argument 'cmake_args' from command line to 'None'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'service_server_pkg' build argument 'cmake_target' from command line to 'None'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'service_server_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'service_server_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'service_server_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'service_server_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'service_server_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'service_server_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'service_server_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.437s] DEBUG:colcon.colcon_core.verb:Building package 'service_server_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/R2basic_concepts/build/service_server_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/R2basic_concepts/install/service_server_pkg', 'merge_install': False, 'path': '/root/ros2_code/R2basic_concepts/src/service_server_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.453s] Level 5:colcon.colcon_core.verb:set package 'subscriber_pkg' build argument 'cmake_args' from command line to 'None'
+[1.453s] Level 5:colcon.colcon_core.verb:set package 'subscriber_pkg' build argument 'cmake_target' from command line to 'None'
+[1.454s] Level 5:colcon.colcon_core.verb:set package 'subscriber_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.454s] Level 5:colcon.colcon_core.verb:set package 'subscriber_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.454s] Level 5:colcon.colcon_core.verb:set package 'subscriber_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.454s] Level 5:colcon.colcon_core.verb:set package 'subscriber_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.454s] Level 5:colcon.colcon_core.verb:set package 'subscriber_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.454s] Level 5:colcon.colcon_core.verb:set package 'subscriber_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.454s] Level 5:colcon.colcon_core.verb:set package 'subscriber_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.454s] DEBUG:colcon.colcon_core.verb:Building package 'subscriber_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/R2basic_concepts/build/subscriber_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/R2basic_concepts/install/subscriber_pkg', 'merge_install': False, 'path': '/root/ros2_code/R2basic_concepts/src/subscriber_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'cmake_args' from command line to 'None'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'cmake_target' from command line to 'None'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.477s] DEBUG:colcon.colcon_core.verb:Building package 'urdfbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/R2basic_concepts/build/urdfbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/R2basic_concepts/install/urdfbot_description', 'merge_install': False, 'path': '/root/ros2_code/R2basic_concepts/src/urdfbot_description', 'symlink_install': False, 'test_result_base': None}
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.494s] DEBUG:colcon.colcon_core.verb:Building package 'my_box_bot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/R2basic_concepts/build/my_box_bot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo', 'merge_install': False, 'path': '/root/ros2_code/R2basic_concepts/src/my_box_bot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.510s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.527s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.527s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/R2basic_concepts/src/my_box_bot_description' with build type 'ament_cmake'
+[1.527s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/R2basic_concepts/src/my_box_bot_description'
+[1.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.604s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/R2basic_concepts/src/basics_ros2_multithreading' with build type 'ament_cmake'
+[1.604s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/R2basic_concepts/src/basics_ros2_multithreading'
+[1.621s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.680s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/R2basic_concepts/src/client_pkg' with build type 'ament_python'
+[1.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('client_pkg', 'ament_prefix_path')
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg/hook/ament_prefix_path.ps1'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg/hook/ament_prefix_path.dsv'
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg/hook/ament_prefix_path.sh'
+[1.720s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.720s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.776s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/R2basic_concepts/src/exercise31_pkg' with build type 'ament_python'
+[1.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('exercise31_pkg', 'ament_prefix_path')
+[1.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/exercise31_pkg/hook/ament_prefix_path.ps1'
+[1.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/exercise31_pkg/hook/ament_prefix_path.dsv'
+[1.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/exercise31_pkg/hook/ament_prefix_path.sh'
+[1.815s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.815s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.872s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/R2basic_concepts/src/my_action_client' with build type 'ament_python'
+[1.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_action_client', 'ament_prefix_path')
+[1.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client/hook/ament_prefix_path.ps1'
+[1.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client/hook/ament_prefix_path.dsv'
+[1.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client/hook/ament_prefix_path.sh'
+[1.911s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.911s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.968s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/R2basic_concepts/src/my_action_server' with build type 'ament_python'
+[1.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_action_server', 'ament_prefix_path')
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_action_server/share/my_action_server/hook/ament_prefix_path.ps1'
+[1.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/my_action_server/share/my_action_server/hook/ament_prefix_path.dsv'
+[1.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_action_server/share/my_action_server/hook/ament_prefix_path.sh'
+[2.005s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.005s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.060s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/R2basic_concepts/src/my_package' with build type 'ament_python'
+[2.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[2.096s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.096s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.152s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/R2basic_concepts/src/publisher_pkg' with build type 'ament_python'
+[2.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher_pkg', 'ament_prefix_path')
+[2.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/publisher_pkg/share/publisher_pkg/hook/ament_prefix_path.ps1'
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/publisher_pkg/share/publisher_pkg/hook/ament_prefix_path.dsv'
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/publisher_pkg/share/publisher_pkg/hook/ament_prefix_path.sh'
+[2.191s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.191s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.247s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/R2basic_concepts/src/service_server_pkg' with build type 'ament_python'
+[2.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_server_pkg', 'ament_prefix_path')
+[2.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg/hook/ament_prefix_path.ps1'
+[2.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg/hook/ament_prefix_path.dsv'
+[2.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg/hook/ament_prefix_path.sh'
+[2.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.344s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/R2basic_concepts/src/subscriber_pkg' with build type 'ament_python'
+[2.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('subscriber_pkg', 'ament_prefix_path')
+[2.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/subscriber_pkg/hook/ament_prefix_path.ps1'
+[2.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/subscriber_pkg/hook/ament_prefix_path.dsv'
+[2.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/subscriber_pkg/hook/ament_prefix_path.sh'
+[2.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.437s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/R2basic_concepts/src/urdfbot_description' with build type 'ament_cmake'
+[2.437s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/R2basic_concepts/src/urdfbot_description'
+[2.455s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.455s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_code/R2basic_concepts/src/my_box_bot_description -DCMAKE_INSTALL_PREFIX=/root/ros2_code/R2basic_concepts/install/my_box_bot_description
+[2.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_code/R2basic_concepts/src/basics_ros2_multithreading -DCMAKE_INSTALL_PREFIX=/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading
+[2.816s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/R2basic_concepts/src/client_pkg'
+[2.833s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.833s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.205s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/R2basic_concepts/src/exercise31_pkg'
+[3.222s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.222s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.564s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/R2basic_concepts/src/my_action_client'
+[3.584s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.584s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.940s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/R2basic_concepts/src/my_action_server'
+[3.958s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.958s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.306s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/R2basic_concepts/src/my_package'
+[4.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.323s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.661s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/R2basic_concepts/src/publisher_pkg'
+[4.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.019s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/R2basic_concepts/src/service_server_pkg'
+[5.036s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.036s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.378s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/R2basic_concepts/src/subscriber_pkg'
+[5.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_code/R2basic_concepts/src/urdfbot_description -DCMAKE_INSTALL_PREFIX=/root/ros2_code/R2basic_concepts/install/urdfbot_description
+[5.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_code/R2basic_concepts/src/basics_ros2_multithreading -DCMAKE_INSTALL_PREFIX=/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading
+[5.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading -- -j12 -l12
+[5.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading -- -j12 -l12
+[5.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading
+[5.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basics_ros2_multithreading)
+[5.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading
+[5.629s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading' for CMake module files
+[5.630s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading' for CMake config files
+[5.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('basics_ros2_multithreading', 'cmake_prefix_path')
+[5.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/hook/cmake_prefix_path.ps1'
+[5.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/hook/cmake_prefix_path.dsv'
+[5.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/hook/cmake_prefix_path.sh'
+[5.660s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/lib'
+[5.660s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/bin'
+[5.660s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/lib/pkgconfig/basics_ros2_multithreading.pc'
+[5.661s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/lib/python3.10/site-packages'
+[5.661s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/bin'
+[5.689s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.ps1'
+[5.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.dsv'
+[5.691s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.sh'
+[5.692s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.bash'
+[5.694s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.zsh'
+[5.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/colcon-core/packages/basics_ros2_multithreading)
+[5.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basics_ros2_multithreading)
+[5.786s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading' for CMake module files
+[5.797s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading' for CMake config files
+[5.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('basics_ros2_multithreading', 'cmake_prefix_path')
+[5.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/hook/cmake_prefix_path.ps1'
+[5.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/hook/cmake_prefix_path.dsv'
+[5.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/hook/cmake_prefix_path.sh'
+[5.832s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/lib'
+[5.832s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/bin'
+[5.832s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/lib/pkgconfig/basics_ros2_multithreading.pc'
+[5.833s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/lib/python3.10/site-packages'
+[5.833s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/bin'
+[5.862s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.ps1'
+[5.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.dsv'
+[5.864s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.sh'
+[5.864s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.bash'
+[5.865s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.zsh'
+[5.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/basics_ros2_multithreading/share/colcon-core/packages/basics_ros2_multithreading)
+[6.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/src/publisher_pkg': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/publisher_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_pkg build --build-base /root/ros2_code/R2basic_concepts/build/publisher_pkg/build install --record /root/ros2_code/R2basic_concepts/build/publisher_pkg/install.log --single-version-externally-managed
+[6.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/src/my_action_server': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/my_action_server/prefix_override:/root/ros2_code/R2basic_concepts/install/my_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_action_server build --build-base /root/ros2_code/R2basic_concepts/build/my_action_server/build install --record /root/ros2_code/R2basic_concepts/build/my_action_server/install.log --single-version-externally-managed
+[6.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/src/subscriber_pkg': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/subscriber_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/subscriber_pkg build --build-base /root/ros2_code/R2basic_concepts/build/subscriber_pkg/build install --record /root/ros2_code/R2basic_concepts/build/subscriber_pkg/install.log --single-version-externally-managed
+[6.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/src/client_pkg': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/client_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/client_pkg build --build-base /root/ros2_code/R2basic_concepts/build/client_pkg/build install --record /root/ros2_code/R2basic_concepts/build/client_pkg/install.log --single-version-externally-managed
+[6.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/src/exercise31_pkg': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/exercise31_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/exercise31_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/exercise31_pkg build --build-base /root/ros2_code/R2basic_concepts/build/exercise31_pkg/build install --record /root/ros2_code/R2basic_concepts/build/exercise31_pkg/install.log --single-version-externally-managed
+[6.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/src/my_action_client': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/my_action_client/prefix_override:/root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_action_client build --build-base /root/ros2_code/R2basic_concepts/build/my_action_client/build install --record /root/ros2_code/R2basic_concepts/build/my_action_client/install.log --single-version-externally-managed
+[6.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/src/my_package': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/my_package/prefix_override:/root/ros2_code/R2basic_concepts/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /root/ros2_code/R2basic_concepts/build/my_package/build install --record /root/ros2_code/R2basic_concepts/build/my_package/install.log --single-version-externally-managed
+[6.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/src/service_server_pkg': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/service_server_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/service_server_pkg build --build-base /root/ros2_code/R2basic_concepts/build/service_server_pkg/build install --record /root/ros2_code/R2basic_concepts/build/service_server_pkg/install.log --single-version-externally-managed
+[6.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_code/R2basic_concepts/src/urdfbot_description -DCMAKE_INSTALL_PREFIX=/root/ros2_code/R2basic_concepts/install/urdfbot_description
+[6.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/R2basic_concepts/build/urdfbot_description -- -j12 -l12
+[6.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/src/publisher_pkg' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/publisher_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_pkg build --build-base /root/ros2_code/R2basic_concepts/build/publisher_pkg/build install --record /root/ros2_code/R2basic_concepts/build/publisher_pkg/install.log --single-version-externally-managed
+[6.756s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/publisher_pkg' for CMake module files
+[6.758s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/publisher_pkg' for CMake config files
+[6.759s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/publisher_pkg/lib'
+[6.759s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/publisher_pkg/bin'
+[6.759s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/publisher_pkg/lib/pkgconfig/publisher_pkg.pc'
+[6.760s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/publisher_pkg/lib/python3.10/site-packages'
+[6.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher_pkg', 'pythonpath')
+[6.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/publisher_pkg/share/publisher_pkg/hook/pythonpath.ps1'
+[6.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/publisher_pkg/share/publisher_pkg/hook/pythonpath.dsv'
+[6.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/publisher_pkg/share/publisher_pkg/hook/pythonpath.sh'
+[6.788s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/publisher_pkg/bin'
+[6.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publisher_pkg)
+[6.807s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/publisher_pkg/share/publisher_pkg/package.ps1'
+[6.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/publisher_pkg/share/publisher_pkg/package.dsv'
+[6.808s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/publisher_pkg/share/publisher_pkg/package.sh'
+[6.809s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/publisher_pkg/share/publisher_pkg/package.bash'
+[6.809s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/publisher_pkg/share/publisher_pkg/package.zsh'
+[6.809s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/publisher_pkg/share/colcon-core/packages/publisher_pkg)
+[6.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/src/service_server_pkg' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/service_server_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/service_server_pkg build --build-base /root/ros2_code/R2basic_concepts/build/service_server_pkg/build install --record /root/ros2_code/R2basic_concepts/build/service_server_pkg/install.log --single-version-externally-managed
+[6.834s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/service_server_pkg' for CMake module files
+[6.835s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/service_server_pkg' for CMake config files
+[6.835s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/service_server_pkg/lib'
+[6.835s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/service_server_pkg/bin'
+[6.835s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/pkgconfig/service_server_pkg.pc'
+[6.836s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages'
+[6.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_server_pkg', 'pythonpath')
+[6.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg/hook/pythonpath.ps1'
+[6.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg/hook/pythonpath.dsv'
+[6.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg/hook/pythonpath.sh'
+[6.860s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/service_server_pkg/bin'
+[6.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_server_pkg)
+[6.880s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg/package.ps1'
+[6.880s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg/package.dsv'
+[6.881s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg/package.sh'
+[6.881s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg/package.bash'
+[6.881s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg/package.zsh'
+[6.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/service_server_pkg/share/colcon-core/packages/service_server_pkg)
+[6.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/src/my_action_client' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/my_action_client/prefix_override:/root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_action_client build --build-base /root/ros2_code/R2basic_concepts/build/my_action_client/build install --record /root/ros2_code/R2basic_concepts/build/my_action_client/install.log --single-version-externally-managed
+[6.905s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_action_client' for CMake module files
+[6.906s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_action_client' for CMake config files
+[6.907s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_action_client/lib'
+[6.907s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_action_client/bin'
+[6.907s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_action_client/lib/pkgconfig/my_action_client.pc'
+[6.907s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages'
+[6.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_action_client', 'pythonpath')
+[6.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client/hook/pythonpath.ps1'
+[6.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client/hook/pythonpath.dsv'
+[6.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client/hook/pythonpath.sh'
+[6.928s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_action_client/bin'
+[6.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_action_client)
+[6.947s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client/package.ps1'
+[6.947s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client/package.dsv'
+[6.948s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client/package.sh'
+[6.948s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client/package.bash'
+[6.948s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client/package.zsh'
+[6.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/my_action_client/share/colcon-core/packages/my_action_client)
+[6.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/R2basic_concepts/build/urdfbot_description -- -j12 -l12
+[6.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/src/subscriber_pkg' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/subscriber_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/subscriber_pkg build --build-base /root/ros2_code/R2basic_concepts/build/subscriber_pkg/build install --record /root/ros2_code/R2basic_concepts/build/subscriber_pkg/install.log --single-version-externally-managed
+[6.973s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/subscriber_pkg' for CMake module files
+[6.974s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/subscriber_pkg' for CMake config files
+[6.975s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib'
+[6.975s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/bin'
+[6.975s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/pkgconfig/subscriber_pkg.pc'
+[6.976s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/python3.10/site-packages'
+[6.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('subscriber_pkg', 'pythonpath')
+[6.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/subscriber_pkg/hook/pythonpath.ps1'
+[6.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/subscriber_pkg/hook/pythonpath.dsv'
+[6.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/subscriber_pkg/hook/pythonpath.sh'
+[6.996s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/bin'
+[6.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(subscriber_pkg)
+[7.014s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/subscriber_pkg/package.ps1'
+[7.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/subscriber_pkg/package.dsv'
+[7.015s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/subscriber_pkg/package.sh'
+[7.016s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/subscriber_pkg/package.bash'
+[7.016s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/subscriber_pkg/package.zsh'
+[7.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/subscriber_pkg/share/colcon-core/packages/subscriber_pkg)
+[7.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/src/my_action_server' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/my_action_server/prefix_override:/root/ros2_code/R2basic_concepts/install/my_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_action_server build --build-base /root/ros2_code/R2basic_concepts/build/my_action_server/build install --record /root/ros2_code/R2basic_concepts/build/my_action_server/install.log --single-version-externally-managed
+[7.037s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_action_server' for CMake module files
+[7.038s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_action_server' for CMake config files
+[7.038s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_action_server/lib'
+[7.038s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_action_server/bin'
+[7.038s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_action_server/lib/pkgconfig/my_action_server.pc'
+[7.039s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_action_server/lib/python3.10/site-packages'
+[7.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_action_server', 'pythonpath')
+[7.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_action_server/share/my_action_server/hook/pythonpath.ps1'
+[7.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/my_action_server/share/my_action_server/hook/pythonpath.dsv'
+[7.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_action_server/share/my_action_server/hook/pythonpath.sh'
+[7.061s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_action_server/bin'
+[7.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_action_server)
+[7.078s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_action_server/share/my_action_server/package.ps1'
+[7.078s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/my_action_server/share/my_action_server/package.dsv'
+[7.079s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_action_server/share/my_action_server/package.sh'
+[7.079s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_action_server/share/my_action_server/package.bash'
+[7.079s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_action_server/share/my_action_server/package.zsh'
+[7.080s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/my_action_server/share/colcon-core/packages/my_action_server)
+[7.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/src/client_pkg' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/client_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/client_pkg build --build-base /root/ros2_code/R2basic_concepts/build/client_pkg/build install --record /root/ros2_code/R2basic_concepts/build/client_pkg/install.log --single-version-externally-managed
+[7.099s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/client_pkg' for CMake module files
+[7.100s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/client_pkg' for CMake config files
+[7.101s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/client_pkg/lib'
+[7.101s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/client_pkg/bin'
+[7.101s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/client_pkg/lib/pkgconfig/client_pkg.pc'
+[7.101s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages'
+[7.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('client_pkg', 'pythonpath')
+[7.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg/hook/pythonpath.ps1'
+[7.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg/hook/pythonpath.dsv'
+[7.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg/hook/pythonpath.sh'
+[7.122s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/client_pkg/bin'
+[7.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(client_pkg)
+[7.140s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg/package.ps1'
+[7.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg/package.dsv'
+[7.141s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg/package.sh'
+[7.142s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg/package.bash'
+[7.142s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg/package.zsh'
+[7.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/client_pkg/share/colcon-core/packages/client_pkg)
+[7.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/src/exercise31_pkg' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/exercise31_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/exercise31_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/exercise31_pkg build --build-base /root/ros2_code/R2basic_concepts/build/exercise31_pkg/build install --record /root/ros2_code/R2basic_concepts/build/exercise31_pkg/install.log --single-version-externally-managed
+[7.164s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/exercise31_pkg' for CMake module files
+[7.164s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/exercise31_pkg' for CMake config files
+[7.165s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/lib'
+[7.165s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/bin'
+[7.165s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/lib/pkgconfig/exercise31_pkg.pc'
+[7.165s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/lib/python3.10/site-packages'
+[7.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('exercise31_pkg', 'pythonpath')
+[7.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/exercise31_pkg/hook/pythonpath.ps1'
+[7.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/exercise31_pkg/hook/pythonpath.dsv'
+[7.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/exercise31_pkg/hook/pythonpath.sh'
+[7.186s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/bin'
+[7.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exercise31_pkg)
+[7.205s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/exercise31_pkg/package.ps1'
+[7.205s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/exercise31_pkg/package.dsv'
+[7.206s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/exercise31_pkg/package.sh'
+[7.206s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/exercise31_pkg/package.bash'
+[7.206s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/exercise31_pkg/package.zsh'
+[7.207s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/colcon-core/packages/exercise31_pkg)
+[7.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/R2basic_concepts/build/urdfbot_description
+[7.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/src/my_package' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/my_package/prefix_override:/root/ros2_code/R2basic_concepts/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /root/ros2_code/R2basic_concepts/build/my_package/build install --record /root/ros2_code/R2basic_concepts/build/my_package/install.log --single-version-externally-managed
+[7.238s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_package' for CMake module files
+[7.238s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_package' for CMake config files
+[7.239s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_package/lib'
+[7.239s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_package/bin'
+[7.239s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_package/lib/pkgconfig/my_package.pc'
+[7.239s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_package/lib/python3.10/site-packages'
+[7.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[7.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_package/share/my_package/hook/pythonpath.ps1'
+[7.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/my_package/share/my_package/hook/pythonpath.dsv'
+[7.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_package/share/my_package/hook/pythonpath.sh'
+[7.260s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_package/bin'
+[7.260s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[7.278s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_package/share/my_package/package.ps1'
+[7.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/my_package/share/my_package/package.dsv'
+[7.279s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_package/share/my_package/package.sh'
+[7.280s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_package/share/my_package/package.bash'
+[7.280s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_package/share/my_package/package.zsh'
+[7.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/my_package/share/colcon-core/packages/my_package)
+[7.281s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdfbot_description)
+[7.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/R2basic_concepts/build/urdfbot_description
+[7.300s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/urdfbot_description' for CMake module files
+[7.301s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/urdfbot_description' for CMake config files
+[7.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdfbot_description', 'cmake_prefix_path')
+[7.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/hook/cmake_prefix_path.ps1'
+[7.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/hook/cmake_prefix_path.dsv'
+[7.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/hook/cmake_prefix_path.sh'
+[7.321s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/urdfbot_description/bin'
+[7.321s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/urdfbot_description/lib/pkgconfig/urdfbot_description.pc'
+[7.321s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/urdfbot_description/lib/python3.10/site-packages'
+[7.322s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/urdfbot_description/bin'
+[7.339s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/package.ps1'
+[7.340s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/package.dsv'
+[7.340s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/package.sh'
+[7.340s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/package.bash'
+[7.340s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/package.zsh'
+[7.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/colcon-core/packages/urdfbot_description)
+[7.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdfbot_description)
+[7.396s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/urdfbot_description' for CMake module files
+[7.397s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/urdfbot_description' for CMake config files
+[7.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdfbot_description', 'cmake_prefix_path')
+[7.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/hook/cmake_prefix_path.ps1'
+[7.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/hook/cmake_prefix_path.dsv'
+[7.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/hook/cmake_prefix_path.sh'
+[7.415s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/urdfbot_description/bin'
+[7.415s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/urdfbot_description/lib/pkgconfig/urdfbot_description.pc'
+[7.415s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/urdfbot_description/lib/python3.10/site-packages'
+[7.416s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/urdfbot_description/bin'
+[7.433s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/package.ps1'
+[7.434s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/package.dsv'
+[7.434s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/package.sh'
+[7.434s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/package.bash'
+[7.435s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/package.zsh'
+[7.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/urdfbot_description/share/colcon-core/packages/urdfbot_description)
+[9.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_code/R2basic_concepts/src/my_box_bot_description -DCMAKE_INSTALL_PREFIX=/root/ros2_code/R2basic_concepts/install/my_box_bot_description
+[9.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/R2basic_concepts/build/my_box_bot_description -- -j12 -l12
+[9.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/R2basic_concepts/build/my_box_bot_description -- -j12 -l12
+[9.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/R2basic_concepts/build/my_box_bot_description
+[9.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_box_bot_description)
+[9.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/R2basic_concepts/build/my_box_bot_description
+[9.142s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_description' for CMake module files
+[9.143s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_description' for CMake config files
+[9.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_box_bot_description', 'cmake_prefix_path')
+[9.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.ps1'
+[9.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.dsv'
+[9.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.sh'
+[9.163s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/bin'
+[9.163s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/lib/pkgconfig/my_box_bot_description.pc'
+[9.163s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/lib/python3.10/site-packages'
+[9.163s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/bin'
+[9.181s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/package.ps1'
+[9.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/package.dsv'
+[9.181s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/package.sh'
+[9.182s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/package.bash'
+[9.182s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/package.zsh'
+[9.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/colcon-core/packages/my_box_bot_description)
+[9.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_box_bot_description)
+[9.240s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_description' for CMake module files
+[9.241s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_description' for CMake config files
+[9.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_box_bot_description', 'cmake_prefix_path')
+[9.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.ps1'
+[9.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.dsv'
+[9.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.sh'
+[9.260s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/bin'
+[9.260s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/lib/pkgconfig/my_box_bot_description.pc'
+[9.260s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/lib/python3.10/site-packages'
+[9.260s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/bin'
+[9.279s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/package.ps1'
+[9.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/package.dsv'
+[9.280s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/package.sh'
+[9.281s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/package.bash'
+[9.281s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/my_box_bot_description/package.zsh'
+[9.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/my_box_bot_description/share/colcon-core/packages/my_box_bot_description)
+[9.282s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/R2basic_concepts/src/my_box_bot_gazebo' with build type 'ament_cmake'
+[9.282s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/R2basic_concepts/src/my_box_bot_gazebo'
+[9.310s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/build/my_box_bot_gazebo': AMENT_PREFIX_PATH=/root/ros2_code/R2basic_concepts/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/R2basic_concepts/install/my_box_bot_description:/root/ros2_code/learning/install/articubot_one:/opt/ros/humble /usr/bin/cmake /root/ros2_code/R2basic_concepts/src/my_box_bot_gazebo -DCMAKE_INSTALL_PREFIX=/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo
+[11.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/build/my_box_bot_gazebo' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/R2basic_concepts/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/R2basic_concepts/install/my_box_bot_description:/root/ros2_code/learning/install/articubot_one:/opt/ros/humble /usr/bin/cmake /root/ros2_code/R2basic_concepts/src/my_box_bot_gazebo -DCMAKE_INSTALL_PREFIX=/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo
+[11.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/build/my_box_bot_gazebo': AMENT_PREFIX_PATH=/root/ros2_code/R2basic_concepts/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/R2basic_concepts/install/my_box_bot_description:/root/ros2_code/learning/install/articubot_one:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/R2basic_concepts/build/my_box_bot_gazebo -- -j12 -l12
+[11.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/build/my_box_bot_gazebo' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/R2basic_concepts/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/R2basic_concepts/install/my_box_bot_description:/root/ros2_code/learning/install/articubot_one:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/R2basic_concepts/build/my_box_bot_gazebo -- -j12 -l12
+[11.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/R2basic_concepts/build/my_box_bot_gazebo': AMENT_PREFIX_PATH=/root/ros2_code/R2basic_concepts/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/R2basic_concepts/install/my_box_bot_description:/root/ros2_code/learning/install/articubot_one:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/R2basic_concepts/build/my_box_bot_gazebo
+[11.672s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_box_bot_gazebo)
+[11.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/R2basic_concepts/build/my_box_bot_gazebo' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/R2basic_concepts/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/R2basic_concepts/install/my_box_bot_description:/root/ros2_code/learning/install/articubot_one:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/R2basic_concepts/build/my_box_bot_gazebo
+[11.692s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo' for CMake module files
+[11.693s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo' for CMake config files
+[11.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_box_bot_gazebo', 'cmake_prefix_path')
+[11.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.ps1'
+[11.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.dsv'
+[11.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.sh'
+[11.711s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/lib'
+[11.711s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/bin'
+[11.711s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/lib/pkgconfig/my_box_bot_gazebo.pc'
+[11.712s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/lib/python3.10/site-packages'
+[11.712s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/bin'
+[11.729s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.ps1'
+[11.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.dsv'
+[11.730s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.sh'
+[11.730s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.bash'
+[11.730s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.zsh'
+[11.731s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/colcon-core/packages/my_box_bot_gazebo)
+[11.767s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_box_bot_gazebo)
+[11.784s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo' for CMake module files
+[11.785s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo' for CMake config files
+[11.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_box_bot_gazebo', 'cmake_prefix_path')
+[11.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.ps1'
+[11.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.dsv'
+[11.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.sh'
+[11.808s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/lib'
+[11.808s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/bin'
+[11.808s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/lib/pkgconfig/my_box_bot_gazebo.pc'
+[11.808s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/lib/python3.10/site-packages'
+[11.809s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/bin'
+[11.827s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.ps1'
+[11.828s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.dsv'
+[11.828s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.sh'
+[11.829s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.bash'
+[11.829s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.zsh'
+[11.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/R2basic_concepts/install/my_box_bot_gazebo/share/colcon-core/packages/my_box_bot_gazebo)
+[11.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.830s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.871s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.871s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.871s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.877s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[11.879s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.914s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/R2basic_concepts/install/local_setup.ps1'
+[11.916s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/R2basic_concepts/install/_local_setup_util_ps1.py'
+[11.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/R2basic_concepts/install/setup.ps1'
+[11.936s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/R2basic_concepts/install/local_setup.sh'
+[11.937s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/R2basic_concepts/install/_local_setup_util_sh.py'
+[11.937s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/R2basic_concepts/install/setup.sh'
+[11.954s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/R2basic_concepts/install/local_setup.bash'
+[11.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/R2basic_concepts/install/setup.bash'
+[11.972s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/R2basic_concepts/install/local_setup.zsh'
+[11.973s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/R2basic_concepts/install/setup.zsh'

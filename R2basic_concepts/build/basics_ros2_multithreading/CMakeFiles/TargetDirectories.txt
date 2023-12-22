@@ -1,0 +1,9 @@
+/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading/CMakeFiles/uninstall.dir
+/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading/CMakeFiles/basics_ros2_multithreading_uninstall.dir
+/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading/CMakeFiles/test.dir
+/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading/CMakeFiles/edit_cache.dir
+/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading/CMakeFiles/list_install_components.dir
+/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading/CMakeFiles/install.dir
+/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading/CMakeFiles/install/local.dir
+/root/ros2_code/R2basic_concepts/build/basics_ros2_multithreading/CMakeFiles/install/strip.dir

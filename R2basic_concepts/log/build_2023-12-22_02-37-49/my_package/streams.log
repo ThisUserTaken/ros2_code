@@ -1,0 +1,40 @@
+[4.221s] Invoking command in '/root/ros2_code/R2basic_concepts/src/my_package': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/my_package/prefix_override:/root/ros2_code/R2basic_concepts/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /root/ros2_code/R2basic_concepts/build/my_package/build install --record /root/ros2_code/R2basic_concepts/build/my_package/install.log --single-version-externally-managed
+[4.683s] running egg_info
+[4.684s] creating ../../build/my_package/my_package.egg-info
+[4.684s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[4.684s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[4.684s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[4.684s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[4.685s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[4.685s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[4.685s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[4.685s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[4.685s] running build
+[4.685s] running build_py
+[4.685s] creating /root/ros2_code/R2basic_concepts/build/my_package/build
+[4.685s] creating /root/ros2_code/R2basic_concepts/build/my_package/build/lib
+[4.685s] creating /root/ros2_code/R2basic_concepts/build/my_package/build/lib/my_package
+[4.686s] copying my_package/simple.py -> /root/ros2_code/R2basic_concepts/build/my_package/build/lib/my_package
+[4.686s] copying my_package/__init__.py -> /root/ros2_code/R2basic_concepts/build/my_package/build/lib/my_package
+[4.686s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.686s]   warnings.warn(
+[4.686s] running install
+[4.686s] running install_lib
+[4.686s] creating /root/ros2_code/R2basic_concepts/install/my_package/lib/python3.10/site-packages/my_package
+[4.687s] copying /root/ros2_code/R2basic_concepts/build/my_package/build/lib/my_package/simple.py -> /root/ros2_code/R2basic_concepts/install/my_package/lib/python3.10/site-packages/my_package
+[4.687s] copying /root/ros2_code/R2basic_concepts/build/my_package/build/lib/my_package/__init__.py -> /root/ros2_code/R2basic_concepts/install/my_package/lib/python3.10/site-packages/my_package
+[4.687s] byte-compiling /root/ros2_code/R2basic_concepts/install/my_package/lib/python3.10/site-packages/my_package/simple.py to simple.cpython-310.pyc
+[4.688s] byte-compiling /root/ros2_code/R2basic_concepts/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[4.688s] running install_data
+[4.688s] creating /root/ros2_code/R2basic_concepts/install/my_package/share/ament_index
+[4.689s] creating /root/ros2_code/R2basic_concepts/install/my_package/share/ament_index/resource_index
+[4.689s] creating /root/ros2_code/R2basic_concepts/install/my_package/share/ament_index/resource_index/packages
+[4.689s] copying resource/my_package -> /root/ros2_code/R2basic_concepts/install/my_package/share/ament_index/resource_index/packages
+[4.690s] copying package.xml -> /root/ros2_code/R2basic_concepts/install/my_package/share/my_package
+[4.690s] copying launch/my_package_launch_file.launch.py -> /root/ros2_code/R2basic_concepts/install/my_package/share/my_package
+[4.690s] running install_egg_info
+[4.691s] Copying ../../build/my_package/my_package.egg-info to /root/ros2_code/R2basic_concepts/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[4.691s] running install_scripts
+[4.714s] Installing simple_node script to /root/ros2_code/R2basic_concepts/install/my_package/lib/my_package
+[4.716s] writing list of installed files to '/root/ros2_code/R2basic_concepts/build/my_package/install.log'
+[5.151s] Invoked command in '/root/ros2_code/R2basic_concepts/src/my_package' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/my_package/prefix_override:/root/ros2_code/R2basic_concepts/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /root/ros2_code/R2basic_concepts/build/my_package/build install --record /root/ros2_code/R2basic_concepts/build/my_package/install.log --single-version-externally-managed

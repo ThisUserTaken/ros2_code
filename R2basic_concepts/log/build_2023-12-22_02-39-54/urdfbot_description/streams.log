@@ -1,0 +1,34 @@
+[3.464s] Invoking command in '/root/ros2_code/R2basic_concepts/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/R2basic_concepts/install/subscriber_pkg:/root/ros2_code/R2basic_concepts/install/service_server_pkg:/root/ros2_code/R2basic_concepts/install/publisher_pkg:/root/ros2_code/R2basic_concepts/install/my_package:/root/ros2_code/R2basic_concepts/install/my_action_server:/root/ros2_code/R2basic_concepts/install/my_action_client:/root/ros2_code/R2basic_concepts/install/exercise31_pkg:/root/ros2_code/R2basic_concepts/install/client_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/R2basic_concepts/build/urdfbot_description -- -j12 -l12
+[3.529s] Invoked command in '/root/ros2_code/R2basic_concepts/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/R2basic_concepts/install/subscriber_pkg:/root/ros2_code/R2basic_concepts/install/service_server_pkg:/root/ros2_code/R2basic_concepts/install/publisher_pkg:/root/ros2_code/R2basic_concepts/install/my_package:/root/ros2_code/R2basic_concepts/install/my_action_server:/root/ros2_code/R2basic_concepts/install/my_action_client:/root/ros2_code/R2basic_concepts/install/exercise31_pkg:/root/ros2_code/R2basic_concepts/install/client_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/R2basic_concepts/build/urdfbot_description -- -j12 -l12
+[3.706s] Invoking command in '/root/ros2_code/R2basic_concepts/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/R2basic_concepts/install/subscriber_pkg:/root/ros2_code/R2basic_concepts/install/service_server_pkg:/root/ros2_code/R2basic_concepts/install/publisher_pkg:/root/ros2_code/R2basic_concepts/install/my_package:/root/ros2_code/R2basic_concepts/install/my_action_server:/root/ros2_code/R2basic_concepts/install/my_action_client:/root/ros2_code/R2basic_concepts/install/exercise31_pkg:/root/ros2_code/R2basic_concepts/install/client_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/R2basic_concepts/build/urdfbot_description
+[3.810s] -- Install configuration: ""
+[3.810s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description//urdf
+[3.810s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description//urdf/urdfbot_simple.urdf
+[3.810s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description//rviz
+[3.811s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description//rviz/urdf_vis.rviz
+[3.811s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description//launch
+[3.811s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description//launch/urdf_visualize.launch.py
+[3.811s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description//launch/urdf_visualize_rviz.launch.py
+[3.812s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description//meshes
+[3.812s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_texture.png
+[3.812s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_limb.dae
+[3.812s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_head.dae
+[3.812s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_claw.dae
+[3.813s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_foot.dae
+[3.813s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_body.dae
+[3.814s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/ament_index/resource_index/package_run_dependencies/urdfbot_description
+[3.814s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/ament_index/resource_index/parent_prefix_path/urdfbot_description
+[3.814s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/environment/ament_prefix_path.sh
+[3.814s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/environment/ament_prefix_path.dsv
+[3.815s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/environment/path.sh
+[3.815s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/environment/path.dsv
+[3.816s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/local_setup.bash
+[3.816s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/local_setup.sh
+[3.816s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/local_setup.zsh
+[3.816s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/local_setup.dsv
+[3.816s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/package.dsv
+[3.816s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/ament_index/resource_index/packages/urdfbot_description
+[3.817s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/cmake/urdfbot_descriptionConfig.cmake
+[3.817s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/cmake/urdfbot_descriptionConfig-version.cmake
+[3.817s] -- Up-to-date: /root/ros2_code/R2basic_concepts/install/urdfbot_description/share/urdfbot_description/package.xml
+[4.090s] Invoked command in '/root/ros2_code/R2basic_concepts/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/R2basic_concepts/install/subscriber_pkg:/root/ros2_code/R2basic_concepts/install/service_server_pkg:/root/ros2_code/R2basic_concepts/install/publisher_pkg:/root/ros2_code/R2basic_concepts/install/my_package:/root/ros2_code/R2basic_concepts/install/my_action_server:/root/ros2_code/R2basic_concepts/install/my_action_client:/root/ros2_code/R2basic_concepts/install/exercise31_pkg:/root/ros2_code/R2basic_concepts/install/client_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/R2basic_concepts/build/urdfbot_description

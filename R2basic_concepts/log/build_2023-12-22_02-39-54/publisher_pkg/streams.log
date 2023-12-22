@@ -1,0 +1,21 @@
+[4.704s] Invoking command in '/root/ros2_code/R2basic_concepts/src/publisher_pkg': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/publisher_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_pkg build --build-base /root/ros2_code/R2basic_concepts/build/publisher_pkg/build install --record /root/ros2_code/R2basic_concepts/build/publisher_pkg/install.log --single-version-externally-managed
+[5.161s] running egg_info
+[5.163s] writing ../../build/publisher_pkg/publisher_pkg.egg-info/PKG-INFO
+[5.163s] writing dependency_links to ../../build/publisher_pkg/publisher_pkg.egg-info/dependency_links.txt
+[5.164s] writing entry points to ../../build/publisher_pkg/publisher_pkg.egg-info/entry_points.txt
+[5.164s] writing requirements to ../../build/publisher_pkg/publisher_pkg.egg-info/requires.txt
+[5.164s] writing top-level names to ../../build/publisher_pkg/publisher_pkg.egg-info/top_level.txt
+[5.165s] reading manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'
+[5.167s] writing manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'
+[5.167s] running build
+[5.168s] running build_py
+[5.169s] running install
+[5.169s] running install_lib
+[5.170s] running install_data
+[5.170s] running install_egg_info
+[5.172s] removing '/root/ros2_code/R2basic_concepts/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.173s] Copying ../../build/publisher_pkg/publisher_pkg.egg-info to /root/ros2_code/R2basic_concepts/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg-0.0.0-py3.10.egg-info
+[5.174s] running install_scripts
+[5.196s] Installing simple_publisher script to /root/ros2_code/R2basic_concepts/install/publisher_pkg/lib/publisher_pkg
+[5.197s] writing list of installed files to '/root/ros2_code/R2basic_concepts/build/publisher_pkg/install.log'
+[5.387s] Invoked command in '/root/ros2_code/R2basic_concepts/src/publisher_pkg' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/publisher_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_pkg build --build-base /root/ros2_code/R2basic_concepts/build/publisher_pkg/build install --record /root/ros2_code/R2basic_concepts/build/publisher_pkg/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+[console_scripts]
+service_client = client_pkg.service_client:main
+stop_client = client_pkg.stop_client:main
+

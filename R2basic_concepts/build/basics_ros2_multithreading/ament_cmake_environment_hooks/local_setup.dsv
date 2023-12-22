@@ -1,0 +1,2 @@
+source;share/basics_ros2_multithreading/environment/ament_prefix_path.sh
+source;share/basics_ros2_multithreading/environment/path.sh

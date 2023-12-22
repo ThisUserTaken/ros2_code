@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/client_pkg/client_pkg.egg-info
+writing ../../build/client_pkg/client_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/client_pkg/client_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/client_pkg/client_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/client_pkg/client_pkg.egg-info/requires.txt
+writing top-level names to ../../build/client_pkg/client_pkg.egg-info/top_level.txt
+writing manifest file '../../build/client_pkg/client_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/client_pkg/client_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/client_pkg/client_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_code/R2basic_concepts/build/client_pkg/build
+creating /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib
+creating /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib/client_pkg
+copying client_pkg/service_client.py -> /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib/client_pkg
+copying client_pkg/stop_client.py -> /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib/client_pkg
+copying client_pkg/__init__.py -> /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib/client_pkg
+running install
+running install_lib
+creating /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg
+copying /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib/client_pkg/service_client.py -> /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg
+copying /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib/client_pkg/stop_client.py -> /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg
+copying /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib/client_pkg/__init__.py -> /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg
+byte-compiling /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg/service_client.py to service_client.cpython-310.pyc
+byte-compiling /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg/stop_client.py to stop_client.cpython-310.pyc
+byte-compiling /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_code/R2basic_concepts/install/client_pkg/share/ament_index
+creating /root/ros2_code/R2basic_concepts/install/client_pkg/share/ament_index/resource_index
+creating /root/ros2_code/R2basic_concepts/install/client_pkg/share/ament_index/resource_index/packages
+copying resource/client_pkg -> /root/ros2_code/R2basic_concepts/install/client_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg
+copying launch/service_client_launch_file.launch.py -> /root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg
+copying launch/stop_client_launch_file.launch.py -> /root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg
+running install_egg_info
+Copying ../../build/client_pkg/client_pkg.egg-info to /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing service_client script to /root/ros2_code/R2basic_concepts/install/client_pkg/lib/client_pkg
+Installing stop_client script to /root/ros2_code/R2basic_concepts/install/client_pkg/lib/client_pkg
+writing list of installed files to '/root/ros2_code/R2basic_concepts/build/client_pkg/install.log'

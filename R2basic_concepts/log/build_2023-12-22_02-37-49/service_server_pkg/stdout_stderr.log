@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/service_server_pkg/service_server_pkg.egg-info
+writing ../../build/service_server_pkg/service_server_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/service_server_pkg/service_server_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/service_server_pkg/service_server_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/service_server_pkg/service_server_pkg.egg-info/requires.txt
+writing top-level names to ../../build/service_server_pkg/service_server_pkg.egg-info/top_level.txt
+writing manifest file '../../build/service_server_pkg/service_server_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/service_server_pkg/service_server_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/service_server_pkg/service_server_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_code/R2basic_concepts/build/service_server_pkg/build
+creating /root/ros2_code/R2basic_concepts/build/service_server_pkg/build/lib
+creating /root/ros2_code/R2basic_concepts/build/service_server_pkg/build/lib/service_server_pkg
+copying service_server_pkg/service_server.py -> /root/ros2_code/R2basic_concepts/build/service_server_pkg/build/lib/service_server_pkg
+copying service_server_pkg/__init__.py -> /root/ros2_code/R2basic_concepts/build/service_server_pkg/build/lib/service_server_pkg
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages/service_server_pkg
+copying /root/ros2_code/R2basic_concepts/build/service_server_pkg/build/lib/service_server_pkg/service_server.py -> /root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages/service_server_pkg
+copying /root/ros2_code/R2basic_concepts/build/service_server_pkg/build/lib/service_server_pkg/__init__.py -> /root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages/service_server_pkg
+byte-compiling /root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages/service_server_pkg/service_server.py to service_server.cpython-310.pyc
+byte-compiling /root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages/service_server_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_code/R2basic_concepts/install/service_server_pkg/share/ament_index
+creating /root/ros2_code/R2basic_concepts/install/service_server_pkg/share/ament_index/resource_index
+creating /root/ros2_code/R2basic_concepts/install/service_server_pkg/share/ament_index/resource_index/packages
+copying resource/service_server_pkg -> /root/ros2_code/R2basic_concepts/install/service_server_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg
+copying launch/service_server_launch_file.launch.py -> /root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg
+running install_egg_info
+Copying ../../build/service_server_pkg/service_server_pkg.egg-info to /root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages/service_server_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing exercise42 script to /root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/service_server_pkg
+writing list of installed files to '/root/ros2_code/R2basic_concepts/build/service_server_pkg/install.log'

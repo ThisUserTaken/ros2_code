@@ -1,0 +1,7 @@
+<?xml version='1.0' ?>
+<launch>
+  <!-- Publish URDF file in robot_description topic -->
+  <include file="$(find-pkg-share my_box_bot_description)/launch/urdf_visualize_meshes_collisions_inertias.launch.py"/>
+  <!-- Read robot_description an spawn in gazebo running sim -->
+  <include file="$(find-pkg-share my_box_bot_gazebo)/launch/spawn_robot_description.launch.py"/>
+</launch>

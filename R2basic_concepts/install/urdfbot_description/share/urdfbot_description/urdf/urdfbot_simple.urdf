@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<robot name="urdfbot">
+
+  <link name="base_link">
+    <visual>        
+      <geometry>
+        <mesh filename="package://urdfbot_description/meshes/urdfbot_body.dae" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="head_link">
+    <visual>
+    <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://urdfbot_description/meshes/urdfbot_head.dae" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+  </link>
+
+    <joint name="base_link_to_head_link_joint" type="revolute">
+        <origin xyz="0 0 0.07" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="head_link"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="100" velocity="1.0" lower="-1.57" upper="1.57"/>
+    </joint>
+
+
+    <!-- Right Arm -->
+
+    <link name="upper_arm_r_link">
+        <visual>
+        <origin rpy="0 0 0" xyz="0 0 0" />
+        <geometry>
+            <mesh filename="package://urdfbot_description/meshes/urdfbot_limb.dae" scale="0.1 0.1 0.1"/>
+        </geometry>
+        </visual>
+    </link>
+
+    <joint name="base_link_to_upper_arm_r_link_joint" type="revolute">
+        <origin xyz="0 -0.03272 0.0279895" rpy="-1.57 0 0"/>
+        <parent link="base_link"/>
+        <child link="upper_arm_r_link"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="100" velocity="1.0" lower="-1.0" upper="1.0"/>
+    </joint>
+
+    <link name="lower_arm_r_link">
+        <visual>
+        <origin rpy="0 0 0" xyz="0 0 0" />
+        <geometry>
+            <mesh filename="package://urdfbot_description/meshes/urdfbot_limb.dae" scale="0.1 0.1 0.1"/>
+        </geometry>
+        </visual>
+    </link>
+
+    <joint name="upper_arm_r_link_to_lower_arm_r_link_joint" type="revolute">
+        <origin xyz="0 0 -0.0568" rpy="0 0 0"/>
+        <parent link="upper_arm_r_link"/>
+        <child link="lower_arm_r_link"/>
+        <axis xyz="1 0 0"/>
+        <limit effort="100" velocity="1.0" lower="-1.0" upper="1.0"/>
+    </joint>
+
+
+    <link name="claw_a_r_link">
+        <visual>
+        <origin rpy="0 0 0" xyz="0 0 0" />
+        <geometry>
+            <mesh filename="package://urdfbot_description/meshes/urdfbot_claw.dae" scale="0.1 0.1 0.1"/>
+        </geometry>
+        </visual>
+    </link>
+
+    <joint name="upper_arm_r_link_to_claw_a_r_link_joint" type="revolute">
+        <origin xyz="0 0 -0.065" rpy="-1.57 0 -1.57"/>
+        <parent link="lower_arm_r_link"/>
+        <child link="claw_a_r_link"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="100" velocity="1.0" lower="-0.7" upper="0.7"/>
+    </joint>
+
+    <link name="claw_b_r_link">
+        <visual>
+        <origin rpy="0 0 0" xyz="0 0 0" />
+        <geometry>
+            <mesh filename="package://urdfbot_description/meshes/urdfbot_claw.dae" scale="0.1 0.1 0.1"/>
+        </geometry>
+        </visual>
+    </link>
+
+    <joint name="upper_arm_r_link_to_claw_b_r_link_joint" type="revolute">
+        <origin xyz="0 0 -0.065" rpy="-1.57 0 1.57"/>
+        <parent link="lower_arm_r_link"/>
+        <child link="claw_b_r_link"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="100" velocity="1.0" lower="0.0" upper="0.0"/>
+        <mimic joint="upper_arm_r_link_to_claw_a_r_link_joint" multiplier="1.0" offset="0.0"/>
+    </joint>
+
+
+</robot>

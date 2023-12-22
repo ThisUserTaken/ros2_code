@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/my_action_server/my_action_server.egg-info
+writing ../../build/my_action_server/my_action_server.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_action_server/my_action_server.egg-info/dependency_links.txt
+writing entry points to ../../build/my_action_server/my_action_server.egg-info/entry_points.txt
+writing requirements to ../../build/my_action_server/my_action_server.egg-info/requires.txt
+writing top-level names to ../../build/my_action_server/my_action_server.egg-info/top_level.txt
+writing manifest file '../../build/my_action_server/my_action_server.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_action_server/my_action_server.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_action_server/my_action_server.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_code/R2basic_concepts/build/my_action_server/build
+creating /root/ros2_code/R2basic_concepts/build/my_action_server/build/lib
+creating /root/ros2_code/R2basic_concepts/build/my_action_server/build/lib/my_action_server
+copying my_action_server/__init__.py -> /root/ros2_code/R2basic_concepts/build/my_action_server/build/lib/my_action_server
+copying my_action_server/my_action_server.py -> /root/ros2_code/R2basic_concepts/build/my_action_server/build/lib/my_action_server
+running install
+running install_lib
+creating /root/ros2_code/R2basic_concepts/install/my_action_server/lib/python3.10/site-packages/my_action_server
+copying /root/ros2_code/R2basic_concepts/build/my_action_server/build/lib/my_action_server/__init__.py -> /root/ros2_code/R2basic_concepts/install/my_action_server/lib/python3.10/site-packages/my_action_server
+copying /root/ros2_code/R2basic_concepts/build/my_action_server/build/lib/my_action_server/my_action_server.py -> /root/ros2_code/R2basic_concepts/install/my_action_server/lib/python3.10/site-packages/my_action_server
+byte-compiling /root/ros2_code/R2basic_concepts/install/my_action_server/lib/python3.10/site-packages/my_action_server/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/ros2_code/R2basic_concepts/install/my_action_server/lib/python3.10/site-packages/my_action_server/my_action_server.py to my_action_server.cpython-310.pyc
+running install_data
+creating /root/ros2_code/R2basic_concepts/install/my_action_server/share/ament_index
+creating /root/ros2_code/R2basic_concepts/install/my_action_server/share/ament_index/resource_index
+creating /root/ros2_code/R2basic_concepts/install/my_action_server/share/ament_index/resource_index/packages
+copying resource/my_action_server -> /root/ros2_code/R2basic_concepts/install/my_action_server/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/R2basic_concepts/install/my_action_server/share/my_action_server
+copying launch/example63_launch_file.launch.py -> /root/ros2_code/R2basic_concepts/install/my_action_server/share/my_action_server
+running install_egg_info
+Copying ../../build/my_action_server/my_action_server.egg-info to /root/ros2_code/R2basic_concepts/install/my_action_server/lib/python3.10/site-packages/my_action_server-0.0.0-py3.10.egg-info
+running install_scripts
+Installing example63 script to /root/ros2_code/R2basic_concepts/install/my_action_server/lib/my_action_server
+writing list of installed files to '/root/ros2_code/R2basic_concepts/build/my_action_server/install.log'

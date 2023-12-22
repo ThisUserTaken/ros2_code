@@ -1,0 +1,40 @@
+[4.409s] Invoking command in '/root/ros2_code/R2basic_concepts/src/my_action_client': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/my_action_client/prefix_override:/root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_action_client build --build-base /root/ros2_code/R2basic_concepts/build/my_action_client/build install --record /root/ros2_code/R2basic_concepts/build/my_action_client/install.log --single-version-externally-managed
+[4.815s] running egg_info
+[4.820s] creating ../../build/my_action_client/my_action_client.egg-info
+[4.820s] writing ../../build/my_action_client/my_action_client.egg-info/PKG-INFO
+[4.820s] writing dependency_links to ../../build/my_action_client/my_action_client.egg-info/dependency_links.txt
+[4.821s] writing entry points to ../../build/my_action_client/my_action_client.egg-info/entry_points.txt
+[4.821s] writing requirements to ../../build/my_action_client/my_action_client.egg-info/requires.txt
+[4.822s] writing top-level names to ../../build/my_action_client/my_action_client.egg-info/top_level.txt
+[4.822s] writing manifest file '../../build/my_action_client/my_action_client.egg-info/SOURCES.txt'
+[4.827s] reading manifest file '../../build/my_action_client/my_action_client.egg-info/SOURCES.txt'
+[4.827s] writing manifest file '../../build/my_action_client/my_action_client.egg-info/SOURCES.txt'
+[4.827s] running build
+[4.828s] running build_py
+[4.828s] creating /root/ros2_code/R2basic_concepts/build/my_action_client/build
+[4.828s] creating /root/ros2_code/R2basic_concepts/build/my_action_client/build/lib
+[4.829s] creating /root/ros2_code/R2basic_concepts/build/my_action_client/build/lib/my_action_client
+[4.829s] copying my_action_client/action_client.py -> /root/ros2_code/R2basic_concepts/build/my_action_client/build/lib/my_action_client
+[4.830s] copying my_action_client/__init__.py -> /root/ros2_code/R2basic_concepts/build/my_action_client/build/lib/my_action_client
+[4.830s] running install
+[4.831s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.831s]   warnings.warn(
+[4.832s] running install_lib
+[4.832s] creating /root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages/my_action_client
+[4.833s] copying /root/ros2_code/R2basic_concepts/build/my_action_client/build/lib/my_action_client/action_client.py -> /root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages/my_action_client
+[4.833s] copying /root/ros2_code/R2basic_concepts/build/my_action_client/build/lib/my_action_client/__init__.py -> /root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages/my_action_client
+[4.834s] byte-compiling /root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages/my_action_client/action_client.py to action_client.cpython-310.pyc
+[4.835s] byte-compiling /root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages/my_action_client/__init__.py to __init__.cpython-310.pyc
+[4.836s] running install_data
+[4.837s] creating /root/ros2_code/R2basic_concepts/install/my_action_client/share/ament_index
+[4.837s] creating /root/ros2_code/R2basic_concepts/install/my_action_client/share/ament_index/resource_index
+[4.837s] creating /root/ros2_code/R2basic_concepts/install/my_action_client/share/ament_index/resource_index/packages
+[4.838s] copying resource/my_action_client -> /root/ros2_code/R2basic_concepts/install/my_action_client/share/ament_index/resource_index/packages
+[4.838s] copying package.xml -> /root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client
+[4.838s] copying launch/example62_launch_file.launch.py -> /root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client
+[4.838s] running install_egg_info
+[4.841s] Copying ../../build/my_action_client/my_action_client.egg-info to /root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages/my_action_client-0.0.0-py3.10.egg-info
+[4.843s] running install_scripts
+[4.879s] Installing example62 script to /root/ros2_code/R2basic_concepts/install/my_action_client/lib/my_action_client
+[4.879s] writing list of installed files to '/root/ros2_code/R2basic_concepts/build/my_action_client/install.log'
+[5.012s] Invoked command in '/root/ros2_code/R2basic_concepts/src/my_action_client' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/my_action_client/prefix_override:/root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_action_client build --build-base /root/ros2_code/R2basic_concepts/build/my_action_client/build install --record /root/ros2_code/R2basic_concepts/build/my_action_client/install.log --single-version-externally-managed

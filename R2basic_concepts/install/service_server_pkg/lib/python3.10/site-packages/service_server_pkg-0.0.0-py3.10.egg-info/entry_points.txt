@@ -1,0 +1,3 @@
+[console_scripts]
+exercise42 = service_server_pkg.service_server:main
+

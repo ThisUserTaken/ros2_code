@@ -1,0 +1,3 @@
+[console_scripts]
+example62 = my_action_client.action_client:main
+

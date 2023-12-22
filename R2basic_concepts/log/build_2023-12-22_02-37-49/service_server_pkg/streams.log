@@ -1,0 +1,40 @@
+[4.044s] Invoking command in '/root/ros2_code/R2basic_concepts/src/service_server_pkg': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/service_server_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/service_server_pkg build --build-base /root/ros2_code/R2basic_concepts/build/service_server_pkg/build install --record /root/ros2_code/R2basic_concepts/build/service_server_pkg/install.log --single-version-externally-managed
+[4.437s] running egg_info
+[4.438s] creating ../../build/service_server_pkg/service_server_pkg.egg-info
+[4.438s] writing ../../build/service_server_pkg/service_server_pkg.egg-info/PKG-INFO
+[4.438s] writing dependency_links to ../../build/service_server_pkg/service_server_pkg.egg-info/dependency_links.txt
+[4.438s] writing entry points to ../../build/service_server_pkg/service_server_pkg.egg-info/entry_points.txt
+[4.439s] writing requirements to ../../build/service_server_pkg/service_server_pkg.egg-info/requires.txt
+[4.439s] writing top-level names to ../../build/service_server_pkg/service_server_pkg.egg-info/top_level.txt
+[4.439s] writing manifest file '../../build/service_server_pkg/service_server_pkg.egg-info/SOURCES.txt'
+[4.440s] reading manifest file '../../build/service_server_pkg/service_server_pkg.egg-info/SOURCES.txt'
+[4.441s] writing manifest file '../../build/service_server_pkg/service_server_pkg.egg-info/SOURCES.txt'
+[4.441s] running build
+[4.442s] running build_py
+[4.442s] creating /root/ros2_code/R2basic_concepts/build/service_server_pkg/build
+[4.442s] creating /root/ros2_code/R2basic_concepts/build/service_server_pkg/build/lib
+[4.443s] creating /root/ros2_code/R2basic_concepts/build/service_server_pkg/build/lib/service_server_pkg
+[4.443s] copying service_server_pkg/service_server.py -> /root/ros2_code/R2basic_concepts/build/service_server_pkg/build/lib/service_server_pkg
+[4.443s] copying service_server_pkg/__init__.py -> /root/ros2_code/R2basic_concepts/build/service_server_pkg/build/lib/service_server_pkg
+[4.444s] running install
+[4.444s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.444s]   warnings.warn(
+[4.445s] running install_lib
+[4.446s] creating /root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages/service_server_pkg
+[4.447s] copying /root/ros2_code/R2basic_concepts/build/service_server_pkg/build/lib/service_server_pkg/service_server.py -> /root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages/service_server_pkg
+[4.448s] copying /root/ros2_code/R2basic_concepts/build/service_server_pkg/build/lib/service_server_pkg/__init__.py -> /root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages/service_server_pkg
+[4.448s] byte-compiling /root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages/service_server_pkg/service_server.py to service_server.cpython-310.pyc
+[4.448s] byte-compiling /root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages/service_server_pkg/__init__.py to __init__.cpython-310.pyc
+[4.448s] running install_data
+[4.449s] creating /root/ros2_code/R2basic_concepts/install/service_server_pkg/share/ament_index
+[4.449s] creating /root/ros2_code/R2basic_concepts/install/service_server_pkg/share/ament_index/resource_index
+[4.449s] creating /root/ros2_code/R2basic_concepts/install/service_server_pkg/share/ament_index/resource_index/packages
+[4.450s] copying resource/service_server_pkg -> /root/ros2_code/R2basic_concepts/install/service_server_pkg/share/ament_index/resource_index/packages
+[4.451s] copying package.xml -> /root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg
+[4.451s] copying launch/service_server_launch_file.launch.py -> /root/ros2_code/R2basic_concepts/install/service_server_pkg/share/service_server_pkg
+[4.452s] running install_egg_info
+[4.455s] Copying ../../build/service_server_pkg/service_server_pkg.egg-info to /root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages/service_server_pkg-0.0.0-py3.10.egg-info
+[4.457s] running install_scripts
+[4.497s] Installing exercise42 script to /root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/service_server_pkg
+[4.497s] writing list of installed files to '/root/ros2_code/R2basic_concepts/build/service_server_pkg/install.log'
+[4.565s] Invoked command in '/root/ros2_code/R2basic_concepts/src/service_server_pkg' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/service_server_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/service_server_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/service_server_pkg build --build-base /root/ros2_code/R2basic_concepts/build/service_server_pkg/build install --record /root/ros2_code/R2basic_concepts/build/service_server_pkg/install.log --single-version-externally-managed

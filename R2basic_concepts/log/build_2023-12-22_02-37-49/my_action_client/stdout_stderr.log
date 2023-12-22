@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/my_action_client/my_action_client.egg-info
+writing ../../build/my_action_client/my_action_client.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_action_client/my_action_client.egg-info/dependency_links.txt
+writing entry points to ../../build/my_action_client/my_action_client.egg-info/entry_points.txt
+writing requirements to ../../build/my_action_client/my_action_client.egg-info/requires.txt
+writing top-level names to ../../build/my_action_client/my_action_client.egg-info/top_level.txt
+writing manifest file '../../build/my_action_client/my_action_client.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_action_client/my_action_client.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_action_client/my_action_client.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_code/R2basic_concepts/build/my_action_client/build
+creating /root/ros2_code/R2basic_concepts/build/my_action_client/build/lib
+creating /root/ros2_code/R2basic_concepts/build/my_action_client/build/lib/my_action_client
+copying my_action_client/action_client.py -> /root/ros2_code/R2basic_concepts/build/my_action_client/build/lib/my_action_client
+copying my_action_client/__init__.py -> /root/ros2_code/R2basic_concepts/build/my_action_client/build/lib/my_action_client
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages/my_action_client
+copying /root/ros2_code/R2basic_concepts/build/my_action_client/build/lib/my_action_client/action_client.py -> /root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages/my_action_client
+copying /root/ros2_code/R2basic_concepts/build/my_action_client/build/lib/my_action_client/__init__.py -> /root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages/my_action_client
+byte-compiling /root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages/my_action_client/action_client.py to action_client.cpython-310.pyc
+byte-compiling /root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages/my_action_client/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_code/R2basic_concepts/install/my_action_client/share/ament_index
+creating /root/ros2_code/R2basic_concepts/install/my_action_client/share/ament_index/resource_index
+creating /root/ros2_code/R2basic_concepts/install/my_action_client/share/ament_index/resource_index/packages
+copying resource/my_action_client -> /root/ros2_code/R2basic_concepts/install/my_action_client/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client
+copying launch/example62_launch_file.launch.py -> /root/ros2_code/R2basic_concepts/install/my_action_client/share/my_action_client
+running install_egg_info
+Copying ../../build/my_action_client/my_action_client.egg-info to /root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages/my_action_client-0.0.0-py3.10.egg-info
+running install_scripts
+Installing example62 script to /root/ros2_code/R2basic_concepts/install/my_action_client/lib/my_action_client
+writing list of installed files to '/root/ros2_code/R2basic_concepts/build/my_action_client/install.log'

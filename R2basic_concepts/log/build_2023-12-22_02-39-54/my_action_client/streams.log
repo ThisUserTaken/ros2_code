@@ -1,0 +1,21 @@
+[5.060s] Invoking command in '/root/ros2_code/R2basic_concepts/src/my_action_client': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/my_action_client/prefix_override:/root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_action_client build --build-base /root/ros2_code/R2basic_concepts/build/my_action_client/build install --record /root/ros2_code/R2basic_concepts/build/my_action_client/install.log --single-version-externally-managed
+[5.554s] running egg_info
+[5.555s] writing ../../build/my_action_client/my_action_client.egg-info/PKG-INFO
+[5.555s] writing dependency_links to ../../build/my_action_client/my_action_client.egg-info/dependency_links.txt
+[5.555s] writing entry points to ../../build/my_action_client/my_action_client.egg-info/entry_points.txt
+[5.556s] writing requirements to ../../build/my_action_client/my_action_client.egg-info/requires.txt
+[5.556s] writing top-level names to ../../build/my_action_client/my_action_client.egg-info/top_level.txt
+[5.558s] reading manifest file '../../build/my_action_client/my_action_client.egg-info/SOURCES.txt'
+[5.560s] writing manifest file '../../build/my_action_client/my_action_client.egg-info/SOURCES.txt'
+[5.561s] running build
+[5.561s] running build_py
+[5.562s] running install
+[5.562s] running install_lib
+[5.563s] running install_data
+[5.564s] running install_egg_info
+[5.567s] removing '/root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages/my_action_client-0.0.0-py3.10.egg-info' (and everything under it)
+[5.567s] Copying ../../build/my_action_client/my_action_client.egg-info to /root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages/my_action_client-0.0.0-py3.10.egg-info
+[5.568s] running install_scripts
+[5.601s] Installing example62 script to /root/ros2_code/R2basic_concepts/install/my_action_client/lib/my_action_client
+[5.601s] writing list of installed files to '/root/ros2_code/R2basic_concepts/build/my_action_client/install.log'
+[6.018s] Invoked command in '/root/ros2_code/R2basic_concepts/src/my_action_client' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/my_action_client/prefix_override:/root/ros2_code/R2basic_concepts/install/my_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_action_client build --build-base /root/ros2_code/R2basic_concepts/build/my_action_client/build install --record /root/ros2_code/R2basic_concepts/build/my_action_client/install.log --single-version-externally-managed

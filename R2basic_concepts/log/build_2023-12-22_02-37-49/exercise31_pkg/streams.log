@@ -1,0 +1,40 @@
+[4.501s] Invoking command in '/root/ros2_code/R2basic_concepts/src/exercise31_pkg': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/exercise31_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/exercise31_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/exercise31_pkg build --build-base /root/ros2_code/R2basic_concepts/build/exercise31_pkg/build install --record /root/ros2_code/R2basic_concepts/build/exercise31_pkg/install.log --single-version-externally-managed
+[4.943s] running egg_info
+[4.945s] creating ../../build/exercise31_pkg/exercise31_pkg.egg-info
+[4.945s] writing ../../build/exercise31_pkg/exercise31_pkg.egg-info/PKG-INFO
+[4.946s] writing dependency_links to ../../build/exercise31_pkg/exercise31_pkg.egg-info/dependency_links.txt
+[4.947s] writing entry points to ../../build/exercise31_pkg/exercise31_pkg.egg-info/entry_points.txt
+[4.949s] writing requirements to ../../build/exercise31_pkg/exercise31_pkg.egg-info/requires.txt
+[4.950s] writing top-level names to ../../build/exercise31_pkg/exercise31_pkg.egg-info/top_level.txt
+[4.953s] writing manifest file '../../build/exercise31_pkg/exercise31_pkg.egg-info/SOURCES.txt'
+[4.958s] reading manifest file '../../build/exercise31_pkg/exercise31_pkg.egg-info/SOURCES.txt'
+[4.960s] writing manifest file '../../build/exercise31_pkg/exercise31_pkg.egg-info/SOURCES.txt'
+[4.960s] running build
+[4.960s] running build_py
+[4.961s] creating /root/ros2_code/R2basic_concepts/build/exercise31_pkg/build
+[4.961s] creating /root/ros2_code/R2basic_concepts/build/exercise31_pkg/build/lib
+[4.961s] creating /root/ros2_code/R2basic_concepts/build/exercise31_pkg/build/lib/exercise31_pkg
+[4.962s] copying exercise31_pkg/exercise31.py -> /root/ros2_code/R2basic_concepts/build/exercise31_pkg/build/lib/exercise31_pkg
+[4.962s] copying exercise31_pkg/__init__.py -> /root/ros2_code/R2basic_concepts/build/exercise31_pkg/build/lib/exercise31_pkg
+[4.963s] running install
+[4.964s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.964s]   warnings.warn(
+[4.964s] running install_lib
+[4.966s] creating /root/ros2_code/R2basic_concepts/install/exercise31_pkg/lib/python3.10/site-packages/exercise31_pkg
+[4.966s] copying /root/ros2_code/R2basic_concepts/build/exercise31_pkg/build/lib/exercise31_pkg/exercise31.py -> /root/ros2_code/R2basic_concepts/install/exercise31_pkg/lib/python3.10/site-packages/exercise31_pkg
+[4.966s] copying /root/ros2_code/R2basic_concepts/build/exercise31_pkg/build/lib/exercise31_pkg/__init__.py -> /root/ros2_code/R2basic_concepts/install/exercise31_pkg/lib/python3.10/site-packages/exercise31_pkg
+[4.966s] byte-compiling /root/ros2_code/R2basic_concepts/install/exercise31_pkg/lib/python3.10/site-packages/exercise31_pkg/exercise31.py to exercise31.cpython-310.pyc
+[4.966s] byte-compiling /root/ros2_code/R2basic_concepts/install/exercise31_pkg/lib/python3.10/site-packages/exercise31_pkg/__init__.py to __init__.cpython-310.pyc
+[4.966s] running install_data
+[4.966s] creating /root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/ament_index
+[4.966s] creating /root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/ament_index/resource_index
+[4.967s] creating /root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/ament_index/resource_index/packages
+[4.967s] copying resource/exercise31_pkg -> /root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/ament_index/resource_index/packages
+[4.967s] copying package.xml -> /root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/exercise31_pkg
+[4.967s] copying launch/exercise31_pkg_launch_file.launch.py -> /root/ros2_code/R2basic_concepts/install/exercise31_pkg/share/exercise31_pkg
+[4.967s] running install_egg_info
+[4.967s] Copying ../../build/exercise31_pkg/exercise31_pkg.egg-info to /root/ros2_code/R2basic_concepts/install/exercise31_pkg/lib/python3.10/site-packages/exercise31_pkg-0.0.0-py3.10.egg-info
+[4.968s] running install_scripts
+[4.982s] Installing exercise31 script to /root/ros2_code/R2basic_concepts/install/exercise31_pkg/lib/exercise31_pkg
+[4.982s] writing list of installed files to '/root/ros2_code/R2basic_concepts/build/exercise31_pkg/install.log'
+[5.367s] Invoked command in '/root/ros2_code/R2basic_concepts/src/exercise31_pkg' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/exercise31_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/exercise31_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/exercise31_pkg build --build-base /root/ros2_code/R2basic_concepts/build/exercise31_pkg/build install --record /root/ros2_code/R2basic_concepts/build/exercise31_pkg/install.log --single-version-externally-managed

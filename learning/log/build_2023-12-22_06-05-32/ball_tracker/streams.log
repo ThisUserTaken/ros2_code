@@ -1,0 +1,23 @@
+[2.190s] Invoking command in '/root/ros2_code/learning/src/ball_tracker-main': PYTHONPATH=/root/ros2_code/learning/build/ball_tracker/prefix_override:/root/ros2_code/learning/install/ball_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /root/ros2_code/learning/build/ball_tracker/build install --record /root/ros2_code/learning/build/ball_tracker/install.log --single-version-externally-managed
+[2.673s] running egg_info
+[2.673s] writing ../../build/ball_tracker/ball_tracker.egg-info/PKG-INFO
+[2.674s] writing dependency_links to ../../build/ball_tracker/ball_tracker.egg-info/dependency_links.txt
+[2.675s] writing entry points to ../../build/ball_tracker/ball_tracker.egg-info/entry_points.txt
+[2.676s] writing requirements to ../../build/ball_tracker/ball_tracker.egg-info/requires.txt
+[2.677s] writing top-level names to ../../build/ball_tracker/ball_tracker.egg-info/top_level.txt
+[2.772s] reading manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[2.774s] writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[2.774s] running build
+[2.774s] running build_py
+[2.775s] running install
+[2.780s] running install_lib
+[2.786s] running install_data
+[2.787s] running install_egg_info
+[2.790s] removing '/root/ros2_code/learning/install/ball_tracker/lib/python3.8/site-packages/ball_tracker-0.0.0-py3.8.egg-info' (and everything under it)
+[2.792s] Copying ../../build/ball_tracker/ball_tracker.egg-info to /root/ros2_code/learning/install/ball_tracker/lib/python3.8/site-packages/ball_tracker-0.0.0-py3.8.egg-info
+[2.794s] running install_scripts
+[2.836s] Installing detect_ball script to /root/ros2_code/learning/install/ball_tracker/lib/ball_tracker
+[2.837s] Installing detect_ball_3d script to /root/ros2_code/learning/install/ball_tracker/lib/ball_tracker
+[2.837s] Installing follow_ball script to /root/ros2_code/learning/install/ball_tracker/lib/ball_tracker
+[2.839s] writing list of installed files to '/root/ros2_code/learning/build/ball_tracker/install.log'
+[2.911s] Invoked command in '/root/ros2_code/learning/src/ball_tracker-main' returned '0': PYTHONPATH=/root/ros2_code/learning/build/ball_tracker/prefix_override:/root/ros2_code/learning/install/ball_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /root/ros2_code/learning/build/ball_tracker/build install --record /root/ros2_code/learning/build/ball_tracker/install.log --single-version-externally-managed

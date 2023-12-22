@@ -1,0 +1,21 @@
+[4.317s] Invoking command in '/root/ros2_code/R2basic_concepts/src/subscriber_pkg': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/subscriber_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/subscriber_pkg build --build-base /root/ros2_code/R2basic_concepts/build/subscriber_pkg/build install --record /root/ros2_code/R2basic_concepts/build/subscriber_pkg/install.log --single-version-externally-managed
+[4.739s] running egg_info
+[4.744s] writing ../../build/subscriber_pkg/subscriber_pkg.egg-info/PKG-INFO
+[4.744s] writing dependency_links to ../../build/subscriber_pkg/subscriber_pkg.egg-info/dependency_links.txt
+[4.744s] writing entry points to ../../build/subscriber_pkg/subscriber_pkg.egg-info/entry_points.txt
+[4.744s] writing requirements to ../../build/subscriber_pkg/subscriber_pkg.egg-info/requires.txt
+[4.745s] writing top-level names to ../../build/subscriber_pkg/subscriber_pkg.egg-info/top_level.txt
+[4.745s] reading manifest file '../../build/subscriber_pkg/subscriber_pkg.egg-info/SOURCES.txt'
+[4.753s] writing manifest file '../../build/subscriber_pkg/subscriber_pkg.egg-info/SOURCES.txt'
+[4.754s] running build
+[4.754s] running build_py
+[4.758s] running install
+[4.759s] running install_lib
+[4.760s] running install_data
+[4.760s] running install_egg_info
+[4.762s] removing '/root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[4.763s] Copying ../../build/subscriber_pkg/subscriber_pkg.egg-info to /root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg-0.0.0-py3.10.egg-info
+[4.763s] running install_scripts
+[4.785s] Installing simple_subscriber script to /root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/subscriber_pkg
+[4.786s] writing list of installed files to '/root/ros2_code/R2basic_concepts/build/subscriber_pkg/install.log'
+[4.923s] Invoked command in '/root/ros2_code/R2basic_concepts/src/subscriber_pkg' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/subscriber_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/subscriber_pkg build --build-base /root/ros2_code/R2basic_concepts/build/subscriber_pkg/build install --record /root/ros2_code/R2basic_concepts/build/subscriber_pkg/install.log --single-version-externally-managed

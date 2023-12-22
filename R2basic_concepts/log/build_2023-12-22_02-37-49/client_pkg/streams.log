@@ -1,0 +1,45 @@
+[4.592s] Invoking command in '/root/ros2_code/R2basic_concepts/src/client_pkg': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/client_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/client_pkg build --build-base /root/ros2_code/R2basic_concepts/build/client_pkg/build install --record /root/ros2_code/R2basic_concepts/build/client_pkg/install.log --single-version-externally-managed
+[5.032s] running egg_info
+[5.032s] creating ../../build/client_pkg/client_pkg.egg-info
+[5.033s] writing ../../build/client_pkg/client_pkg.egg-info/PKG-INFO
+[5.033s] writing dependency_links to ../../build/client_pkg/client_pkg.egg-info/dependency_links.txt
+[5.034s] writing entry points to ../../build/client_pkg/client_pkg.egg-info/entry_points.txt
+[5.034s] writing requirements to ../../build/client_pkg/client_pkg.egg-info/requires.txt
+[5.034s] writing top-level names to ../../build/client_pkg/client_pkg.egg-info/top_level.txt
+[5.034s] writing manifest file '../../build/client_pkg/client_pkg.egg-info/SOURCES.txt'
+[5.039s] reading manifest file '../../build/client_pkg/client_pkg.egg-info/SOURCES.txt'
+[5.042s] writing manifest file '../../build/client_pkg/client_pkg.egg-info/SOURCES.txt'
+[5.042s] running build
+[5.042s] running build_py
+[5.047s] creating /root/ros2_code/R2basic_concepts/build/client_pkg/build
+[5.047s] creating /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib
+[5.047s] creating /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib/client_pkg
+[5.048s] copying client_pkg/service_client.py -> /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib/client_pkg
+[5.048s] copying client_pkg/stop_client.py -> /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib/client_pkg
+[5.049s] copying client_pkg/__init__.py -> /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib/client_pkg
+[5.050s] running install
+[5.051s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.051s]   warnings.warn(
+[5.051s] running install_lib
+[5.053s] creating /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg
+[5.054s] copying /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib/client_pkg/service_client.py -> /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg
+[5.054s] copying /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib/client_pkg/stop_client.py -> /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg
+[5.054s] copying /root/ros2_code/R2basic_concepts/build/client_pkg/build/lib/client_pkg/__init__.py -> /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg
+[5.055s] byte-compiling /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg/service_client.py to service_client.cpython-310.pyc
+[5.056s] byte-compiling /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg/stop_client.py to stop_client.cpython-310.pyc
+[5.057s] byte-compiling /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg/__init__.py to __init__.cpython-310.pyc
+[5.058s] running install_data
+[5.060s] creating /root/ros2_code/R2basic_concepts/install/client_pkg/share/ament_index
+[5.060s] creating /root/ros2_code/R2basic_concepts/install/client_pkg/share/ament_index/resource_index
+[5.061s] creating /root/ros2_code/R2basic_concepts/install/client_pkg/share/ament_index/resource_index/packages
+[5.061s] copying resource/client_pkg -> /root/ros2_code/R2basic_concepts/install/client_pkg/share/ament_index/resource_index/packages
+[5.061s] copying package.xml -> /root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg
+[5.061s] copying launch/service_client_launch_file.launch.py -> /root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg
+[5.061s] copying launch/stop_client_launch_file.launch.py -> /root/ros2_code/R2basic_concepts/install/client_pkg/share/client_pkg
+[5.061s] running install_egg_info
+[5.062s] Copying ../../build/client_pkg/client_pkg.egg-info to /root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages/client_pkg-0.0.0-py3.10.egg-info
+[5.063s] running install_scripts
+[5.073s] Installing service_client script to /root/ros2_code/R2basic_concepts/install/client_pkg/lib/client_pkg
+[5.073s] Installing stop_client script to /root/ros2_code/R2basic_concepts/install/client_pkg/lib/client_pkg
+[5.076s] writing list of installed files to '/root/ros2_code/R2basic_concepts/build/client_pkg/install.log'
+[5.401s] Invoked command in '/root/ros2_code/R2basic_concepts/src/client_pkg' returned '0': PYTHONPATH=/root/ros2_code/R2basic_concepts/build/client_pkg/prefix_override:/root/ros2_code/R2basic_concepts/install/client_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/client_pkg build --build-base /root/ros2_code/R2basic_concepts/build/client_pkg/build install --record /root/ros2_code/R2basic_concepts/build/client_pkg/install.log --single-version-externally-managed
