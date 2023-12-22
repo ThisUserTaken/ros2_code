@@ -1,4 +1,0 @@
-Invoking command in '/root/ros2_code/learning/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_code/learning/build/articubot_one -- -j12 -l12
-Invoked command in '/root/ros2_code/learning/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_code/learning/build/articubot_one -- -j12 -l12
-Invoking command in '/root/ros2_code/learning/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ros2_code/learning/build/articubot_one
-Invoked command in '/root/ros2_code/learning/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ros2_code/learning/build/articubot_one

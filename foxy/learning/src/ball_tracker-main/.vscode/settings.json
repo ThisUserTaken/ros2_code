@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/waruna/ros2_code/learning/install/ball_tracker/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/waruna/ros2_code/learning/install/ball_tracker/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ]
+}
