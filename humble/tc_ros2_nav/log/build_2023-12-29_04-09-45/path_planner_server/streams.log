@@ -1,0 +1,20 @@
+[2.765s] Invoking command in '/root/ros2_code/humble/tc_ros2_nav/src/path_planner_server': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/path_planner_server/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/path_planner_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_planner_server build --build-base /root/ros2_code/humble/tc_ros2_nav/build/path_planner_server/build install --record /root/ros2_code/humble/tc_ros2_nav/build/path_planner_server/install.log --single-version-externally-managed
+[3.130s] running egg_info
+[3.130s] writing ../../build/path_planner_server/path_planner_server.egg-info/PKG-INFO
+[3.130s] writing dependency_links to ../../build/path_planner_server/path_planner_server.egg-info/dependency_links.txt
+[3.130s] writing entry points to ../../build/path_planner_server/path_planner_server.egg-info/entry_points.txt
+[3.130s] writing requirements to ../../build/path_planner_server/path_planner_server.egg-info/requires.txt
+[3.131s] writing top-level names to ../../build/path_planner_server/path_planner_server.egg-info/top_level.txt
+[3.133s] reading manifest file '../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'
+[3.134s] writing manifest file '../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'
+[3.134s] running build
+[3.134s] running build_py
+[3.136s] running install
+[3.136s] running install_lib
+[3.138s] running install_data
+[3.139s] running install_egg_info
+[3.141s] removing '/root/ros2_code/humble/tc_ros2_nav/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info' (and everything under it)
+[3.142s] Copying ../../build/path_planner_server/path_planner_server.egg-info to /root/ros2_code/humble/tc_ros2_nav/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info
+[3.143s] running install_scripts
+[3.173s] writing list of installed files to '/root/ros2_code/humble/tc_ros2_nav/build/path_planner_server/install.log'
+[3.365s] Invoked command in '/root/ros2_code/humble/tc_ros2_nav/src/path_planner_server' returned '0': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/path_planner_server/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/path_planner_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_planner_server build --build-base /root/ros2_code/humble/tc_ros2_nav/build/path_planner_server/build install --record /root/ros2_code/humble/tc_ros2_nav/build/path_planner_server/install.log --single-version-externally-managed

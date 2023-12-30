@@ -1,0 +1,47 @@
+[1.856s] Invoking command in '/root/ros2_code/humble/tc_ros2_nav/build/nav2_course': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/tc_ros2_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_nav/install/nav2_project:/root/ros2_code/humble/tc_ros2_nav/install/map_server:/root/ros2_code/humble/tc_ros2_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam:/root/ros2_code/humble/tc_ros2_nav/install/amcl:/root/ros2_code/humble/joystick/install/control:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/tc_ros2_nav/build/nav2_course -- -j12 -l12
+[2.651s] Invoked command in '/root/ros2_code/humble/tc_ros2_nav/build/nav2_course' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/tc_ros2_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_nav/install/nav2_project:/root/ros2_code/humble/tc_ros2_nav/install/map_server:/root/ros2_code/humble/tc_ros2_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam:/root/ros2_code/humble/tc_ros2_nav/install/amcl:/root/ros2_code/humble/joystick/install/control:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/tc_ros2_nav/build/nav2_course -- -j12 -l12
+[2.696s] Invoking command in '/root/ros2_code/humble/tc_ros2_nav/build/nav2_course': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/tc_ros2_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_nav/install/nav2_project:/root/ros2_code/humble/tc_ros2_nav/install/map_server:/root/ros2_code/humble/tc_ros2_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam:/root/ros2_code/humble/tc_ros2_nav/install/amcl:/root/ros2_code/humble/joystick/install/control:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/tc_ros2_nav/build/nav2_course
+[2.713s] -- Install configuration: "Release"
+[2.713s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/launch
+[2.714s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/launch/nav2_complete.launch.py
+[2.714s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/launch/map_saver.launch.py
+[2.714s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/launch/tb3_world_navigation_with_tools_launch.py
+[2.714s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/launch/nav2_demo.launch.py
+[2.715s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/launch/map_server_launch.py
+[2.715s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/launch/localization_launch.py
+[2.715s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/launch/rviz.launch.py
+[2.715s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/launch/navigation2_launch.py
+[2.715s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/config
+[2.716s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/config/default.rviz
+[2.716s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/config/navigate_w_replanning_and_recovery_old.xml
+[2.716s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/config/turtlebot3_world.pgm
+[2.717s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/config/nav2_params.yaml
+[2.717s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/config/navigate_w_replanning_and_recovery.xml
+[2.717s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/config/nav2.yaml
+[2.717s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/config/nav2_house_sim_params.yaml
+[2.718s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/config/localization_params.yaml
+[2.718s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/config/nav2_default_view.rviz
+[2.718s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/config/turtlebot3_world.yaml
+[2.718s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/worlds
+[2.719s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/worlds/world_only.model
+[2.719s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/worlds/house_waffle.model
+[2.719s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/worlds/waffle.model
+[2.719s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/maps
+[2.720s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/maps/turtlebot_area.yaml
+[2.720s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/maps/turtlebot_area.pgm
+[2.720s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/ament_index/resource_index/package_run_dependencies/nav2_course
+[2.720s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/ament_index/resource_index/parent_prefix_path/nav2_course
+[2.721s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/environment/ament_prefix_path.sh
+[2.721s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/environment/ament_prefix_path.dsv
+[2.721s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/environment/path.sh
+[2.722s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/environment/path.dsv
+[2.722s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/local_setup.bash
+[2.722s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/local_setup.sh
+[2.723s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/local_setup.zsh
+[2.723s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/local_setup.dsv
+[2.723s] -- Installing: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/package.dsv
+[2.724s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/ament_index/resource_index/packages/nav2_course
+[2.724s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/cmake/nav2_courseConfig.cmake
+[2.724s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/cmake/nav2_courseConfig-version.cmake
+[2.725s] -- Up-to-date: /root/ros2_code/humble/tc_ros2_nav/install/nav2_course/share/nav2_course/package.xml
+[2.730s] Invoked command in '/root/ros2_code/humble/tc_ros2_nav/build/nav2_course' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/tc_ros2_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_nav/install/nav2_project:/root/ros2_code/humble/tc_ros2_nav/install/map_server:/root/ros2_code/humble/tc_ros2_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam:/root/ros2_code/humble/tc_ros2_nav/install/amcl:/root/ros2_code/humble/joystick/install/control:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/tc_ros2_nav/build/nav2_course

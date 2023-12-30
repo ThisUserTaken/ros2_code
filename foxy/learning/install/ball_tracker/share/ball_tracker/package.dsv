@@ -4,3 +4,6 @@ source;share/ball_tracker/hook/pythonpath.sh
 source;share/ball_tracker/hook/ament_prefix_path.ps1
 source;share/ball_tracker/hook/ament_prefix_path.dsv
 source;share/ball_tracker/hook/ament_prefix_path.sh
+source;../../build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.ps1
+source;../../build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.dsv
+source;../../build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.sh

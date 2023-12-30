@@ -1,0 +1,23 @@
+[0.776s] Invoking command in '/root/ros2_code/humble/learning/src/ball_tracker-main': PYTHONPATH=/root/ros2_code/humble/learning/build/ball_tracker/prefix_override:/root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /root/ros2_code/humble/learning/build/ball_tracker/build install --record /root/ros2_code/humble/learning/build/ball_tracker/install.log --single-version-externally-managed
+[0.994s] running egg_info
+[0.994s] writing ../../build/ball_tracker/ball_tracker.egg-info/PKG-INFO
+[0.994s] writing dependency_links to ../../build/ball_tracker/ball_tracker.egg-info/dependency_links.txt
+[0.994s] writing entry points to ../../build/ball_tracker/ball_tracker.egg-info/entry_points.txt
+[0.995s] writing requirements to ../../build/ball_tracker/ball_tracker.egg-info/requires.txt
+[0.995s] writing top-level names to ../../build/ball_tracker/ball_tracker.egg-info/top_level.txt
+[0.996s] reading manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[0.997s] writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[0.997s] running build
+[0.997s] running build_py
+[0.997s] running install
+[0.998s] running install_lib
+[0.999s] running install_data
+[1.000s] running install_egg_info
+[1.001s] removing '/root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker-0.0.0-py3.10.egg-info' (and everything under it)
+[1.002s] Copying ../../build/ball_tracker/ball_tracker.egg-info to /root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker-0.0.0-py3.10.egg-info
+[1.003s] running install_scripts
+[1.022s] Installing detect_ball script to /root/ros2_code/humble/learning/install/ball_tracker/lib/ball_tracker
+[1.022s] Installing detect_ball_3d script to /root/ros2_code/humble/learning/install/ball_tracker/lib/ball_tracker
+[1.023s] Installing follow_ball script to /root/ros2_code/humble/learning/install/ball_tracker/lib/ball_tracker
+[1.023s] writing list of installed files to '/root/ros2_code/humble/learning/build/ball_tracker/install.log'
+[1.051s] Invoked command in '/root/ros2_code/humble/learning/src/ball_tracker-main' returned '0': PYTHONPATH=/root/ros2_code/humble/learning/build/ball_tracker/prefix_override:/root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /root/ros2_code/humble/learning/build/ball_tracker/build install --record /root/ros2_code/humble/learning/build/ball_tracker/install.log --single-version-externally-managed

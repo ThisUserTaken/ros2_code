@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ros2_code/learning/src/articubot_one-main
+CMAKE_SOURCE_DIR = /root/ros2_code/humble/learning/src/articubot_one-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ros2_code/learning/build/articubot_one
+CMAKE_BINARY_DIR = /root/ros2_code/humble/learning/build/articubot_one
 
 # Utility rule file for articubot_one_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/articubot_one_uninstall.dir/compiler_depend.make
 include CMakeFiles/articubot_one_uninstall.dir/progress.make
 
 CMakeFiles/articubot_one_uninstall:
-	/usr/bin/cmake -P /root/ros2_code/learning/build/articubot_one/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /root/ros2_code/humble/learning/build/articubot_one/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 articubot_one_uninstall: CMakeFiles/articubot_one_uninstall
 articubot_one_uninstall: CMakeFiles/articubot_one_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/articubot_one_uninstall.dir/clean:
 .PHONY : CMakeFiles/articubot_one_uninstall.dir/clean
 
 CMakeFiles/articubot_one_uninstall.dir/depend:
-	cd /root/ros2_code/learning/build/articubot_one && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_code/learning/src/articubot_one-main /root/ros2_code/learning/src/articubot_one-main /root/ros2_code/learning/build/articubot_one /root/ros2_code/learning/build/articubot_one /root/ros2_code/learning/build/articubot_one/CMakeFiles/articubot_one_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros2_code/humble/learning/build/articubot_one && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_code/humble/learning/src/articubot_one-main /root/ros2_code/humble/learning/src/articubot_one-main /root/ros2_code/humble/learning/build/articubot_one /root/ros2_code/humble/learning/build/articubot_one /root/ros2_code/humble/learning/build/articubot_one/CMakeFiles/articubot_one_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/articubot_one_uninstall.dir/depend
 

@@ -1,0 +1,53 @@
+[0.790s] Invoking command in '/root/ros2_code/humble/learning/src/ball_tracker-main': PYTHONPATH=/root/ros2_code/humble/learning/build/ball_tracker/prefix_override:/root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /root/ros2_code/humble/learning/build/ball_tracker/build install --record /root/ros2_code/humble/learning/build/ball_tracker/install.log --single-version-externally-managed
+[1.007s] running egg_info
+[1.007s] creating ../../build/ball_tracker/ball_tracker.egg-info
+[1.008s] writing ../../build/ball_tracker/ball_tracker.egg-info/PKG-INFO
+[1.008s] writing dependency_links to ../../build/ball_tracker/ball_tracker.egg-info/dependency_links.txt
+[1.008s] writing entry points to ../../build/ball_tracker/ball_tracker.egg-info/entry_points.txt
+[1.008s] writing requirements to ../../build/ball_tracker/ball_tracker.egg-info/requires.txt
+[1.008s] writing top-level names to ../../build/ball_tracker/ball_tracker.egg-info/top_level.txt
+[1.008s] writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[1.010s] reading manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[1.010s] writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[1.011s] running build
+[1.011s] running build_py
+[1.011s] creating /root/ros2_code/humble/learning/build/ball_tracker/build
+[1.011s] creating /root/ros2_code/humble/learning/build/ball_tracker/build/lib
+[1.011s] creating /root/ros2_code/humble/learning/build/ball_tracker/build/lib/ball_tracker
+[1.011s] copying ball_tracker/follow_ball.py -> /root/ros2_code/humble/learning/build/ball_tracker/build/lib/ball_tracker
+[1.011s] copying ball_tracker/detect_ball_3d.py -> /root/ros2_code/humble/learning/build/ball_tracker/build/lib/ball_tracker
+[1.011s] copying ball_tracker/process_image.py -> /root/ros2_code/humble/learning/build/ball_tracker/build/lib/ball_tracker
+[1.011s] copying ball_tracker/detect_ball.py -> /root/ros2_code/humble/learning/build/ball_tracker/build/lib/ball_tracker
+[1.012s] copying ball_tracker/__init__.py -> /root/ros2_code/humble/learning/build/ball_tracker/build/lib/ball_tracker
+[1.012s] running install
+[1.012s] running install_lib
+[1.013s] creating /root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.013s] copying /root/ros2_code/humble/learning/build/ball_tracker/build/lib/ball_tracker/follow_ball.py -> /root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.013s] copying /root/ros2_code/humble/learning/build/ball_tracker/build/lib/ball_tracker/detect_ball_3d.py -> /root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.013s] copying /root/ros2_code/humble/learning/build/ball_tracker/build/lib/ball_tracker/process_image.py -> /root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.013s] copying /root/ros2_code/humble/learning/build/ball_tracker/build/lib/ball_tracker/detect_ball.py -> /root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.013s] copying /root/ros2_code/humble/learning/build/ball_tracker/build/lib/ball_tracker/__init__.py -> /root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.014s] byte-compiling /root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/follow_ball.py to follow_ball.cpython-310.pyc
+[1.014s] byte-compiling /root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/detect_ball_3d.py to detect_ball_3d.cpython-310.pyc
+[1.015s] byte-compiling /root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/process_image.py to process_image.cpython-310.pyc
+[1.016s] byte-compiling /root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/detect_ball.py to detect_ball.cpython-310.pyc
+[1.016s] byte-compiling /root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/__init__.py to __init__.cpython-310.pyc
+[1.017s] running install_data
+[1.017s] creating /root/ros2_code/humble/learning/install/ball_tracker/share/ament_index
+[1.017s] creating /root/ros2_code/humble/learning/install/ball_tracker/share/ament_index/resource_index
+[1.017s] creating /root/ros2_code/humble/learning/install/ball_tracker/share/ament_index/resource_index/packages
+[1.017s] copying resource/ball_tracker -> /root/ros2_code/humble/learning/install/ball_tracker/share/ament_index/resource_index/packages
+[1.017s] copying package.xml -> /root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker
+[1.017s] creating /root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/launch
+[1.018s] copying launch/example_launch_include.launch.py -> /root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/launch
+[1.018s] copying launch/ball_tracker.launch.py -> /root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/launch
+[1.018s] creating /root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/config
+[1.018s] copying config/ball_tracker_params_example.yaml -> /root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/config
+[1.018s] running install_egg_info
+[1.019s] Copying ../../build/ball_tracker/ball_tracker.egg-info to /root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages/ball_tracker-0.0.0-py3.10.egg-info
+[1.020s] running install_scripts
+[1.039s] Installing detect_ball script to /root/ros2_code/humble/learning/install/ball_tracker/lib/ball_tracker
+[1.039s] Installing detect_ball_3d script to /root/ros2_code/humble/learning/install/ball_tracker/lib/ball_tracker
+[1.039s] Installing follow_ball script to /root/ros2_code/humble/learning/install/ball_tracker/lib/ball_tracker
+[1.039s] writing list of installed files to '/root/ros2_code/humble/learning/build/ball_tracker/install.log'
+[1.109s] Invoked command in '/root/ros2_code/humble/learning/src/ball_tracker-main' returned '0': PYTHONPATH=/root/ros2_code/humble/learning/build/ball_tracker/prefix_override:/root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /root/ros2_code/humble/learning/build/ball_tracker/build install --record /root/ros2_code/humble/learning/build/ball_tracker/install.log --single-version-externally-managed

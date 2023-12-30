@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ros2_code/learning/src/articubot_one-main
+CMAKE_SOURCE_DIR = /root/ros2_code/humble/learning/src/articubot_one-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ros2_code/learning/build/articubot_one
+CMAKE_BINARY_DIR = /root/ros2_code/humble/learning/build/articubot_one
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /root/ros2_code/learning/build/articubot_one && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_code/learning/src/articubot_one-main /root/ros2_code/learning/src/articubot_one-main /root/ros2_code/learning/build/articubot_one /root/ros2_code/learning/build/articubot_one /root/ros2_code/learning/build/articubot_one/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros2_code/humble/learning/build/articubot_one && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_code/humble/learning/src/articubot_one-main /root/ros2_code/humble/learning/src/articubot_one-main /root/ros2_code/humble/learning/build/articubot_one /root/ros2_code/humble/learning/build/articubot_one /root/ros2_code/humble/learning/build/articubot_one/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

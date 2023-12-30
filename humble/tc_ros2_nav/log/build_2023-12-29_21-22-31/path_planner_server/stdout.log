@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/path_planner_server/path_planner_server.egg-info/PKG-INFO
+writing dependency_links to ../../build/path_planner_server/path_planner_server.egg-info/dependency_links.txt
+writing entry points to ../../build/path_planner_server/path_planner_server.egg-info/entry_points.txt
+writing requirements to ../../build/path_planner_server/path_planner_server.egg-info/requires.txt
+writing top-level names to ../../build/path_planner_server/path_planner_server.egg-info/top_level.txt
+reading manifest file '../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'
+writing manifest file '../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /root/ros2_code/humble/tc_ros2_nav/install/path_planner_server/share/path_planner_server/launch
+copying launch/pathplanner.launch.py -> /root/ros2_code/humble/tc_ros2_nav/install/path_planner_server/share/path_planner_server/launch
+creating /root/ros2_code/humble/tc_ros2_nav/install/path_planner_server/share/path_planner_server/config
+copying config/behavior.xml -> /root/ros2_code/humble/tc_ros2_nav/install/path_planner_server/share/path_planner_server/config
+copying config/recovery.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/path_planner_server/share/path_planner_server/config
+copying config/bt_navigator.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/path_planner_server/share/path_planner_server/config
+copying config/controller.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/path_planner_server/share/path_planner_server/config
+copying config/planner_server.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/path_planner_server/share/path_planner_server/config
+running install_egg_info
+removing '/root/ros2_code/humble/tc_ros2_nav/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/path_planner_server/path_planner_server.egg-info to /root/ros2_code/humble/tc_ros2_nav/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_code/humble/tc_ros2_nav/build/path_planner_server/install.log'

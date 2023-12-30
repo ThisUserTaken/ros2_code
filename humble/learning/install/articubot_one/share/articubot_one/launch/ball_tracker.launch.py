@@ -17,8 +17,8 @@ def generate_launch_description():
     tracker_params_sim = os.path.join(get_package_share_directory(my_package_name),'config','ball_tracker_params_sim.yaml')
     tracker_params_robot = os.path.join(get_package_share_directory(my_package_name),'config','ball_tracker_params_robot.yaml')
 
-    params_path = PythonExpression(['"',tracker_params_sim, '" if "true" == "', sim_mode, '" else "', tracker_params_robot, '"'])
-
+    #params_path = PythonExpression(['"',tracker_params_sim, '" if "true" == "', sim_mode, '" else "', tracker_params_robot, '"'])
+    params_path ='/root/ros2_code/humble/learning/src/articubot_one-main/config/ball_tracker_params_sim.yaml'
     tracker_launch = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory('ball_tracker'), 'launch', 'ball_tracker.launch.py')]),

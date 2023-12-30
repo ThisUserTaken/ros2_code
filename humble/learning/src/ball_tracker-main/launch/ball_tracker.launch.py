@@ -14,7 +14,7 @@ def generate_launch_description():
     params_file = LaunchConfiguration('params_file')
     params_file_dec = DeclareLaunchArgument(
         'params_file',
-        default_value=os.path.join(get_package_share_directory('ball_tracker'),'config','ball_tracker_params_example.yaml'),
+        default_value=os.path.join(get_package_share_directory('ball_tracker'),'config','ball_tracker_params_sim.yaml'),
         description='Full path to params file for all ball_tracker nodes.')
 
     detect_only = LaunchConfiguration('detect_only')

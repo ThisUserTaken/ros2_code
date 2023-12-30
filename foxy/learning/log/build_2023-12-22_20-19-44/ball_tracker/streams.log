@@ -1,0 +1,20 @@
+[0.747s] Invoking command in '/root/ros2_code/foxy/learning/build/ball_tracker': PYTHONPATH=/root/ros2_code/foxy/learning/build/ball_tracker/prefix_override:/root/ros2_code/foxy/learning/install/ball_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ros2_code/foxy/learning/build/ball_tracker/build --no-deps install_data
+[0.917s] running develop
+[0.996s] running egg_info
+[0.996s] writing ball_tracker.egg-info/PKG-INFO
+[0.996s] writing dependency_links to ball_tracker.egg-info/dependency_links.txt
+[0.997s] writing entry points to ball_tracker.egg-info/entry_points.txt
+[0.997s] writing requirements to ball_tracker.egg-info/requires.txt
+[0.997s] writing top-level names to ball_tracker.egg-info/top_level.txt
+[1.020s] reading manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[1.021s] writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[1.050s] running build_ext
+[1.051s] Creating /root/ros2_code/foxy/learning/install/ball_tracker/lib/python3.8/site-packages/site.py
+[1.052s] Creating /root/ros2_code/foxy/learning/install/ball_tracker/lib/python3.8/site-packages/ball-tracker.egg-link (link to .)
+[1.053s] Installing detect_ball script to /root/ros2_code/foxy/learning/install/ball_tracker/lib/ball_tracker
+[1.053s] Installing detect_ball_3d script to /root/ros2_code/foxy/learning/install/ball_tracker/lib/ball_tracker
+[1.053s] Installing follow_ball script to /root/ros2_code/foxy/learning/install/ball_tracker/lib/ball_tracker
+[1.053s] 
+[1.053s] Installed /root/ros2_code/foxy/learning/build/ball_tracker
+[1.054s] running install_data
+[1.077s] Invoked command in '/root/ros2_code/foxy/learning/build/ball_tracker' returned '0': PYTHONPATH=/root/ros2_code/foxy/learning/build/ball_tracker/prefix_override:/root/ros2_code/foxy/learning/install/ball_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ros2_code/foxy/learning/build/ball_tracker/build --no-deps install_data

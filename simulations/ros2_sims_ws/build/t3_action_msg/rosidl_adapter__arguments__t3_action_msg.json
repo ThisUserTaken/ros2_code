@@ -1,0 +1,6 @@
+{
+  "package_name": "t3_action_msg",
+  "non_idl_tuples": [
+    "/root/ros2_code/simulations/ros2_sims_ws/src/t3_foxy/t3_action_msg:action/Move.action"
+  ]
+}

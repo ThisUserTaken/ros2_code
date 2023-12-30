@@ -1,0 +1,419 @@
+[0.890s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.890s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1b9e05e4d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1b9e05fd00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1b9e05fd00>>)
+[0.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.929s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/surround_view_ros'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extensions ['ignore', 'ignore_ament_install']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'ignore'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'ignore_ament_install'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extensions ['colcon_pkg']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'colcon_pkg'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extensions ['colcon_meta']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'colcon_meta'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extensions ['ros']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'ros'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extensions ['cmake', 'python']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'cmake'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'python'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extensions ['python_setup_py']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'python_setup_py'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small) by extensions ['ignore', 'ignore_ament_install']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small) by extension 'ignore'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small) by extension 'ignore_ament_install'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small) by extensions ['colcon_pkg']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small) by extension 'colcon_pkg'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small) by extensions ['colcon_meta']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small) by extension 'colcon_meta'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small) by extensions ['ros']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small) by extension 'ros'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small) by extensions ['cmake', 'python']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small) by extension 'cmake'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small) by extension 'python'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small) by extensions ['python_setup_py']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small) by extension 'python_setup_py'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/materials) by extension 'ignore'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/materials) by extension 'ignore_ament_install'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/materials) by extensions ['colcon_pkg']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/materials) by extension 'colcon_pkg'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/materials) by extensions ['colcon_meta']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/materials) by extension 'colcon_meta'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/materials) by extensions ['ros']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/materials) by extension 'ros'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/materials) by extensions ['cmake', 'python']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/materials) by extension 'cmake'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/materials) by extension 'python'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/materials) by extensions ['python_setup_py']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/materials) by extension 'python_setup_py'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/meshes) by extension 'ignore'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/meshes) by extension 'ignore_ament_install'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/meshes) by extensions ['colcon_pkg']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/meshes) by extension 'colcon_pkg'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/meshes) by extensions ['colcon_meta']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/meshes) by extension 'colcon_meta'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/meshes) by extensions ['ros']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/meshes) by extension 'ros'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/meshes) by extensions ['cmake', 'python']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/meshes) by extension 'cmake'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/meshes) by extension 'python'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/meshes) by extensions ['python_setup_py']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/chess_board_small/meshes) by extension 'python_setup_py'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo) by extension 'ignore'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo) by extension 'ignore_ament_install'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo) by extensions ['colcon_pkg']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo) by extension 'colcon_pkg'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo) by extensions ['colcon_meta']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo) by extension 'colcon_meta'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo) by extensions ['ros']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo) by extension 'ros'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo) by extensions ['cmake', 'python']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo) by extension 'cmake'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo) by extension 'python'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo) by extensions ['python_setup_py']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo) by extension 'python_setup_py'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/materials) by extension 'ignore'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/materials) by extension 'ignore_ament_install'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/materials) by extensions ['colcon_pkg']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/materials) by extension 'colcon_pkg'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/materials) by extensions ['colcon_meta']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/materials) by extension 'colcon_meta'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/materials) by extensions ['ros']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/materials) by extension 'ros'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/materials) by extensions ['cmake', 'python']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/materials) by extension 'cmake'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/materials) by extension 'python'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/materials) by extensions ['python_setup_py']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/materials) by extension 'python_setup_py'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/meshes) by extension 'ignore'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/meshes) by extension 'ignore_ament_install'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/meshes) by extensions ['colcon_pkg']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/meshes) by extension 'colcon_pkg'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/meshes) by extensions ['colcon_meta']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/meshes) by extension 'colcon_meta'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/meshes) by extensions ['ros']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/meshes) by extension 'ros'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/meshes) by extensions ['cmake', 'python']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/meshes) by extension 'cmake'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/meshes) by extension 'python'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/meshes) by extensions ['python_setup_py']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_demo/meshes) by extension 'python_setup_py'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small) by extensions ['ignore', 'ignore_ament_install']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small) by extension 'ignore'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small) by extension 'ignore_ament_install'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small) by extensions ['colcon_pkg']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small) by extension 'colcon_pkg'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small) by extensions ['colcon_meta']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small) by extension 'colcon_meta'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small) by extensions ['ros']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small) by extension 'ros'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small) by extensions ['cmake', 'python']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small) by extension 'cmake'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small) by extension 'python'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small) by extensions ['python_setup_py']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small) by extension 'python_setup_py'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/materials) by extension 'ignore'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/materials) by extension 'ignore_ament_install'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/materials) by extensions ['colcon_pkg']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/materials) by extension 'colcon_pkg'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/materials) by extensions ['colcon_meta']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/materials) by extension 'colcon_meta'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/materials) by extensions ['ros']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/materials) by extension 'ros'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/materials) by extensions ['cmake', 'python']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/materials) by extension 'cmake'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/materials) by extension 'python'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/materials) by extensions ['python_setup_py']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/materials) by extension 'python_setup_py'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/meshes) by extension 'ignore'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/meshes) by extension 'ignore_ament_install'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/meshes) by extensions ['colcon_pkg']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/meshes) by extension 'colcon_pkg'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/meshes) by extensions ['colcon_meta']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/meshes) by extension 'colcon_meta'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/meshes) by extensions ['ros']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/meshes) by extension 'ros'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/meshes) by extensions ['cmake', 'python']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/meshes) by extension 'cmake'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/meshes) by extension 'python'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/meshes) by extensions ['python_setup_py']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/surround_view_stage_small/meshes) by extension 'python_setup_py'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ignore_ament_install'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['colcon_pkg']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'colcon_pkg'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['colcon_meta']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'colcon_meta'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['ros']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ros'
+[0.947s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_simulation' with type 'ros.ament_cmake' and name 'gazebo_simulation'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extensions ['ignore', 'ignore_ament_install']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extension 'ignore'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extension 'ignore_ament_install'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extensions ['colcon_pkg']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extension 'colcon_pkg'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extensions ['colcon_meta']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extensions ['ros']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extension 'ros'
+[0.948s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omni_control' with type 'ros.ament_cmake' and name 'omni_control'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extension 'colcon_pkg'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extensions ['colcon_meta']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extensions ['ros']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extension 'ros'
+[0.949s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omni_robot_description' with type 'ros.ament_cmake' and name 'omni_robot_description'
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_args' from command line to 'None'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_target' from command line to 'None'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.015s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/surround_view_ros/build/gazebo_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation', 'merge_install': False, 'path': '/root/ros2_code/humble/surround_view_ros/src/gazebo_simulation', 'symlink_install': False, 'test_result_base': None}
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_target' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.027s] DEBUG:colcon.colcon_core.verb:Building package 'omni_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/surround_view_ros/build/omni_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/surround_view_ros/install/omni_control', 'merge_install': False, 'path': '/root/ros2_code/humble/surround_view_ros/src/omni_control', 'symlink_install': False, 'test_result_base': None}
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_args' from command line to 'None'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_target' from command line to 'None'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.039s] DEBUG:colcon.colcon_core.verb:Building package 'omni_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/surround_view_ros/build/omni_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description', 'merge_install': False, 'path': '/root/ros2_code/humble/surround_view_ros/src/omni_robot_description', 'symlink_install': False, 'test_result_base': None}
+[1.051s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.064s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.064s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/surround_view_ros/src/gazebo_simulation' with build type 'ament_cmake'
+[1.064s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/surround_view_ros/src/gazebo_simulation'
+[1.077s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.077s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.077s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.090s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/root/ros2_code/humble/learning/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[1.090s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.090s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/surround_view_ros/install/omni_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.090s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.090s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/learning/install/ball_tracker' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.090s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.090s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/surround_view_ros/install/omni_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.090s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.090s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/learning/install/articubot_one' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.131s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/surround_view_ros/src/omni_control' with build type 'ament_cmake'
+[1.131s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/surround_view_ros/src/omni_control'
+[1.145s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.187s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/surround_view_ros/src/omni_robot_description' with build type 'ament_cmake'
+[1.187s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/surround_view_ros/src/omni_robot_description'
+[1.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.200s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/surround_view_ros/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/surround_view_ros/src/gazebo_simulation -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation
+[1.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/surround_view_ros/build/omni_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/surround_view_ros/src/omni_control -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/surround_view_ros/install/omni_control
+[1.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/surround_view_ros/build/omni_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/surround_view_ros/src/omni_robot_description -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/surround_view_ros/install/omni_robot_description
+[1.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/surround_view_ros/build/omni_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/surround_view_ros/src/omni_robot_description -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/surround_view_ros/install/omni_robot_description
+[1.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/surround_view_ros/build/omni_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/surround_view_ros/build/omni_robot_description -- -j12 -l12
+[1.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/surround_view_ros/build/omni_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/surround_view_ros/src/omni_control -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/surround_view_ros/install/omni_control
+[1.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/surround_view_ros/build/omni_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/surround_view_ros/build/omni_control -- -j12 -l12
+[1.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/surround_view_ros/build/omni_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/surround_view_ros/build/omni_robot_description -- -j12 -l12
+[1.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/surround_view_ros/build/omni_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/surround_view_ros/build/omni_control -- -j12 -l12
+[1.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/surround_view_ros/build/omni_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/surround_view_ros/build/omni_robot_description
+[1.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/surround_view_ros/build/omni_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/surround_view_ros/build/omni_control
+[2.012s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_robot_description)
+[2.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/surround_view_ros/build/omni_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/surround_view_ros/build/omni_robot_description
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description' for CMake module files
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description' for CMake config files
+[2.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_robot_description', 'cmake_prefix_path')
+[2.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.ps1'
+[2.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.dsv'
+[2.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.sh'
+[2.050s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/bin'
+[2.050s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/lib/pkgconfig/omni_robot_description.pc'
+[2.052s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/lib/python3.10/site-packages'
+[2.052s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/bin'
+[2.071s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/package.ps1'
+[2.072s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/package.dsv'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/package.sh'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/package.bash'
+[2.074s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/package.zsh'
+[2.074s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/colcon-core/packages/omni_robot_description)
+[2.075s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_control)
+[2.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/surround_view_ros/build/omni_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/surround_view_ros/build/omni_control
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_control' for CMake module files
+[2.091s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_control' for CMake config files
+[2.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_control', 'cmake_prefix_path')
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/hook/cmake_prefix_path.ps1'
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/hook/cmake_prefix_path.dsv'
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/hook/cmake_prefix_path.sh'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_control/lib'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_control/bin'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_control/lib/pkgconfig/omni_control.pc'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_control/lib/python3.10/site-packages'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_control/bin'
+[2.122s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/package.ps1'
+[2.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/package.dsv'
+[2.123s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/package.sh'
+[2.123s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/package.bash'
+[2.123s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/package.zsh'
+[2.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/surround_view_ros/install/omni_control/share/colcon-core/packages/omni_control)
+[2.139s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_robot_description)
+[2.152s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description' for CMake module files
+[2.153s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description' for CMake config files
+[2.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_robot_description', 'cmake_prefix_path')
+[2.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.ps1'
+[2.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.dsv'
+[2.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.sh'
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/bin'
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/lib/pkgconfig/omni_robot_description.pc'
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/lib/python3.10/site-packages'
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/bin'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/package.ps1'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/package.dsv'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/package.sh'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/package.bash'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/package.zsh'
+[2.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/colcon-core/packages/omni_robot_description)
+[2.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_control)
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_control' for CMake module files
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_control' for CMake config files
+[2.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_control', 'cmake_prefix_path')
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/hook/cmake_prefix_path.ps1'
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/hook/cmake_prefix_path.dsv'
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/hook/cmake_prefix_path.sh'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_control/lib'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_control/bin'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_control/lib/pkgconfig/omni_control.pc'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_control/lib/python3.10/site-packages'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/omni_control/bin'
+[2.239s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/package.ps1'
+[2.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/package.dsv'
+[2.239s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/package.sh'
+[2.240s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/package.bash'
+[2.240s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/package.zsh'
+[2.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/surround_view_ros/install/omni_control/share/colcon-core/packages/omni_control)
+[3.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/surround_view_ros/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/surround_view_ros/src/gazebo_simulation -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation
+[3.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/surround_view_ros/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/surround_view_ros/build/gazebo_simulation -- -j12 -l12
+[3.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/surround_view_ros/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/surround_view_ros/build/gazebo_simulation -- -j12 -l12
+[3.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/surround_view_ros/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/surround_view_ros/build/gazebo_simulation
+[3.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_simulation)
+[3.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/surround_view_ros/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/surround_view_ros/build/gazebo_simulation
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation' for CMake module files
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation' for CMake config files
+[3.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_simulation', 'cmake_prefix_path')
+[3.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.ps1'
+[3.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.dsv'
+[3.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.sh'
+[3.739s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/lib'
+[3.739s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/bin'
+[3.740s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/lib/pkgconfig/gazebo_simulation.pc'
+[3.740s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/lib/python3.10/site-packages'
+[3.740s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/bin'
+[3.751s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/package.ps1'
+[3.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/package.dsv'
+[3.752s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/package.sh'
+[3.752s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/package.bash'
+[3.752s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/package.zsh'
+[3.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/colcon-core/packages/gazebo_simulation)
+[3.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_simulation)
+[3.806s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation' for CMake module files
+[3.806s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation' for CMake config files
+[3.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_simulation', 'cmake_prefix_path')
+[3.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.ps1'
+[3.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.dsv'
+[3.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.sh'
+[3.823s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/lib'
+[3.823s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/bin'
+[3.823s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/lib/pkgconfig/gazebo_simulation.pc'
+[3.823s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/lib/python3.10/site-packages'
+[3.823s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/bin'
+[3.835s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/package.ps1'
+[3.835s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/package.dsv'
+[3.836s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/package.sh'
+[3.836s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/package.bash'
+[3.836s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/gazebo_simulation/package.zsh'
+[3.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation/share/colcon-core/packages/gazebo_simulation)
+[3.837s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.837s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.837s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.837s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.853s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.853s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.853s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.853s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.856s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[3.857s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.870s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/surround_view_ros/install/local_setup.ps1'
+[3.870s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/surround_view_ros/install/_local_setup_util_ps1.py'
+[3.871s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/surround_view_ros/install/setup.ps1'
+[3.884s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/surround_view_ros/install/local_setup.sh'
+[3.885s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/surround_view_ros/install/_local_setup_util_sh.py'
+[3.885s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/surround_view_ros/install/setup.sh'
+[3.899s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/surround_view_ros/install/local_setup.bash'
+[3.899s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/surround_view_ros/install/setup.bash'
+[3.911s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/surround_view_ros/install/local_setup.zsh'
+[3.911s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/surround_view_ros/install/setup.zsh'

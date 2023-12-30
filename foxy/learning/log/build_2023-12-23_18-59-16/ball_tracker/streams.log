@@ -1,0 +1,19 @@
+[1.057s] Invoking command in '/root/ros2_code/foxy/learning/build/ball_tracker': PYTHONPATH=/root/ros2_code/foxy/learning/build/ball_tracker/prefix_override:/root/ros2_code/foxy/learning/install/ball_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ros2_code/foxy/learning/build/ball_tracker/build --no-deps install_data
+[1.312s] running develop
+[1.447s] running egg_info
+[1.447s] writing ball_tracker.egg-info/PKG-INFO
+[1.447s] writing dependency_links to ball_tracker.egg-info/dependency_links.txt
+[1.448s] writing entry points to ball_tracker.egg-info/entry_points.txt
+[1.448s] writing requirements to ball_tracker.egg-info/requires.txt
+[1.448s] writing top-level names to ball_tracker.egg-info/top_level.txt
+[1.484s] reading manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[1.485s] writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[1.538s] running build_ext
+[1.539s] Creating /root/ros2_code/foxy/learning/install/ball_tracker/lib/python3.8/site-packages/ball-tracker.egg-link (link to .)
+[1.540s] Installing detect_ball script to /root/ros2_code/foxy/learning/install/ball_tracker/lib/ball_tracker
+[1.540s] Installing detect_ball_3d script to /root/ros2_code/foxy/learning/install/ball_tracker/lib/ball_tracker
+[1.541s] Installing follow_ball script to /root/ros2_code/foxy/learning/install/ball_tracker/lib/ball_tracker
+[1.541s] 
+[1.541s] Installed /root/ros2_code/foxy/learning/build/ball_tracker
+[1.541s] running install_data
+[1.591s] Invoked command in '/root/ros2_code/foxy/learning/build/ball_tracker' returned '0': PYTHONPATH=/root/ros2_code/foxy/learning/build/ball_tracker/prefix_override:/root/ros2_code/foxy/learning/install/ball_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ros2_code/foxy/learning/build/ball_tracker/build --no-deps install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+go_to_pose = nav2_project.go_to_pose:main
+spot_recorder = nav2_project.spot_recorder:main
+

@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_code/humble/surround_view_ros/build/omni_robot_description
+-- Install configuration: ""
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/robots
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/robots/robot.sdf
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/robots/omni_robot.urdf.xacro
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/robots/rs_robot.urdf
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/base
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/base/base.urdf.xacro
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/base/base.gazebo.xacro
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/roller
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/roller/roller.urdf.xacro
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/roller/roller.gazebo.xacro
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/roller/roller.transmission.xacro
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/omni_wheel
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/omni_wheel/omni_wheel.gazebo.xacro
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/omni_wheel/omni_wheel.urdf.xacro
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/omni_wheel/omni_wheel.transmission.xacro
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/lrf
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/lrf/lrf.gazebo.xacro
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/lrf/lrf.urdf.xacro
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/projectile.xacro
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/ament_index/resource_index/package_run_dependencies/omni_robot_description
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/ament_index/resource_index/parent_prefix_path/omni_robot_description
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/environment/path.sh
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/environment/path.dsv
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/local_setup.bash
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/local_setup.sh
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/local_setup.zsh
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/local_setup.dsv
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/package.dsv
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/ament_index/resource_index/packages/omni_robot_description
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/cmake/omni_robot_descriptionConfig.cmake
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/cmake/omni_robot_descriptionConfig-version.cmake
+-- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/package.xml

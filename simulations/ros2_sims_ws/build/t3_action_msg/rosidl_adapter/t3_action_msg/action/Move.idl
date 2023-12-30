@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from t3_action_msg/action/Move.action
+// generated code does not contain a copyright notice
+
+
+module t3_action_msg {
+  module action {
+    struct Move_Goal {
+      int32 secs;
+    };
+    struct Move_Result {
+      string status;
+    };
+    struct Move_Feedback {
+      string feedback;
+    };
+  };
+};

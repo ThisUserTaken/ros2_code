@@ -1,0 +1,5 @@
+[console_scripts]
+service = services_pkg.service_moving:main
+service2 = services_pkg.service_stop:main
+service_client = services_pkg.server_client:main
+

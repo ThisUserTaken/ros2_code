@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ros2_code/learning/src/articubot_one-main
+CMAKE_SOURCE_DIR = /root/ros2_code/humble/learning/src/articubot_one-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ros2_code/learning/build/articubot_one
+CMAKE_BINARY_DIR = /root/ros2_code/humble/learning/build/articubot_one
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -82,14 +82,14 @@ clean: CMakeFiles/articubot_one_uninstall.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/articubot_one_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ros2_code/learning/build/articubot_one/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ros2_code/humble/learning/build/articubot_one/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/ros2_code/learning/build/articubot_one/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ros2_code/humble/learning/build/articubot_one/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/ros2_code/learning/build/articubot_one/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ros2_code/humble/learning/build/articubot_one/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/articubot_one_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/articubot_one_uninstall.dir/build.make CMakeFiles/articubot_one_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/articubot_one_uninstall.dir/build.make CMakeFiles/articubot_one_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ros2_code/learning/build/articubot_one/CMakeFiles --progress-num= "Built target articubot_one_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ros2_code/humble/learning/build/articubot_one/CMakeFiles --progress-num= "Built target articubot_one_uninstall"
 .PHONY : CMakeFiles/articubot_one_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/articubot_one_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/ros2_code/learning/build/articubot_one/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ros2_code/humble/learning/build/articubot_one/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/articubot_one_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/ros2_code/learning/build/articubot_one/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ros2_code/humble/learning/build/articubot_one/CMakeFiles 0
 .PHONY : CMakeFiles/articubot_one_uninstall.dir/rule
 
 # Convenience name for target.

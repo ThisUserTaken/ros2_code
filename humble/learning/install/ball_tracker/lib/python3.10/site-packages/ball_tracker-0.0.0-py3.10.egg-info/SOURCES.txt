@@ -15,6 +15,7 @@ ball_tracker/detect_ball_3d.py
 ball_tracker/follow_ball.py
 ball_tracker/process_image.py
 config/ball_tracker_params_example.yaml
+config/ball_tracker_params_sim.yaml
 launch/ball_tracker.launch.py
 launch/example_launch_include.launch.py
 resource/ball_tracker

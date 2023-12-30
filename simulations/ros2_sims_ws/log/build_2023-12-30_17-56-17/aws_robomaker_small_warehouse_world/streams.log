@@ -1,0 +1,291 @@
+[0.275s] Invoking command in '/root/ros2_code/simulations/ros2_sims_ws/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_advance_nav/install/map_server:/root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_nav/install/navigation:/root/ros2_code/humble/tc_ros2_nav/install/nav2_project:/root/ros2_code/humble/tc_ros2_nav/install/map_server:/root/ros2_code/humble/tc_ros2_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam:/root/ros2_code/humble/tc_ros2_nav/install/amcl:/root/ros2_code/humble/joystick/install/control:/opt/ros/humble /usr/bin/cmake /root/ros2_code/simulations/ros2_sims_ws/src/aws_simulations/aws-robotics/aws-robomaker-small-warehouse-world -DCMAKE_INSTALL_PREFIX=/root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world
+[0.322s] -- The C compiler identification is GNU 11.4.0
+[0.380s] -- The CXX compiler identification is GNU 11.4.0
+[0.387s] -- Detecting C compiler ABI info
+[0.448s] -- Detecting C compiler ABI info - done
+[0.454s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.454s] -- Detecting C compile features
+[0.454s] -- Detecting C compile features - done
+[0.457s] -- Detecting CXX compiler ABI info
+[0.532s] -- Detecting CXX compiler ABI info - done
+[0.538s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.538s] -- Detecting CXX compile features
+[0.539s] -- Detecting CXX compile features - done
+[0.545s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.724s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.857s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.941s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.953s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.967s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.012s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.102s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.108s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.150s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.170s] -- Looking for pthread.h
+[1.239s] -- Looking for pthread.h - found
+[1.239s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.311s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.312s] -- Found Threads: TRUE  
+[1.472s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.472s] -- Checking for module 'bullet>=2.82'
+[1.490s] --   Found bullet, version 3.05
+[1.648s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.720s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.757s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.806s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.820s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.832s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.842s] -- Searching for dependencies of ignition-math6
+[1.843s] -- Looking for OGRE...
+[1.844s] -- OGRE_PREFIX_WATCH changed.
+[1.850s] -- Checking for module 'OGRE'
+[1.869s] --   Found OGRE, version 1.9.0
+[1.914s] -- Found Ogre Ghadamon (1.9.0)
+[1.925s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.933s] -- Looking for OGRE_Paging...
+[1.938s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.938s] -- Looking for OGRE_Terrain...
+[1.942s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.943s] -- Looking for OGRE_Property...
+[1.947s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.947s] -- Looking for OGRE_RTShaderSystem...
+[1.953s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.953s] -- Looking for OGRE_Volume...
+[1.959s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.960s] -- Looking for OGRE_Overlay...
+[1.964s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.079s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.085s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.085s] -- Searching for dependencies of ignition-transport8
+[2.113s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.133s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.139s] -- Checking for module 'libzmq >= 4'
+[2.162s] --   Found libzmq , version 4.3.4
+[2.214s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.221s] -- Checking for module 'uuid'
+[2.238s] --   Found uuid, version 2.37.2
+[2.285s] -- Found UUID: TRUE  
+[2.292s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.292s] -- Searching for dependencies of ignition-msgs5
+[2.320s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.327s] -- Checking for module 'tinyxml2'
+[2.344s] --   Found tinyxml2, version 9.0.0
+[2.396s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.404s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.405s] -- Searching for dependencies of ignition-common3
+[2.405s] -- Looking for dlfcn.h - found
+[2.406s] -- Looking for libdl - found
+[2.407s] -- Found DL: TRUE  
+[2.423s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.423s] -- Searching for <ignition-common3> component [graphics]
+[2.429s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.430s] -- Searching for dependencies of ignition-common3-graphics
+[2.430s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.437s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.437s] -- Searching for dependencies of ignition-fuel_tools4
+[2.546s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.561s] -- Checking for module 'jsoncpp'
+[2.581s] --   Found jsoncpp, version 1.9.5
+[2.632s] -- Found JSONCPP: TRUE  
+[2.638s] -- Checking for module 'libzip'
+[2.655s] --   Found libzip, version 1.7.3
+[2.704s] -- Found ZIP: TRUE  
+[2.704s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.705s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.705s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.712s] -- Gazebo version: 11.10
+[2.713s] -- Checking for module 'tbb'
+[2.732s] --   Found tbb, version 2021.5.0
+[2.852s] -- Configuring done
+[2.863s] -- Generating done
+[2.866s] -- Build files have been written to: /root/ros2_code/simulations/ros2_sims_ws/build/aws_robomaker_small_warehouse_world
+[2.882s] Invoked command in '/root/ros2_code/simulations/ros2_sims_ws/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_advance_nav/install/map_server:/root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_nav/install/navigation:/root/ros2_code/humble/tc_ros2_nav/install/nav2_project:/root/ros2_code/humble/tc_ros2_nav/install/map_server:/root/ros2_code/humble/tc_ros2_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam:/root/ros2_code/humble/tc_ros2_nav/install/amcl:/root/ros2_code/humble/joystick/install/control:/opt/ros/humble /usr/bin/cmake /root/ros2_code/simulations/ros2_sims_ws/src/aws_simulations/aws-robotics/aws-robomaker-small-warehouse-world -DCMAKE_INSTALL_PREFIX=/root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world
+[2.884s] Invoking command in '/root/ros2_code/simulations/ros2_sims_ws/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_advance_nav/install/map_server:/root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_nav/install/navigation:/root/ros2_code/humble/tc_ros2_nav/install/nav2_project:/root/ros2_code/humble/tc_ros2_nav/install/map_server:/root/ros2_code/humble/tc_ros2_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam:/root/ros2_code/humble/tc_ros2_nav/install/amcl:/root/ros2_code/humble/joystick/install/control:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/simulations/ros2_sims_ws/build/aws_robomaker_small_warehouse_world -- -j12 -l12
+[2.929s] Invoked command in '/root/ros2_code/simulations/ros2_sims_ws/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_advance_nav/install/map_server:/root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_nav/install/navigation:/root/ros2_code/humble/tc_ros2_nav/install/nav2_project:/root/ros2_code/humble/tc_ros2_nav/install/map_server:/root/ros2_code/humble/tc_ros2_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam:/root/ros2_code/humble/tc_ros2_nav/install/amcl:/root/ros2_code/humble/joystick/install/control:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/simulations/ros2_sims_ws/build/aws_robomaker_small_warehouse_world -- -j12 -l12
+[2.953s] Invoking command in '/root/ros2_code/simulations/ros2_sims_ws/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_advance_nav/install/map_server:/root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_nav/install/navigation:/root/ros2_code/humble/tc_ros2_nav/install/nav2_project:/root/ros2_code/humble/tc_ros2_nav/install/map_server:/root/ros2_code/humble/tc_ros2_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam:/root/ros2_code/humble/tc_ros2_nav/install/amcl:/root/ros2_code/humble/joystick/install/control:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/simulations/ros2_sims_ws/build/aws_robomaker_small_warehouse_world
+[2.963s] -- Install configuration: ""
+[2.964s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch
+[2.964s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch/no_roof_small_warehouse_launch.py
+[2.964s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch/small_warehouse_launch.py
+[2.964s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models
+[2.964s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01
+[2.964s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/model.config
+[2.964s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/meshes
+[2.964s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE
+[2.965s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE
+[2.965s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials
+[2.965s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures
+[2.965s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png
+[2.965s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png
+[2.966s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png
+[2.966s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png
+[2.966s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/model.sdf
+[2.966s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01
+[2.967s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/model.config
+[2.967s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/meshes
+[2.967s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE
+[2.967s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE
+[2.967s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials
+[2.967s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures
+[2.968s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png
+[2.968s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png
+[2.969s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd
+[2.971s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png
+[2.971s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png
+[2.972s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/model.sdf
+[2.972s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01
+[2.972s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/model.config
+[2.972s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes
+[2.972s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+[2.973s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+[2.973s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials
+[2.973s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures
+[2.973s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+[2.973s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+[2.974s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+[2.974s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+[2.975s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01
+[2.975s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/model.config
+[2.975s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes
+[2.975s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+[2.975s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+[2.975s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials
+[2.975s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures
+[2.975s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+[2.976s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+[2.976s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+[2.977s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01
+[2.977s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/model.config
+[2.977s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/meshes
+[2.977s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE
+[2.977s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE
+[2.977s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials
+[2.978s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures
+[2.978s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+[2.980s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+[2.980s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/model.sdf
+[2.980s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01
+[2.980s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/model.config
+[2.981s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/meshes
+[2.981s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE
+[2.981s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE
+[2.981s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/materials
+[2.981s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/materials/textures
+[2.981s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+[2.982s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/model.sdf
+[2.982s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01
+[2.982s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/model.config
+[2.982s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/meshes
+[2.982s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE
+[2.982s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE
+[2.983s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials
+[2.983s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials/textures
+[2.983s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png
+[2.983s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/model.sdf
+[2.983s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01
+[2.984s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/model.config
+[2.984s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes
+[2.984s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+[2.984s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+[2.984s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials
+[2.985s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures
+[2.985s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+[2.985s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+[2.985s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+[2.985s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01
+[2.986s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/model.config
+[2.986s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/meshes
+[2.986s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE
+[2.986s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE
+[2.986s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials
+[2.986s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures
+[2.986s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png
+[2.987s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png
+[2.988s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png
+[2.988s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png
+[2.988s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/model.sdf
+[2.988s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01
+[2.988s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/model.config
+[2.989s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes
+[2.989s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+[2.989s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+[2.989s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/materials
+[2.989s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures
+[2.989s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+[2.990s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+[2.990s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01
+[2.990s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/model.config
+[2.990s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/meshes
+[2.990s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE
+[2.990s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE
+[2.991s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/materials
+[2.991s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/materials/textures
+[2.991s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png
+[2.991s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/model.sdf
+[2.991s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01
+[2.991s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/model.config
+[2.992s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/meshes
+[2.992s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE
+[2.992s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE
+[2.992s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/materials
+[2.992s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/materials/textures
+[2.992s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png
+[2.992s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/model.sdf
+[2.992s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01
+[2.993s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/model.config
+[2.993s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes
+[2.993s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[2.994s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[2.994s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials
+[2.994s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures
+[2.994s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[2.994s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[2.995s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[2.995s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01
+[2.995s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/model.config
+[2.996s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/meshes
+[2.996s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE
+[2.997s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE
+[2.997s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials
+[2.997s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures
+[2.997s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+[2.997s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+[2.998s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+[2.998s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+[2.998s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds
+[2.998s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/no_roof_small_warehouse
+[2.999s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/no_roof_small_warehouse/no_roof_small_warehouse.world
+[2.999s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/industrial_sim.world
+[2.999s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/small_warehouse
+[2.999s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/small_warehouse/small_warehouse.world
+[2.999s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps
+[2.999s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/002
+[2.999s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/002/map.pgm
+[3.004s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/002/map.yaml
+[3.004s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005
+[3.004s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map.pgm
+[3.005s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map_rotated2.pgm
+[3.005s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map_rotated.pgm
+[3.006s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map.yaml
+[3.006s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map_rotated.png
+[3.007s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/rviz
+[3.007s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/rviz/basic_data.rviz
+[3.007s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/aws_robomaker_small_warehouse_world.dsv
+[3.008s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/package_run_dependencies/aws_robomaker_small_warehouse_world
+[3.008s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/parent_prefix_path/aws_robomaker_small_warehouse_world
+[3.008s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/ament_prefix_path.sh
+[3.008s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/ament_prefix_path.dsv
+[3.009s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/path.sh
+[3.009s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/path.dsv
+[3.009s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.bash
+[3.009s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.sh
+[3.010s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.zsh
+[3.010s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.dsv
+[3.010s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.dsv
+[3.010s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/packages/aws_robomaker_small_warehouse_world
+[3.011s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.011s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/aws_robomaker_small_warehouse_worldConfig.cmake
+[3.011s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/aws_robomaker_small_warehouse_worldConfig-version.cmake
+[3.011s] -- Installing: /root/ros2_code/simulations/ros2_sims_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.xml
+[3.014s] Invoked command in '/root/ros2_code/simulations/ros2_sims_ws/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_advance_nav/install/map_server:/root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/path_planner_server:/root/ros2_code/humble/tc_ros2_nav/install/navigation:/root/ros2_code/humble/tc_ros2_nav/install/nav2_project:/root/ros2_code/humble/tc_ros2_nav/install/map_server:/root/ros2_code/humble/tc_ros2_nav/install/localization_server:/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam:/root/ros2_code/humble/tc_ros2_nav/install/amcl:/root/ros2_code/humble/joystick/install/control:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/simulations/ros2_sims_ws/build/aws_robomaker_small_warehouse_world

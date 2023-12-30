@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_code/humble/frc9202/build/yolo_recognition
+-- Install configuration: ""
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition//scripts
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition//scripts/yolov8_ros2_pt.py
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition//scripts/.dockerignore
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition//scripts/yolov8_ros2_subscriber.py
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition//scripts/.gitattributes
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition//scripts/yolov8n.pt
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition//scripts/.gitignore
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition//launch
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition//launch/launch_yolov8.launch.py
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/lib/yolo_recognition/yolov8_ros2_pt.py
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/lib/yolo_recognition/yolov8_ros2_subscriber.py
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/lib/yolo_recognition/launch_yolov8.launch.py
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/ament_index/resource_index/package_run_dependencies/yolo_recognition
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/ament_index/resource_index/parent_prefix_path/yolo_recognition
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/environment/path.sh
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/environment/path.dsv
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/local_setup.bash
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/local_setup.sh
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/local_setup.zsh
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/local_setup.dsv
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/package.dsv
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/ament_index/resource_index/packages/yolo_recognition
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/cmake/yolo_recognitionConfig.cmake
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/cmake/yolo_recognitionConfig-version.cmake
+-- Installing: /root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/package.xml

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/control/control.egg-info
+writing ../../build/control/control.egg-info/PKG-INFO
+writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+writing entry points to ../../build/control/control.egg-info/entry_points.txt
+writing requirements to ../../build/control/control.egg-info/requires.txt
+writing top-level names to ../../build/control/control.egg-info/top_level.txt
+writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_code/humble/joystick/build/control/build
+creating /root/ros2_code/humble/joystick/build/control/build/lib
+creating /root/ros2_code/humble/joystick/build/control/build/lib/control
+copying control/__init__.py -> /root/ros2_code/humble/joystick/build/control/build/lib/control
+running install
+running install_lib
+creating /root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages/control
+copying /root/ros2_code/humble/joystick/build/control/build/lib/control/__init__.py -> /root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages/control
+byte-compiling /root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages/control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_code/humble/joystick/install/control/share/ament_index
+creating /root/ros2_code/humble/joystick/install/control/share/ament_index/resource_index
+creating /root/ros2_code/humble/joystick/install/control/share/ament_index/resource_index/packages
+copying resource/control -> /root/ros2_code/humble/joystick/install/control/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/humble/joystick/install/control/share/control
+creating /root/ros2_code/humble/joystick/install/control/share/control/launch
+copying launch/joystick.launch.py -> /root/ros2_code/humble/joystick/install/control/share/control/launch
+creating /root/ros2_code/humble/joystick/install/control/share/control/config
+copying config/joystick.yaml -> /root/ros2_code/humble/joystick/install/control/share/control/config
+running install_egg_info
+Copying ../../build/control/control.egg-info to /root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_code/humble/joystick/build/control/install.log'

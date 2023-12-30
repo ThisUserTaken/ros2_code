@@ -1,0 +1,22 @@
+[3.004s] Invoking command in '/root/ros2_code/humble/tc_ros2_nav/src/ros2_nav_files/nav2_project': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/nav2_project/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_project build --build-base /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/build install --record /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/install.log --single-version-externally-managed
+[3.441s] running egg_info
+[3.442s] writing ../../../build/nav2_project/nav2_project.egg-info/PKG-INFO
+[3.443s] writing dependency_links to ../../../build/nav2_project/nav2_project.egg-info/dependency_links.txt
+[3.444s] writing entry points to ../../../build/nav2_project/nav2_project.egg-info/entry_points.txt
+[3.444s] writing requirements to ../../../build/nav2_project/nav2_project.egg-info/requires.txt
+[3.444s] writing top-level names to ../../../build/nav2_project/nav2_project.egg-info/top_level.txt
+[3.446s] reading manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[3.449s] writing manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[3.449s] running build
+[3.449s] running build_py
+[3.456s] running install
+[3.457s] running install_lib
+[3.457s] running install_data
+[3.457s] running install_egg_info
+[3.457s] removing '/root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/python3.10/site-packages/nav2_project-0.0.0-py3.10.egg-info' (and everything under it)
+[3.457s] Copying ../../../build/nav2_project/nav2_project.egg-info to /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/python3.10/site-packages/nav2_project-0.0.0-py3.10.egg-info
+[3.459s] running install_scripts
+[3.491s] Installing go_to_pose script to /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/nav2_project
+[3.492s] Installing spot_recorder script to /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/nav2_project
+[3.492s] writing list of installed files to '/root/ros2_code/humble/tc_ros2_nav/build/nav2_project/install.log'
+[3.765s] Invoked command in '/root/ros2_code/humble/tc_ros2_nav/src/ros2_nav_files/nav2_project' returned '0': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/nav2_project/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_project build --build-base /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/build install --record /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/install.log --single-version-externally-managed

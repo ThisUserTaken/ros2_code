@@ -1,0 +1,9 @@
+/root/ros2_code/simulations/ros2_sims_ws/build/neo_simulation2/CMakeFiles/uninstall.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/neo_simulation2/CMakeFiles/neo_simulation2_uninstall.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/neo_simulation2/CMakeFiles/test.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/neo_simulation2/CMakeFiles/edit_cache.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/neo_simulation2/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/neo_simulation2/CMakeFiles/list_install_components.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/neo_simulation2/CMakeFiles/install.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/neo_simulation2/CMakeFiles/install/local.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/neo_simulation2/CMakeFiles/install/strip.dir

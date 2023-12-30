@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000136] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.000159] (control) JobStarted: {'identifier': 'control'}
+[0.099093] (-) TimerEvent: {}
+[0.199747] (-) TimerEvent: {}
+[0.300062] (-) TimerEvent: {}
+[0.400361] (-) TimerEvent: {}
+[0.500695] (-) TimerEvent: {}
+[0.601001] (-) TimerEvent: {}
+[0.701346] (-) TimerEvent: {}
+[0.747835] (control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/control', 'build', '--build-base', '/root/ros2_code/humble/joystick/build/control/build', 'install', '--record', '/root/ros2_code/humble/joystick/build/control/install.log', '--single-version-externally-managed'], 'cwd': '/root/ros2_code/humble/joystick/src/control', 'env': {'NV_LIBCUBLAS_VERSION': '11.11.3.6-1', 'NV_CUDA_COMPAT_PACKAGE': 'cuda-compat-11-8', 'CAMERA_TYPE': 'astraplus', 'HOSTNAME': 'svt9202', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'NV_LIBNCCL_PACKAGE_VERSION': '2.15.5-1', 'AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS': '1', 'HOME': '/root', 'OLDPWD': '/root/ros2_code/humble', 'ROS_PYTHON_VERSION': '3', 'NV_LIBNPP_PACKAGE': 'libnpp-11-8=11.8.0.86-1', 'CUDA_VERSION': '11.8.0', 'ROBOT_TYPE': 'r2', 'CUSTOM_HISTORY_FILE': '/root/config/.custom_history__root_ros2_code_humble_learning', 'COLCON_PREFIX_PATH': '/opt/ros/humble', 'ROS_DISTRO': 'humble', 'NV_LIBCUBLAS_PACKAGE_NAME': 'libcublas-11-8', 'NVIDIA_REQUIRE_CUDA': 'cuda>=11.8 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NV_LIBCUSPARSE_VERSION': '11.7.5.86-1', 'NVIDIA_DRIVER_CAPABILITIES': 'graphics,utility,compute', 'NV_CUDA_LIB_VERSION': '11.8.0-1', 'NV_LIBNCCL_PACKAGE_NAME': 'libnccl2', 'TERM': 'xterm', 'NV_CUDA_CUDART_VERSION': '11.8.89-1', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'NV_LIBCUBLAS_PACKAGE': 'libcublas-11-8=11.11.3.6-1', 'NVARCH': 'x86_64', 'DISPLAY': ':0', 'NV_LIBNCCL_PACKAGE': 'libnccl2=2.15.5-1+cuda11.8', 'NVIDIA_PRODUCT_NAME': 'CUDA', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '31', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': '', 'ROS_WS': '/root/ros2_ws', 'NV_NVTX_VERSION': '11.8.86-1', 'NV_LIBNPP_VERSION': '11.8.0.86-1', 'EXTERNAL_FILE': '/root/config/ros_commands', 'RPLIDAR_TYPE': 'a1', 'PWD': '/root/ros2_code/humble/joystick/build/control', 'TURTLEBOT3_MODEL': 'waffle', 'PYTHONPATH': '/root/ros2_code/humble/joystick/build/control/prefix_override:/root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'NCCL_VERSION': '2.15.5-1', 'HISTFILE': '/root/config/.bash_history', 'COLCON': '1'}, 'shell': False}
+[0.801462] (-) TimerEvent: {}
+[0.901790] (-) TimerEvent: {}
+[0.955235] (control) StdoutLine: {'line': b'running egg_info\n'}
+[0.955610] (control) StdoutLine: {'line': b'creating ../../build/control/control.egg-info\n'}
+[0.955838] (control) StdoutLine: {'line': b'writing ../../build/control/control.egg-info/PKG-INFO\n'}
+[0.956115] (control) StdoutLine: {'line': b'writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt\n'}
+[0.956344] (control) StdoutLine: {'line': b'writing entry points to ../../build/control/control.egg-info/entry_points.txt\n'}
+[0.956490] (control) StdoutLine: {'line': b'writing requirements to ../../build/control/control.egg-info/requires.txt\n'}
+[0.956605] (control) StdoutLine: {'line': b'writing top-level names to ../../build/control/control.egg-info/top_level.txt\n'}
+[0.956692] (control) StdoutLine: {'line': b"writing manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[0.957828] (control) StdoutLine: {'line': b"reading manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[0.958343] (control) StdoutLine: {'line': b"writing manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[0.958500] (control) StdoutLine: {'line': b'running build\n'}
+[0.958614] (control) StdoutLine: {'line': b'running build_py\n'}
+[0.958775] (control) StdoutLine: {'line': b'creating /root/ros2_code/humble/joystick/build/control/build\n'}
+[0.958872] (control) StdoutLine: {'line': b'creating /root/ros2_code/humble/joystick/build/control/build/lib\n'}
+[0.959017] (control) StdoutLine: {'line': b'creating /root/ros2_code/humble/joystick/build/control/build/lib/control\n'}
+[0.959111] (control) StdoutLine: {'line': b'copying control/__init__.py -> /root/ros2_code/humble/joystick/build/control/build/lib/control\n'}
+[0.959224] (control) StdoutLine: {'line': b'running install\n'}
+[0.959321] (control) StdoutLine: {'line': b'running install_lib\n'}
+[0.959734] (control) StdoutLine: {'line': b'creating /root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages/control\n'}
+[0.959845] (control) StdoutLine: {'line': b'copying /root/ros2_code/humble/joystick/build/control/build/lib/control/__init__.py -> /root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages/control\n'}
+[0.960222] (control) StdoutLine: {'line': b'byte-compiling /root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages/control/__init__.py to __init__.cpython-310.pyc\n'}
+[0.960392] (control) StdoutLine: {'line': b'running install_data\n'}
+[0.960703] (control) StdoutLine: {'line': b'creating /root/ros2_code/humble/joystick/install/control/share/ament_index\n'}
+[0.960840] (control) StdoutLine: {'line': b'creating /root/ros2_code/humble/joystick/install/control/share/ament_index/resource_index\n'}
+[0.960932] (control) StdoutLine: {'line': b'creating /root/ros2_code/humble/joystick/install/control/share/ament_index/resource_index/packages\n'}
+[0.961060] (control) StdoutLine: {'line': b'copying resource/control -> /root/ros2_code/humble/joystick/install/control/share/ament_index/resource_index/packages\n'}
+[0.961164] (control) StdoutLine: {'line': b'copying package.xml -> /root/ros2_code/humble/joystick/install/control/share/control\n'}
+[0.961291] (control) StdoutLine: {'line': b'creating /root/ros2_code/humble/joystick/install/control/share/control/launch\n'}
+[0.961397] (control) StdoutLine: {'line': b'copying launch/joystick.launch.py -> /root/ros2_code/humble/joystick/install/control/share/control/launch\n'}
+[0.961482] (control) StdoutLine: {'line': b'creating /root/ros2_code/humble/joystick/install/control/share/control/config\n'}
+[0.961563] (control) StdoutLine: {'line': b'copying config/joystick.yaml -> /root/ros2_code/humble/joystick/install/control/share/control/config\n'}
+[0.961644] (control) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.962528] (control) StdoutLine: {'line': b'Copying ../../build/control/control.egg-info to /root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info\n'}
+[0.963326] (control) StdoutLine: {'line': b'running install_scripts\n'}
+[0.978841] (control) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_code/humble/joystick/build/control/install.log'\n"}
+[1.001900] (-) TimerEvent: {}
+[1.019619] (control) CommandEnded: {'returncode': 0}
+[1.075781] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[1.076601] (-) EventReactorShutdown: {}

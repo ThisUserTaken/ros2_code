@@ -1,0 +1,3 @@
+[console_scripts]
+nav_to_pose_action_client = path_planner_server.nav_to_pose_action_client:main
+

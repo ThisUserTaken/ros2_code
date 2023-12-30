@@ -1,0 +1,44 @@
+[1.493s] Invoking command in '/root/ros2_code/humble/tc_ros2_advance_nav/src/nav2_pkgs/path_planner_server': PYTHONPATH=/root/ros2_code/humble/tc_ros2_advance_nav/build/path_planner_server/prefix_override:/root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/path_planner_server build --build-base /root/ros2_code/humble/tc_ros2_advance_nav/build/path_planner_server/build install --record /root/ros2_code/humble/tc_ros2_advance_nav/build/path_planner_server/install.log --single-version-externally-managed
+[1.791s] running egg_info
+[1.791s] creating ../../../build/path_planner_server/path_planner_server.egg-info
+[1.791s] writing ../../../build/path_planner_server/path_planner_server.egg-info/PKG-INFO
+[1.791s] writing dependency_links to ../../../build/path_planner_server/path_planner_server.egg-info/dependency_links.txt
+[1.792s] writing entry points to ../../../build/path_planner_server/path_planner_server.egg-info/entry_points.txt
+[1.792s] writing requirements to ../../../build/path_planner_server/path_planner_server.egg-info/requires.txt
+[1.792s] writing top-level names to ../../../build/path_planner_server/path_planner_server.egg-info/top_level.txt
+[1.792s] writing manifest file '../../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'
+[1.794s] reading manifest file '../../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'
+[1.795s] writing manifest file '../../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'
+[1.795s] running build
+[1.795s] running build_py
+[1.795s] creating /root/ros2_code/humble/tc_ros2_advance_nav/build/path_planner_server/build
+[1.795s] creating /root/ros2_code/humble/tc_ros2_advance_nav/build/path_planner_server/build/lib
+[1.795s] creating /root/ros2_code/humble/tc_ros2_advance_nav/build/path_planner_server/build/lib/path_planner_server
+[1.796s] copying path_planner_server/__init__.py -> /root/ros2_code/humble/tc_ros2_advance_nav/build/path_planner_server/build/lib/path_planner_server
+[1.796s] running install
+[1.796s] running install_lib
+[1.797s] creating /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/lib/python3.10/site-packages/path_planner_server
+[1.797s] copying /root/ros2_code/humble/tc_ros2_advance_nav/build/path_planner_server/build/lib/path_planner_server/__init__.py -> /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/lib/python3.10/site-packages/path_planner_server
+[1.797s] byte-compiling /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/lib/python3.10/site-packages/path_planner_server/__init__.py to __init__.cpython-310.pyc
+[1.798s] running install_data
+[1.798s] creating /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/ament_index
+[1.799s] creating /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/ament_index/resource_index
+[1.799s] creating /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/ament_index/resource_index/packages
+[1.799s] copying resource/path_planner_server -> /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/ament_index/resource_index/packages
+[1.799s] copying package.xml -> /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/path_planner_server
+[1.799s] creating /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/path_planner_server/launch
+[1.799s] copying launch/navigation.launch.py -> /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/path_planner_server/launch
+[1.799s] copying launch/pathplanner.launch.py -> /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/path_planner_server/launch
+[1.799s] creating /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/path_planner_server/config
+[1.799s] copying config/bt_navigator.yaml -> /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/path_planner_server/config
+[1.799s] copying config/controller.yaml -> /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/path_planner_server/config
+[1.799s] copying config/behaviors.yaml -> /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/path_planner_server/config
+[1.800s] copying config/planner_server.yaml -> /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/path_planner_server/config
+[1.800s] creating /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/path_planner_server/rviz_config
+[1.800s] copying rviz_config/pathplanning.rviz -> /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/path_planner_server/rviz_config
+[1.800s] copying rviz_config/nav2_default_view.rviz -> /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/share/path_planner_server/rviz_config
+[1.800s] running install_egg_info
+[1.804s] Copying ../../../build/path_planner_server/path_planner_server.egg-info to /root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info
+[1.806s] running install_scripts
+[1.826s] writing list of installed files to '/root/ros2_code/humble/tc_ros2_advance_nav/build/path_planner_server/install.log'
+[1.902s] Invoked command in '/root/ros2_code/humble/tc_ros2_advance_nav/src/nav2_pkgs/path_planner_server' returned '0': PYTHONPATH=/root/ros2_code/humble/tc_ros2_advance_nav/build/path_planner_server/prefix_override:/root/ros2_code/humble/tc_ros2_advance_nav/install/path_planner_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/path_planner_server build --build-base /root/ros2_code/humble/tc_ros2_advance_nav/build/path_planner_server/build install --record /root/ros2_code/humble/tc_ros2_advance_nav/build/path_planner_server/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+source;share/move_robot_as/local_setup.bash
+source;share/move_robot_as/local_setup.dsv
+source;share/move_robot_as/local_setup.sh
+source;share/move_robot_as/local_setup.zsh

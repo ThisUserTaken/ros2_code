@@ -1,0 +1,298 @@
+[2.734s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.734s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7d27c982b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7d27c9a3e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7d27c9a3e0>>)
+[2.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.890s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/frc9202'
+[2.890s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.892s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.892s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.892s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.892s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.892s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ignore', 'ignore_ament_install']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore_ament_install'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_pkg']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_pkg'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_meta']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_meta'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ros']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ros'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['cmake', 'python']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'cmake'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['python_setup_py']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python_setup_py'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_setup_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_setup_pkg) by extension 'ignore'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_setup_pkg) by extension 'ignore_ament_install'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_setup_pkg) by extensions ['colcon_pkg']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_setup_pkg) by extension 'colcon_pkg'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_setup_pkg) by extensions ['colcon_meta']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_setup_pkg) by extension 'colcon_meta'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_setup_pkg) by extensions ['ros']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_setup_pkg) by extension 'ros'
+[2.934s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_setup_pkg' with type 'ros.ament_cmake' and name 'gazebo_setup_pkg'
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_recognition) by extensions ['ignore', 'ignore_ament_install']
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_recognition) by extension 'ignore'
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_recognition) by extension 'ignore_ament_install'
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_recognition) by extensions ['colcon_pkg']
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_recognition) by extension 'colcon_pkg'
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_recognition) by extensions ['colcon_meta']
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_recognition) by extension 'colcon_meta'
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_recognition) by extensions ['ros']
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_recognition) by extension 'ros'
+[2.938s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_recognition' with type 'ros.ament_cmake' and name 'yolo_recognition'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ignore'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ignore_ament_install'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['colcon_pkg']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'colcon_pkg'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['colcon_meta']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'colcon_meta'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['ros']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ros'
+[2.940s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_msgs' with type 'ros.ament_cmake' and name 'yolov8_msgs'
+[2.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.154s] Level 5:colcon.colcon_core.verb:set package 'gazebo_setup_pkg' build argument 'cmake_args' from command line to 'None'
+[3.154s] Level 5:colcon.colcon_core.verb:set package 'gazebo_setup_pkg' build argument 'cmake_target' from command line to 'None'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'gazebo_setup_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'gazebo_setup_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'gazebo_setup_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'gazebo_setup_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'gazebo_setup_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'gazebo_setup_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'gazebo_setup_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.155s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_setup_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/frc9202/build/gazebo_setup_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg', 'merge_install': False, 'path': '/root/ros2_code/humble/frc9202/src/gazebo_setup_pkg', 'symlink_install': False, 'test_result_base': None}
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'yolo_recognition' build argument 'cmake_args' from command line to 'None'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'yolo_recognition' build argument 'cmake_target' from command line to 'None'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'yolo_recognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'yolo_recognition' build argument 'cmake_clean_cache' from command line to 'False'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'yolo_recognition' build argument 'cmake_clean_first' from command line to 'False'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'yolo_recognition' build argument 'cmake_force_configure' from command line to 'False'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'yolo_recognition' build argument 'ament_cmake_args' from command line to 'None'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'yolo_recognition' build argument 'catkin_cmake_args' from command line to 'None'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'yolo_recognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.202s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_recognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/frc9202/build/yolo_recognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/frc9202/install/yolo_recognition', 'merge_install': False, 'path': '/root/ros2_code/humble/frc9202/src/yolo_recognition', 'symlink_install': False, 'test_result_base': None}
+[3.234s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_args' from command line to 'None'
+[3.234s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target' from command line to 'None'
+[3.235s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.236s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.237s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.237s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.237s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.237s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.237s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.238s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/frc9202/build/yolov8_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/frc9202/install/yolov8_msgs', 'merge_install': False, 'path': '/root/ros2_code/humble/frc9202/src/yolov8_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.262s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.298s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/frc9202/src/gazebo_setup_pkg' with build type 'ament_cmake'
+[3.299s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/frc9202/src/gazebo_setup_pkg'
+[3.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.477s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/frc9202/install/yolov8_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.477s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/frc9202/install/yolo_recognition' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.477s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.478s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/frc9202/install/yolov8_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.478s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/frc9202/install/yolo_recognition' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.478s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.618s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/frc9202/src/yolo_recognition' with build type 'ament_cmake'
+[3.624s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/frc9202/src/yolo_recognition'
+[3.670s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.670s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.843s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/frc9202/src/yolov8_msgs' with build type 'ament_cmake'
+[3.844s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/frc9202/src/yolov8_msgs'
+[3.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/frc9202/build/gazebo_setup_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/frc9202/src/gazebo_setup_pkg -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg
+[4.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/frc9202/build/yolo_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/frc9202/src/yolo_recognition -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/frc9202/install/yolo_recognition
+[4.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/frc9202/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/frc9202/src/yolov8_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/frc9202/install/yolov8_msgs
+[6.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/frc9202/build/yolo_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/frc9202/src/yolo_recognition -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/frc9202/install/yolo_recognition
+[6.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/frc9202/build/yolo_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/frc9202/build/yolo_recognition -- -j12 -l12
+[6.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/frc9202/build/gazebo_setup_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/frc9202/src/gazebo_setup_pkg -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg
+[6.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/frc9202/build/gazebo_setup_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/frc9202/build/gazebo_setup_pkg -- -j12 -l12
+[7.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/frc9202/build/yolo_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/frc9202/build/yolo_recognition -- -j12 -l12
+[7.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/frc9202/build/gazebo_setup_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/frc9202/build/gazebo_setup_pkg -- -j12 -l12
+[7.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/frc9202/build/yolo_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/frc9202/build/yolo_recognition
+[7.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/frc9202/build/gazebo_setup_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/frc9202/build/gazebo_setup_pkg
+[7.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_setup_pkg)
+[7.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/frc9202/build/gazebo_setup_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/frc9202/build/gazebo_setup_pkg
+[7.183s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg' for CMake module files
+[7.184s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg' for CMake config files
+[7.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_setup_pkg', 'cmake_prefix_path')
+[7.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/hook/cmake_prefix_path.ps1'
+[7.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/hook/cmake_prefix_path.dsv'
+[7.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/hook/cmake_prefix_path.sh'
+[7.227s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/bin'
+[7.228s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/lib/pkgconfig/gazebo_setup_pkg.pc'
+[7.234s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/lib/python3.10/site-packages'
+[7.234s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/bin'
+[7.268s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/package.ps1'
+[7.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/package.dsv'
+[7.277s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/package.sh'
+[7.278s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/package.bash'
+[7.279s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/package.zsh'
+[7.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/colcon-core/packages/gazebo_setup_pkg)
+[7.288s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_recognition)
+[7.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/frc9202/build/yolo_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/frc9202/build/yolo_recognition
+[7.328s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolo_recognition' for CMake module files
+[7.331s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolo_recognition' for CMake config files
+[7.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_recognition', 'cmake_prefix_path')
+[7.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/hook/cmake_prefix_path.ps1'
+[7.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/hook/cmake_prefix_path.dsv'
+[7.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/hook/cmake_prefix_path.sh'
+[7.392s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolo_recognition/lib'
+[7.395s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolo_recognition/bin'
+[7.395s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolo_recognition/lib/pkgconfig/yolo_recognition.pc'
+[7.397s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolo_recognition/lib/python3.10/site-packages'
+[7.399s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolo_recognition/bin'
+[7.438s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/package.ps1'
+[7.444s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/package.dsv'
+[7.445s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/package.sh'
+[7.447s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/package.bash'
+[7.447s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/package.zsh'
+[7.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/frc9202/install/yolo_recognition/share/colcon-core/packages/yolo_recognition)
+[7.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_setup_pkg)
+[7.536s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg' for CMake module files
+[7.537s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg' for CMake config files
+[7.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_setup_pkg', 'cmake_prefix_path')
+[7.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/hook/cmake_prefix_path.ps1'
+[7.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/hook/cmake_prefix_path.dsv'
+[7.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/hook/cmake_prefix_path.sh'
+[7.592s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/bin'
+[7.592s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/lib/pkgconfig/gazebo_setup_pkg.pc'
+[7.593s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/lib/python3.10/site-packages'
+[7.594s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/bin'
+[7.634s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/package.ps1'
+[7.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/package.dsv'
+[7.636s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/package.sh'
+[7.637s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/package.bash'
+[7.639s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/gazebo_setup_pkg/package.zsh'
+[7.642s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg/share/colcon-core/packages/gazebo_setup_pkg)
+[7.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_recognition)
+[7.714s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolo_recognition' for CMake module files
+[7.716s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolo_recognition' for CMake config files
+[7.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_recognition', 'cmake_prefix_path')
+[7.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/hook/cmake_prefix_path.ps1'
+[7.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/hook/cmake_prefix_path.dsv'
+[7.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/hook/cmake_prefix_path.sh'
+[7.763s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolo_recognition/lib'
+[7.764s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolo_recognition/bin'
+[7.765s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolo_recognition/lib/pkgconfig/yolo_recognition.pc'
+[7.766s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolo_recognition/lib/python3.10/site-packages'
+[7.768s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolo_recognition/bin'
+[7.810s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/package.ps1'
+[7.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/package.dsv'
+[7.812s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/package.sh'
+[7.813s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/package.bash'
+[7.814s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolo_recognition/share/yolo_recognition/package.zsh'
+[7.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/frc9202/install/yolo_recognition/share/colcon-core/packages/yolo_recognition)
+[8.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/frc9202/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/frc9202/src/yolov8_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/frc9202/install/yolov8_msgs
+[8.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/frc9202/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/frc9202/build/yolov8_msgs -- -j12 -l12
+[14.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/frc9202/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/frc9202/build/yolov8_msgs -- -j12 -l12
+[14.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/frc9202/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/frc9202/build/yolov8_msgs
+[14.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[14.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/frc9202/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/frc9202/build/yolov8_msgs
+[14.414s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolov8_msgs' for CMake module files
+[14.415s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolov8_msgs' for CMake config files
+[14.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[14.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[14.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[14.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[14.451s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolov8_msgs/lib'
+[14.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[14.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[14.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[14.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[14.485s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolov8_msgs/bin'
+[14.486s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[14.486s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolov8_msgs/lib/python3.10/site-packages'
+[14.486s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolov8_msgs/bin'
+[14.516s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[14.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[14.521s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[14.522s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[14.523s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[14.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[14.762s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[14.802s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolov8_msgs' for CMake module files
+[14.804s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolov8_msgs' for CMake config files
+[14.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[14.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[14.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[14.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[14.832s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolov8_msgs/lib'
+[14.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[14.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[14.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[14.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[14.872s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolov8_msgs/bin'
+[14.872s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[14.873s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolov8_msgs/lib/python3.10/site-packages'
+[14.873s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/frc9202/install/yolov8_msgs/bin'
+[14.907s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[14.909s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[14.909s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[14.910s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[14.910s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[14.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/frc9202/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[14.912s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.912s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.912s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.912s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.947s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[14.947s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.948s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.948s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.956s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[14.956s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.975s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/frc9202/install/local_setup.ps1'
+[14.976s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/frc9202/install/_local_setup_util_ps1.py'
+[14.978s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/frc9202/install/setup.ps1'
+[15.008s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/frc9202/install/local_setup.sh'
+[15.008s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/frc9202/install/_local_setup_util_sh.py'
+[15.009s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/frc9202/install/setup.sh'
+[15.031s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/frc9202/install/local_setup.bash'
+[15.031s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/frc9202/install/setup.bash'
+[15.060s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/frc9202/install/local_setup.zsh'
+[15.060s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/frc9202/install/setup.zsh'

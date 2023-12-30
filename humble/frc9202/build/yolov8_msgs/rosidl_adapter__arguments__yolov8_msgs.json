@@ -1,0 +1,7 @@
+{
+  "package_name": "yolov8_msgs",
+  "non_idl_tuples": [
+    "/root/ros2_code/humble/frc9202/src/yolov8_msgs:msg/InferenceResult.msg",
+    "/root/ros2_code/humble/frc9202/src/yolov8_msgs:msg/Yolov8Inference.msg"
+  ]
+}

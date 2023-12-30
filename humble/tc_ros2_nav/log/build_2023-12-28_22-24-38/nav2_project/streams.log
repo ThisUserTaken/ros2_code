@@ -1,0 +1,56 @@
+[0.806s] Invoking command in '/root/ros2_code/humble/tc_ros2_nav/src/ros2_nav_files/nav2_project': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/nav2_project/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_project build --build-base /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/build install --record /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/install.log --single-version-externally-managed
+[1.018s] running egg_info
+[1.018s] creating ../../../build/nav2_project/nav2_project.egg-info
+[1.018s] writing ../../../build/nav2_project/nav2_project.egg-info/PKG-INFO
+[1.019s] writing dependency_links to ../../../build/nav2_project/nav2_project.egg-info/dependency_links.txt
+[1.019s] writing entry points to ../../../build/nav2_project/nav2_project.egg-info/entry_points.txt
+[1.019s] writing requirements to ../../../build/nav2_project/nav2_project.egg-info/requires.txt
+[1.019s] writing top-level names to ../../../build/nav2_project/nav2_project.egg-info/top_level.txt
+[1.019s] writing manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[1.020s] reading manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[1.021s] writing manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[1.021s] running build
+[1.021s] running build_py
+[1.022s] creating /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/build
+[1.022s] creating /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/build/lib
+[1.022s] creating /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/build/lib/nav2_project
+[1.022s] copying nav2_project/go_to_pose.py -> /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/build/lib/nav2_project
+[1.022s] copying nav2_project/__init__.py -> /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/build/lib/nav2_project
+[1.022s] copying nav2_project/spot_recorder.py -> /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/build/lib/nav2_project
+[1.022s] running install
+[1.022s] running install_lib
+[1.023s] creating /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/python3.10/site-packages/nav2_project
+[1.023s] copying /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/build/lib/nav2_project/go_to_pose.py -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/python3.10/site-packages/nav2_project
+[1.023s] copying /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/build/lib/nav2_project/__init__.py -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/python3.10/site-packages/nav2_project
+[1.023s] copying /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/build/lib/nav2_project/spot_recorder.py -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/python3.10/site-packages/nav2_project
+[1.023s] byte-compiling /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/python3.10/site-packages/nav2_project/go_to_pose.py to go_to_pose.cpython-310.pyc
+[1.024s] byte-compiling /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/python3.10/site-packages/nav2_project/__init__.py to __init__.cpython-310.pyc
+[1.024s] byte-compiling /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/python3.10/site-packages/nav2_project/spot_recorder.py to spot_recorder.cpython-310.pyc
+[1.025s] running install_data
+[1.025s] creating /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/ament_index
+[1.025s] creating /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/ament_index/resource_index
+[1.025s] creating /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/ament_index/resource_index/packages
+[1.025s] copying resource/nav2_project -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/ament_index/resource_index/packages
+[1.025s] copying package.xml -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project
+[1.026s] creating /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/launch
+[1.026s] copying launch/nav2_project.launch.py -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/launch
+[1.026s] copying launch/project_navigation_with_tools_launch.py -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/launch
+[1.026s] copying launch/cartographer.launch.py -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/launch
+[1.026s] copying launch/go_to_pose.launch.py -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/launch
+[1.026s] copying launch/project_map_server.launch.py -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/launch
+[1.027s] creating /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/config
+[1.027s] copying config/nav2_project.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/config
+[1.027s] copying config/turtlebot3_house.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/config
+[1.027s] copying config/project_params.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/config
+[1.027s] copying config/spot-list.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/config
+[1.027s] copying config/turtlebot3_house.pgm -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/config
+[1.028s] copying config/nav2_default_view.rviz -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/config
+[1.028s] copying config/navigate_w_replanning_and_recovery.xml -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/config
+[1.028s] copying config/cartographer.lua -> /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/share/nav2_project/config
+[1.028s] running install_egg_info
+[1.030s] Copying ../../../build/nav2_project/nav2_project.egg-info to /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/python3.10/site-packages/nav2_project-0.0.0-py3.10.egg-info
+[1.031s] running install_scripts
+[1.049s] Installing go_to_pose script to /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/nav2_project
+[1.049s] Installing spot_recorder script to /root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/nav2_project
+[1.049s] writing list of installed files to '/root/ros2_code/humble/tc_ros2_nav/build/nav2_project/install.log'
+[1.122s] Invoked command in '/root/ros2_code/humble/tc_ros2_nav/src/ros2_nav_files/nav2_project' returned '0': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/nav2_project/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/nav2_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_project build --build-base /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/build install --record /root/ros2_code/humble/tc_ros2_nav/build/nav2_project/install.log --single-version-externally-managed

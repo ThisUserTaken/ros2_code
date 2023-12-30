@@ -1,0 +1,186 @@
+[0.930s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.930s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f009ba745e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f009ba75600>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f009ba75600>>)
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.972s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/learning'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one-main) by extensions ['ignore', 'ignore_ament_install']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one-main) by extension 'ignore'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one-main) by extension 'ignore_ament_install'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one-main) by extensions ['colcon_pkg']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one-main) by extension 'colcon_pkg'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one-main) by extensions ['colcon_meta']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one-main) by extension 'colcon_meta'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one-main) by extensions ['ros']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one-main) by extension 'ros'
+[0.984s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one-main' with type 'ros.ament_cmake' and name 'articubot_one'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker-main) by extensions ['ignore', 'ignore_ament_install']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker-main) by extension 'ignore'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker-main) by extension 'ignore_ament_install'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker-main) by extensions ['colcon_pkg']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker-main) by extension 'colcon_pkg'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker-main) by extensions ['colcon_meta']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker-main) by extension 'colcon_meta'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker-main) by extensions ['ros']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker-main) by extension 'ros'
+[0.985s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ball_tracker-main' with type 'ros.ament_python' and name 'ball_tracker'
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.055s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/learning/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/learning/install/articubot_one', 'merge_install': False, 'path': '/root/ros2_code/humble/learning/src/articubot_one-main', 'symlink_install': False, 'test_result_base': None}
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_args' from command line to 'None'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_target' from command line to 'None'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.069s] DEBUG:colcon.colcon_core.verb:Building package 'ball_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/learning/build/ball_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/learning/install/ball_tracker', 'merge_install': False, 'path': '/root/ros2_code/humble/learning/src/ball_tracker-main', 'symlink_install': False, 'test_result_base': None}
+[1.082s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.098s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/learning/src/articubot_one-main' with build type 'ament_cmake'
+[1.098s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/learning/src/articubot_one-main'
+[1.113s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.113s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.210s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/humble/learning/src/ball_tracker-main' with build type 'ament_python'
+[1.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'ament_prefix_path')
+[1.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.ps1'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.dsv'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.sh'
+[1.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/learning/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/learning/build/articubot_one -- -j12 -l12
+[1.569s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/humble/learning/src/ball_tracker-main'
+[1.582s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/learning/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/learning/build/articubot_one -- -j12 -l12
+[1.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/learning/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/learning/build/articubot_one
+[1.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[1.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/learning/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/learning/build/articubot_one
+[1.722s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/articubot_one' for CMake module files
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/articubot_one' for CMake config files
+[1.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[1.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[1.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[1.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[1.739s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/articubot_one/bin'
+[1.739s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[1.739s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/articubot_one/lib/python3.10/site-packages'
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/articubot_one/bin'
+[1.755s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/package.ps1'
+[1.756s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/package.dsv'
+[1.756s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/package.sh'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/package.bash'
+[1.758s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/package.zsh'
+[1.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/learning/install/articubot_one/share/colcon-core/packages/articubot_one)
+[1.798s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/articubot_one' for CMake module files
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/articubot_one' for CMake config files
+[1.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[1.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[1.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[1.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[1.826s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/articubot_one/bin'
+[1.826s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[1.826s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/articubot_one/lib/python3.10/site-packages'
+[1.826s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/articubot_one/bin'
+[1.840s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/package.ps1'
+[1.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/package.dsv'
+[1.841s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/package.sh'
+[1.842s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/package.bash'
+[1.842s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/learning/install/articubot_one/share/articubot_one/package.zsh'
+[1.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/learning/install/articubot_one/share/colcon-core/packages/articubot_one)
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/learning/src/ball_tracker-main': PYTHONPATH=/root/ros2_code/humble/learning/build/ball_tracker/prefix_override:/root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /root/ros2_code/humble/learning/build/ball_tracker/build install --record /root/ros2_code/humble/learning/build/ball_tracker/install.log --single-version-externally-managed
+[2.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/learning/src/ball_tracker-main' returned '0': PYTHONPATH=/root/ros2_code/humble/learning/build/ball_tracker/prefix_override:/root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /root/ros2_code/humble/learning/build/ball_tracker/build install --record /root/ros2_code/humble/learning/build/ball_tracker/install.log --single-version-externally-managed
+[2.283s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/ball_tracker' for CMake module files
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/ball_tracker' for CMake config files
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/ball_tracker/lib'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/ball_tracker/bin'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/ball_tracker/lib/pkgconfig/ball_tracker.pc'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages'
+[2.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'pythonpath')
+[2.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/hook/pythonpath.ps1'
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/hook/pythonpath.dsv'
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/hook/pythonpath.sh'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/learning/install/ball_tracker/bin'
+[2.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ball_tracker)
+[2.311s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/package.ps1'
+[2.312s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/package.dsv'
+[2.312s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/package.sh'
+[2.313s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/package.bash'
+[2.313s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/learning/install/ball_tracker/share/ball_tracker/package.zsh'
+[2.314s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/learning/install/ball_tracker/share/colcon-core/packages/ball_tracker)
+[2.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.314s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.336s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.336s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.336s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.340s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[2.341s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.355s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/learning/install/local_setup.ps1'
+[2.356s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/learning/install/_local_setup_util_ps1.py'
+[2.357s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/learning/install/setup.ps1'
+[2.372s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/learning/install/local_setup.sh'
+[2.372s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/learning/install/_local_setup_util_sh.py'
+[2.373s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/learning/install/setup.sh'
+[2.387s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/learning/install/local_setup.bash'
+[2.388s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/learning/install/setup.bash'
+[2.401s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/learning/install/local_setup.zsh'
+[2.402s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/learning/install/setup.zsh'

@@ -1,0 +1,17 @@
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/lib/move_robot_as/move_robot_as
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/move_robot_as//launch/action_server.launch.py
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/ament_index/resource_index/package_run_dependencies/move_robot_as
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/ament_index/resource_index/parent_prefix_path/move_robot_as
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/move_robot_as/environment/ament_prefix_path.sh
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/move_robot_as/environment/ament_prefix_path.dsv
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/move_robot_as/environment/path.sh
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/move_robot_as/environment/path.dsv
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/move_robot_as/local_setup.bash
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/move_robot_as/local_setup.sh
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/move_robot_as/local_setup.zsh
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/move_robot_as/local_setup.dsv
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/move_robot_as/package.dsv
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/ament_index/resource_index/packages/move_robot_as
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/move_robot_as/cmake/move_robot_asConfig.cmake
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/move_robot_as/cmake/move_robot_asConfig-version.cmake
+/root/ros2_code/simulations/ros2_sims_ws/install/move_robot_as/share/move_robot_as/package.xml

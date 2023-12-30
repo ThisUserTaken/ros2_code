@@ -1,0 +1,20 @@
+[2.238s] Invoking command in '/root/ros2_code/humble/tc_ros2_nav/src/amcl': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/amcl/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/amcl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/amcl build --build-base /root/ros2_code/humble/tc_ros2_nav/build/amcl/build install --record /root/ros2_code/humble/tc_ros2_nav/build/amcl/install.log --single-version-externally-managed
+[2.471s] running egg_info
+[2.471s] writing ../../build/amcl/amcl.egg-info/PKG-INFO
+[2.471s] writing dependency_links to ../../build/amcl/amcl.egg-info/dependency_links.txt
+[2.472s] writing entry points to ../../build/amcl/amcl.egg-info/entry_points.txt
+[2.472s] writing requirements to ../../build/amcl/amcl.egg-info/requires.txt
+[2.472s] writing top-level names to ../../build/amcl/amcl.egg-info/top_level.txt
+[2.474s] reading manifest file '../../build/amcl/amcl.egg-info/SOURCES.txt'
+[2.474s] writing manifest file '../../build/amcl/amcl.egg-info/SOURCES.txt'
+[2.474s] running build
+[2.474s] running build_py
+[2.475s] running install
+[2.475s] running install_lib
+[2.476s] running install_data
+[2.476s] running install_egg_info
+[2.478s] removing '/root/ros2_code/humble/tc_ros2_nav/install/amcl/lib/python3.10/site-packages/amcl-0.0.0-py3.10.egg-info' (and everything under it)
+[2.478s] Copying ../../build/amcl/amcl.egg-info to /root/ros2_code/humble/tc_ros2_nav/install/amcl/lib/python3.10/site-packages/amcl-0.0.0-py3.10.egg-info
+[2.479s] running install_scripts
+[2.498s] writing list of installed files to '/root/ros2_code/humble/tc_ros2_nav/build/amcl/install.log'
+[2.571s] Invoked command in '/root/ros2_code/humble/tc_ros2_nav/src/amcl' returned '0': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/amcl/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/amcl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/amcl build --build-base /root/ros2_code/humble/tc_ros2_nav/build/amcl/build install --record /root/ros2_code/humble/tc_ros2_nav/build/amcl/install.log --single-version-externally-managed

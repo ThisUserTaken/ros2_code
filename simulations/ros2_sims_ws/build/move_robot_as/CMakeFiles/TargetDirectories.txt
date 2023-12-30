@@ -1,0 +1,10 @@
+/root/ros2_code/simulations/ros2_sims_ws/build/move_robot_as/CMakeFiles/uninstall.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/move_robot_as/CMakeFiles/move_robot_as_uninstall.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/move_robot_as/CMakeFiles/move_robot_as.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/move_robot_as/CMakeFiles/test.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/move_robot_as/CMakeFiles/edit_cache.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/move_robot_as/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/move_robot_as/CMakeFiles/list_install_components.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/move_robot_as/CMakeFiles/install.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/move_robot_as/CMakeFiles/install/local.dir
+/root/ros2_code/simulations/ros2_sims_ws/build/move_robot_as/CMakeFiles/install/strip.dir

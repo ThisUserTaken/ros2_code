@@ -1,0 +1,2 @@
+source;share/yolo_recognition/environment/ament_prefix_path.sh
+source;share/yolo_recognition/environment/path.sh

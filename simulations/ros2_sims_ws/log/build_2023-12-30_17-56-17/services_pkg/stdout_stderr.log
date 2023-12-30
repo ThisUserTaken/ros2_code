@@ -1,0 +1,47 @@
+/usr/local/lib/python3.10/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../../../build/services_pkg/services_pkg.egg-info
+writing ../../../build/services_pkg/services_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../../build/services_pkg/services_pkg.egg-info/dependency_links.txt
+writing entry points to ../../../build/services_pkg/services_pkg.egg-info/entry_points.txt
+writing requirements to ../../../build/services_pkg/services_pkg.egg-info/requires.txt
+writing top-level names to ../../../build/services_pkg/services_pkg.egg-info/top_level.txt
+writing manifest file '../../../build/services_pkg/services_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../../build/services_pkg/services_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../../build/services_pkg/services_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_code/simulations/ros2_sims_ws/build/services_pkg/build
+creating /root/ros2_code/simulations/ros2_sims_ws/build/services_pkg/build/lib
+creating /root/ros2_code/simulations/ros2_sims_ws/build/services_pkg/build/lib/services_pkg
+copying services_pkg/service_moving.py -> /root/ros2_code/simulations/ros2_sims_ws/build/services_pkg/build/lib/services_pkg
+copying services_pkg/__init__.py -> /root/ros2_code/simulations/ros2_sims_ws/build/services_pkg/build/lib/services_pkg
+copying services_pkg/service_stop.py -> /root/ros2_code/simulations/ros2_sims_ws/build/services_pkg/build/lib/services_pkg
+copying services_pkg/server_client.py -> /root/ros2_code/simulations/ros2_sims_ws/build/services_pkg/build/lib/services_pkg
+running install
+running install_lib
+creating /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg
+copying /root/ros2_code/simulations/ros2_sims_ws/build/services_pkg/build/lib/services_pkg/service_moving.py -> /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg
+copying /root/ros2_code/simulations/ros2_sims_ws/build/services_pkg/build/lib/services_pkg/__init__.py -> /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg
+copying /root/ros2_code/simulations/ros2_sims_ws/build/services_pkg/build/lib/services_pkg/service_stop.py -> /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg
+copying /root/ros2_code/simulations/ros2_sims_ws/build/services_pkg/build/lib/services_pkg/server_client.py -> /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg
+byte-compiling /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg/service_moving.py to service_moving.cpython-310.pyc
+byte-compiling /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg/service_stop.py to service_stop.cpython-310.pyc
+byte-compiling /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg/server_client.py to server_client.cpython-310.pyc
+running install_data
+creating /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/share/ament_index
+creating /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/share/ament_index/resource_index
+creating /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/share/ament_index/resource_index/packages
+copying resource/services_pkg -> /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/share/services_pkg
+copying launch/server_moving.launch.py -> /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/share/services_pkg
+copying launch/server_stop.launch.py -> /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/share/services_pkg
+running install_egg_info
+Copying ../../../build/services_pkg/services_pkg.egg-info to /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing service script to /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/lib/services_pkg
+Installing service2 script to /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/lib/services_pkg
+Installing service_client script to /root/ros2_code/simulations/ros2_sims_ws/install/services_pkg/lib/services_pkg
+writing list of installed files to '/root/ros2_code/simulations/ros2_sims_ws/build/services_pkg/install.log'

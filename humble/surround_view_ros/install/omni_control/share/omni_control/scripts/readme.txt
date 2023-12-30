@@ -1,0 +1,1 @@
+parameter values in surround_view/param_settings.py and surround_view_for_projection/param_settings.py should be the same. 

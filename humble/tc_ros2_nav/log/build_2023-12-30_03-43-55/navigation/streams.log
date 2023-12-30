@@ -1,0 +1,21 @@
+[2.723s] Invoking command in '/root/ros2_code/humble/tc_ros2_nav/src/navigation': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/navigation/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation build --build-base /root/ros2_code/humble/tc_ros2_nav/build/navigation/build install --record /root/ros2_code/humble/tc_ros2_nav/build/navigation/install.log --single-version-externally-managed
+[3.033s] running egg_info
+[3.034s] writing ../../build/navigation/navigation.egg-info/PKG-INFO
+[3.034s] writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt
+[3.034s] writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt
+[3.034s] writing requirements to ../../build/navigation/navigation.egg-info/requires.txt
+[3.034s] writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt
+[3.037s] reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[3.038s] writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[3.038s] running build
+[3.039s] running build_py
+[3.039s] running install
+[3.039s] running install_lib
+[3.041s] running install_data
+[3.042s] copying launch/navigation.launch.py -> /root/ros2_code/humble/tc_ros2_nav/install/navigation/share/navigation/launch
+[3.042s] running install_egg_info
+[3.044s] removing '/root/ros2_code/humble/tc_ros2_nav/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[3.045s] Copying ../../build/navigation/navigation.egg-info to /root/ros2_code/humble/tc_ros2_nav/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info
+[3.046s] running install_scripts
+[3.074s] writing list of installed files to '/root/ros2_code/humble/tc_ros2_nav/build/navigation/install.log'
+[3.272s] Invoked command in '/root/ros2_code/humble/tc_ros2_nav/src/navigation' returned '0': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/navigation/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation build --build-base /root/ros2_code/humble/tc_ros2_nav/build/navigation/build install --record /root/ros2_code/humble/tc_ros2_nav/build/navigation/install.log --single-version-externally-managed

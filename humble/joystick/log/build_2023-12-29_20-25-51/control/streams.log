@@ -1,0 +1,37 @@
+[0.749s] Invoking command in '/root/ros2_code/humble/joystick/src/control': PYTHONPATH=/root/ros2_code/humble/joystick/build/control/prefix_override:/root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /root/ros2_code/humble/joystick/build/control/build install --record /root/ros2_code/humble/joystick/build/control/install.log --single-version-externally-managed
+[0.955s] running egg_info
+[0.956s] creating ../../build/control/control.egg-info
+[0.956s] writing ../../build/control/control.egg-info/PKG-INFO
+[0.956s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[0.956s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[0.956s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[0.957s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[0.957s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[0.958s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[0.958s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[0.958s] running build
+[0.959s] running build_py
+[0.959s] creating /root/ros2_code/humble/joystick/build/control/build
+[0.959s] creating /root/ros2_code/humble/joystick/build/control/build/lib
+[0.959s] creating /root/ros2_code/humble/joystick/build/control/build/lib/control
+[0.959s] copying control/__init__.py -> /root/ros2_code/humble/joystick/build/control/build/lib/control
+[0.959s] running install
+[0.959s] running install_lib
+[0.960s] creating /root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages/control
+[0.960s] copying /root/ros2_code/humble/joystick/build/control/build/lib/control/__init__.py -> /root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages/control
+[0.960s] byte-compiling /root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages/control/__init__.py to __init__.cpython-310.pyc
+[0.960s] running install_data
+[0.961s] creating /root/ros2_code/humble/joystick/install/control/share/ament_index
+[0.961s] creating /root/ros2_code/humble/joystick/install/control/share/ament_index/resource_index
+[0.961s] creating /root/ros2_code/humble/joystick/install/control/share/ament_index/resource_index/packages
+[0.961s] copying resource/control -> /root/ros2_code/humble/joystick/install/control/share/ament_index/resource_index/packages
+[0.961s] copying package.xml -> /root/ros2_code/humble/joystick/install/control/share/control
+[0.961s] creating /root/ros2_code/humble/joystick/install/control/share/control/launch
+[0.961s] copying launch/joystick.launch.py -> /root/ros2_code/humble/joystick/install/control/share/control/launch
+[0.961s] creating /root/ros2_code/humble/joystick/install/control/share/control/config
+[0.961s] copying config/joystick.yaml -> /root/ros2_code/humble/joystick/install/control/share/control/config
+[0.962s] running install_egg_info
+[0.962s] Copying ../../build/control/control.egg-info to /root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[0.963s] running install_scripts
+[0.979s] writing list of installed files to '/root/ros2_code/humble/joystick/build/control/install.log'
+[1.020s] Invoked command in '/root/ros2_code/humble/joystick/src/control' returned '0': PYTHONPATH=/root/ros2_code/humble/joystick/build/control/prefix_override:/root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /root/ros2_code/humble/joystick/build/control/build install --record /root/ros2_code/humble/joystick/build/control/install.log --single-version-externally-managed

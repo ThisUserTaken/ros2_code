@@ -1,0 +1,32 @@
+[2.821s] Invoking command in '/root/ros2_code/humble/tc_ros2_nav/src/map_server ': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/map_server/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/map_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map_server build --build-base /root/ros2_code/humble/tc_ros2_nav/build/map_server/build install --record /root/ros2_code/humble/tc_ros2_nav/build/map_server/install.log --single-version-externally-managed
+[3.128s] running egg_info
+[3.129s] writing ../../build/map_server/map_server.egg-info/PKG-INFO
+[3.129s] writing dependency_links to ../../build/map_server/map_server.egg-info/dependency_links.txt
+[3.129s] writing entry points to ../../build/map_server/map_server.egg-info/entry_points.txt
+[3.129s] writing requirements to ../../build/map_server/map_server.egg-info/requires.txt
+[3.129s] writing top-level names to ../../build/map_server/map_server.egg-info/top_level.txt
+[3.132s] reading manifest file '../../build/map_server/map_server.egg-info/SOURCES.txt'
+[3.133s] writing manifest file '../../build/map_server/map_server.egg-info/SOURCES.txt'
+[3.133s] running build
+[3.133s] running build_py
+[3.133s] copying map_server/__init__.py -> /root/ros2_code/humble/tc_ros2_nav/build/map_server/build/lib/map_server
+[3.133s] running install
+[3.134s] running install_lib
+[3.135s] copying /root/ros2_code/humble/tc_ros2_nav/build/map_server/build/lib/map_server/__init__.py -> /root/ros2_code/humble/tc_ros2_nav/install/map_server/lib/python3.10/site-packages/map_server
+[3.136s] byte-compiling /root/ros2_code/humble/tc_ros2_nav/install/map_server/lib/python3.10/site-packages/map_server/__init__.py to __init__.cpython-310.pyc
+[3.136s] running install_data
+[3.137s] copying resource/map_server -> /root/ros2_code/humble/tc_ros2_nav/install/map_server/share/ament_index/resource_index/packages
+[3.137s] copying package.xml -> /root/ros2_code/humble/tc_ros2_nav/install/map_server/share/map_server
+[3.137s] copying launch/nav2_map_server.launch.py -> /root/ros2_code/humble/tc_ros2_nav/install/map_server/share/map_server/launch
+[3.137s] copying config/turtlebot_area.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/map_server/share/map_server/config
+[3.137s] copying config/my_map.pgm -> /root/ros2_code/humble/tc_ros2_nav/install/map_server/share/map_server/config
+[3.137s] copying config/amcl_config.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/map_server/share/map_server/config
+[3.138s] copying config/my_map.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/map_server/share/map_server/config
+[3.138s] copying config/turtlebot_area.pgm -> /root/ros2_code/humble/tc_ros2_nav/install/map_server/share/map_server/config
+[3.138s] copying config/amcl_config_initialized.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/map_server/share/map_server/config
+[3.138s] running install_egg_info
+[3.140s] removing '/root/ros2_code/humble/tc_ros2_nav/install/map_server/lib/python3.10/site-packages/map_server-0.0.0-py3.10.egg-info' (and everything under it)
+[3.140s] Copying ../../build/map_server/map_server.egg-info to /root/ros2_code/humble/tc_ros2_nav/install/map_server/lib/python3.10/site-packages/map_server-0.0.0-py3.10.egg-info
+[3.141s] running install_scripts
+[3.164s] writing list of installed files to '/root/ros2_code/humble/tc_ros2_nav/build/map_server/install.log'
+[3.253s] Invoked command in '/root/ros2_code/humble/tc_ros2_nav/src/map_server ' returned '0': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/map_server/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/map_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map_server build --build-base /root/ros2_code/humble/tc_ros2_nav/build/map_server/build install --record /root/ros2_code/humble/tc_ros2_nav/build/map_server/install.log --single-version-externally-managed

@@ -1,0 +1,139 @@
+[0.118s] Invoking command in '/root/ros2_code/humble/surround_view_ros/build/omni_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/surround_view_ros/src/omni_control -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/surround_view_ros/install/omni_control
+[0.168s] -- The C compiler identification is GNU 11.4.0
+[0.219s] -- The CXX compiler identification is GNU 11.4.0
+[0.226s] -- Detecting C compiler ABI info
+[0.294s] -- Detecting C compiler ABI info - done
+[0.299s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.299s] -- Detecting C compile features
+[0.300s] -- Detecting C compile features - done
+[0.302s] -- Detecting CXX compiler ABI info
+[0.384s] -- Detecting CXX compiler ABI info - done
+[0.392s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.392s] -- Detecting CXX compile features
+[0.393s] -- Detecting CXX compile features - done
+[0.398s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.581s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.678s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.761s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.776s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.778s] -- Added test 'lint_cmake' to check CMake code style
+[0.779s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.787s] -- Added test 'xmllint' to check XML markup files
+[0.789s] -- Configuring done
+[0.794s] -- Generating done
+[0.795s] -- Build files have been written to: /root/ros2_code/humble/surround_view_ros/build/omni_control
+[0.800s] Invoked command in '/root/ros2_code/humble/surround_view_ros/build/omni_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/surround_view_ros/src/omni_control -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/surround_view_ros/install/omni_control
+[0.802s] Invoking command in '/root/ros2_code/humble/surround_view_ros/build/omni_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/surround_view_ros/build/omni_control -- -j12 -l12
+[0.841s] Invoked command in '/root/ros2_code/humble/surround_view_ros/build/omni_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/surround_view_ros/build/omni_control -- -j12 -l12
+[0.865s] Invoking command in '/root/ros2_code/humble/surround_view_ros/build/omni_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/surround_view_ros/build/omni_control
+[0.873s] -- Install configuration: ""
+[0.873s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts
+[0.873s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/run_get_weight_matrices.py
+[0.874s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view
+[0.874s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/__pycache__
+[0.874s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/__pycache__/fisheye_camera.cpython-310.pyc
+[0.874s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/__pycache__/utils.cpython-310.pyc
+[0.874s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/__pycache__/simple_gui.cpython-310.pyc
+[0.874s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/__pycache__/imagebuffer.cpython-310.pyc
+[0.874s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/__pycache__/structures.cpython-310.pyc
+[0.874s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/__pycache__/process_thread.cpython-310.pyc
+[0.874s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/__pycache__/base_thread.cpython-310.pyc
+[0.875s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/__pycache__/__init__.cpython-310.pyc
+[0.875s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/__pycache__/capture_thread.cpython-310.pyc
+[0.875s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/__pycache__/param_settings.cpython-310.pyc
+[0.875s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/__pycache__/birdview.cpython-310.pyc
+[0.875s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/structures.py
+[0.875s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/process_thread.py
+[0.876s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/birdview.py
+[0.876s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/utils.py
+[0.876s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/capture_thread.py
+[0.876s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/simple_gui.py
+[0.876s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/imagebuffer.py
+[0.876s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/fisheye_camera.py
+[0.877s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/base_thread.py
+[0.877s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/__init__.py
+[0.877s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view/param_settings.py
+[0.877s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/images
+[0.877s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/images/front.png
+[0.878s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/images/car.png
+[0.878s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/images/right.png
+[0.878s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/images/left.png
+[0.879s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/images/back.png
+[0.879s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection
+[0.879s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/__pycache__
+[0.879s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/__pycache__/fisheye_camera.cpython-310.pyc
+[0.880s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/__pycache__/utils.cpython-310.pyc
+[0.880s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/__pycache__/simple_gui.cpython-310.pyc
+[0.880s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/__pycache__/imagebuffer.cpython-310.pyc
+[0.880s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/__pycache__/structures.cpython-310.pyc
+[0.880s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/__pycache__/process_thread.cpython-310.pyc
+[0.881s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/__pycache__/base_thread.cpython-310.pyc
+[0.881s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/__pycache__/__init__.cpython-310.pyc
+[0.882s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/__pycache__/capture_thread.cpython-310.pyc
+[0.882s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/__pycache__/param_settings.cpython-310.pyc
+[0.882s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/__pycache__/birdview.cpython-310.pyc
+[0.882s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/structures.py
+[0.882s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/process_thread.py
+[0.882s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/birdview.py
+[0.883s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/utils.py
+[0.883s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/capture_thread.py
+[0.883s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/simple_gui.py
+[0.883s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/imagebuffer.py
+[0.883s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/fisheye_camera.py
+[0.884s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/base_thread.py
+[0.884s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/__init__.py
+[0.884s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/surround_view_for_projection/param_settings.py
+[0.884s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/robot_1_camera.py
+[0.884s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/weights.png
+[0.884s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/readme.txt
+[0.884s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/run_calibrate_camera_ROS.py
+[0.884s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/run_surround_view_ROS.py
+[0.884s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/yaml
+[0.884s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/yaml/right.yaml
+[0.885s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/yaml/left.yaml
+[0.885s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/yaml/back.yaml
+[0.885s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/yaml/front.yaml
+[0.885s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/run_get_projection_maps.py
+[0.885s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/robot_control.py
+[0.885s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//scripts/masks.png
+[0.885s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//launch
+[0.886s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control//launch/omni_control.launch.py
+[0.886s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/robot_control.py
+[0.886s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/robot_1_camera.py
+[0.886s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/run_calibrate_camera_ROS.py
+[0.887s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/run_surround_view_ROS.py
+[0.887s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/masks.png
+[0.887s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/weights.png
+[0.887s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/omni_control.launch.py
+[0.887s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/surround_view/base_thread.py
+[0.888s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/surround_view/birdview.py
+[0.888s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/surround_view/capture_thread.py
+[0.888s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/surround_view/fisheye_camera.py
+[0.888s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/surround_view/imagebuffer.py
+[0.888s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/surround_view/__init__.py
+[0.888s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/surround_view/param_settings.py
+[0.889s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/surround_view/process_thread.py
+[0.889s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/surround_view/simple_gui.py
+[0.889s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/surround_view/structures.py
+[0.889s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/surround_view/utils.py
+[0.889s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/images/car.png
+[0.889s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/yaml/back.yaml
+[0.889s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/yaml/front.yaml
+[0.889s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/yaml/left.yaml
+[0.890s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/lib/omni_control/yaml/right.yaml
+[0.890s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/ament_index/resource_index/package_run_dependencies/omni_control
+[0.890s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/ament_index/resource_index/parent_prefix_path/omni_control
+[0.890s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/environment/ament_prefix_path.sh
+[0.890s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/environment/ament_prefix_path.dsv
+[0.890s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/environment/path.sh
+[0.890s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/environment/path.dsv
+[0.891s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/local_setup.bash
+[0.891s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/local_setup.sh
+[0.891s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/local_setup.zsh
+[0.891s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/local_setup.dsv
+[0.891s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/package.dsv
+[0.891s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/ament_index/resource_index/packages/omni_control
+[0.891s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/cmake/omni_controlConfig.cmake
+[0.892s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/cmake/omni_controlConfig-version.cmake
+[0.892s] -- Installing: /root/ros2_code/humble/surround_view_ros/install/omni_control/share/omni_control/package.xml
+[0.945s] Invoked command in '/root/ros2_code/humble/surround_view_ros/build/omni_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/surround_view_ros/build/omni_control

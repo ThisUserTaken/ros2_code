@@ -1,0 +1,20 @@
+[0.818s] Invoking command in '/root/ros2_code/humble/joystick/src/control': PYTHONPATH=/root/ros2_code/humble/joystick/build/control/prefix_override:/root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /root/ros2_code/humble/joystick/build/control/build install --record /root/ros2_code/humble/joystick/build/control/install.log --single-version-externally-managed
+[1.050s] running egg_info
+[1.050s] writing ../../build/control/control.egg-info/PKG-INFO
+[1.051s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[1.051s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[1.051s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[1.051s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[1.052s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[1.053s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[1.053s] running build
+[1.053s] running build_py
+[1.053s] running install
+[1.053s] running install_lib
+[1.054s] running install_data
+[1.055s] running install_egg_info
+[1.056s] removing '/root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.057s] Copying ../../build/control/control.egg-info to /root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[1.058s] running install_scripts
+[1.074s] writing list of installed files to '/root/ros2_code/humble/joystick/build/control/install.log'
+[1.103s] Invoked command in '/root/ros2_code/humble/joystick/src/control' returned '0': PYTHONPATH=/root/ros2_code/humble/joystick/build/control/prefix_override:/root/ros2_code/humble/joystick/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /root/ros2_code/humble/joystick/build/control/build install --record /root/ros2_code/humble/joystick/build/control/install.log --single-version-externally-managed
