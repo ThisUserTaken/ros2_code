@@ -1,0 +1,88 @@
+[0.161s] Invoking command in '/root/ros2_code/foxy/learning/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/ros2_code/foxy/learning/src/articubot_one-main -DCMAKE_INSTALL_PREFIX=/root/ros2_code/foxy/learning/install/articubot_one
+[0.229s] -- The C compiler identification is GNU 9.4.0
+[0.284s] -- The CXX compiler identification is GNU 9.4.0
+[0.288s] -- Check for working C compiler: /usr/bin/cc
+[0.374s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.375s] -- Detecting C compiler ABI info
+[0.460s] -- Detecting C compiler ABI info - done
+[0.467s] -- Detecting C compile features
+[0.467s] -- Detecting C compile features - done
+[0.469s] -- Check for working CXX compiler: /usr/bin/c++
+[0.558s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.559s] -- Detecting CXX compiler ABI info
+[0.649s] -- Detecting CXX compiler ABI info - done
+[0.657s] -- Detecting CXX compile features
+[0.657s] -- Detecting CXX compile features - done
+[0.660s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.683s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.683s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.851s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.917s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.923s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.924s] -- Added test 'lint_cmake' to check CMake code style
+[0.925s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.928s] -- Added test 'xmllint' to check XML markup files
+[0.931s] -- Configuring done
+[0.933s] -- Generating done
+[0.934s] -- Build files have been written to: /root/ros2_code/foxy/learning/build/articubot_one
+[0.940s] Invoked command in '/root/ros2_code/foxy/learning/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/ros2_code/foxy/learning/src/articubot_one-main -DCMAKE_INSTALL_PREFIX=/root/ros2_code/foxy/learning/install/articubot_one
+[0.943s] Invoking command in '/root/ros2_code/foxy/learning/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_code/foxy/learning/build/articubot_one -- -j12 -l12
+[1.021s] Invoked command in '/root/ros2_code/foxy/learning/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_code/foxy/learning/build/articubot_one -- -j12 -l12
+[1.068s] Invoking command in '/root/ros2_code/foxy/learning/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ros2_code/foxy/learning/build/articubot_one
+[1.079s] -- Install configuration: ""
+[1.079s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config
+[1.079s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/joystick.yaml
+[1.079s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[1.079s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[1.079s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[1.080s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/ball_tracker_params_example.yaml
+[1.080s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[1.080s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[1.080s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[1.080s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/empty.yaml
+[1.080s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[1.080s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[1.080s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[1.080s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/map.rviz
+[1.081s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/main.rviz
+[1.081s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[1.081s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/description
+[1.081s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/description/face.xacro
+[1.081s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/description/lidar.xacro
+[1.081s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[1.081s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[1.082s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[1.082s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/description/camera.xacro
+[1.082s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[1.082s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[1.082s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[1.082s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/launch
+[1.082s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[1.083s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[1.083s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[1.083s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[1.083s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[1.083s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[1.083s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[1.083s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[1.083s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[1.084s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[1.084s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/worlds
+[1.084s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/worlds/empty.world
+[1.084s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[1.084s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.085s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.085s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.085s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.085s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/environment/path.sh
+[1.085s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.085s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/local_setup.bash
+[1.086s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/local_setup.sh
+[1.086s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.086s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.086s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/package.dsv
+[1.086s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.087s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.087s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.087s] -- Installing: /root/ros2_code/foxy/learning/install/articubot_one/share/articubot_one/package.xml
+[1.090s] Invoked command in '/root/ros2_code/foxy/learning/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ros2_code/foxy/learning/build/articubot_one
