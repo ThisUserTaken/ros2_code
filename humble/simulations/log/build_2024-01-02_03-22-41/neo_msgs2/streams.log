@@ -1,0 +1,476 @@
+[0.309s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_msgs2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_msgs2
+[0.364s] -- The C compiler identification is GNU 11.4.0
+[0.428s] -- The CXX compiler identification is GNU 11.4.0
+[0.435s] -- Detecting C compiler ABI info
+[0.519s] -- Detecting C compiler ABI info - done
+[0.526s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.526s] -- Detecting C compile features
+[0.526s] -- Detecting C compile features - done
+[0.531s] -- Detecting CXX compiler ABI info
+[0.640s] -- Detecting CXX compiler ABI info - done
+[0.649s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.649s] -- Detecting CXX compile features
+[0.649s] -- Detecting CXX compile features - done
+[0.661s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.840s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.044s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.059s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.076s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.097s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.126s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.249s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.602s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.307s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.311s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.335s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.335s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.335s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.335s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.353s] -- Found PythonExtra: .so  
+[2.430s] -- Configuring done
+[2.476s] -- Generating done
+[2.479s] -- Build files have been written to: /root/ros2_code/humble/simulations/build/neo_msgs2
+[2.490s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_msgs2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_msgs2
+[2.491s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_msgs2 -- -j12 -l12
+[2.536s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.560s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.561s] [  1%] Built target ament_cmake_python_copy_neo_msgs2
+[2.952s] running egg_info
+[2.953s] creating neo_msgs2.egg-info
+[2.953s] writing neo_msgs2.egg-info/PKG-INFO
+[2.958s] writing dependency_links to neo_msgs2.egg-info/dependency_links.txt
+[2.959s] writing top-level names to neo_msgs2.egg-info/top_level.txt
+[2.959s] writing manifest file 'neo_msgs2.egg-info/SOURCES.txt'
+[2.959s] reading manifest file 'neo_msgs2.egg-info/SOURCES.txt'
+[2.959s] writing manifest file 'neo_msgs2.egg-info/SOURCES.txt'
+[3.018s] [  1%] Built target ament_cmake_python_build_neo_msgs2_egg
+[4.546s] [  1%] Built target neo_msgs2__cpp
+[4.584s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.595s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.608s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.745s] [  5%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_c.dir/rosidl_generator_c/neo_msgs2/msg/detail/emergency_stop_state__functions.c.o[0m
+[4.757s] [  6%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_c.dir/rosidl_generator_c/neo_msgs2/msg/detail/lcd_output__functions.c.o[0m
+[4.757s] [  7%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_c.dir/rosidl_generator_c/neo_msgs2/msg/detail/us_board__functions.c.o[0m
+[4.757s] [  8%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_c.dir/rosidl_generator_c/neo_msgs2/msg/detail/keypad__functions.c.o[0m
+[4.757s] [  9%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_c.dir/rosidl_generator_c/neo_msgs2/msg/detail/relay_board_v2__functions.c.o[0m
+[4.772s] [ 10%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_c.dir/rosidl_generator_c/neo_msgs2/msg/detail/us_board_v2__functions.c.o[0m
+[4.793s] [ 11%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_c.dir/rosidl_generator_c/neo_msgs2/msg/detail/io_board__functions.c.o[0m
+[4.932s] [ 12%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_c.dir/rosidl_generator_c/neo_msgs2/msg/detail/safety_state__functions.c.o[0m
+[4.940s] [ 13%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_c.dir/rosidl_generator_c/neo_msgs2/msg/detail/kinematics_state__functions.c.o[0m
+[4.953s] [ 14%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_c.dir/rosidl_generator_c/neo_msgs2/msg/detail/relay_board_v3__functions.c.o[0m
+[5.123s] [ 15%] [32m[1mLinking C shared library libneo_msgs2__rosidl_generator_c.so[0m
+[5.260s] [ 15%] Built target neo_msgs2__rosidl_generator_c
+[5.349s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.360s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.371s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.398s] [ 19%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_msgs2/msg/emergency_stop_state__type_support.cpp.o[0m
+[7.422s] [ 20%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_msgs2/msg/lcd_output__type_support.cpp.o[0m
+[7.433s] [ 21%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_msgs2/msg/keypad__type_support.cpp.o[0m
+[7.477s] [ 22%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_msgs2/msg/relay_board_v2__type_support.cpp.o[0m
+[7.487s] [ 23%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_msgs2/msg/us_board__type_support.cpp.o[0m
+[7.573s] [ 24%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_msgs2/msg/us_board_v2__type_support.cpp.o[0m
+[7.723s] [ 25%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_msgs2/msg/io_board__type_support.cpp.o[0m
+[7.897s] [ 26%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_msgs2/msg/detail/dds_fastrtps/emergency_stop_state__type_support.cpp.o[0m
+[8.223s] [ 27%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_msgs2/msg/safety_state__type_support.cpp.o[0m
+[8.285s] [ 28%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_msgs2/msg/relay_board_v3__type_support.cpp.o[0m
+[8.350s] [ 29%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_msgs2/msg/kinematics_state__type_support.cpp.o[0m
+[8.441s] [ 30%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_msgs2/msg/detail/dds_fastrtps/keypad__type_support.cpp.o[0m
+[8.608s] [ 30%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_msgs2/msg/detail/dds_fastrtps/lcd_output__type_support.cpp.o[0m
+[8.679s] [ 31%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_msgs2/msg/detail/dds_fastrtps/relay_board_v2__type_support.cpp.o[0m
+[8.814s] [ 32%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_msgs2/msg/detail/dds_fastrtps/us_board__type_support.cpp.o[0m
+[8.839s] [ 33%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_msgs2/msg/detail/emergency_stop_state__type_support.cpp.o[0m
+[8.872s] [ 34%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_msgs2/msg/detail/keypad__type_support.cpp.o[0m
+[8.945s] [ 35%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_msgs2/msg/keypad__type_support.cpp.o[0m
+[8.952s] [ 36%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_msgs2/msg/emergency_stop_state__type_support.cpp.o[0m
+[9.138s] [ 37%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_msgs2/msg/lcd_output__type_support.cpp.o[0m
+[9.163s] [ 38%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_msgs2/msg/detail/dds_fastrtps/us_board_v2__type_support.cpp.o[0m
+[9.214s] [ 39%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_msgs2/msg/relay_board_v2__type_support.cpp.o[0m
+[9.332s] [ 40%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_msgs2/msg/us_board__type_support.cpp.o[0m
+[9.338s] [ 41%] [32m[1mLinking CXX shared library libneo_msgs2__rosidl_typesupport_cpp.so[0m
+[9.405s] [ 42%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_msgs2/msg/detail/lcd_output__type_support.cpp.o[0m
+[9.496s] [ 43%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_msgs2/msg/us_board_v2__type_support.cpp.o[0m
+[9.588s] [ 43%] Built target neo_msgs2__rosidl_typesupport_cpp
+[9.659s] [ 44%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_msgs2/msg/io_board__type_support.cpp.o[0m
+[9.746s] [ 45%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_msgs2/msg/detail/dds_fastrtps/io_board__type_support.cpp.o[0m
+[9.796s] [ 46%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_msgs2/msg/safety_state__type_support.cpp.o[0m
+[9.806s] [ 47%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_msgs2/msg/detail/relay_board_v2__type_support.cpp.o[0m
+[9.820s] [ 48%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_msgs2/msg/detail/emergency_stop_state__type_support.c.o[0m
+[9.879s] [ 49%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_msgs2/msg/detail/keypad__type_support.c.o[0m
+[9.962s] [ 49%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_msgs2/msg/relay_board_v3__type_support.cpp.o[0m
+[10.028s] [ 50%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_msgs2/msg/detail/emergency_stop_state__type_support_c.cpp.o[0m
+[10.049s] [ 51%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_msgs2/msg/kinematics_state__type_support.cpp.o[0m
+[10.063s] [ 52%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_msgs2/msg/detail/lcd_output__type_support.c.o[0m
+[10.130s] [ 53%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_msgs2/msg/detail/keypad__type_support_c.cpp.o[0m
+[10.204s] [ 54%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_msgs2/msg/detail/dds_fastrtps/safety_state__type_support.cpp.o[0m
+[10.224s] [ 55%] [32m[1mLinking CXX shared library libneo_msgs2__rosidl_typesupport_c.so[0m
+[10.240s] [ 56%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_msgs2/msg/detail/relay_board_v2__type_support.c.o[0m
+[10.334s] [ 57%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_msgs2/msg/detail/dds_fastrtps/relay_board_v3__type_support.cpp.o[0m
+[10.402s] [ 58%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_msgs2/msg/detail/us_board__type_support.c.o[0m
+[10.403s] [ 59%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_msgs2/msg/detail/us_board__type_support.cpp.o[0m
+[10.488s] [ 59%] Built target neo_msgs2__rosidl_typesupport_c
+[10.540s] [ 60%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_msgs2/msg/detail/lcd_output__type_support_c.cpp.o[0m
+[10.586s] [ 61%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_msgs2/msg/detail/relay_board_v2__type_support_c.cpp.o[0m
+[10.622s] [ 62%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_msgs2/msg/detail/us_board_v2__type_support.c.o[0m
+[10.726s] [ 63%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_msgs2/msg/detail/dds_fastrtps/kinematics_state__type_support.cpp.o[0m
+[10.800s] [ 64%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_msgs2/msg/detail/io_board__type_support.c.o[0m
+[10.846s] [ 65%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_msgs2/msg/detail/us_board_v2__type_support.cpp.o[0m
+[10.892s] [ 66%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_msgs2/msg/detail/us_board__type_support_c.cpp.o[0m
+[11.007s] [ 67%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_msgs2/msg/detail/safety_state__type_support.c.o[0m
+[11.040s] [ 68%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_msgs2/msg/detail/io_board__type_support.cpp.o[0m
+[11.062s] [ 69%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_msgs2/msg/detail/safety_state__type_support.cpp.o[0m
+[11.112s] [ 70%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_msgs2/msg/detail/relay_board_v3__type_support.c.o[0m
+[11.125s] [ 71%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_msgs2/msg/detail/us_board_v2__type_support_c.cpp.o[0m
+[11.127s] [ 72%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_msgs2/msg/detail/io_board__type_support_c.cpp.o[0m
+[11.148s] [ 73%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_msgs2/msg/detail/safety_state__type_support_c.cpp.o[0m
+[11.176s] [ 74%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_msgs2/msg/detail/relay_board_v3__type_support.cpp.o[0m
+[11.191s] [ 75%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_msgs2/msg/detail/kinematics_state__type_support.cpp.o[0m
+[11.195s] [ 76%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_msgs2/msg/detail/relay_board_v3__type_support_c.cpp.o[0m
+[11.293s] [ 77%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_msgs2/msg/detail/kinematics_state__type_support.c.o[0m
+[11.484s] [ 78%] [32m[1mLinking C shared library libneo_msgs2__rosidl_typesupport_introspection_c.so[0m
+[11.626s] [ 79%] [32m[1mLinking CXX shared library libneo_msgs2__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.642s] [ 80%] [32mBuilding CXX object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_msgs2/msg/detail/kinematics_state__type_support_c.cpp.o[0m
+[11.661s] [ 80%] Built target neo_msgs2__rosidl_typesupport_introspection_c
+[11.823s] [ 80%] Built target neo_msgs2__rosidl_typesupport_fastrtps_cpp
+[11.914s] [ 81%] [32m[1mLinking CXX shared library libneo_msgs2__rosidl_typesupport_introspection_cpp.so[0m
+[12.020s] [ 81%] Built target neo_msgs2__rosidl_typesupport_introspection_cpp
+[12.074s] [ 82%] [32m[1mLinking CXX shared library libneo_msgs2__rosidl_typesupport_fastrtps_c.so[0m
+[12.187s] [ 82%] Built target neo_msgs2__rosidl_typesupport_fastrtps_c
+[12.216s] [ 82%] Built target neo_msgs2
+[12.246s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.743s] [ 83%] Built target neo_msgs2__py
+[14.776s] [ 86%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_py.dir/rosidl_generator_py/neo_msgs2/msg/_us_board_s.c.o[0m
+[14.776s] [ 86%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_py.dir/rosidl_generator_py/neo_msgs2/msg/_relay_board_v2_s.c.o[0m
+[14.778s] [ 87%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_py.dir/rosidl_generator_py/neo_msgs2/msg/_us_board_v2_s.c.o[0m
+[14.778s] [ 87%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_py.dir/rosidl_generator_py/neo_msgs2/msg/_safety_state_s.c.o[0m
+[14.778s] [ 88%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_py.dir/rosidl_generator_py/neo_msgs2/msg/_lcd_output_s.c.o[0m
+[14.780s] [ 90%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_py.dir/rosidl_generator_py/neo_msgs2/msg/_emergency_stop_state_s.c.o[0m
+[14.781s] [ 90%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_py.dir/rosidl_generator_py/neo_msgs2/msg/_relay_board_v3_s.c.o[0m
+[14.786s] [ 91%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_py.dir/rosidl_generator_py/neo_msgs2/msg/_keypad_s.c.o[0m
+[14.786s] [ 92%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_py.dir/rosidl_generator_py/neo_msgs2/msg/_kinematics_state_s.c.o[0m
+[14.791s] [ 93%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_generator_py.dir/rosidl_generator_py/neo_msgs2/msg/_io_board_s.c.o[0m
+[15.027s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/neo_msgs2/libneo_msgs2__rosidl_generator_py.so[0m
+[15.106s] [ 94%] Built target neo_msgs2__rosidl_generator_py
+[15.134s] [ 96%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/neo_msgs2/_neo_msgs2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.134s] [ 97%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/neo_msgs2/_neo_msgs2_s.ep.rosidl_typesupport_c.c.o[0m
+[15.134s] [ 97%] [32mBuilding C object CMakeFiles/neo_msgs2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/neo_msgs2/_neo_msgs2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.302s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/neo_msgs2/neo_msgs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.312s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/neo_msgs2/neo_msgs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.313s] [100%] [32m[1mLinking C shared library rosidl_generator_py/neo_msgs2/neo_msgs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.363s] [100%] Built target neo_msgs2__rosidl_typesupport_c__pyext
+[15.377s] [100%] Built target neo_msgs2__rosidl_typesupport_introspection_c__pyext
+[15.377s] [100%] Built target neo_msgs2__rosidl_typesupport_fastrtps_c__pyext
+[15.431s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_msgs2 -- -j12 -l12
+[15.749s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_msgs2
+[15.757s] -- Install configuration: ""
+[15.757s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/ament_index/resource_index/rosidl_interfaces/neo_msgs2
+[15.757s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2
+[15.758s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg
+[15.758s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/emergency_stop_state.h
+[15.758s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/relay_board_v2.h
+[15.758s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/keypad.h
+[15.758s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/io_board.h
+[15.759s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/us_board.h
+[15.759s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail
+[15.759s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/lcd_output__type_support.h
+[15.759s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v2__type_support.h
+[15.759s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/io_board__functions.c
+[15.759s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/kinematics_state__struct.h
+[15.759s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v2__functions.c
+[15.760s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board__functions.h
+[15.760s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board__type_support.h
+[15.760s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v2__functions.h
+[15.760s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/lcd_output__struct.h
+[15.760s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/keypad__functions.c
+[15.761s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board__functions.c
+[15.761s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board__struct.h
+[15.761s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v3__struct.h
+[15.761s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/safety_state__type_support.h
+[15.761s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/emergency_stop_state__type_support.h
+[15.761s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/keypad__type_support.h
+[15.762s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v3__functions.c
+[15.762s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/safety_state__struct.h
+[15.762s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/io_board__type_support.h
+[15.763s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/kinematics_state__functions.c
+[15.763s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/emergency_stop_state__functions.h
+[15.763s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/lcd_output__functions.h
+[15.763s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v2__struct.h
+[15.763s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board_v2__type_support.h
+[15.763s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/keypad__functions.h
+[15.763s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v3__functions.h
+[15.763s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/io_board__struct.h
+[15.763s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board_v2__struct.h
+[15.764s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/safety_state__functions.h
+[15.764s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/lcd_output__functions.c
+[15.764s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/safety_state__functions.c
+[15.764s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/emergency_stop_state__struct.h
+[15.764s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/kinematics_state__functions.h
+[15.764s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v3__type_support.h
+[15.765s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board_v2__functions.h
+[15.766s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board_v2__functions.c
+[15.767s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/io_board__functions.h
+[15.767s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/kinematics_state__type_support.h
+[15.767s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/emergency_stop_state__functions.c
+[15.767s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/keypad__struct.h
+[15.767s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/kinematics_state.h
+[15.767s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/relay_board_v3.h
+[15.767s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/rosidl_generator_c__visibility_control.h
+[15.767s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/us_board_v2.h
+[15.767s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/lcd_output.h
+[15.767s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/safety_state.h
+[15.768s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/environment/library_path.sh
+[15.768s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/environment/library_path.dsv
+[15.768s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_generator_c.so
+[15.769s] -- Set runtime path of "/root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_generator_c.so" to ""
+[15.769s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2
+[15.769s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg
+[15.769s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail
+[15.769s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v3__rosidl_typesupport_fastrtps_c.h
+[15.769s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v2__rosidl_typesupport_fastrtps_c.h
+[15.770s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/keypad__rosidl_typesupport_fastrtps_c.h
+[15.770s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board__rosidl_typesupport_fastrtps_c.h
+[15.770s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/io_board__rosidl_typesupport_fastrtps_c.h
+[15.770s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board_v2__rosidl_typesupport_fastrtps_c.h
+[15.770s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/safety_state__rosidl_typesupport_fastrtps_c.h
+[15.770s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/kinematics_state__rosidl_typesupport_fastrtps_c.h
+[15.771s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/emergency_stop_state__rosidl_typesupport_fastrtps_c.h
+[15.771s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/lcd_output__rosidl_typesupport_fastrtps_c.h
+[15.771s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.771s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_typesupport_fastrtps_c.so
+[15.772s] -- Set runtime path of "/root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_typesupport_fastrtps_c.so" to ""
+[15.772s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2
+[15.772s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg
+[15.772s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/keypad.hpp
+[15.772s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/lcd_output.hpp
+[15.773s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/relay_board_v3.hpp
+[15.773s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/us_board_v2.hpp
+[15.774s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/emergency_stop_state.hpp
+[15.776s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail
+[15.776s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board_v2__builder.hpp
+[15.776s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board_v2__traits.hpp
+[15.776s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/io_board__struct.hpp
+[15.776s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board_v2__struct.hpp
+[15.776s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/keypad__builder.hpp
+[15.776s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v2__traits.hpp
+[15.777s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v3__builder.hpp
+[15.777s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/kinematics_state__traits.hpp
+[15.777s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/keypad__struct.hpp
+[15.777s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/emergency_stop_state__traits.hpp
+[15.777s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/emergency_stop_state__struct.hpp
+[15.777s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v2__builder.hpp
+[15.777s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/kinematics_state__struct.hpp
+[15.777s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/safety_state__builder.hpp
+[15.777s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/lcd_output__traits.hpp
+[15.777s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/safety_state__struct.hpp
+[15.777s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/kinematics_state__builder.hpp
+[15.777s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/io_board__builder.hpp
+[15.777s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v3__traits.hpp
+[15.777s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/keypad__traits.hpp
+[15.778s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/io_board__traits.hpp
+[15.778s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/emergency_stop_state__builder.hpp
+[15.778s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board__struct.hpp
+[15.778s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v3__struct.hpp
+[15.778s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/lcd_output__struct.hpp
+[15.778s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board__traits.hpp
+[15.778s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/lcd_output__builder.hpp
+[15.778s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v2__struct.hpp
+[15.779s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/safety_state__traits.hpp
+[15.779s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board__builder.hpp
+[15.779s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/kinematics_state.hpp
+[15.779s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/safety_state.hpp
+[15.779s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/relay_board_v2.hpp
+[15.779s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/us_board.hpp
+[15.780s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/io_board.hpp
+[15.780s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2
+[15.780s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg
+[15.780s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.780s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail
+[15.780s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/io_board__rosidl_typesupport_fastrtps_cpp.hpp
+[15.780s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/safety_state__rosidl_typesupport_fastrtps_cpp.hpp
+[15.780s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/kinematics_state__rosidl_typesupport_fastrtps_cpp.hpp
+[15.781s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board__rosidl_typesupport_fastrtps_cpp.hpp
+[15.781s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board_v2__rosidl_typesupport_fastrtps_cpp.hpp
+[15.781s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v3__rosidl_typesupport_fastrtps_cpp.hpp
+[15.781s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/keypad__rosidl_typesupport_fastrtps_cpp.hpp
+[15.781s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/dds_fastrtps
+[15.781s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/lcd_output__rosidl_typesupport_fastrtps_cpp.hpp
+[15.782s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/emergency_stop_state__rosidl_typesupport_fastrtps_cpp.hpp
+[15.782s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v2__rosidl_typesupport_fastrtps_cpp.hpp
+[15.782s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_typesupport_fastrtps_cpp.so
+[15.783s] -- Set runtime path of "/root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.783s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2
+[15.783s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg
+[15.783s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail
+[15.783s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v2__rosidl_typesupport_introspection_c.h
+[15.783s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v3__rosidl_typesupport_introspection_c.h
+[15.783s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board_v2__rosidl_typesupport_introspection_c.h
+[15.784s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/keypad__rosidl_typesupport_introspection_c.h
+[15.784s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/kinematics_state__rosidl_typesupport_introspection_c.h
+[15.784s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/safety_state__type_support.c
+[15.784s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/safety_state__rosidl_typesupport_introspection_c.h
+[15.784s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/lcd_output__rosidl_typesupport_introspection_c.h
+[15.784s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v3__type_support.c
+[15.785s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/io_board__type_support.c
+[15.785s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/emergency_stop_state__rosidl_typesupport_introspection_c.h
+[15.785s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/lcd_output__type_support.c
+[15.785s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board_v2__type_support.c
+[15.785s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/io_board__rosidl_typesupport_introspection_c.h
+[15.786s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/keypad__type_support.c
+[15.786s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/kinematics_state__type_support.c
+[15.786s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board__type_support.c
+[15.786s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v2__type_support.c
+[15.786s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board__rosidl_typesupport_introspection_c.h
+[15.786s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/emergency_stop_state__type_support.c
+[15.787s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.787s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_typesupport_introspection_c.so
+[15.787s] -- Set runtime path of "/root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_typesupport_introspection_c.so" to ""
+[15.787s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_typesupport_c.so
+[15.788s] -- Set runtime path of "/root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_typesupport_c.so" to ""
+[15.788s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2
+[15.788s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg
+[15.788s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail
+[15.788s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v3__type_support.cpp
+[15.788s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/safety_state__rosidl_typesupport_introspection_cpp.hpp
+[15.789s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/lcd_output__rosidl_typesupport_introspection_cpp.hpp
+[15.790s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/emergency_stop_state__rosidl_typesupport_introspection_cpp.hpp
+[15.791s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v2__rosidl_typesupport_introspection_cpp.hpp
+[15.791s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board_v2__type_support.cpp
+[15.791s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/lcd_output__type_support.cpp
+[15.791s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/io_board__type_support.cpp
+[15.791s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/io_board__rosidl_typesupport_introspection_cpp.hpp
+[15.791s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/keypad__type_support.cpp
+[15.791s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board__rosidl_typesupport_introspection_cpp.hpp
+[15.792s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/kinematics_state__type_support.cpp
+[15.792s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board_v2__rosidl_typesupport_introspection_cpp.hpp
+[15.792s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/safety_state__type_support.cpp
+[15.792s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/kinematics_state__rosidl_typesupport_introspection_cpp.hpp
+[15.792s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/us_board__type_support.cpp
+[15.793s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v3__rosidl_typesupport_introspection_cpp.hpp
+[15.793s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/emergency_stop_state__type_support.cpp
+[15.793s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/keypad__rosidl_typesupport_introspection_cpp.hpp
+[15.793s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/include/neo_msgs2/neo_msgs2/msg/detail/relay_board_v2__type_support.cpp
+[15.794s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_typesupport_introspection_cpp.so
+[15.794s] -- Set runtime path of "/root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_typesupport_introspection_cpp.so" to ""
+[15.795s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_typesupport_cpp.so
+[15.795s] -- Set runtime path of "/root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_typesupport_cpp.so" to ""
+[15.795s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/environment/pythonpath.sh
+[15.796s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/environment/pythonpath.dsv
+[15.796s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2-0.1.0-py3.10.egg-info
+[15.796s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2-0.1.0-py3.10.egg-info/top_level.txt
+[15.796s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2-0.1.0-py3.10.egg-info/PKG-INFO
+[15.796s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2-0.1.0-py3.10.egg-info/dependency_links.txt
+[15.797s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2-0.1.0-py3.10.egg-info/SOURCES.txt
+[15.797s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2
+[15.797s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/_neo_msgs2_s.ep.rosidl_typesupport_c.c
+[15.798s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/neo_msgs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.798s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/neo_msgs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.799s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/libneo_msgs2__rosidl_generator_py.so
+[15.800s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg
+[15.800s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_lcd_output.py
+[15.800s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_relay_board_v2_s.c
+[15.800s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_relay_board_v3.py
+[15.800s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_emergency_stop_state_s.c
+[15.800s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_us_board_s.c
+[15.800s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_lcd_output_s.c
+[15.801s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_keypad_s.c
+[15.801s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_relay_board_v3_s.c
+[15.801s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_keypad.py
+[15.801s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_relay_board_v2.py
+[15.801s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_io_board.py
+[15.801s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_us_board_v2_s.c
+[15.802s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_kinematics_state.py
+[15.802s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_us_board.py
+[15.802s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_safety_state_s.c
+[15.802s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_io_board_s.c
+[15.802s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_emergency_stop_state.py
+[15.803s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_kinematics_state_s.c
+[15.803s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_safety_state.py
+[15.803s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/__init__.py
+[15.803s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_us_board_v2.py
+[15.803s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/_neo_msgs2_s.ep.rosidl_typesupport_introspection_c.c
+[15.803s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/_neo_msgs2_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.804s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/neo_msgs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.804s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/__init__.py
+[15.860s] Listing '/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2'...
+[15.860s] Compiling '/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/__init__.py'...
+[15.860s] Listing '/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg'...
+[15.860s] Compiling '/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/__init__.py'...
+[15.860s] Compiling '/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_emergency_stop_state.py'...
+[15.861s] Compiling '/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_io_board.py'...
+[15.861s] Compiling '/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_keypad.py'...
+[15.861s] Compiling '/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_kinematics_state.py'...
+[15.861s] Compiling '/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_lcd_output.py'...
+[15.861s] Compiling '/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_relay_board_v2.py'...
+[15.861s] Compiling '/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_relay_board_v3.py'...
+[15.861s] Compiling '/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_safety_state.py'...
+[15.861s] Compiling '/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_us_board.py'...
+[15.861s] Compiling '/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/msg/_us_board_v2.py'...
+[15.867s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/neo_msgs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.868s] -- Set runtime path of "/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/neo_msgs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.868s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/neo_msgs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.868s] -- Set runtime path of "/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/neo_msgs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.868s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/neo_msgs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.869s] -- Set runtime path of "/root/ros2_code/humble/simulations/install/neo_msgs2/local/lib/python3.10/dist-packages/neo_msgs2/neo_msgs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.869s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_generator_py.so
+[15.870s] -- Set runtime path of "/root/ros2_code/humble/simulations/install/neo_msgs2/lib/libneo_msgs2__rosidl_generator_py.so" to ""
+[15.870s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/EmergencyStopState.idl
+[15.870s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/Keypad.idl
+[15.870s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/LCDOutput.idl
+[15.870s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/RelayBoardV2.idl
+[15.871s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/USBoard.idl
+[15.871s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/USBoardV2.idl
+[15.871s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/IOBoard.idl
+[15.871s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/SafetyState.idl
+[15.871s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/RelayBoardV3.idl
+[15.871s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/KinematicsState.idl
+[15.872s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/EmergencyStopState.msg
+[15.872s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/Keypad.msg
+[15.872s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/LCDOutput.msg
+[15.872s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/RelayBoardV2.msg
+[15.872s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/USBoard.msg
+[15.872s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/USBoardV2.msg
+[15.873s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/IOBoard.msg
+[15.873s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/SafetyState.msg
+[15.873s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/RelayBoardV3.msg
+[15.873s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/msg/KinematicsState.msg
+[15.873s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/ament_index/resource_index/package_run_dependencies/neo_msgs2
+[15.873s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/ament_index/resource_index/parent_prefix_path/neo_msgs2
+[15.874s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/environment/ament_prefix_path.sh
+[15.874s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/environment/ament_prefix_path.dsv
+[15.874s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/environment/path.sh
+[15.874s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/environment/path.dsv
+[15.874s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/local_setup.bash
+[15.875s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/local_setup.sh
+[15.875s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/local_setup.zsh
+[15.875s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/local_setup.dsv
+[15.875s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/package.dsv
+[15.875s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/ament_index/resource_index/packages/neo_msgs2
+[15.876s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/export_neo_msgs2__rosidl_generator_cExport.cmake
+[15.876s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/export_neo_msgs2__rosidl_generator_cExport-noconfig.cmake
+[15.876s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/export_neo_msgs2__rosidl_typesupport_fastrtps_cExport.cmake
+[15.876s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/export_neo_msgs2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.876s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/export_neo_msgs2__rosidl_generator_cppExport.cmake
+[15.877s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/export_neo_msgs2__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.877s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/export_neo_msgs2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.877s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/neo_msgs2__rosidl_typesupport_introspection_cExport.cmake
+[15.877s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/neo_msgs2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.877s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/neo_msgs2__rosidl_typesupport_cExport.cmake
+[15.877s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/neo_msgs2__rosidl_typesupport_cExport-noconfig.cmake
+[15.878s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/neo_msgs2__rosidl_typesupport_introspection_cppExport.cmake
+[15.878s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/neo_msgs2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.878s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/neo_msgs2__rosidl_typesupport_cppExport.cmake
+[15.878s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/neo_msgs2__rosidl_typesupport_cppExport-noconfig.cmake
+[15.878s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/export_neo_msgs2__rosidl_generator_pyExport.cmake
+[15.879s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/export_neo_msgs2__rosidl_generator_pyExport-noconfig.cmake
+[15.879s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/rosidl_cmake-extras.cmake
+[15.879s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.879s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.879s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/ament_cmake_export_libraries-extras.cmake
+[15.880s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/ament_cmake_export_targets-extras.cmake
+[15.880s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.880s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.880s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/neo_msgs2Config.cmake
+[15.880s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/cmake/neo_msgs2Config-version.cmake
+[15.880s] -- Installing: /root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/package.xml
+[15.883s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_msgs2

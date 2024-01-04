@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from neo_msgs2/msg/USBoardV2.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module neo_msgs2 {
+  module msg {
+    typedef float float__16[16];
+    typedef int16 int16__4[4];
+    typedef boolean boolean__16[16];
+    @verbatim (language="comment", text=
+      "This message holds all data available from Neobotix USBoard")
+    struct USBoardV2 {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "sensor measurement")
+      float__16 sensor;
+
+      @verbatim (language="comment", text=
+        "analogue input")
+      int16__4 analog;
+
+      @verbatim (language="comment", text=
+        "active")
+      boolean__16 active;
+    };
+  };
+};

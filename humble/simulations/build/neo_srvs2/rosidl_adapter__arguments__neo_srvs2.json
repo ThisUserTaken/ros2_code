@@ -1,0 +1,17 @@
+{
+  "package_name": "neo_srvs2",
+  "non_idl_tuples": [
+    "/root/ros2_code/humble/simulations/src/neo_srvs2:srv/RelayBoardSetRelay.srv",
+    "/root/ros2_code/humble/simulations/src/neo_srvs2:srv/IOBoardSetDigOut.srv",
+    "/root/ros2_code/humble/simulations/src/neo_srvs2:srv/RelayBoardSetLCDMsg.srv",
+    "/root/ros2_code/humble/simulations/src/neo_srvs2:srv/LockPlatform.srv",
+    "/root/ros2_code/humble/simulations/src/neo_srvs2:srv/UnlockPlatform.srv",
+    "/root/ros2_code/humble/simulations/src/neo_srvs2:srv/ResetOmniWheels.srv",
+    "/root/ros2_code/humble/simulations/src/neo_srvs2:srv/RelayBoardSetEMStop.srv",
+    "/root/ros2_code/humble/simulations/src/neo_srvs2:srv/RelayBoardUnSetEMStop.srv",
+    "/root/ros2_code/humble/simulations/src/neo_srvs2:srv/USBoardToggleSensor.srv",
+    "/root/ros2_code/humble/simulations/src/neo_srvs2:srv/Optimizer.srv",
+    "/root/ros2_code/humble/simulations/src/neo_srvs2:srv/InitializeContourMatching.srv",
+    "/root/ros2_code/humble/simulations/src/neo_srvs2:srv/SetSafetyField.srv"
+  ]
+}

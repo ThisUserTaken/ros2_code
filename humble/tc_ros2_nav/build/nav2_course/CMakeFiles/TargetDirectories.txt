@@ -1,9 +1,0 @@
-/root/ros2_code/humble/tc_ros2_nav/build/nav2_course/CMakeFiles/uninstall.dir
-/root/ros2_code/humble/tc_ros2_nav/build/nav2_course/CMakeFiles/nav2_course_uninstall.dir
-/root/ros2_code/humble/tc_ros2_nav/build/nav2_course/CMakeFiles/test.dir
-/root/ros2_code/humble/tc_ros2_nav/build/nav2_course/CMakeFiles/edit_cache.dir
-/root/ros2_code/humble/tc_ros2_nav/build/nav2_course/CMakeFiles/rebuild_cache.dir
-/root/ros2_code/humble/tc_ros2_nav/build/nav2_course/CMakeFiles/list_install_components.dir
-/root/ros2_code/humble/tc_ros2_nav/build/nav2_course/CMakeFiles/install.dir
-/root/ros2_code/humble/tc_ros2_nav/build/nav2_course/CMakeFiles/install/local.dir
-/root/ros2_code/humble/tc_ros2_nav/build/nav2_course/CMakeFiles/install/strip.dir

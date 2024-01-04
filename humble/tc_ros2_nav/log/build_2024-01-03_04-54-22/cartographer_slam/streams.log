@@ -1,0 +1,42 @@
+[2.733s] Invoking command in '/root/ros2_code/humble/tc_ros2_nav/src/cartographer_slam': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cartographer_slam build --build-base /root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/build install --record /root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/install.log --single-version-externally-managed
+[2.948s] running egg_info
+[2.949s] creating ../../build/cartographer_slam/cartographer_slam.egg-info
+[2.950s] writing ../../build/cartographer_slam/cartographer_slam.egg-info/PKG-INFO
+[2.950s] writing dependency_links to ../../build/cartographer_slam/cartographer_slam.egg-info/dependency_links.txt
+[2.950s] writing entry points to ../../build/cartographer_slam/cartographer_slam.egg-info/entry_points.txt
+[2.950s] writing requirements to ../../build/cartographer_slam/cartographer_slam.egg-info/requires.txt
+[2.951s] writing top-level names to ../../build/cartographer_slam/cartographer_slam.egg-info/top_level.txt
+[2.951s] writing manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'
+[2.955s] reading manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'
+[2.956s] writing manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'
+[2.957s] running build
+[2.957s] running build_py
+[2.957s] creating /root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/build
+[2.957s] creating /root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/build/lib
+[2.957s] creating /root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/build/lib/cartographer_slam
+[2.958s] copying cartographer_slam/__init__.py -> /root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/build/lib/cartographer_slam
+[2.958s] running install
+[2.958s] running install_lib
+[2.960s] creating /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam
+[2.960s] copying /root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/build/lib/cartographer_slam/__init__.py -> /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam
+[2.961s] byte-compiling /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam/__init__.py to __init__.cpython-310.pyc
+[2.961s] running install_data
+[2.962s] creating /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/share/ament_index
+[2.962s] creating /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/share/ament_index/resource_index
+[2.962s] creating /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/share/ament_index/resource_index/packages
+[2.962s] copying resource/cartographer_slam -> /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/share/ament_index/resource_index/packages
+[2.962s] copying package.xml -> /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/share/cartographer_slam
+[2.962s] creating /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/share/cartographer_slam/launch
+[2.962s] copying launch/nav2_map_server.launch.py -> /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/share/cartographer_slam/launch
+[2.962s] copying launch/joystick.launch.py -> /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/share/cartographer_slam/launch
+[2.963s] copying launch/cartographer.launch.py -> /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/share/cartographer_slam/launch
+[2.963s] creating /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/share/cartographer_slam/config
+[2.963s] copying config/turtlebot_area.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/share/cartographer_slam/config
+[2.963s] copying config/cartographer.lua -> /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/share/cartographer_slam/config
+[2.963s] copying config/joystick.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/share/cartographer_slam/config
+[2.964s] copying config/turtlebot_area.pgm -> /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/share/cartographer_slam/config
+[2.964s] running install_egg_info
+[2.965s] Copying ../../build/cartographer_slam/cartographer_slam.egg-info to /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam-0.0.0-py3.10.egg-info
+[2.965s] running install_scripts
+[2.989s] writing list of installed files to '/root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/install.log'
+[3.157s] Invoked command in '/root/ros2_code/humble/tc_ros2_nav/src/cartographer_slam' returned '0': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cartographer_slam build --build-base /root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/build install --record /root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/install.log --single-version-externally-managed

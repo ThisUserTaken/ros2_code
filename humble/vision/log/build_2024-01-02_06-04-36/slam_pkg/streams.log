@@ -1,0 +1,49 @@
+[0.484s] Invoking command in '/root/ros2_code/humble/vision/build/slam_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/vision/src/slam_pkg -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/vision/install/slam_pkg
+[0.542s] -- The C compiler identification is GNU 11.4.0
+[0.603s] -- The CXX compiler identification is GNU 11.4.0
+[0.610s] -- Detecting C compiler ABI info
+[0.684s] -- Detecting C compiler ABI info - done
+[0.693s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.693s] -- Detecting C compile features
+[0.693s] -- Detecting C compile features - done
+[0.696s] -- Detecting CXX compiler ABI info
+[0.791s] -- Detecting CXX compiler ABI info - done
+[0.796s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.796s] -- Detecting CXX compile features
+[0.797s] -- Detecting CXX compile features - done
+[0.802s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.979s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.139s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[1.144s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.239s] -- Added test 'lint_cmake' to check CMake code style
+[1.241s] -- Added test 'xmllint' to check XML markup files
+[1.247s] -- Added test 'lint_cmake' to check CMake code style
+[1.248s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_test/cmake/ament_add_test.cmake:125 (add_test):
+[1.248s]   add_test given test NAME "lint_cmake" which already exists in this
+[1.248s]   directory.
+[1.248s] Call Stack (most recent call first):
+[1.248s]   /opt/ros/humble/share/ament_cmake_lint_cmake/cmake/ament_lint_cmake.cmake:47 (ament_add_test)
+[1.248s]   /opt/ros/humble/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmake_lint_hook.cmake:21 (ament_lint_cmake)
+[1.248s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.248s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[1.248s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.248s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[1.248s]   CMakeLists.txt:70 (ament_package)
+[1.248s] 
+[1.248s] [0m
+[1.248s] -- Added test 'xmllint' to check XML markup files
+[1.249s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_test/cmake/ament_add_test.cmake:125 (add_test):
+[1.249s]   add_test given test NAME "xmllint" which already exists in this directory.
+[1.249s] Call Stack (most recent call first):
+[1.249s]   /opt/ros/humble/share/ament_cmake_xmllint/cmake/ament_xmllint.cmake:50 (ament_add_test)
+[1.249s]   /opt/ros/humble/share/ament_cmake_xmllint/cmake/ament_cmake_xmllint_lint_hook.cmake:18 (ament_xmllint)
+[1.249s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.249s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[1.249s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.249s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[1.249s]   CMakeLists.txt:70 (ament_package)
+[1.249s] 
+[1.249s] [0m
+[1.250s] -- Configuring incomplete, errors occurred!
+[1.250s] See also "/root/ros2_code/humble/vision/build/slam_pkg/CMakeFiles/CMakeOutput.log".
+[1.256s] Invoked command in '/root/ros2_code/humble/vision/build/slam_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/vision/src/slam_pkg -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/vision/install/slam_pkg

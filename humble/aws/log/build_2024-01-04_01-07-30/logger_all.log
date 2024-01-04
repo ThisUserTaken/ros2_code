@@ -1,0 +1,308 @@
+[0.855s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.855s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f783bfaf940>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f783bfaef20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f783bfaef20>>)
+[0.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.894s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/aws'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure) by extensions ['ignore', 'ignore_ament_install']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure) by extension 'ignore'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure) by extension 'ignore_ament_install'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure) by extensions ['colcon_pkg']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure) by extension 'colcon_pkg'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure) by extensions ['colcon_meta']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure) by extension 'colcon_meta'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure) by extensions ['ros']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure) by extension 'ros'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure) by extensions ['cmake', 'python']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure) by extension 'cmake'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure) by extension 'python'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure) by extensions ['python_setup_py']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure) by extension 'python_setup_py'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/CustomRobots) by extensions ['ignore', 'ignore_ament_install']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/CustomRobots) by extension 'ignore'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/CustomRobots) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/CustomRobots) by extensions ['colcon_pkg']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/CustomRobots) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/CustomRobots) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/CustomRobots) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/CustomRobots) by extensions ['ros']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/CustomRobots) by extension 'ros'
+[0.906s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RoboticsInfrastructure/CustomRobots' with type 'ros.ament_cmake' and name 'custom_robots'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Launchers) by extensions ['ignore', 'ignore_ament_install']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Launchers) by extension 'ignore'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Launchers) by extension 'ignore_ament_install'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Launchers) by extensions ['colcon_pkg']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Launchers) by extension 'colcon_pkg'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Launchers) by extensions ['colcon_meta']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Launchers) by extension 'colcon_meta'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Launchers) by extensions ['ros']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Launchers) by extension 'ros'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Launchers) by extensions ['cmake', 'python']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Launchers) by extension 'cmake'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Launchers) by extension 'python'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Launchers) by extensions ['python_setup_py']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Launchers) by extension 'python_setup_py'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Worlds) by extension 'ignore'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Worlds) by extension 'ignore_ament_install'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Worlds) by extensions ['colcon_pkg']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Worlds) by extension 'colcon_pkg'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Worlds) by extensions ['colcon_meta']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Worlds) by extension 'colcon_meta'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Worlds) by extensions ['ros']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Worlds) by extension 'ros'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Worlds) by extensions ['cmake', 'python']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Worlds) by extension 'cmake'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Worlds) by extension 'python'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Worlds) by extensions ['python_setup_py']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/Worlds) by extension 'python_setup_py'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/jderobot_drones) by extensions ['ignore', 'ignore_ament_install']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/jderobot_drones) by extension 'ignore'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/jderobot_drones) by extension 'ignore_ament_install'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/jderobot_drones) by extensions ['colcon_pkg']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/jderobot_drones) by extension 'colcon_pkg'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/jderobot_drones) by extensions ['colcon_meta']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/jderobot_drones) by extension 'colcon_meta'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/jderobot_drones) by extensions ['ros']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/jderobot_drones) by extension 'ros'
+[0.908s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RoboticsInfrastructure/jderobot_drones' with type 'ros.ament_python' and name 'jderobot_drones'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts) by extension 'ignore'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts) by extension 'ignore_ament_install'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts) by extensions ['colcon_pkg']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts) by extension 'colcon_pkg'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts) by extensions ['colcon_meta']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts) by extension 'colcon_meta'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts) by extensions ['ros']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts) by extension 'ros'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts) by extensions ['cmake', 'python']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts) by extension 'cmake'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts) by extension 'python'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts) by extensions ['python_setup_py']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts) by extension 'python_setup_py'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/gpu) by extensions ['ignore', 'ignore_ament_install']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/gpu) by extension 'ignore'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/gpu) by extension 'ignore_ament_install'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/gpu) by extensions ['colcon_pkg']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/gpu) by extension 'colcon_pkg'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/gpu) by extensions ['colcon_meta']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/gpu) by extension 'colcon_meta'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/gpu) by extensions ['ros']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/gpu) by extension 'ros'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/gpu) by extensions ['cmake', 'python']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/gpu) by extension 'cmake'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/gpu) by extension 'python'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/gpu) by extensions ['python_setup_py']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/gpu) by extension 'python_setup_py'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/test) by extensions ['ignore', 'ignore_ament_install']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/test) by extension 'ignore'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/test) by extension 'ignore_ament_install'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/test) by extensions ['colcon_pkg']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/test) by extension 'colcon_pkg'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/test) by extensions ['colcon_meta']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/test) by extension 'colcon_meta'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/test) by extensions ['ros']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/test) by extension 'ros'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/test) by extensions ['cmake', 'python']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/test) by extension 'cmake'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/test) by extension 'python'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/test) by extensions ['python_setup_py']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/scripts/test) by extension 'python_setup_py'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/utils) by extension 'ignore'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/utils) by extension 'ignore_ament_install'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/utils) by extensions ['colcon_pkg']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/utils) by extension 'colcon_pkg'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/utils) by extensions ['colcon_meta']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/utils) by extension 'colcon_meta'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/utils) by extensions ['ros']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/utils) by extension 'ros'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/utils) by extensions ['cmake', 'python']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/utils) by extension 'cmake'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/utils) by extension 'python'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/utils) by extensions ['python_setup_py']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/RoboticsInfrastructure/utils) by extension 'python_setup_py'
+[0.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'custom_robots' build argument 'cmake_args' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'custom_robots' build argument 'cmake_target' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'custom_robots' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'custom_robots' build argument 'cmake_clean_cache' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'custom_robots' build argument 'cmake_clean_first' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'custom_robots' build argument 'cmake_force_configure' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'custom_robots' build argument 'ament_cmake_args' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'custom_robots' build argument 'catkin_cmake_args' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'custom_robots' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.976s] DEBUG:colcon.colcon_core.verb:Building package 'custom_robots' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/aws/build/custom_robots', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/aws/install/custom_robots', 'merge_install': False, 'path': '/root/ros2_code/humble/aws/src/RoboticsInfrastructure/CustomRobots', 'symlink_install': False, 'test_result_base': None}
+[0.989s] Level 5:colcon.colcon_core.verb:set package 'jderobot_drones' build argument 'cmake_args' from command line to 'None'
+[0.989s] Level 5:colcon.colcon_core.verb:set package 'jderobot_drones' build argument 'cmake_target' from command line to 'None'
+[0.989s] Level 5:colcon.colcon_core.verb:set package 'jderobot_drones' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.989s] Level 5:colcon.colcon_core.verb:set package 'jderobot_drones' build argument 'cmake_clean_cache' from command line to 'False'
+[0.989s] Level 5:colcon.colcon_core.verb:set package 'jderobot_drones' build argument 'cmake_clean_first' from command line to 'False'
+[0.989s] Level 5:colcon.colcon_core.verb:set package 'jderobot_drones' build argument 'cmake_force_configure' from command line to 'False'
+[0.989s] Level 5:colcon.colcon_core.verb:set package 'jderobot_drones' build argument 'ament_cmake_args' from command line to 'None'
+[0.989s] Level 5:colcon.colcon_core.verb:set package 'jderobot_drones' build argument 'catkin_cmake_args' from command line to 'None'
+[0.989s] Level 5:colcon.colcon_core.verb:set package 'jderobot_drones' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.989s] DEBUG:colcon.colcon_core.verb:Building package 'jderobot_drones' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/aws/build/jderobot_drones', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/aws/install/jderobot_drones', 'merge_install': False, 'path': '/root/ros2_code/humble/aws/src/RoboticsInfrastructure/jderobot_drones', 'symlink_install': False, 'test_result_base': None}
+[1.002s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.015s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/aws/src/RoboticsInfrastructure/CustomRobots' with build type 'ament_cmake'
+[1.015s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/aws/src/RoboticsInfrastructure/CustomRobots'
+[1.028s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.028s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.028s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.050s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/root/ros2_code/simulations/warehouse_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[1.050s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/simulations/warehouse_ws/install/aws_robomaker_small_warehouse_world' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.050s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_msg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.050s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.050s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.050s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.050s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.051s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/simulations/warehouse_ws/install/aws_robomaker_small_warehouse_world' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.051s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_msg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.051s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.051s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.051s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.119s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/humble/aws/src/RoboticsInfrastructure/jderobot_drones' with build type 'ament_python'
+[1.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('jderobot_drones', 'ament_prefix_path')
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/hook/ament_prefix_path.ps1'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/hook/ament_prefix_path.dsv'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/hook/ament_prefix_path.sh'
+[1.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.146s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/aws/build/custom_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/aws/src/RoboticsInfrastructure/CustomRobots -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/aws/install/custom_robots
+[1.471s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/humble/aws/src/RoboticsInfrastructure/jderobot_drones'
+[1.484s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.484s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/aws/src/RoboticsInfrastructure/jderobot_drones': PYTHONPATH=/root/ros2_code/humble/aws/build/jderobot_drones/prefix_override:/root/ros2_code/humble/aws/install/jderobot_drones/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/jderobot_drones build --build-base /root/ros2_code/humble/aws/build/jderobot_drones/build install --record /root/ros2_code/humble/aws/build/jderobot_drones/install.log --single-version-externally-managed
+[2.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/aws/src/RoboticsInfrastructure/jderobot_drones' returned '0': PYTHONPATH=/root/ros2_code/humble/aws/build/jderobot_drones/prefix_override:/root/ros2_code/humble/aws/install/jderobot_drones/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/jderobot_drones build --build-base /root/ros2_code/humble/aws/build/jderobot_drones/build install --record /root/ros2_code/humble/aws/build/jderobot_drones/install.log --single-version-externally-managed
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/jderobot_drones' for CMake module files
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/jderobot_drones' for CMake config files
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/jderobot_drones/lib'
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/jderobot_drones/bin'
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/jderobot_drones/lib/pkgconfig/jderobot_drones.pc'
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/jderobot_drones/lib/python3.10/site-packages'
+[2.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('jderobot_drones', 'pythonpath')
+[2.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/hook/pythonpath.ps1'
+[2.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/hook/pythonpath.dsv'
+[2.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/hook/pythonpath.sh'
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/jderobot_drones/bin'
+[2.195s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jderobot_drones)
+[2.208s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/package.ps1'
+[2.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/package.dsv'
+[2.209s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/package.sh'
+[2.210s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/package.bash'
+[2.210s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/package.zsh'
+[2.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/aws/install/jderobot_drones/share/colcon-core/packages/jderobot_drones)
+[5.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/aws/build/custom_robots' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/aws/src/RoboticsInfrastructure/CustomRobots -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/aws/install/custom_robots
+[5.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/aws/build/custom_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/aws/build/custom_robots -- -j12 -l12
+[15.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/aws/build/custom_robots' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/aws/build/custom_robots -- -j12 -l12
+[15.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/aws/build/custom_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/aws/build/custom_robots
+[16.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_robots)
+[16.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/aws/build/custom_robots' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/aws/build/custom_robots
+[16.971s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/custom_robots' for CMake module files
+[16.972s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/custom_robots' for CMake config files
+[16.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_robots', 'cmake_prefix_path')
+[17.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/hook/cmake_prefix_path.ps1'
+[17.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/hook/cmake_prefix_path.dsv'
+[17.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/hook/cmake_prefix_path.sh'
+[17.006s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/custom_robots/lib'
+[17.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_robots', 'ld_library_path_lib')
+[17.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/hook/ld_library_path_lib.ps1'
+[17.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/hook/ld_library_path_lib.dsv'
+[17.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/hook/ld_library_path_lib.sh'
+[17.020s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/custom_robots/bin'
+[17.020s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/custom_robots/lib/pkgconfig/custom_robots.pc'
+[17.020s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/custom_robots/lib/python3.10/site-packages'
+[17.020s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/custom_robots/bin'
+[17.033s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/package.ps1'
+[17.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/package.dsv'
+[17.033s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/package.sh'
+[17.034s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/package.bash'
+[17.034s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/package.zsh'
+[17.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/aws/install/custom_robots/share/colcon-core/packages/custom_robots)
+[17.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_robots)
+[17.100s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/custom_robots' for CMake module files
+[17.100s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/custom_robots' for CMake config files
+[17.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_robots', 'cmake_prefix_path')
+[17.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/hook/cmake_prefix_path.ps1'
+[17.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/hook/cmake_prefix_path.dsv'
+[17.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/hook/cmake_prefix_path.sh'
+[17.126s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/custom_robots/lib'
+[17.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_robots', 'ld_library_path_lib')
+[17.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/hook/ld_library_path_lib.ps1'
+[17.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/hook/ld_library_path_lib.dsv'
+[17.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/hook/ld_library_path_lib.sh'
+[17.140s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/custom_robots/bin'
+[17.140s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/custom_robots/lib/pkgconfig/custom_robots.pc'
+[17.140s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/custom_robots/lib/python3.10/site-packages'
+[17.140s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/aws/install/custom_robots/bin'
+[17.153s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/package.ps1'
+[17.153s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/package.dsv'
+[17.153s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/package.sh'
+[17.154s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/package.bash'
+[17.154s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/package.zsh'
+[17.154s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/aws/install/custom_robots/share/colcon-core/packages/custom_robots)
+[17.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.155s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.185s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[17.185s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.185s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.185s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.188s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[17.188s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.203s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/aws/install/local_setup.ps1'
+[17.204s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/aws/install/_local_setup_util_ps1.py'
+[17.205s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/aws/install/setup.ps1'
+[17.219s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/aws/install/local_setup.sh'
+[17.219s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/aws/install/_local_setup_util_sh.py'
+[17.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/aws/install/setup.sh'
+[17.234s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/aws/install/local_setup.bash'
+[17.234s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/aws/install/setup.bash'
+[17.248s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/aws/install/local_setup.zsh'
+[17.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/aws/install/setup.zsh'

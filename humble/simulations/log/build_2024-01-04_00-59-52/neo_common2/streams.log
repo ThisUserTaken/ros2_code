@@ -1,0 +1,25 @@
+[0.473s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_common2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_common2 -- -j12 -l12
+[0.513s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_common2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_common2 -- -j12 -l12
+[0.548s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_common2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_common2
+[0.559s] -- Install configuration: ""
+[0.559s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/include
+[0.559s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/include/neo_common2
+[0.559s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/include/neo_common2/MatrixX.h
+[0.559s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/include/neo_common2/Matrix.h
+[0.559s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/ament_index/resource_index/package_run_dependencies/neo_common2
+[0.559s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/ament_index/resource_index/parent_prefix_path/neo_common2
+[0.559s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/environment/ament_prefix_path.sh
+[0.560s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/environment/ament_prefix_path.dsv
+[0.560s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/environment/path.sh
+[0.560s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/environment/path.dsv
+[0.560s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/local_setup.bash
+[0.560s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/local_setup.sh
+[0.560s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/local_setup.zsh
+[0.560s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/local_setup.dsv
+[0.560s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/package.dsv
+[0.560s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/ament_index/resource_index/packages/neo_common2
+[0.560s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.560s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/cmake/neo_common2Config.cmake
+[0.561s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/cmake/neo_common2Config-version.cmake
+[0.561s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/package.xml
+[0.563s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_common2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_common2

@@ -1,8 +1,0 @@
-source;share/move_robot_as/hook/cmake_prefix_path.ps1
-source;share/move_robot_as/hook/cmake_prefix_path.dsv
-source;share/move_robot_as/hook/cmake_prefix_path.sh
-source;share/move_robot_as/local_setup.bash
-source;share/move_robot_as/local_setup.dsv
-source;share/move_robot_as/local_setup.ps1
-source;share/move_robot_as/local_setup.sh
-source;share/move_robot_as/local_setup.zsh

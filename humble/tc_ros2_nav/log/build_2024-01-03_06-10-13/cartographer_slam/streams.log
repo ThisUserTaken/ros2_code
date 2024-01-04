@@ -1,0 +1,20 @@
+[3.765s] Invoking command in '/root/ros2_code/humble/tc_ros2_nav/src/cartographer_slam': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cartographer_slam build --build-base /root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/build install --record /root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/install.log --single-version-externally-managed
+[4.185s] running egg_info
+[4.185s] writing ../../build/cartographer_slam/cartographer_slam.egg-info/PKG-INFO
+[4.185s] writing dependency_links to ../../build/cartographer_slam/cartographer_slam.egg-info/dependency_links.txt
+[4.185s] writing entry points to ../../build/cartographer_slam/cartographer_slam.egg-info/entry_points.txt
+[4.186s] writing requirements to ../../build/cartographer_slam/cartographer_slam.egg-info/requires.txt
+[4.186s] writing top-level names to ../../build/cartographer_slam/cartographer_slam.egg-info/top_level.txt
+[4.189s] reading manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'
+[4.190s] writing manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'
+[4.190s] running build
+[4.190s] running build_py
+[4.191s] running install
+[4.191s] running install_lib
+[4.193s] running install_data
+[4.194s] running install_egg_info
+[4.196s] removing '/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam-0.0.0-py3.10.egg-info' (and everything under it)
+[4.197s] Copying ../../build/cartographer_slam/cartographer_slam.egg-info to /root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam-0.0.0-py3.10.egg-info
+[4.198s] running install_scripts
+[4.229s] writing list of installed files to '/root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/install.log'
+[4.367s] Invoked command in '/root/ros2_code/humble/tc_ros2_nav/src/cartographer_slam' returned '0': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cartographer_slam build --build-base /root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/build install --record /root/ros2_code/humble/tc_ros2_nav/build/cartographer_slam/install.log --single-version-externally-managed

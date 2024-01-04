@@ -1,0 +1,12 @@
+/root/ros2_code/humble/simulations/build/neo_srvs2/rosidl_adapter/neo_srvs2:srv/RelayBoardSetRelay.idl
+/root/ros2_code/humble/simulations/build/neo_srvs2/rosidl_adapter/neo_srvs2:srv/IOBoardSetDigOut.idl
+/root/ros2_code/humble/simulations/build/neo_srvs2/rosidl_adapter/neo_srvs2:srv/RelayBoardSetLCDMsg.idl
+/root/ros2_code/humble/simulations/build/neo_srvs2/rosidl_adapter/neo_srvs2:srv/LockPlatform.idl
+/root/ros2_code/humble/simulations/build/neo_srvs2/rosidl_adapter/neo_srvs2:srv/UnlockPlatform.idl
+/root/ros2_code/humble/simulations/build/neo_srvs2/rosidl_adapter/neo_srvs2:srv/ResetOmniWheels.idl
+/root/ros2_code/humble/simulations/build/neo_srvs2/rosidl_adapter/neo_srvs2:srv/RelayBoardSetEMStop.idl
+/root/ros2_code/humble/simulations/build/neo_srvs2/rosidl_adapter/neo_srvs2:srv/RelayBoardUnSetEMStop.idl
+/root/ros2_code/humble/simulations/build/neo_srvs2/rosidl_adapter/neo_srvs2:srv/USBoardToggleSensor.idl
+/root/ros2_code/humble/simulations/build/neo_srvs2/rosidl_adapter/neo_srvs2:srv/Optimizer.idl
+/root/ros2_code/humble/simulations/build/neo_srvs2/rosidl_adapter/neo_srvs2:srv/InitializeContourMatching.idl
+/root/ros2_code/humble/simulations/build/neo_srvs2/rosidl_adapter/neo_srvs2:srv/SetSafetyField.idl

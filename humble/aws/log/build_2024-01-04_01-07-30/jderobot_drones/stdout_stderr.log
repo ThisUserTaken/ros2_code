@@ -1,0 +1,53 @@
+running egg_info
+creating ../../../build/jderobot_drones/jderobot_drones.egg-info
+writing ../../../build/jderobot_drones/jderobot_drones.egg-info/PKG-INFO
+writing dependency_links to ../../../build/jderobot_drones/jderobot_drones.egg-info/dependency_links.txt
+writing entry points to ../../../build/jderobot_drones/jderobot_drones.egg-info/entry_points.txt
+writing requirements to ../../../build/jderobot_drones/jderobot_drones.egg-info/requires.txt
+writing top-level names to ../../../build/jderobot_drones/jderobot_drones.egg-info/top_level.txt
+writing manifest file '../../../build/jderobot_drones/jderobot_drones.egg-info/SOURCES.txt'
+reading manifest file '../../../build/jderobot_drones/jderobot_drones.egg-info/SOURCES.txt'
+writing manifest file '../../../build/jderobot_drones/jderobot_drones.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_code/humble/aws/build/jderobot_drones/build
+creating /root/ros2_code/humble/aws/build/jderobot_drones/build/lib
+creating /root/ros2_code/humble/aws/build/jderobot_drones/build/lib/jderobot_drones
+copying jderobot_drones/image_sub.py -> /root/ros2_code/humble/aws/build/jderobot_drones/build/lib/jderobot_drones
+copying jderobot_drones/drone_wrapper.py -> /root/ros2_code/humble/aws/build/jderobot_drones/build/lib/jderobot_drones
+copying jderobot_drones/__init__.py -> /root/ros2_code/humble/aws/build/jderobot_drones/build/lib/jderobot_drones
+running install
+running install_lib
+creating /root/ros2_code/humble/aws/install/jderobot_drones/lib/python3.10/site-packages/jderobot_drones
+copying /root/ros2_code/humble/aws/build/jderobot_drones/build/lib/jderobot_drones/image_sub.py -> /root/ros2_code/humble/aws/install/jderobot_drones/lib/python3.10/site-packages/jderobot_drones
+copying /root/ros2_code/humble/aws/build/jderobot_drones/build/lib/jderobot_drones/drone_wrapper.py -> /root/ros2_code/humble/aws/install/jderobot_drones/lib/python3.10/site-packages/jderobot_drones
+copying /root/ros2_code/humble/aws/build/jderobot_drones/build/lib/jderobot_drones/__init__.py -> /root/ros2_code/humble/aws/install/jderobot_drones/lib/python3.10/site-packages/jderobot_drones
+byte-compiling /root/ros2_code/humble/aws/install/jderobot_drones/lib/python3.10/site-packages/jderobot_drones/image_sub.py to image_sub.cpython-310.pyc
+byte-compiling /root/ros2_code/humble/aws/install/jderobot_drones/lib/python3.10/site-packages/jderobot_drones/drone_wrapper.py to drone_wrapper.cpython-310.pyc
+byte-compiling /root/ros2_code/humble/aws/install/jderobot_drones/lib/python3.10/site-packages/jderobot_drones/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_code/humble/aws/install/jderobot_drones/share/ament_index
+creating /root/ros2_code/humble/aws/install/jderobot_drones/share/ament_index/resource_index
+creating /root/ros2_code/humble/aws/install/jderobot_drones/share/ament_index/resource_index/packages
+copying resource/jderobot_drones -> /root/ros2_code/humble/aws/install/jderobot_drones/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones
+copying launch/as2_default_classic_gazebo.launch.py -> /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones
+copying launch/as2_default_ign_gazebo.launch.py -> /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones
+creating /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/sim_config
+creating /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/sim_config/px4_classic
+copying sim_config/px4_classic/motion_controller.yaml -> /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/sim_config/px4_classic
+copying sim_config/px4_classic/state_estimator_odom.yaml -> /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/sim_config/px4_classic
+copying sim_config/px4_classic/platform_config.yaml -> /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/sim_config/px4_classic
+copying sim_config/px4_classic/differential_flatness_controller.yaml -> /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/sim_config/px4_classic
+copying sim_config/px4_classic/pid_speed_controller.yaml -> /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/sim_config/px4_classic
+copying sim_config/px4_classic/world.json -> /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/sim_config/px4_classic
+creating /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/sim_config/ign
+copying sim_config/ign/motion_controller.yaml -> /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/sim_config/ign
+copying sim_config/ign/platform_config_file.yaml -> /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/sim_config/ign
+copying sim_config/ign/motion_controller_plugin.yaml -> /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/sim_config/ign
+copying sim_config/ign/state_estimator_config_file.yaml -> /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/sim_config/ign
+copying sim_config/ign/world.json -> /root/ros2_code/humble/aws/install/jderobot_drones/share/jderobot_drones/sim_config/ign
+running install_egg_info
+Copying ../../../build/jderobot_drones/jderobot_drones.egg-info to /root/ros2_code/humble/aws/install/jderobot_drones/lib/python3.10/site-packages/jderobot_drones-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_code/humble/aws/build/jderobot_drones/install.log'

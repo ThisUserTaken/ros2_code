@@ -1,0 +1,2 @@
+prepend-non-duplicate;GAZEBO_MODEL_PATH;/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/models
+prepend-non-duplicate;GAZEBO_RESOURCE_PATH;/root/ros2_code/humble/aws/install/custom_robots/share/custom_robots/worlds

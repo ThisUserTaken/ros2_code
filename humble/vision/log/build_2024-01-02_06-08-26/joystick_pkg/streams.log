@@ -1,0 +1,20 @@
+[0.880s] Invoking command in '/root/ros2_code/humble/vision/src/joystick_pkg': PYTHONPATH=/root/ros2_code/humble/vision/build/joystick_pkg/prefix_override:/root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pkg build --build-base /root/ros2_code/humble/vision/build/joystick_pkg/build install --record /root/ros2_code/humble/vision/build/joystick_pkg/install.log --single-version-externally-managed
+[1.113s] running egg_info
+[1.113s] writing ../../build/joystick_pkg/joystick_pkg.egg-info/PKG-INFO
+[1.113s] writing dependency_links to ../../build/joystick_pkg/joystick_pkg.egg-info/dependency_links.txt
+[1.114s] writing entry points to ../../build/joystick_pkg/joystick_pkg.egg-info/entry_points.txt
+[1.114s] writing requirements to ../../build/joystick_pkg/joystick_pkg.egg-info/requires.txt
+[1.114s] writing top-level names to ../../build/joystick_pkg/joystick_pkg.egg-info/top_level.txt
+[1.115s] reading manifest file '../../build/joystick_pkg/joystick_pkg.egg-info/SOURCES.txt'
+[1.115s] writing manifest file '../../build/joystick_pkg/joystick_pkg.egg-info/SOURCES.txt'
+[1.116s] running build
+[1.116s] running build_py
+[1.116s] running install
+[1.116s] running install_lib
+[1.117s] running install_data
+[1.117s] running install_egg_info
+[1.118s] removing '/root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages/joystick_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.119s] Copying ../../build/joystick_pkg/joystick_pkg.egg-info to /root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages/joystick_pkg-0.0.0-py3.10.egg-info
+[1.119s] running install_scripts
+[1.135s] writing list of installed files to '/root/ros2_code/humble/vision/build/joystick_pkg/install.log'
+[1.156s] Invoked command in '/root/ros2_code/humble/vision/src/joystick_pkg' returned '0': PYTHONPATH=/root/ros2_code/humble/vision/build/joystick_pkg/prefix_override:/root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pkg build --build-base /root/ros2_code/humble/vision/build/joystick_pkg/build install --record /root/ros2_code/humble/vision/build/joystick_pkg/install.log --single-version-externally-managed

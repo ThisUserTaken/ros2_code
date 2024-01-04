@@ -1,0 +1,65 @@
+[0.113s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_teleop2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_teleop2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_teleop2
+[0.179s] -- The C compiler identification is GNU 11.4.0
+[0.237s] -- The CXX compiler identification is GNU 11.4.0
+[0.247s] -- Detecting C compiler ABI info
+[0.343s] -- Detecting C compiler ABI info - done
+[0.350s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.350s] -- Detecting C compile features
+[0.350s] -- Detecting C compile features - done
+[0.353s] -- Detecting CXX compiler ABI info
+[0.467s] -- Detecting CXX compiler ABI info - done
+[0.476s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.478s] -- Detecting CXX compile features
+[0.478s] -- Detecting CXX compile features - done
+[0.484s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.661s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.808s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.893s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.907s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.925s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.950s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.981s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.084s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.089s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.135s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.154s] -- Looking for pthread.h
+[1.238s] -- Looking for pthread.h - found
+[1.238s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.310s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.311s] -- Found Threads: TRUE  
+[1.474s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.571s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.622s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.762s] -- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.909s] -- Configuring done
+[1.920s] -- Generating done
+[1.923s] -- Build files have been written to: /root/ros2_code/humble/simulations/build/neo_teleop2
+[1.941s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_teleop2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_teleop2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_teleop2
+[1.943s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_teleop2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_teleop2 -- -j12 -l12
+[2.008s] [ 50%] [32mBuilding CXX object CMakeFiles/neo_teleop2_node.dir/src/neo_teleop.cpp.o[0m
+[16.123s] [100%] [32m[1mLinking CXX executable neo_teleop2_node[0m
+[16.521s] [100%] Built target neo_teleop2_node
+[16.535s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_teleop2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_teleop2 -- -j12 -l12
+[16.570s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_teleop2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_teleop2
+[16.577s] -- Install configuration: ""
+[16.577s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/lib/neo_teleop2/neo_teleop2_node
+[16.584s] -- Set runtime path of "/root/ros2_code/humble/simulations/install/neo_teleop2/lib/neo_teleop2/neo_teleop2_node" to ""
+[16.584s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/launch
+[16.584s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/launch/default.yaml
+[16.585s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/launch/teleop.launch.py
+[16.585s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/ament_index/resource_index/package_run_dependencies/neo_teleop2
+[16.585s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/ament_index/resource_index/parent_prefix_path/neo_teleop2
+[16.585s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/environment/ament_prefix_path.sh
+[16.585s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/environment/ament_prefix_path.dsv
+[16.585s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/environment/path.sh
+[16.586s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/environment/path.dsv
+[16.586s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/local_setup.bash
+[16.586s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/local_setup.sh
+[16.586s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/local_setup.zsh
+[16.586s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/local_setup.dsv
+[16.586s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/package.dsv
+[16.587s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/ament_index/resource_index/packages/neo_teleop2
+[16.587s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/cmake/neo_teleop2Config.cmake
+[16.587s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/cmake/neo_teleop2Config-version.cmake
+[16.587s] -- Installing: /root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/package.xml
+[16.591s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_teleop2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_teleop2

@@ -1,0 +1,44 @@
+[0.622s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_common2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_common2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_common2
+[0.682s] -- The C compiler identification is GNU 11.4.0
+[0.747s] -- The CXX compiler identification is GNU 11.4.0
+[0.754s] -- Detecting C compiler ABI info
+[0.844s] -- Detecting C compiler ABI info - done
+[0.854s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.854s] -- Detecting C compile features
+[0.854s] -- Detecting C compile features - done
+[0.858s] -- Detecting CXX compiler ABI info
+[0.966s] -- Detecting CXX compiler ABI info - done
+[0.975s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.975s] -- Detecting CXX compile features
+[0.976s] -- Detecting CXX compile features - done
+[0.982s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.167s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.381s] -- Configuring done
+[1.385s] -- Generating done
+[1.386s] -- Build files have been written to: /root/ros2_code/humble/simulations/build/neo_common2
+[1.392s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_common2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_common2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_common2
+[1.393s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_common2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_common2 -- -j12 -l12
+[1.446s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_common2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_common2 -- -j12 -l12
+[1.487s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_common2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_common2
+[1.495s] -- Install configuration: ""
+[1.495s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/include
+[1.495s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/include/neo_common2
+[1.495s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/include/neo_common2/MatrixX.h
+[1.495s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/include/neo_common2/Matrix.h
+[1.495s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/ament_index/resource_index/package_run_dependencies/neo_common2
+[1.496s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/ament_index/resource_index/parent_prefix_path/neo_common2
+[1.496s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/environment/ament_prefix_path.sh
+[1.496s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/environment/ament_prefix_path.dsv
+[1.496s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/environment/path.sh
+[1.496s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/environment/path.dsv
+[1.497s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/local_setup.bash
+[1.497s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/local_setup.sh
+[1.497s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/local_setup.zsh
+[1.498s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/local_setup.dsv
+[1.498s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/package.dsv
+[1.498s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/ament_index/resource_index/packages/neo_common2
+[1.498s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.498s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/cmake/neo_common2Config.cmake
+[1.498s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/cmake/neo_common2Config-version.cmake
+[1.498s] -- Installing: /root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/package.xml
+[1.500s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_common2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_common2

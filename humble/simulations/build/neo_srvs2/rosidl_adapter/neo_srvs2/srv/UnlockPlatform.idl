@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from neo_srvs2/srv/UnlockPlatform.srv
+// generated code does not contain a copyright notice
+
+
+module neo_srvs2 {
+  module srv {
+    struct UnlockPlatform_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct UnlockPlatform_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,72 @@
+[0.415s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_local_planner2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_local_planner
+[0.470s] -- The C compiler identification is GNU 11.4.0
+[0.536s] -- The CXX compiler identification is GNU 11.4.0
+[0.544s] -- Detecting C compiler ABI info
+[0.633s] -- Detecting C compiler ABI info - done
+[0.641s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.641s] -- Detecting C compile features
+[0.641s] -- Detecting C compile features - done
+[0.644s] -- Detecting CXX compiler ABI info
+[0.751s] -- Detecting CXX compiler ABI info - done
+[0.761s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.762s] -- Detecting CXX compile features
+[0.765s] -- Detecting CXX compile features - done
+[0.769s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.955s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.101s] -- Found nav2_common: 1.1.12 (/opt/ros/humble/share/nav2_common/cmake)
+[1.105s] -- Found nav2_core: 1.1.12 (/opt/ros/humble/share/nav2_core/cmake)
+[1.195s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.209s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.228s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.386s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.391s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.443s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.463s] -- Looking for pthread.h
+[1.546s] -- Looking for pthread.h - found
+[1.546s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.628s] -- Found Threads: TRUE  
+[3.002s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.002s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.340s] -- Found tf2_eigen: 0.25.5 (/opt/ros/humble/share/tf2_eigen/cmake)
+[15.136s] -- Configuring done
+[15.201s] -- Generating done
+[15.203s] -- Build files have been written to: /root/ros2_code/humble/simulations/build/neo_local_planner
+[15.216s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_local_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_local_planner2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_local_planner
+[15.218s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_local_planner -- -j12 -l12
+[15.307s] [ 50%] [32mBuilding CXX object CMakeFiles/neo_local_planner.dir/src/NeoLocalPlanner.cpp.o[0m
+[27.376s] [100%] [32m[1mLinking CXX shared library libneo_local_planner.so[0m
+[27.924s] [100%] Built target neo_local_planner
+[27.939s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_local_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_local_planner -- -j12 -l12
+[27.977s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_local_planner
+[27.986s] -- Install configuration: ""
+[27.987s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/include/
+[27.987s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/include//NeoLocalPlanner.h
+[27.987s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner_plugin.xml
+[27.987s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/lib/libneo_local_planner.so
+[28.002s] -- Set runtime path of "/root/ros2_code/humble/simulations/install/neo_local_planner/lib/libneo_local_planner.so" to ""
+[28.002s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/environment/library_path.sh
+[28.002s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/environment/library_path.dsv
+[28.002s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/neo_local_planner_plugin.xml
+[28.003s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/ament_index/resource_index/package_run_dependencies/neo_local_planner
+[28.003s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/ament_index/resource_index/parent_prefix_path/neo_local_planner
+[28.003s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/environment/ament_prefix_path.sh
+[28.003s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/environment/ament_prefix_path.dsv
+[28.004s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/environment/path.sh
+[28.004s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/environment/path.dsv
+[28.004s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/local_setup.bash
+[28.004s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/local_setup.sh
+[28.004s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/local_setup.zsh
+[28.004s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/local_setup.dsv
+[28.004s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/package.dsv
+[28.005s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/ament_index/resource_index/packages/neo_local_planner
+[28.005s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/neo_local_planner
+[28.005s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.005s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[28.006s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.006s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/cmake/neo_local_plannerConfig.cmake
+[28.006s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/cmake/neo_local_plannerConfig-version.cmake
+[28.006s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/package.xml
+[28.008s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_local_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_local_planner

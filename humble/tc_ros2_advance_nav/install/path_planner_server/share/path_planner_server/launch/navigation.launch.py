@@ -12,8 +12,8 @@ def generate_launch_description():
         'path_planner_server'), 'config', 'behavior.xml')
     planner_yaml = os.path.join(get_package_share_directory(
         'path_planner_server'), 'config', 'planner_server.yaml')
-    behaviors_yaml = os.path.join(get_package_share_directory(
-        'path_planner_server'), 'config', 'behaviors.yaml')
+    recovery_yaml = os.path.join(get_package_share_directory(
+        'path_planner_server'), 'config', 'recovery.yaml')
     bt_navigator_yaml = os.path.join(get_package_share_directory(
         'path_planner_server'), 'config', 'bt_navigator.yaml')
     nav2_yaml = os.path.join(get_package_share_directory(
@@ -55,11 +55,11 @@ def generate_launch_description():
             parameters=[planner_yaml]),
 
         Node(
-            package='nav2_behaviors',
-            executable='behavior_server',
-            name='behavior_server',
+            package='nav2_recoveries',
+            executable='recoveries_server',
+            name='recoveries_server',
             output='screen',
-            parameters=[behaviors_yaml]),
+            parameters=[recovery_yaml]),
 
         Node(
             package='nav2_bt_navigator',
@@ -86,6 +86,6 @@ def generate_launch_description():
                                         'amcl',
                                         'controller_server',
                                         'planner_server',
-                                        'behavior_server',
+                                        'recoveries_server',
                                         'bt_navigator']}])
     ])

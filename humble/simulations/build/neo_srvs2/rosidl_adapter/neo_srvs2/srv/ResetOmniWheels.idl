@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from neo_srvs2/srv/ResetOmniWheels.srv
+// generated code does not contain a copyright notice
+
+
+module neo_srvs2 {
+  module srv {
+    struct ResetOmniWheels_Request {
+      sequence<float> steer_angles_rad;
+    };
+    struct ResetOmniWheels_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from neo_msgs2/msg/SafetyState.msg
+// generated code does not contain a copyright notice
+
+
+module neo_msgs2 {
+  module msg {
+    typedef boolean boolean__7[7];
+    struct SafetyState {
+      @verbatim (language="comment", text=
+        "POSIX timestamp")
+      @unit (value="usec")
+      double time;
+
+      @verbatim (language="comment", text=
+        "fieldset ID")
+      uint8 current_safety_field;
+
+      @verbatim (language="comment", text=
+        "0 to 7")
+      boolean__7 triggered_cutoff_paths;
+    };
+  };
+};

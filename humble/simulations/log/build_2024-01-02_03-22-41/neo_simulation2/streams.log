@@ -1,0 +1,335 @@
+[0.104s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_simulation2': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_simulation2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_simulation2
+[0.174s] -- The C compiler identification is GNU 11.4.0
+[0.227s] -- The CXX compiler identification is GNU 11.4.0
+[0.236s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.321s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.321s] -- Detecting C compile features
+[0.322s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.427s] -- Detecting CXX compiler ABI info - done
+[0.433s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.434s] -- Detecting CXX compile features
+[0.434s] -- Detecting CXX compile features - done
+[0.441s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.649s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.833s] -- Configuring done
+[0.837s] -- Generating done
+[0.839s] -- Build files have been written to: /root/ros2_code/humble/simulations/build/neo_simulation2
+[0.844s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_simulation2' returned '0': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_simulation2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_simulation2
+[0.845s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_simulation2': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_simulation2 -- -j12 -l12
+[0.888s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_simulation2' returned '0': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_simulation2 -- -j12 -l12
+[0.922s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_simulation2': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_simulation2
+[0.930s] -- Install configuration: ""
+[0.930s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/launch
+[0.930s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/launch/navigation.launch.py
+[0.930s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/launch/simulation.launch.py
+[0.930s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/configs
+[0.930s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/configs/mpo_700
+[0.930s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/configs/mpo_700/mapping.yaml
+[0.931s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/configs/mpo_700/navigation.yaml
+[0.931s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/configs/mp_500
+[0.931s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/configs/mp_500/mapping.yaml
+[0.931s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/configs/mp_500/navigation.yaml
+[0.931s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/configs/mp_400
+[0.931s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/configs/mp_400/mapping.yaml
+[0.931s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/configs/mp_400/navigation.yaml
+[0.931s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/configs/mpo_500
+[0.931s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/configs/mpo_500/mapping.yaml
+[0.932s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/configs/mpo_500/navigation.yaml
+[0.932s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/maps
+[0.932s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/maps/neo_track1.yaml
+[0.932s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/maps/neo_track1.pgm
+[0.953s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/maps/neo_workshop.pgm
+[0.976s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/maps/neo_workshop.yaml
+[0.976s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/worlds
+[0.976s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/worlds/neo_workshop.world
+[0.978s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/worlds/neo_track2.world
+[0.979s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/worlds/neo_track1.world
+[0.979s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots
+[0.979s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mpo_700
+[0.979s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mpo_700/mpo_700.urdf
+[0.980s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mpo_700/meshes
+[0.980s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mpo_700/meshes/MPO-700-HEAD.dae
+[0.980s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mpo_700/meshes/MPO-700-charge-port.dae
+[0.982s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mpo_700/meshes/MPO-700-WHEEL.dae
+[0.983s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mpo_700/meshes/MPO-700-caster.dae
+[0.983s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mpo_700/meshes/MPO-700-BODY.dae
+[0.984s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_500
+[0.984s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_500/mp_500.urdf
+[0.984s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_500/meshes
+[0.985s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_500/meshes/MP-500-WHEEL-RIGHT.dae
+[0.986s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_500/meshes/MP-500-BODY.dae
+[0.987s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_500/meshes/MP-500-WHEEL-LEFT.dae
+[0.988s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_500/meshes/d435.dae
+[1.017s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_500/meshes/MP-500-WHEEL.dae
+[1.018s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_400
+[1.018s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_400/meshes
+[1.018s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae
+[1.018s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae
+[1.020s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae
+[1.020s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae
+[1.021s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mp_400/mp_400.urdf
+[1.021s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mpo_500
+[1.021s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mpo_500/mpo_500.urdf
+[1.021s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mpo_500/meshes
+[1.021s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mpo_500/meshes/MPO-500-BODY.dae
+[1.023s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/robots/mpo_500/meshes/MPO-500-WHEEL.dae
+[1.037s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/components
+[1.037s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/components/sensors
+[1.037s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/components/sensors/SICK-MICROSCAN3.dae
+[1.047s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/components/sensors/d435.dae
+[1.079s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/components/sensors/SICK-S300.dae
+[1.079s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models
+[1.080s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2
+[1.080s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2/model.config
+[1.080s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2/meshes
+[1.080s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2/meshes/Ar_tag_nr2.dae
+[1.080s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2/meshes/plate.blend
+[1.081s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2/meshes/Ar_tag.dae
+[1.081s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2/materials
+[1.081s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2/materials/scripts
+[1.081s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2/materials/scripts/ar_tag.material
+[1.081s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2/materials/textures
+[1.081s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2/materials/textures/qrcode.png
+[1.081s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2/materials/textures/MarkerData_10.png
+[1.082s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2/materials/textures/MarkerData_2.png
+[1.082s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2/materials/textures/qrcode1.png
+[1.082s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr2/model.sdf
+[1.082s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 2
+[1.082s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 2/model.config
+[1.082s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 2/materials
+[1.082s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 2/materials/scripts
+[1.082s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 2/materials/scripts/wall_white.material
+[1.082s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 2/materials/textures
+[1.083s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 2/materials/textures/wall_color_white.jpg
+[1.083s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 2/model.sdf
+[1.083s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/yellow_bin
+[1.083s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/yellow_bin/model.config
+[1.083s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/yellow_bin/meshes
+[1.083s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/yellow_bin/meshes/green_cylinder.stl
+[1.084s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/yellow_bin/model.sdf
+[1.084s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env
+[1.084s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env/model.config
+[1.084s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env/materials
+[1.084s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env/materials/scripts
+[1.084s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env/materials/scripts/wall.material
+[1.084s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env/materials/textures
+[1.085s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env/materials/textures/wall_color.jpg
+[1.085s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env/model.sdf
+[1.085s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr12
+[1.085s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr12/model.config
+[1.085s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr12/meshes
+[1.085s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr12/meshes/plate.blend
+[1.086s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr12/meshes/Ar_tag_nr12.dae
+[1.086s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr12/materials
+[1.086s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr12/materials/scripts
+[1.086s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr12/materials/scripts/ar_tag.material
+[1.087s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr12/materials/textures
+[1.087s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr12/materials/textures/MarkerData_12.png
+[1.087s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr12/model.sdf
+[1.087s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_wall_stickers
+[1.087s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_wall_stickers/model.config
+[1.087s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_wall_stickers/materials
+[1.087s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_wall_stickers/materials/scripts
+[1.087s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_wall_stickers/materials/scripts/neobotix_ground_plane.material
+[1.087s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_wall_stickers/materials/textures
+[1.088s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_wall_stickers/materials/textures/MyImage.jpg
+[1.088s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_wall_stickers/model.sdf
+[1.088s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w
+[1.088s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w/model.config
+[1.088s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w/materials
+[1.088s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w/materials/scripts
+[1.088s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w/materials/scripts/wall_white.material
+[1.088s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w/materials/textures
+[1.088s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w/materials/textures/wall_color_white.jpg
+[1.089s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w/model.sdf
+[1.089s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9
+[1.089s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/model.config
+[1.089s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/meshes
+[1.089s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/meshes/Ar_tag_nr2.dae
+[1.089s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/meshes/plate.blend
+[1.090s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/meshes/Ar_tag_nr9.dae
+[1.091s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/materials
+[1.091s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/materials/scripts
+[1.091s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/materials/scripts/ar_tag.material
+[1.091s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/materials/textures
+[1.091s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/materials/textures/qrcode.png
+[1.091s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/materials/textures/MarkerData_10.png
+[1.091s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/materials/textures/MarkerData_2.png
+[1.091s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/materials/textures/MarkerData_9.png
+[1.092s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/materials/textures/qrcode1.png
+[1.092s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr9/model.sdf
+[1.092s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small
+[1.092s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/model.config
+[1.092s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials
+[1.092s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/scripts
+[1.094s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/scripts/Floor.material
+[1.094s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/scripts/wall_white.material
+[1.095s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures
+[1.095s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cp11.jpg
+[1.095s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cl6.jpg
+[1.095s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cl4.jpg
+[1.095s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cp10.jpg
+[1.096s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cp3.jpg
+[1.096s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/hd5.jpg
+[1.096s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cl5.jpg
+[1.096s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cl3.jpg
+[1.097s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cp2.jpg
+[1.101s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cl2.jpg
+[1.101s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cp9.jpg
+[1.101s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/hd3.jpg
+[1.101s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cp5.png
+[1.105s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cp12.jpg
+[1.105s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/hd2.gif
+[1.105s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cp8.jpg
+[1.106s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/hd4.jpg
+[1.106s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cp6.jpg
+[1.106s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/hd8.jpg
+[1.107s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cl1.jpg
+[1.107s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/wall_color_white.jpg
+[1.107s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/hd6.png
+[1.108s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/hd1.jpg
+[1.108s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cp4.jpg
+[1.108s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cp7.jpg
+[1.108s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/cp1.jpg
+[1.109s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/materials/textures/hd7.jpg
+[1.109s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_small/model.sdf
+[1.109s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_ground_plane
+[1.110s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_ground_plane/model.config
+[1.110s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_ground_plane/materials
+[1.110s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_ground_plane/materials/scripts
+[1.110s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_ground_plane/materials/scripts/neobotix_ground_plane.material
+[1.110s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_ground_plane/materials/textures
+[1.110s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_ground_plane/materials/textures/MyImage.jpg
+[1.110s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/neobotix_ground_plane/model.sdf
+[1.110s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door
+[1.110s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door/model.config
+[1.111s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door/materials
+[1.111s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door/materials/scripts
+[1.111s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door/materials/scripts/door.material
+[1.111s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door/materials/textures
+[1.111s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door/materials/textures/door.jpg
+[1.111s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door/model.sdf
+[1.111s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr13
+[1.111s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr13/model.config
+[1.112s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr13/meshes
+[1.112s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr13/meshes/plate.blend
+[1.112s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr13/meshes/Ar_tag_nr13.dae
+[1.113s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr13/materials
+[1.113s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr13/materials/scripts
+[1.113s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr13/materials/scripts/ar_tag.material
+[1.113s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr13/materials/textures
+[1.113s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr13/materials/textures/MarkerData_13.png
+[1.113s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr13/model.sdf
+[1.113s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w_complete
+[1.113s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w_complete/model.config
+[1.113s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w_complete/materials
+[1.113s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w_complete/materials/scripts
+[1.114s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w_complete/materials/scripts/wall_white.material
+[1.114s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w_complete/materials/textures
+[1.114s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w_complete/materials/textures/wall_color_white.jpg
+[1.114s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w_complete/model.sdf
+[1.114s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tag.dae
+[1.115s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/docking_station
+[1.115s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/docking_station/model.config
+[1.115s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/docking_station/meshes
+[1.115s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/docking_station/meshes/d1.stl
+[1.115s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/docking_station/meshes/d1.dae
+[1.115s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/docking_station/meshes/d1_back1.dae
+[1.116s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/docking_station/materials
+[1.116s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/docking_station/materials/scripts
+[1.116s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/docking_station/materials/scripts/door_handle.material
+[1.116s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/docking_station/materials/scripts/door_3d.material
+[1.116s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/docking_station/materials/textures
+[1.116s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/docking_station/materials/textures/door_3d.jpg
+[1.116s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/docking_station/materials/textures/silver_door.jpg
+[1.117s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/docking_station/model.sdf
+[1.117s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags
+[1.117s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags/model.config
+[1.117s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags/meshes
+[1.117s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags/meshes/Ar_tag.dae
+[1.117s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags/materials
+[1.117s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags/materials/scripts
+[1.117s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags/materials/scripts/ar_tag.material
+[1.117s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags/materials/textures
+[1.118s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags/materials/textures/MarkerData_2.png
+[1.118s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags/model.sdf
+[1.118s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/drc_practice_straight
+[1.118s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/drc_practice_straight/model.config
+[1.118s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/drc_practice_straight/model.sdf
+[1.118s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr11
+[1.118s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr11/model.config
+[1.118s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr11/meshes
+[1.119s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr11/meshes/plate.blend
+[1.119s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr11/meshes/Ar_tag_nr11.dae
+[1.119s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr11/materials
+[1.120s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr11/materials/scripts
+[1.120s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr11/materials/scripts/ar_tag.material
+[1.120s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr11/materials/textures
+[1.120s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr11/materials/textures/MarkerData_11.png
+[1.120s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr11/model.sdf
+[1.120s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/window
+[1.120s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/window/model.config
+[1.120s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/window/model.sdf
+[1.120s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/construction_cone
+[1.121s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/construction_cone/model-1_3.sdf
+[1.121s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/construction_cone/model.config
+[1.121s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/construction_cone/meshes
+[1.121s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/construction_cone/meshes/construction_cone.dae
+[1.121s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/construction_cone/materials
+[1.121s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/construction_cone/materials/textures
+[1.121s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/construction_cone/materials/textures/Construction_Cone_Diffuse.png
+[1.122s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/construction_cone/model-1_4.sdf
+[1.122s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/construction_cone/model.sdf
+[1.122s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d
+[1.122s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/model.config
+[1.122s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/meshes
+[1.123s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/meshes/door_v2.dae
+[1.123s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/meshes/door_v2_door.dae
+[1.123s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/meshes/door_v2_handle.dae
+[1.123s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/meshes/door.dae
+[1.124s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/meshes/model.dae
+[1.124s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/materials
+[1.124s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/materials/scripts
+[1.124s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/materials/scripts/door_handle.material
+[1.124s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/materials/scripts/door_3d.material
+[1.125s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/materials/textures
+[1.125s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/materials/textures/door_3d.jpg
+[1.125s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/materials/textures/silver_door.jpg
+[1.125s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/door_3d/model.sdf
+[1.125s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 1
+[1.125s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 1/model.config
+[1.125s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 1/materials
+[1.125s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 1/materials/scripts
+[1.126s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 1/materials/scripts/wall_white.material
+[1.126s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 1/materials/textures
+[1.126s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 1/materials/textures/wall_color_white.jpg
+[1.126s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/office_env_w 1/model.sdf
+[1.126s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr8
+[1.126s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr8/model.config
+[1.126s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr8/meshes
+[1.127s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr8/meshes/plate.blend
+[1.127s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr8/meshes/Ar_tag_nr8.dae
+[1.127s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr8/materials
+[1.128s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr8/materials/scripts
+[1.128s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr8/materials/scripts/ar_tag.material
+[1.128s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr8/materials/textures
+[1.128s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr8/materials/textures/MarkerData_8.png
+[1.128s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/models/Ar_tags_nr8/model.sdf
+[1.128s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/ament_index/resource_index/package_run_dependencies/neo_simulation2
+[1.129s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/ament_index/resource_index/parent_prefix_path/neo_simulation2
+[1.129s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/environment/ament_prefix_path.sh
+[1.129s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/environment/ament_prefix_path.dsv
+[1.129s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/environment/path.sh
+[1.130s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/environment/path.dsv
+[1.130s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/local_setup.bash
+[1.130s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/local_setup.sh
+[1.130s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/local_setup.zsh
+[1.130s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/local_setup.dsv
+[1.130s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/package.dsv
+[1.131s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/ament_index/resource_index/packages/neo_simulation2
+[1.131s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/cmake/neo_simulation2Config.cmake
+[1.131s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/cmake/neo_simulation2Config-version.cmake
+[1.131s] -- Installing: /root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/package.xml
+[1.134s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_simulation2' returned '0': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_simulation2

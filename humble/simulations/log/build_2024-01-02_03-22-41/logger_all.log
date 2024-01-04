@@ -1,0 +1,764 @@
+[0.901s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.901s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8e8c1c8ee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8e8c1c9930>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8e8c1c9930>>)
+[0.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.943s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/simulations'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extensions ['ignore', 'ignore_ament_install']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extension 'ignore'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extension 'ignore_ament_install'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extensions ['colcon_pkg']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extension 'colcon_pkg'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extensions ['colcon_meta']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extension 'colcon_meta'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_common2) by extension 'ros'
+[0.954s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_common2' with type 'ros.ament_cmake' and name 'neo_common2'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_local_planner2) by extensions ['ignore', 'ignore_ament_install']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_local_planner2) by extension 'ignore'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_local_planner2) by extension 'ignore_ament_install'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_local_planner2) by extensions ['colcon_pkg']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_local_planner2) by extension 'colcon_pkg'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_local_planner2) by extensions ['colcon_meta']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_local_planner2) by extension 'colcon_meta'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_local_planner2) by extensions ['ros']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_local_planner2) by extension 'ros'
+[0.955s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_local_planner2' with type 'ros.ament_cmake' and name 'neo_local_planner'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extensions ['ignore', 'ignore_ament_install']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extension 'ignore_ament_install'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extensions ['colcon_pkg']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extension 'colcon_pkg'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extensions ['colcon_meta']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extension 'colcon_meta'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extensions ['ros']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extension 'ros'
+[0.955s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_localization2' with type 'ros.ament_cmake' and name 'neo_localization2'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extension 'ignore_ament_install'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extensions ['colcon_pkg']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extension 'colcon_pkg'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extensions ['colcon_meta']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extension 'colcon_meta'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extensions ['ros']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_msgs2) by extension 'ros'
+[0.956s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_msgs2' with type 'ros.ament_cmake' and name 'neo_msgs2'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extension 'ignore_ament_install'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extensions ['colcon_pkg']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extension 'colcon_pkg'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extensions ['colcon_meta']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extension 'colcon_meta'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extensions ['ros']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_nav2_bringup) by extension 'ros'
+[0.959s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_nav2_bringup' with type 'ros.ament_cmake' and name 'neo_nav2_bringup'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extension 'ignore_ament_install'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extensions ['colcon_pkg']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extension 'colcon_pkg'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extensions ['colcon_meta']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extension 'colcon_meta'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extensions ['ros']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_simulation2) by extension 'ros'
+[0.960s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_simulation2' with type 'ros.ament_cmake' and name 'neo_simulation2'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extension 'ignore_ament_install'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extension 'colcon_meta'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_srvs2) by extension 'ros'
+[0.961s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_srvs2' with type 'ros.ament_cmake' and name 'neo_srvs2'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extensions ['ignore', 'ignore_ament_install']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extension 'colcon_meta'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_teleop2) by extension 'ros'
+[0.962s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_teleop2' with type 'ros.ament_cmake' and name 'neo_teleop2'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool) by extensions ['ignore', 'ignore_ament_install']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool) by extension 'ignore'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool) by extension 'ignore_ament_install'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool) by extensions ['colcon_pkg']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool) by extension 'colcon_pkg'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool) by extensions ['colcon_meta']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool) by extension 'colcon_meta'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool) by extensions ['ros']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool) by extension 'ros'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool) by extensions ['cmake', 'python']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool) by extension 'cmake'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool) by extension 'python'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool) by extensions ['python_setup_py']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool) by extension 'python_setup_py'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian) by extensions ['ignore', 'ignore_ament_install']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian) by extension 'ignore'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian) by extension 'ignore_ament_install'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian) by extensions ['colcon_pkg']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian) by extension 'colcon_pkg'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian) by extensions ['colcon_meta']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian) by extension 'colcon_meta'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian) by extensions ['ros']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian) by extension 'ros'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian) by extensions ['cmake', 'python']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian) by extension 'cmake'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian) by extension 'python'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian) by extensions ['python_setup_py']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian) by extension 'python_setup_py'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools) by extensions ['ignore', 'ignore_ament_install']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools) by extension 'ignore'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools) by extension 'ignore_ament_install'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools) by extensions ['colcon_pkg']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools) by extension 'colcon_pkg'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools) by extensions ['colcon_meta']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools) by extension 'colcon_meta'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools) by extensions ['ros']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools) by extension 'ros'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools) by extensions ['cmake', 'python']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools) by extension 'cmake'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools) by extension 'python'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools) by extensions ['python_setup_py']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools) by extension 'python_setup_py'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/DEBIAN) by extensions ['ignore', 'ignore_ament_install']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/DEBIAN) by extension 'ignore'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/DEBIAN) by extension 'ignore_ament_install'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/DEBIAN) by extensions ['colcon_pkg']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/DEBIAN) by extension 'colcon_pkg'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/DEBIAN) by extensions ['colcon_meta']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/DEBIAN) by extension 'colcon_meta'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/DEBIAN) by extensions ['ros']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/DEBIAN) by extension 'ros'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/DEBIAN) by extensions ['cmake', 'python']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/DEBIAN) by extension 'cmake'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/DEBIAN) by extension 'python'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/DEBIAN) by extensions ['python_setup_py']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/DEBIAN) by extension 'python_setup_py'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt) by extensions ['ignore', 'ignore_ament_install']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt) by extension 'ignore'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt) by extension 'ignore_ament_install'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt) by extensions ['colcon_pkg']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt) by extension 'colcon_pkg'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt) by extensions ['colcon_meta']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt) by extension 'colcon_meta'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt) by extensions ['ros']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt) by extension 'ros'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt) by extensions ['cmake', 'python']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt) by extension 'cmake'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt) by extension 'python'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt) by extensions ['python_setup_py']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt) by extension 'python_setup_py'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix) by extensions ['ignore', 'ignore_ament_install']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix) by extension 'ignore'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix) by extension 'ignore_ament_install'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix) by extensions ['colcon_pkg']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix) by extension 'colcon_pkg'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix) by extensions ['colcon_meta']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix) by extension 'colcon_meta'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix) by extensions ['ros']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix) by extension 'ros'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix) by extensions ['cmake', 'python']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix) by extension 'cmake'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix) by extension 'python'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix) by extensions ['python_setup_py']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix) by extension 'python_setup_py'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix/tools) by extension 'ignore'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix/tools) by extension 'ignore_ament_install'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix/tools) by extensions ['colcon_pkg']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix/tools) by extension 'colcon_pkg'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix/tools) by extensions ['colcon_meta']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix/tools) by extension 'colcon_meta'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix/tools) by extensions ['ros']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix/tools) by extension 'ros'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix/tools) by extensions ['cmake', 'python']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix/tools) by extension 'cmake'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix/tools) by extension 'python'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix/tools) by extensions ['python_setup_py']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/debian/neobotix-tools/opt/neobotix/tools) by extension 'python_setup_py'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/generic) by extensions ['ignore', 'ignore_ament_install']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/generic) by extension 'ignore'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/generic) by extension 'ignore_ament_install'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/generic) by extensions ['colcon_pkg']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/generic) by extension 'colcon_pkg'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/generic) by extensions ['colcon_meta']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/generic) by extension 'colcon_meta'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/generic) by extensions ['ros']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/generic) by extension 'ros'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/generic) by extensions ['cmake', 'python']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/generic) by extension 'cmake'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/generic) by extension 'python'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/generic) by extensions ['python_setup_py']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/generic) by extension 'python_setup_py'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/package-setup) by extensions ['ignore', 'ignore_ament_install']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/package-setup) by extension 'ignore'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/package-setup) by extension 'ignore_ament_install'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/package-setup) by extensions ['colcon_pkg']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/package-setup) by extension 'colcon_pkg'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/package-setup) by extensions ['colcon_meta']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/package-setup) by extension 'colcon_meta'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/package-setup) by extensions ['ros']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/package-setup) by extension 'ros'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/package-setup) by extensions ['cmake', 'python']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/package-setup) by extension 'cmake'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/package-setup) by extension 'python'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/package-setup) by extensions ['python_setup_py']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-setup-tool/package-setup) by extension 'python_setup_py'
+[0.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'cmake_args' from command line to 'None'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'cmake_target' from command line to 'None'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'cmake_clean_first' from command line to 'False'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'cmake_force_configure' from command line to 'False'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'ament_cmake_args' from command line to 'None'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'neo_common2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.034s] DEBUG:colcon.colcon_core.verb:Building package 'neo_common2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/simulations/build/neo_common2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/simulations/install/neo_common2', 'merge_install': False, 'path': '/root/ros2_code/humble/simulations/src/neo_common2', 'symlink_install': False, 'test_result_base': None}
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'neo_local_planner' build argument 'cmake_args' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'neo_local_planner' build argument 'cmake_target' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'neo_local_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'neo_local_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'neo_local_planner' build argument 'cmake_clean_first' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'neo_local_planner' build argument 'cmake_force_configure' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'neo_local_planner' build argument 'ament_cmake_args' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'neo_local_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'neo_local_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.049s] DEBUG:colcon.colcon_core.verb:Building package 'neo_local_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/simulations/build/neo_local_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/simulations/install/neo_local_planner', 'merge_install': False, 'path': '/root/ros2_code/humble/simulations/src/neo_local_planner2', 'symlink_install': False, 'test_result_base': None}
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'cmake_args' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'cmake_target' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'cmake_clean_first' from command line to 'False'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'cmake_force_configure' from command line to 'False'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'ament_cmake_args' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'neo_msgs2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.061s] DEBUG:colcon.colcon_core.verb:Building package 'neo_msgs2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/simulations/build/neo_msgs2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/simulations/install/neo_msgs2', 'merge_install': False, 'path': '/root/ros2_code/humble/simulations/src/neo_msgs2', 'symlink_install': False, 'test_result_base': None}
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'cmake_args' from command line to 'None'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'cmake_target' from command line to 'None'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'neo_nav2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.073s] DEBUG:colcon.colcon_core.verb:Building package 'neo_nav2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/simulations/build/neo_nav2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/simulations/install/neo_nav2_bringup', 'merge_install': False, 'path': '/root/ros2_code/humble/simulations/src/neo_nav2_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'cmake_args' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'cmake_target' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'cmake_clean_first' from command line to 'False'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'cmake_force_configure' from command line to 'False'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'ament_cmake_args' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'neo_srvs2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.088s] DEBUG:colcon.colcon_core.verb:Building package 'neo_srvs2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/simulations/build/neo_srvs2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/simulations/install/neo_srvs2', 'merge_install': False, 'path': '/root/ros2_code/humble/simulations/src/neo_srvs2', 'symlink_install': False, 'test_result_base': None}
+[1.108s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'cmake_args' from command line to 'None'
+[1.108s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'cmake_target' from command line to 'None'
+[1.108s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.108s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.108s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'cmake_clean_first' from command line to 'False'
+[1.108s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'cmake_force_configure' from command line to 'False'
+[1.108s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'ament_cmake_args' from command line to 'None'
+[1.108s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.108s] Level 5:colcon.colcon_core.verb:set package 'neo_teleop2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.108s] DEBUG:colcon.colcon_core.verb:Building package 'neo_teleop2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/simulations/build/neo_teleop2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/simulations/install/neo_teleop2', 'merge_install': False, 'path': '/root/ros2_code/humble/simulations/src/neo_teleop2', 'symlink_install': False, 'test_result_base': None}
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'cmake_args' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'cmake_target' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'cmake_clean_first' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'cmake_force_configure' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'ament_cmake_args' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.123s] DEBUG:colcon.colcon_core.verb:Building package 'neo_localization2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/simulations/build/neo_localization2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/simulations/install/neo_localization2', 'merge_install': False, 'path': '/root/ros2_code/humble/simulations/src/neo_localization2', 'symlink_install': False, 'test_result_base': None}
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'cmake_target' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'cmake_clean_first' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'cmake_force_configure' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'ament_cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'neo_simulation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.136s] DEBUG:colcon.colcon_core.verb:Building package 'neo_simulation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/simulations/build/neo_simulation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/simulations/install/neo_simulation2', 'merge_install': False, 'path': '/root/ros2_code/humble/simulations/src/neo_simulation2', 'symlink_install': False, 'test_result_base': None}
+[1.147s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.162s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.162s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/simulations/src/neo_common2' with build type 'ament_cmake'
+[1.163s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/simulations/src/neo_common2'
+[1.177s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/simulations/install/neo_teleop2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/simulations/install/neo_srvs2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/simulations/install/neo_simulation2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/simulations/install/neo_nav2_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/simulations/install/neo_msgs2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/simulations/install/neo_localization2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/simulations/install/neo_local_planner' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/simulations/install/neo_common2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.191s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/simulations/install/neo_teleop2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.191s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/simulations/install/neo_srvs2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.191s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/simulations/install/neo_simulation2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.191s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/simulations/install/neo_nav2_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.191s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/simulations/install/neo_msgs2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.191s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/simulations/install/neo_localization2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.191s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/simulations/install/neo_local_planner' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.191s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/simulations/install/neo_common2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.191s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.267s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/simulations/src/neo_nav2_bringup' with build type 'ament_cmake'
+[1.267s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/simulations/src/neo_nav2_bringup'
+[1.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.375s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/simulations/src/neo_local_planner2' with build type 'ament_cmake'
+[1.375s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/simulations/src/neo_local_planner2'
+[1.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.482s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/simulations/src/neo_msgs2' with build type 'ament_cmake'
+[1.482s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/simulations/src/neo_msgs2'
+[1.501s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.593s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/simulations/src/neo_srvs2' with build type 'ament_cmake'
+[1.593s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/simulations/src/neo_srvs2'
+[1.606s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.683s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/simulations/src/neo_teleop2' with build type 'ament_cmake'
+[1.684s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/simulations/src/neo_teleop2'
+[1.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_common2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_common2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_common2
+[1.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_nav2_bringup -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_nav2_bringup
+[1.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_local_planner2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_local_planner
+[1.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_msgs2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_msgs2
+[1.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_srvs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_srvs2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_srvs2
+[1.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_teleop2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_teleop2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_teleop2
+[2.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_common2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_common2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_common2
+[2.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_common2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_common2 -- -j12 -l12
+[2.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_common2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_common2 -- -j12 -l12
+[2.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_common2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_common2
+[2.663s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_common2)
+[2.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_common2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_common2
+[2.683s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_common2' for CMake module files
+[2.684s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_common2' for CMake config files
+[2.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_common2', 'cmake_prefix_path')
+[2.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/hook/cmake_prefix_path.ps1'
+[2.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/hook/cmake_prefix_path.dsv'
+[2.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/hook/cmake_prefix_path.sh'
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_common2/bin'
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_common2/lib/pkgconfig/neo_common2.pc'
+[2.709s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_common2/lib/python3.10/site-packages'
+[2.710s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_common2/bin'
+[2.726s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/package.ps1'
+[2.727s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/package.dsv'
+[2.727s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/package.sh'
+[2.727s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/package.bash'
+[2.728s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/package.zsh'
+[2.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_common2/share/colcon-core/packages/neo_common2)
+[2.771s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_common2)
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_common2' for CMake module files
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_common2' for CMake config files
+[2.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_common2', 'cmake_prefix_path')
+[2.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/hook/cmake_prefix_path.ps1'
+[2.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/hook/cmake_prefix_path.dsv'
+[2.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/hook/cmake_prefix_path.sh'
+[2.804s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_common2/bin'
+[2.805s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_common2/lib/pkgconfig/neo_common2.pc'
+[2.805s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_common2/lib/python3.10/site-packages'
+[2.805s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_common2/bin'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/package.ps1'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/package.dsv'
+[2.826s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/package.sh'
+[2.826s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/package.bash'
+[2.826s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_common2/share/neo_common2/package.zsh'
+[2.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_common2/share/colcon-core/packages/neo_common2)
+[2.827s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/simulations/src/neo_localization2' with build type 'ament_cmake'
+[2.827s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/simulations/src/neo_localization2'
+[2.843s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.843s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_localization2': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_localization2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_localization2
+[3.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_teleop2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_teleop2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_teleop2
+[3.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_teleop2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_teleop2 -- -j12 -l12
+[3.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_msgs2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_msgs2
+[3.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_msgs2 -- -j12 -l12
+[4.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_srvs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_srvs2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_srvs2
+[4.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_srvs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_srvs2 -- -j12 -l12
+[5.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_localization2' returned '0': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_localization2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_localization2
+[5.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_localization2': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_localization2 -- -j12 -l12
+[15.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_srvs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_srvs2 -- -j12 -l12
+[15.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_srvs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_srvs2
+[16.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_srvs2)
+[16.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_srvs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_srvs2
+[16.138s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_srvs2' for CMake module files
+[16.138s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_srvs2' for CMake config files
+[16.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_srvs2', 'cmake_prefix_path')
+[16.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/hook/cmake_prefix_path.ps1'
+[16.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/hook/cmake_prefix_path.dsv'
+[16.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/hook/cmake_prefix_path.sh'
+[16.157s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_srvs2/lib'
+[16.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_srvs2', 'ld_library_path_lib')
+[16.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/hook/ld_library_path_lib.ps1'
+[16.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/hook/ld_library_path_lib.dsv'
+[16.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/hook/ld_library_path_lib.sh'
+[16.175s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_srvs2/bin'
+[16.175s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_srvs2/lib/pkgconfig/neo_srvs2.pc'
+[16.176s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_srvs2/lib/python3.10/site-packages'
+[16.176s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_srvs2/bin'
+[16.222s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/package.ps1'
+[16.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/package.dsv'
+[16.223s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/package.sh'
+[16.223s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/package.bash'
+[16.224s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/package.zsh'
+[16.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_srvs2/share/colcon-core/packages/neo_srvs2)
+[16.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_local_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_local_planner2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_local_planner
+[16.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_local_planner -- -j12 -l12
+[16.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_srvs2)
+[16.851s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_srvs2' for CMake module files
+[16.852s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_srvs2' for CMake config files
+[16.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_srvs2', 'cmake_prefix_path')
+[16.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/hook/cmake_prefix_path.ps1'
+[16.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/hook/cmake_prefix_path.dsv'
+[16.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/hook/cmake_prefix_path.sh'
+[16.876s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_srvs2/lib'
+[16.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_srvs2', 'ld_library_path_lib')
+[16.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/hook/ld_library_path_lib.ps1'
+[16.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/hook/ld_library_path_lib.dsv'
+[16.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/hook/ld_library_path_lib.sh'
+[16.896s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_srvs2/bin'
+[16.896s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_srvs2/lib/pkgconfig/neo_srvs2.pc'
+[16.896s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_srvs2/lib/python3.10/site-packages'
+[16.896s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_srvs2/bin'
+[16.910s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/package.ps1'
+[16.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/package.dsv'
+[16.911s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/package.sh'
+[16.911s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/package.bash'
+[16.911s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/package.zsh'
+[16.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_srvs2/share/colcon-core/packages/neo_srvs2)
+[16.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_msgs2 -- -j12 -l12
+[17.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_msgs2
+[17.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_msgs2)
+[17.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_msgs2
+[17.380s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_msgs2' for CMake module files
+[17.380s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_msgs2' for CMake config files
+[17.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_msgs2', 'cmake_prefix_path')
+[17.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/hook/cmake_prefix_path.ps1'
+[17.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/hook/cmake_prefix_path.dsv'
+[17.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/hook/cmake_prefix_path.sh'
+[17.400s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_msgs2/lib'
+[17.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_msgs2', 'ld_library_path_lib')
+[17.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/hook/ld_library_path_lib.ps1'
+[17.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/hook/ld_library_path_lib.dsv'
+[17.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/hook/ld_library_path_lib.sh'
+[17.415s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_msgs2/bin'
+[17.415s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_msgs2/lib/pkgconfig/neo_msgs2.pc'
+[17.416s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_msgs2/lib/python3.10/site-packages'
+[17.416s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_msgs2/bin'
+[17.431s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/package.ps1'
+[17.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/package.dsv'
+[17.432s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/package.sh'
+[17.432s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/package.bash'
+[17.433s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/package.zsh'
+[17.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_msgs2/share/colcon-core/packages/neo_msgs2)
+[17.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_msgs2)
+[17.802s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_msgs2' for CMake module files
+[17.803s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_msgs2' for CMake config files
+[17.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_msgs2', 'cmake_prefix_path')
+[17.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/hook/cmake_prefix_path.ps1'
+[17.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/hook/cmake_prefix_path.dsv'
+[17.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/hook/cmake_prefix_path.sh'
+[17.836s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_msgs2/lib'
+[17.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_msgs2', 'ld_library_path_lib')
+[17.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/hook/ld_library_path_lib.ps1'
+[17.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/hook/ld_library_path_lib.dsv'
+[17.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/hook/ld_library_path_lib.sh'
+[17.865s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_msgs2/bin'
+[17.865s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_msgs2/lib/pkgconfig/neo_msgs2.pc'
+[17.865s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_msgs2/lib/python3.10/site-packages'
+[17.865s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_msgs2/bin'
+[17.878s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/package.ps1'
+[17.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/package.dsv'
+[17.880s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/package.sh'
+[17.880s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/package.bash'
+[17.880s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_msgs2/share/neo_msgs2/package.zsh'
+[17.881s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_msgs2/share/colcon-core/packages/neo_msgs2)
+[18.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_teleop2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_teleop2 -- -j12 -l12
+[18.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_teleop2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_teleop2
+[18.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_teleop2)
+[18.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_teleop2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_teleop2
+[18.297s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_teleop2' for CMake module files
+[18.297s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_teleop2' for CMake config files
+[18.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_teleop2', 'cmake_prefix_path')
+[18.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/hook/cmake_prefix_path.ps1'
+[18.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/hook/cmake_prefix_path.dsv'
+[18.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/hook/cmake_prefix_path.sh'
+[18.312s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_teleop2/lib'
+[18.312s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_teleop2/bin'
+[18.312s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_teleop2/lib/pkgconfig/neo_teleop2.pc'
+[18.312s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_teleop2/lib/python3.10/site-packages'
+[18.312s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_teleop2/bin'
+[18.329s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/package.ps1'
+[18.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/package.dsv'
+[18.330s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/package.sh'
+[18.330s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/package.bash'
+[18.330s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/package.zsh'
+[18.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_teleop2/share/colcon-core/packages/neo_teleop2)
+[18.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_teleop2)
+[18.389s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_teleop2' for CMake module files
+[18.389s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_teleop2' for CMake config files
+[18.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_teleop2', 'cmake_prefix_path')
+[18.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/hook/cmake_prefix_path.ps1'
+[18.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/hook/cmake_prefix_path.dsv'
+[18.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/hook/cmake_prefix_path.sh'
+[18.404s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_teleop2/lib'
+[18.404s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_teleop2/bin'
+[18.404s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_teleop2/lib/pkgconfig/neo_teleop2.pc'
+[18.404s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_teleop2/lib/python3.10/site-packages'
+[18.404s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_teleop2/bin'
+[18.418s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/package.ps1'
+[18.418s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/package.dsv'
+[18.418s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/package.sh'
+[18.419s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/package.bash'
+[18.419s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_teleop2/share/neo_teleop2/package.zsh'
+[18.419s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_teleop2/share/colcon-core/packages/neo_teleop2)
+[25.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_nav2_bringup -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_nav2_bringup
+[25.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_nav2_bringup -- -j12 -l12
+[25.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_nav2_bringup -- -j12 -l12
+[25.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_nav2_bringup
+[25.825s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_nav2_bringup)
+[25.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_nav2_bringup
+[25.839s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_nav2_bringup' for CMake module files
+[25.841s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_nav2_bringup' for CMake config files
+[25.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_nav2_bringup', 'cmake_prefix_path')
+[25.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/hook/cmake_prefix_path.ps1'
+[25.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/hook/cmake_prefix_path.dsv'
+[25.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/hook/cmake_prefix_path.sh'
+[25.861s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/bin'
+[25.862s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/lib/pkgconfig/neo_nav2_bringup.pc'
+[25.862s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/lib/python3.10/site-packages'
+[25.862s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/bin'
+[25.876s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/package.ps1'
+[25.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/package.dsv'
+[25.877s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/package.sh'
+[25.877s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/package.bash'
+[25.877s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/package.zsh'
+[25.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/colcon-core/packages/neo_nav2_bringup)
+[25.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_nav2_bringup)
+[25.937s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_nav2_bringup' for CMake module files
+[25.938s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_nav2_bringup' for CMake config files
+[25.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_nav2_bringup', 'cmake_prefix_path')
+[25.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/hook/cmake_prefix_path.ps1'
+[25.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/hook/cmake_prefix_path.dsv'
+[25.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/hook/cmake_prefix_path.sh'
+[25.952s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/bin'
+[25.953s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/lib/pkgconfig/neo_nav2_bringup.pc'
+[25.953s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/lib/python3.10/site-packages'
+[25.953s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/bin'
+[25.966s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/package.ps1'
+[25.967s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/package.dsv'
+[25.967s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/package.sh'
+[25.967s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/package.bash'
+[25.968s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/package.zsh'
+[25.968s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/colcon-core/packages/neo_nav2_bringup)
+[25.968s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/simulations/src/neo_simulation2' with build type 'ament_cmake'
+[25.968s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/simulations/src/neo_simulation2'
+[25.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_simulation2': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_simulation2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_simulation2
+[26.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_simulation2' returned '0': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_simulation2 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_simulation2
+[26.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_simulation2': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_simulation2 -- -j12 -l12
+[26.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_simulation2' returned '0': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_simulation2 -- -j12 -l12
+[26.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_simulation2': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_simulation2
+[27.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_simulation2)
+[27.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_simulation2' returned '0': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_simulation2
+[27.130s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_simulation2' for CMake module files
+[27.130s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_simulation2' for CMake config files
+[27.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_simulation2', 'cmake_prefix_path')
+[27.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/hook/cmake_prefix_path.ps1'
+[27.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/hook/cmake_prefix_path.dsv'
+[27.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/hook/cmake_prefix_path.sh'
+[27.150s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_simulation2/bin'
+[27.150s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_simulation2/lib/pkgconfig/neo_simulation2.pc'
+[27.150s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_simulation2/lib/python3.10/site-packages'
+[27.150s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_simulation2/bin'
+[27.164s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/package.ps1'
+[27.164s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/package.dsv'
+[27.164s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/package.sh'
+[27.165s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/package.bash'
+[27.165s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/package.zsh'
+[27.165s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_simulation2/share/colcon-core/packages/neo_simulation2)
+[27.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_simulation2)
+[27.219s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_simulation2' for CMake module files
+[27.219s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_simulation2' for CMake config files
+[27.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_simulation2', 'cmake_prefix_path')
+[27.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/hook/cmake_prefix_path.ps1'
+[27.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/hook/cmake_prefix_path.dsv'
+[27.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/hook/cmake_prefix_path.sh'
+[27.236s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_simulation2/bin'
+[27.236s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_simulation2/lib/pkgconfig/neo_simulation2.pc'
+[27.236s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_simulation2/lib/python3.10/site-packages'
+[27.237s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_simulation2/bin'
+[27.249s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/package.ps1'
+[27.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/package.dsv'
+[27.250s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/package.sh'
+[27.250s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/package.bash'
+[27.251s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_simulation2/share/neo_simulation2/package.zsh'
+[27.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_simulation2/share/colcon-core/packages/neo_simulation2)
+[29.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_local_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_local_planner -- -j12 -l12
+[29.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_local_planner
+[29.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_local_planner)
+[29.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_local_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_local_planner
+[29.398s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_local_planner' for CMake module files
+[29.398s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_local_planner' for CMake config files
+[29.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_local_planner', 'cmake_prefix_path')
+[29.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/hook/cmake_prefix_path.ps1'
+[29.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/hook/cmake_prefix_path.dsv'
+[29.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/hook/cmake_prefix_path.sh'
+[29.415s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_local_planner/lib'
+[29.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_local_planner', 'ld_library_path_lib')
+[29.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/hook/ld_library_path_lib.ps1'
+[29.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/hook/ld_library_path_lib.dsv'
+[29.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/hook/ld_library_path_lib.sh'
+[29.429s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_local_planner/bin'
+[29.429s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_local_planner/lib/pkgconfig/neo_local_planner.pc'
+[29.429s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_local_planner/lib/python3.10/site-packages'
+[29.430s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_local_planner/bin'
+[29.446s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/package.ps1'
+[29.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/package.dsv'
+[29.447s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/package.sh'
+[29.447s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/package.bash'
+[29.447s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/package.zsh'
+[29.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_local_planner/share/colcon-core/packages/neo_local_planner)
+[29.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_local_planner)
+[29.523s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_local_planner' for CMake module files
+[29.524s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_local_planner' for CMake config files
+[29.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_local_planner', 'cmake_prefix_path')
+[29.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/hook/cmake_prefix_path.ps1'
+[29.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/hook/cmake_prefix_path.dsv'
+[29.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/hook/cmake_prefix_path.sh'
+[29.546s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_local_planner/lib'
+[29.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_local_planner', 'ld_library_path_lib')
+[29.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/hook/ld_library_path_lib.ps1'
+[29.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/hook/ld_library_path_lib.dsv'
+[29.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/hook/ld_library_path_lib.sh'
+[29.562s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_local_planner/bin'
+[29.562s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_local_planner/lib/pkgconfig/neo_local_planner.pc'
+[29.562s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_local_planner/lib/python3.10/site-packages'
+[29.563s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_local_planner/bin'
+[29.575s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/package.ps1'
+[29.576s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/package.dsv'
+[29.576s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/package.sh'
+[29.577s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/package.bash'
+[29.577s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/package.zsh'
+[29.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_local_planner/share/colcon-core/packages/neo_local_planner)
+[31.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_localization2' returned '0': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_localization2 -- -j12 -l12
+[31.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/simulations/build/neo_localization2': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_localization2
+[31.314s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_localization2)
+[31.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/simulations/build/neo_localization2' returned '0': CMAKE_PREFIX_PATH=/root/ros2_code/humble/simulations/install/neo_common2:/root/ros2_code/humble/simulations/install/neo_teleop2:/root/ros2_code/humble/simulations/install/neo_srvs2:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/neo_nav2_bringup:/root/ros2_code/humble/simulations/install/neo_msgs2:/root/ros2_code/humble/simulations/install/neo_localization2:/root/ros2_code/humble/simulations/install/neo_local_planner:/root/ros2_code/humble/simulations/install/aws_robomaker_small_warehouse_world:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_localization2
+[31.327s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_localization2' for CMake module files
+[31.327s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_localization2' for CMake config files
+[31.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_localization2', 'cmake_prefix_path')
+[31.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/hook/cmake_prefix_path.ps1'
+[31.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/hook/cmake_prefix_path.dsv'
+[31.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/hook/cmake_prefix_path.sh'
+[31.340s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_localization2/lib'
+[31.341s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_localization2/bin'
+[31.341s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_localization2/lib/pkgconfig/neo_localization2.pc'
+[31.341s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_localization2/lib/python3.10/site-packages'
+[31.341s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_localization2/bin'
+[31.353s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/package.ps1'
+[31.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/package.dsv'
+[31.354s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/package.sh'
+[31.354s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/package.bash'
+[31.354s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/package.zsh'
+[31.355s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_localization2/share/colcon-core/packages/neo_localization2)
+[31.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_localization2)
+[31.416s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_localization2' for CMake module files
+[31.417s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_localization2' for CMake config files
+[31.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_localization2', 'cmake_prefix_path')
+[31.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/hook/cmake_prefix_path.ps1'
+[31.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/hook/cmake_prefix_path.dsv'
+[31.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/hook/cmake_prefix_path.sh'
+[31.430s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_localization2/lib'
+[31.430s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_localization2/bin'
+[31.430s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_localization2/lib/pkgconfig/neo_localization2.pc'
+[31.431s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_localization2/lib/python3.10/site-packages'
+[31.431s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/simulations/install/neo_localization2/bin'
+[31.444s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/package.ps1'
+[31.444s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/package.dsv'
+[31.445s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/package.sh'
+[31.445s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/package.bash'
+[31.445s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/simulations/install/neo_localization2/share/neo_localization2/package.zsh'
+[31.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/simulations/install/neo_localization2/share/colcon-core/packages/neo_localization2)
+[31.446s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[31.446s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[31.446s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[31.446s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[31.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[31.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[31.464s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[31.464s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.467s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[31.468s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/simulations/install/local_setup.ps1'
+[31.482s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/simulations/install/_local_setup_util_ps1.py'
+[31.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/simulations/install/setup.ps1'
+[31.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/simulations/install/local_setup.sh'
+[31.497s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/simulations/install/_local_setup_util_sh.py'
+[31.497s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/simulations/install/setup.sh'
+[31.510s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/simulations/install/local_setup.bash'
+[31.511s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/simulations/install/setup.bash'
+[31.524s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/simulations/install/local_setup.zsh'
+[31.524s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/simulations/install/setup.zsh'

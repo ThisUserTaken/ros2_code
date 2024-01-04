@@ -1,0 +1,76 @@
+[0.521s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_nav2_bringup -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_nav2_bringup
+[0.579s] -- The C compiler identification is GNU 11.4.0
+[0.642s] -- The CXX compiler identification is GNU 11.4.0
+[0.650s] -- Detecting C compiler ABI info
+[0.742s] -- Detecting C compiler ABI info - done
+[0.751s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.751s] -- Detecting C compile features
+[0.752s] -- Detecting C compile features - done
+[0.755s] -- Detecting CXX compiler ABI info
+[0.873s] -- Detecting CXX compiler ABI info - done
+[0.883s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.883s] -- Detecting CXX compile features
+[0.883s] -- Detecting CXX compile features - done
+[0.890s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.073s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.206s] -- Found navigation2: 1.1.12 (/opt/ros/humble/share/navigation2/cmake)
+[1.210s] -- Found nav2_map_server: 1.1.12 (/opt/ros/humble/share/nav2_map_server/cmake)
+[1.291s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.302s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.322s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.346s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.154s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.163s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.217s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.238s] -- Looking for pthread.h
+[2.333s] -- Looking for pthread.h - found
+[2.333s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.423s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.423s] -- Found Threads: TRUE  
+[2.832s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.834s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.834s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.963s] -- Found nav2_amcl: 1.1.12 (/opt/ros/humble/share/nav2_amcl/cmake)
+[6.477s] -- Found nav2_controller: 1.1.12 (/opt/ros/humble/share/nav2_controller/cmake)
+[15.021s] -- Found nav2_planner: 1.1.12 (/opt/ros/humble/share/nav2_planner/cmake)
+[17.408s] -- Found nav2_behaviors: 1.1.12 (/opt/ros/humble/share/nav2_behaviors/cmake)
+[20.734s] -- Found nav2_bt_navigator: 1.1.12 (/opt/ros/humble/share/nav2_bt_navigator/cmake)
+[22.687s] -- Found nav2_waypoint_follower: 1.1.12 (/opt/ros/humble/share/nav2_waypoint_follower/cmake)
+[23.775s] -- Found nav2_lifecycle_manager: 1.1.12 (/opt/ros/humble/share/nav2_lifecycle_manager/cmake)
+[24.424s] -- Configuring done
+[24.435s] -- Generating done
+[24.437s] -- Build files have been written to: /root/ros2_code/humble/simulations/build/neo_nav2_bringup
+[24.449s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/neo_nav2_bringup -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/neo_nav2_bringup
+[24.452s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_nav2_bringup -- -j12 -l12
+[24.502s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_nav2_bringup -- -j12 -l12
+[24.538s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_nav2_bringup
+[24.549s] -- Install configuration: ""
+[24.549s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/launch
+[24.550s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/launch/localization_amcl.launch.py
+[24.550s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/launch/localization_neo.launch.py
+[24.550s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/launch/navigation_neo.launch.py
+[24.550s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/launch/rviz_launch.py
+[24.550s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/launch/mapping.launch.py
+[24.550s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/config
+[24.551s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/config/mapping.yaml
+[24.551s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/config/navigation.yaml
+[24.551s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/rviz
+[24.551s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/rviz/multi_robot.rviz
+[24.551s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/rviz/single_robot.rviz
+[24.552s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/ament_index/resource_index/package_run_dependencies/neo_nav2_bringup
+[24.552s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/ament_index/resource_index/parent_prefix_path/neo_nav2_bringup
+[24.552s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/environment/ament_prefix_path.sh
+[24.552s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/environment/ament_prefix_path.dsv
+[24.553s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/environment/path.sh
+[24.553s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/environment/path.dsv
+[24.553s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/local_setup.bash
+[24.553s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/local_setup.sh
+[24.554s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/local_setup.zsh
+[24.554s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/local_setup.dsv
+[24.554s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/package.dsv
+[24.554s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/ament_index/resource_index/packages/neo_nav2_bringup
+[24.555s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/cmake/neo_nav2_bringupConfig.cmake
+[24.555s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/cmake/neo_nav2_bringupConfig-version.cmake
+[24.555s] -- Installing: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/package.xml
+[24.558s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_nav2_bringup

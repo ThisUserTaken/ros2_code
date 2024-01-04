@@ -1,0 +1,40 @@
+[0.086s] Invoking command in '/root/ros2_code/humble/surround_view_ros/build/omni_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/surround_view_ros/build/omni_robot_description -- -j12 -l12
+[0.122s] Invoked command in '/root/ros2_code/humble/surround_view_ros/build/omni_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/surround_view_ros/build/omni_robot_description -- -j12 -l12
+[0.153s] Invoking command in '/root/ros2_code/humble/surround_view_ros/build/omni_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/surround_view_ros/build/omni_robot_description
+[0.161s] -- Install configuration: ""
+[0.161s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/robots
+[0.161s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/robots/robot.sdf
+[0.162s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/robots/omni_robot.urdf.xacro
+[0.162s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/robots/rs_robot.urdf
+[0.162s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf
+[0.163s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/base
+[0.163s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/base/base.urdf.xacro
+[0.163s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/base/base.gazebo.xacro
+[0.163s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/roller
+[0.163s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/roller/roller.urdf.xacro
+[0.163s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/roller/roller.gazebo.xacro
+[0.164s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/roller/roller.transmission.xacro
+[0.164s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/omni_wheel
+[0.165s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/omni_wheel/omni_wheel.gazebo.xacro
+[0.165s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/omni_wheel/omni_wheel.urdf.xacro
+[0.166s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/omni_wheel/omni_wheel.transmission.xacro
+[0.166s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/lrf
+[0.167s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/lrf/lrf.gazebo.xacro
+[0.167s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/lrf/lrf.urdf.xacro
+[0.167s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/urdf/projectile.xacro
+[0.167s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/ament_index/resource_index/package_run_dependencies/omni_robot_description
+[0.168s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/ament_index/resource_index/parent_prefix_path/omni_robot_description
+[0.169s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/environment/ament_prefix_path.sh
+[0.169s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/environment/ament_prefix_path.dsv
+[0.169s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/environment/path.sh
+[0.169s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/environment/path.dsv
+[0.169s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/local_setup.bash
+[0.169s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/local_setup.sh
+[0.170s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/local_setup.zsh
+[0.170s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/local_setup.dsv
+[0.170s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/package.dsv
+[0.171s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/ament_index/resource_index/packages/omni_robot_description
+[0.171s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/cmake/omni_robot_descriptionConfig.cmake
+[0.171s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/cmake/omni_robot_descriptionConfig-version.cmake
+[0.171s] -- Up-to-date: /root/ros2_code/humble/surround_view_ros/install/omni_robot_description/share/omni_robot_description/package.xml
+[0.178s] Invoked command in '/root/ros2_code/humble/surround_view_ros/build/omni_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/surround_view_ros/build/omni_robot_description

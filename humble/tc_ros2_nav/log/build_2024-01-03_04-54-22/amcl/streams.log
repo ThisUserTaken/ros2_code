@@ -1,0 +1,37 @@
+[2.826s] Invoking command in '/root/ros2_code/humble/tc_ros2_nav/src/amcl': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/amcl/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/amcl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/amcl build --build-base /root/ros2_code/humble/tc_ros2_nav/build/amcl/build install --record /root/ros2_code/humble/tc_ros2_nav/build/amcl/install.log --single-version-externally-managed
+[3.045s] running egg_info
+[3.046s] creating ../../build/amcl/amcl.egg-info
+[3.047s] writing ../../build/amcl/amcl.egg-info/PKG-INFO
+[3.047s] writing dependency_links to ../../build/amcl/amcl.egg-info/dependency_links.txt
+[3.047s] writing entry points to ../../build/amcl/amcl.egg-info/entry_points.txt
+[3.047s] writing requirements to ../../build/amcl/amcl.egg-info/requires.txt
+[3.048s] writing top-level names to ../../build/amcl/amcl.egg-info/top_level.txt
+[3.048s] writing manifest file '../../build/amcl/amcl.egg-info/SOURCES.txt'
+[3.050s] reading manifest file '../../build/amcl/amcl.egg-info/SOURCES.txt'
+[3.051s] writing manifest file '../../build/amcl/amcl.egg-info/SOURCES.txt'
+[3.051s] running build
+[3.051s] running build_py
+[3.052s] creating /root/ros2_code/humble/tc_ros2_nav/build/amcl/build
+[3.052s] creating /root/ros2_code/humble/tc_ros2_nav/build/amcl/build/lib
+[3.052s] creating /root/ros2_code/humble/tc_ros2_nav/build/amcl/build/lib/amcl
+[3.052s] copying amcl/__init__.py -> /root/ros2_code/humble/tc_ros2_nav/build/amcl/build/lib/amcl
+[3.052s] running install
+[3.053s] running install_lib
+[3.054s] creating /root/ros2_code/humble/tc_ros2_nav/install/amcl/lib/python3.10/site-packages/amcl
+[3.054s] copying /root/ros2_code/humble/tc_ros2_nav/build/amcl/build/lib/amcl/__init__.py -> /root/ros2_code/humble/tc_ros2_nav/install/amcl/lib/python3.10/site-packages/amcl
+[3.056s] byte-compiling /root/ros2_code/humble/tc_ros2_nav/install/amcl/lib/python3.10/site-packages/amcl/__init__.py to __init__.cpython-310.pyc
+[3.056s] running install_data
+[3.057s] creating /root/ros2_code/humble/tc_ros2_nav/install/amcl/share/ament_index
+[3.057s] creating /root/ros2_code/humble/tc_ros2_nav/install/amcl/share/ament_index/resource_index
+[3.057s] creating /root/ros2_code/humble/tc_ros2_nav/install/amcl/share/ament_index/resource_index/packages
+[3.057s] copying resource/amcl -> /root/ros2_code/humble/tc_ros2_nav/install/amcl/share/ament_index/resource_index/packages
+[3.057s] copying package.xml -> /root/ros2_code/humble/tc_ros2_nav/install/amcl/share/amcl
+[3.058s] creating /root/ros2_code/humble/tc_ros2_nav/install/amcl/share/amcl/launch
+[3.058s] copying launch/amcl.launch.py -> /root/ros2_code/humble/tc_ros2_nav/install/amcl/share/amcl/launch
+[3.058s] creating /root/ros2_code/humble/tc_ros2_nav/install/amcl/share/amcl/config
+[3.058s] copying config/ amcl_config.yaml -> /root/ros2_code/humble/tc_ros2_nav/install/amcl/share/amcl/config
+[3.058s] running install_egg_info
+[3.060s] Copying ../../build/amcl/amcl.egg-info to /root/ros2_code/humble/tc_ros2_nav/install/amcl/lib/python3.10/site-packages/amcl-0.0.0-py3.10.egg-info
+[3.061s] running install_scripts
+[3.073s] writing list of installed files to '/root/ros2_code/humble/tc_ros2_nav/build/amcl/install.log'
+[3.111s] Invoked command in '/root/ros2_code/humble/tc_ros2_nav/src/amcl' returned '0': PYTHONPATH=/root/ros2_code/humble/tc_ros2_nav/build/amcl/prefix_override:/root/ros2_code/humble/tc_ros2_nav/install/amcl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/amcl build --build-base /root/ros2_code/humble/tc_ros2_nav/build/amcl/build install --record /root/ros2_code/humble/tc_ros2_nav/build/amcl/install.log --single-version-externally-managed

@@ -8,10 +8,10 @@ setup.py
 ../../../build/path_planner_server/path_planner_server.egg-info/requires.txt
 ../../../build/path_planner_server/path_planner_server.egg-info/top_level.txt
 ../../../build/path_planner_server/path_planner_server.egg-info/zip-safe
-config/behaviors.yaml
 config/bt_navigator.yaml
 config/controller.yaml
 config/planner_server.yaml
+config/recovery.yaml
 launch/navigation.launch.py
 launch/pathplanner.launch.py
 path_planner_server/__init__.py

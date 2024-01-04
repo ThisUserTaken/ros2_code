@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/joystick_pkg/joystick_pkg.egg-info
+writing ../../build/joystick_pkg/joystick_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/joystick_pkg/joystick_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/joystick_pkg/joystick_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/joystick_pkg/joystick_pkg.egg-info/requires.txt
+writing top-level names to ../../build/joystick_pkg/joystick_pkg.egg-info/top_level.txt
+writing manifest file '../../build/joystick_pkg/joystick_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/joystick_pkg/joystick_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/joystick_pkg/joystick_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_code/humble/vision/build/joystick_pkg/build
+creating /root/ros2_code/humble/vision/build/joystick_pkg/build/lib
+creating /root/ros2_code/humble/vision/build/joystick_pkg/build/lib/joystick_pkg
+copying joystick_pkg/__init__.py -> /root/ros2_code/humble/vision/build/joystick_pkg/build/lib/joystick_pkg
+running install
+running install_lib
+creating /root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages/joystick_pkg
+copying /root/ros2_code/humble/vision/build/joystick_pkg/build/lib/joystick_pkg/__init__.py -> /root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages/joystick_pkg
+byte-compiling /root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages/joystick_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_code/humble/vision/install/joystick_pkg/share/ament_index
+creating /root/ros2_code/humble/vision/install/joystick_pkg/share/ament_index/resource_index
+creating /root/ros2_code/humble/vision/install/joystick_pkg/share/ament_index/resource_index/packages
+copying resource/joystick_pkg -> /root/ros2_code/humble/vision/install/joystick_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg
+creating /root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/launch
+copying launch/joystick.launch.py -> /root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/launch
+creating /root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/config
+copying config/joystick.yaml -> /root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/config
+running install_egg_info
+Copying ../../build/joystick_pkg/joystick_pkg.egg-info to /root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages/joystick_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_code/humble/vision/build/joystick_pkg/install.log'

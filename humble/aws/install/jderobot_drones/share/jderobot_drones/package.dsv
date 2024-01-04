@@ -1,0 +1,6 @@
+source;share/jderobot_drones/hook/pythonpath.ps1
+source;share/jderobot_drones/hook/pythonpath.dsv
+source;share/jderobot_drones/hook/pythonpath.sh
+source;share/jderobot_drones/hook/ament_prefix_path.ps1
+source;share/jderobot_drones/hook/ament_prefix_path.dsv
+source;share/jderobot_drones/hook/ament_prefix_path.sh

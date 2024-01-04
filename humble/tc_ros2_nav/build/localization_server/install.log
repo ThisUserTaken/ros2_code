@@ -1,8 +1,11 @@
+/root/ros2_code/humble/tc_ros2_nav/install/localization_server/lib/python3.10/site-packages/localization_server/initial_pose_pub.py
 /root/ros2_code/humble/tc_ros2_nav/install/localization_server/lib/python3.10/site-packages/localization_server/__init__.py
+/root/ros2_code/humble/tc_ros2_nav/install/localization_server/lib/python3.10/site-packages/localization_server/__pycache__/initial_pose_pub.cpython-310.pyc
 /root/ros2_code/humble/tc_ros2_nav/install/localization_server/lib/python3.10/site-packages/localization_server/__pycache__/__init__.cpython-310.pyc
 /root/ros2_code/humble/tc_ros2_nav/install/localization_server/share/ament_index/resource_index/packages/localization_server
 /root/ros2_code/humble/tc_ros2_nav/install/localization_server/share/localization_server/package.xml
 /root/ros2_code/humble/tc_ros2_nav/install/localization_server/share/localization_server/launch/localization.launch.py
+/root/ros2_code/humble/tc_ros2_nav/install/localization_server/share/localization_server/launch/init_robot.launch.py
 /root/ros2_code/humble/tc_ros2_nav/install/localization_server/share/localization_server/config/amcl_config.yaml
 /root/ros2_code/humble/tc_ros2_nav/install/localization_server/share/localization_server/config/amcl_config_initialized.yaml
 /root/ros2_code/humble/tc_ros2_nav/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info/zip-safe
@@ -12,3 +15,4 @@
 /root/ros2_code/humble/tc_ros2_nav/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info/requires.txt
 /root/ros2_code/humble/tc_ros2_nav/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info/dependency_links.txt
 /root/ros2_code/humble/tc_ros2_nav/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info/SOURCES.txt
+/root/ros2_code/humble/tc_ros2_nav/install/localization_server/lib/localization_server/initial_pose_pub

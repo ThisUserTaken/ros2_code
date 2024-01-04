@@ -1,0 +1,4 @@
+source;share/neo_localization2/local_setup.bash
+source;share/neo_localization2/local_setup.dsv
+source;share/neo_localization2/local_setup.sh
+source;share/neo_localization2/local_setup.zsh

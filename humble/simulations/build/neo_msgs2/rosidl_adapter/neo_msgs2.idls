@@ -1,0 +1,10 @@
+/root/ros2_code/humble/simulations/build/neo_msgs2/rosidl_adapter/neo_msgs2:msg/EmergencyStopState.idl
+/root/ros2_code/humble/simulations/build/neo_msgs2/rosidl_adapter/neo_msgs2:msg/Keypad.idl
+/root/ros2_code/humble/simulations/build/neo_msgs2/rosidl_adapter/neo_msgs2:msg/LCDOutput.idl
+/root/ros2_code/humble/simulations/build/neo_msgs2/rosidl_adapter/neo_msgs2:msg/RelayBoardV2.idl
+/root/ros2_code/humble/simulations/build/neo_msgs2/rosidl_adapter/neo_msgs2:msg/USBoard.idl
+/root/ros2_code/humble/simulations/build/neo_msgs2/rosidl_adapter/neo_msgs2:msg/USBoardV2.idl
+/root/ros2_code/humble/simulations/build/neo_msgs2/rosidl_adapter/neo_msgs2:msg/IOBoard.idl
+/root/ros2_code/humble/simulations/build/neo_msgs2/rosidl_adapter/neo_msgs2:msg/SafetyState.idl
+/root/ros2_code/humble/simulations/build/neo_msgs2/rosidl_adapter/neo_msgs2:msg/RelayBoardV3.idl
+/root/ros2_code/humble/simulations/build/neo_msgs2/rosidl_adapter/neo_msgs2:msg/KinematicsState.idl

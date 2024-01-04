@@ -10,8 +10,10 @@ setup.py
 ../../build/localization_server/localization_server.egg-info/zip-safe
 config/amcl_config.yaml
 config/amcl_config_initialized.yaml
+launch/init_robot.launch.py
 launch/localization.launch.py
 localization_server/__init__.py
+localization_server/initial_pose_pub.py
 resource/localization_server
 test/test_copyright.py
 test/test_flake8.py

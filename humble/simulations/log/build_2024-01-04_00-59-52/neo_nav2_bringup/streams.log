@@ -1,0 +1,32 @@
+[0.394s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_nav2_bringup -- -j12 -l12
+[0.441s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_nav2_bringup -- -j12 -l12
+[0.468s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_nav2_bringup
+[0.480s] -- Install configuration: ""
+[0.480s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/launch
+[0.480s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/launch/localization_amcl.launch.py
+[0.481s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/launch/localization_neo.launch.py
+[0.481s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/launch/navigation_neo.launch.py
+[0.482s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/launch/rviz_launch.py
+[0.482s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/launch/mapping.launch.py
+[0.482s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/config
+[0.482s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/config/mapping.yaml
+[0.482s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/config/navigation.yaml
+[0.482s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/rviz
+[0.482s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/rviz/multi_robot.rviz
+[0.482s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/rviz/single_robot.rviz
+[0.482s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/ament_index/resource_index/package_run_dependencies/neo_nav2_bringup
+[0.482s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/ament_index/resource_index/parent_prefix_path/neo_nav2_bringup
+[0.482s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/environment/ament_prefix_path.sh
+[0.482s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/environment/ament_prefix_path.dsv
+[0.483s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/environment/path.sh
+[0.483s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/environment/path.dsv
+[0.486s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/local_setup.bash
+[0.486s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/local_setup.sh
+[0.487s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/local_setup.zsh
+[0.487s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/local_setup.dsv
+[0.487s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/package.dsv
+[0.488s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/ament_index/resource_index/packages/neo_nav2_bringup
+[0.488s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/cmake/neo_nav2_bringupConfig.cmake
+[0.488s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/cmake/neo_nav2_bringupConfig-version.cmake
+[0.488s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_nav2_bringup/share/neo_nav2_bringup/package.xml
+[0.577s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_nav2_bringup

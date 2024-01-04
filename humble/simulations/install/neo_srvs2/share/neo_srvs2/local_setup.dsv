@@ -1,0 +1,4 @@
+source;share/neo_srvs2/environment/ament_prefix_path.sh
+source;share/neo_srvs2/environment/library_path.sh
+source;share/neo_srvs2/environment/path.sh
+source;share/neo_srvs2/environment/pythonpath.sh

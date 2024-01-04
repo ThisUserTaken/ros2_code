@@ -5,12 +5,13 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
-    controller_yaml = os.path.join(get_package_share_directory('path_planner_server'), 'config', 'controller.yaml')
-    bt_navigator_yaml = os.path.join(get_package_share_directory('path_planner_server'), 'config', 'bt_navigator.yaml')
-    planner_yaml = os.path.join(get_package_share_directory('path_planner_server'), 'config', 'planner_server.yaml')
-    recovery_yaml = os.path.join(get_package_share_directory('path_planner_server'), 'config', 'recovery.yaml')
-    nav2_yaml = os.path.join(get_package_share_directory('localization_server'), 'config', 'amcl_config_initialized.yaml')
-    map_file = os.path.join(get_package_share_directory('navigation'), 'config', 'my_map.yaml')
+    # controller_yaml = os.path.join(get_package_share_directory('path_planner_server'), 'config', 'controller.yaml')
+    #bt_navigator_yaml = os.path.join(get_package_share_directory('path_planner_server'), 'config', 'bt_navigator.yaml')
+    # planner_yaml = os.path.join(get_package_share_directory('path_planner_server'), 'config', 'planner_server.yaml')
+    # recovery_yaml = os.path.join(get_package_share_directory('path_planner_server'), 'config', 'recovery.yaml')
+    # nav2_yaml = os.path.join(get_package_share_directory('localization_server'), 'config', 'amcl_config_initialized.yaml')
+    map_file = os.path.join(get_package_share_directory('map_server'), 'config', 'turtlebot_area.yaml')
+    nav2_yaml = os.path.join(get_package_share_directory('navigation'), 'config', 'nav2_params.yaml')
     
     return LaunchDescription([     
         Node(
@@ -34,20 +35,20 @@ def generate_launch_description():
             executable='controller_server',
             name='controller_server',
             output='screen',
-            parameters=[controller_yaml]),
+            parameters=[nav2_yaml]),
 
         Node(
             package='nav2_planner',
             executable='planner_server',
             name='planner_server',
             output='screen',
-            parameters=[planner_yaml]),
+            parameters=[nav2_yaml]),
             
         Node(
             package='nav2_behaviors',
             executable='behavior_server',
-            name='recoveries_server',
-            parameters=[recovery_yaml],
+            name='behavior_server',
+            parameters=[nav2_yaml],
             output='screen'),
 
         Node(
@@ -55,7 +56,7 @@ def generate_launch_description():
             executable='bt_navigator',
             name='bt_navigator',
             output='screen',
-            parameters=[bt_navigator_yaml]),
+            parameters=[nav2_yaml]),
         
         Node(
             package='nav2_lifecycle_manager',
@@ -67,7 +68,7 @@ def generate_launch_description():
                                         'amcl',
                                         'controller_server',
                                         'planner_server',
-                                        'recoveries_server',
+                                        'behavior_server',
                                         'bt_navigator'
                                         ]}])
     ])

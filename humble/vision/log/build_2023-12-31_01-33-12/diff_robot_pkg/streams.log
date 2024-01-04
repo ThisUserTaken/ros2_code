@@ -1,0 +1,69 @@
+[0.189s] Invoking command in '/root/ros2_code/humble/vision/build/diff_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/vision/src/diff_robot_pkg -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/vision/install/diff_robot_pkg
+[0.338s] -- The C compiler identification is GNU 11.4.0
+[0.472s] -- The CXX compiler identification is GNU 11.4.0
+[0.481s] -- Detecting C compiler ABI info
+[0.566s] -- Detecting C compiler ABI info - done
+[0.571s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.572s] -- Detecting C compile features
+[0.572s] -- Detecting C compile features - done
+[0.575s] -- Detecting CXX compiler ABI info
+[0.663s] -- Detecting CXX compiler ABI info - done
+[0.668s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.668s] -- Detecting CXX compile features
+[0.669s] -- Detecting CXX compile features - done
+[0.678s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.842s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.971s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[0.975s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.073s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.079s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.079s] -- Added test 'lint_cmake' to check CMake code style
+[1.080s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.083s] -- Added test 'xmllint' to check XML markup files
+[1.085s] -- Configuring done
+[1.089s] -- Generating done
+[1.089s] -- Build files have been written to: /root/ros2_code/humble/vision/build/diff_robot_pkg
+[1.096s] Invoked command in '/root/ros2_code/humble/vision/build/diff_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/vision/src/diff_robot_pkg -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/vision/install/diff_robot_pkg
+[1.098s] Invoking command in '/root/ros2_code/humble/vision/build/diff_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/vision/build/diff_robot_pkg -- -j12 -l12
+[1.199s] Invoked command in '/root/ros2_code/humble/vision/build/diff_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/vision/build/diff_robot_pkg -- -j12 -l12
+[1.240s] Invoking command in '/root/ros2_code/humble/vision/build/diff_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/vision/build/diff_robot_pkg
+[1.246s] -- Install configuration: ""
+[1.246s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/config
+[1.247s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/config/twist_mux.yaml
+[1.247s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/config/gazebo_params.yaml
+[1.247s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/config/gaz_ros2_ctl_use_sim.yaml
+[1.247s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/config/my_controllers.yaml
+[1.247s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/description
+[1.247s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/description/face.xacro
+[1.247s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/description/lidar.xacro
+[1.248s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/description/robot_core.xacro
+[1.248s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/description/inertial_macros.xacro
+[1.248s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/description/ros2_control.xacro
+[1.248s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/description/gazebo_control.xacro
+[1.248s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/description/camera.xacro
+[1.248s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/description/robot.urdf.xacro
+[1.248s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/description/depth_camera.xacro
+[1.248s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/launch
+[1.248s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/launch/rsp.launch.py
+[1.248s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/launch/gazebo_sim_w.launch.py
+[1.249s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/launch/gazebo_sim.launch.py
+[1.249s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/worlds
+[1.249s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/worlds/empty.world
+[1.249s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/worlds/yolo_test.world
+[1.249s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/worlds/obstacles.world
+[1.249s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/ament_index/resource_index/package_run_dependencies/diff_robot_pkg
+[1.250s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/ament_index/resource_index/parent_prefix_path/diff_robot_pkg
+[1.250s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/environment/ament_prefix_path.sh
+[1.250s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/environment/ament_prefix_path.dsv
+[1.250s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/environment/path.sh
+[1.250s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/environment/path.dsv
+[1.251s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/local_setup.bash
+[1.251s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/local_setup.sh
+[1.251s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/local_setup.zsh
+[1.251s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/local_setup.dsv
+[1.251s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/package.dsv
+[1.251s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/ament_index/resource_index/packages/diff_robot_pkg
+[1.252s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/cmake/diff_robot_pkgConfig.cmake
+[1.252s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/cmake/diff_robot_pkgConfig-version.cmake
+[1.252s] -- Installing: /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/package.xml
+[1.254s] Invoked command in '/root/ros2_code/humble/vision/build/diff_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/vision/build/diff_robot_pkg

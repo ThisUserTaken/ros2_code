@@ -1,0 +1,33 @@
+[0.318s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_local_planner -- -j12 -l12
+[0.367s] [35m[1mConsolidate compiler generated dependencies of target neo_local_planner[0m
+[0.428s] [100%] Built target neo_local_planner
+[0.495s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_local_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_local_planner -- -j12 -l12
+[0.630s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_local_planner
+[0.724s] -- Install configuration: ""
+[0.724s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/include/
+[0.725s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/include//NeoLocalPlanner.h
+[0.725s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner_plugin.xml
+[0.725s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/lib/libneo_local_planner.so
+[0.725s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/environment/library_path.sh
+[0.725s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/environment/library_path.dsv
+[0.725s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/neo_local_planner_plugin.xml
+[0.725s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/ament_index/resource_index/package_run_dependencies/neo_local_planner
+[0.726s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/ament_index/resource_index/parent_prefix_path/neo_local_planner
+[0.726s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/environment/ament_prefix_path.sh
+[0.726s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/environment/ament_prefix_path.dsv
+[0.726s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/environment/path.sh
+[0.726s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/environment/path.dsv
+[0.726s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/local_setup.bash
+[0.727s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/local_setup.sh
+[0.727s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/local_setup.zsh
+[0.727s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/local_setup.dsv
+[0.727s] -- Installing: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/package.dsv
+[0.727s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/ament_index/resource_index/packages/neo_local_planner
+[0.727s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/neo_local_planner
+[0.728s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.728s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[0.728s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.728s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/cmake/neo_local_plannerConfig.cmake
+[0.728s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/cmake/neo_local_plannerConfig-version.cmake
+[0.728s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_local_planner/share/neo_local_planner/package.xml
+[0.915s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_local_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_local_planner

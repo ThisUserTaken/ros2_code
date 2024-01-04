@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from neo_srvs2/srv/Optimizer.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "geometry_msgs/msg/TwistStamped.idl"
+
+module neo_srvs2 {
+  module srv {
+    struct Optimizer_Request {
+      geometry_msgs::msg::PoseStamped current_pose;
+
+      geometry_msgs::msg::Twist current_vel;
+
+      geometry_msgs::msg::PoseStamped carrot_pose;
+
+      geometry_msgs::msg::Pose goal_pose;
+
+      boolean switch_opt;
+
+      float control_interval;
+    };
+    struct Optimizer_Response {
+      geometry_msgs::msg::TwistStamped output_vel;
+    };
+  };
+};

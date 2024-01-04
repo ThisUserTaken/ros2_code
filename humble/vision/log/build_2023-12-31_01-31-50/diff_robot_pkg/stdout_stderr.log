@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:10:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "vision/src/diff_robot_pkg/worlds".
+
+[0m
+-- Configuring incomplete, errors occurred!

@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from neo_srvs2/srv/InitializeContourMatching.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module neo_srvs2 {
+  module srv {
+    struct InitializeContourMatching_Request {
+      geometry_msgs::msg::Pose init_pose;
+    };
+    struct InitializeContourMatching_Response {
+      boolean success;
+    };
+  };
+};

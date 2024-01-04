@@ -1,5 +1,0 @@
-int32 secs
----
-string status
----
-string feedback

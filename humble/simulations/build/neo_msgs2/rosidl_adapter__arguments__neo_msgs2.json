@@ -1,0 +1,15 @@
+{
+  "package_name": "neo_msgs2",
+  "non_idl_tuples": [
+    "/root/ros2_code/humble/simulations/src/neo_msgs2:msg/EmergencyStopState.msg",
+    "/root/ros2_code/humble/simulations/src/neo_msgs2:msg/Keypad.msg",
+    "/root/ros2_code/humble/simulations/src/neo_msgs2:msg/LCDOutput.msg",
+    "/root/ros2_code/humble/simulations/src/neo_msgs2:msg/RelayBoardV2.msg",
+    "/root/ros2_code/humble/simulations/src/neo_msgs2:msg/USBoard.msg",
+    "/root/ros2_code/humble/simulations/src/neo_msgs2:msg/USBoardV2.msg",
+    "/root/ros2_code/humble/simulations/src/neo_msgs2:msg/IOBoard.msg",
+    "/root/ros2_code/humble/simulations/src/neo_msgs2:msg/SafetyState.msg",
+    "/root/ros2_code/humble/simulations/src/neo_msgs2:msg/RelayBoardV3.msg",
+    "/root/ros2_code/humble/simulations/src/neo_msgs2:msg/KinematicsState.msg"
+  ]
+}

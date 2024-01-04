@@ -1,0 +1,390 @@
+[0.173s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_srvs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_srvs2 -- -j12 -l12
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target neo_srvs2__rosidl_generator_c[0m
+[0.231s] [  0%] Built target neo_srvs2__cpp
+[0.258s] [ 12%] Built target neo_srvs2__rosidl_generator_c
+[0.264s] [35m[1mConsolidate compiler generated dependencies of target neo_srvs2__rosidl_typesupport_introspection_cpp[0m
+[0.264s] [35m[1mConsolidate compiler generated dependencies of target neo_srvs2__rosidl_typesupport_fastrtps_cpp[0m
+[0.264s] [ 12%] Built target ament_cmake_python_copy_neo_srvs2
+[0.270s] [35m[1mConsolidate compiler generated dependencies of target neo_srvs2__rosidl_typesupport_cpp[0m
+[0.297s] [35m[1mConsolidate compiler generated dependencies of target neo_srvs2__rosidl_typesupport_c[0m
+[0.304s] [35m[1mConsolidate compiler generated dependencies of target neo_srvs2__rosidl_typesupport_introspection_c[0m
+[0.306s] [ 35%] Built target neo_srvs2__rosidl_typesupport_introspection_cpp
+[0.306s] [ 36%] Built target neo_srvs2__rosidl_typesupport_cpp
+[0.308s] [35m[1mConsolidate compiler generated dependencies of target neo_srvs2__rosidl_typesupport_fastrtps_c[0m
+[0.312s] [ 47%] Built target neo_srvs2__rosidl_typesupport_fastrtps_cpp
+[0.318s] [ 59%] Built target neo_srvs2__rosidl_typesupport_c
+[0.324s] [ 71%] Built target neo_srvs2__rosidl_typesupport_introspection_c
+[0.339s] [ 83%] Built target neo_srvs2__rosidl_typesupport_fastrtps_c
+[0.366s] [ 83%] Built target neo_srvs2
+[0.392s] [ 84%] Built target neo_srvs2__py
+[0.411s] [35m[1mConsolidate compiler generated dependencies of target neo_srvs2__rosidl_generator_py[0m
+[0.441s] [ 95%] Built target neo_srvs2__rosidl_generator_py
+[0.454s] [35m[1mConsolidate compiler generated dependencies of target neo_srvs2__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.454s] [35m[1mConsolidate compiler generated dependencies of target neo_srvs2__rosidl_typesupport_c__pyext[0m
+[0.456s] [35m[1mConsolidate compiler generated dependencies of target neo_srvs2__rosidl_typesupport_introspection_c__pyext[0m
+[0.471s] [ 98%] Built target neo_srvs2__rosidl_typesupport_c__pyext
+[0.472s] [ 98%] Built target neo_srvs2__rosidl_typesupport_fastrtps_c__pyext
+[0.472s] [100%] Built target neo_srvs2__rosidl_typesupport_introspection_c__pyext
+[0.539s] running egg_info
+[0.540s] writing neo_srvs2.egg-info/PKG-INFO
+[0.540s] writing dependency_links to neo_srvs2.egg-info/dependency_links.txt
+[0.540s] writing top-level names to neo_srvs2.egg-info/top_level.txt
+[0.542s] reading manifest file 'neo_srvs2.egg-info/SOURCES.txt'
+[0.543s] writing manifest file 'neo_srvs2.egg-info/SOURCES.txt'
+[0.566s] [100%] Built target ament_cmake_python_build_neo_srvs2_egg
+[0.826s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_srvs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/neo_srvs2 -- -j12 -l12
+[1.156s] Invoking command in '/root/ros2_code/humble/simulations/build/neo_srvs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_srvs2
+[1.215s] -- Install configuration: ""
+[1.215s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/ament_index/resource_index/rosidl_interfaces/neo_srvs2
+[1.216s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2
+[1.216s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg
+[1.216s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg/rosidl_generator_c__visibility_control.h
+[1.216s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv
+[1.216s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_set_em_stop.h
+[1.216s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/set_safety_field.h
+[1.216s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_set_lcd_msg.h
+[1.216s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/unlock_platform.h
+[1.217s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/lock_platform.h
+[1.217s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail
+[1.217s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__functions.h
+[1.217s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__struct.h
+[1.217s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__type_support.h
+[1.217s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__type_support.h
+[1.217s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__struct.h
+[1.218s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__functions.h
+[1.218s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__functions.c
+[1.218s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__functions.h
+[1.218s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__type_support.h
+[1.218s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__struct.h
+[1.218s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__type_support.h
+[1.218s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__functions.c
+[1.219s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__struct.h
+[1.219s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__functions.h
+[1.219s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__functions.c
+[1.219s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__functions.c
+[1.219s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__type_support.h
+[1.219s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__functions.h
+[1.219s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__functions.c
+[1.219s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__type_support.h
+[1.220s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__functions.c
+[1.220s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__type_support.h
+[1.220s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__functions.h
+[1.220s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__struct.h
+[1.220s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__type_support.h
+[1.220s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__functions.h
+[1.220s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__functions.c
+[1.220s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__struct.h
+[1.220s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__type_support.h
+[1.220s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__struct.h
+[1.221s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__functions.c
+[1.221s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__type_support.h
+[1.221s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__functions.c
+[1.221s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__struct.h
+[1.221s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__struct.h
+[1.221s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__functions.c
+[1.221s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__type_support.h
+[1.221s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__functions.c
+[1.221s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__functions.h
+[1.221s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__functions.c
+[1.222s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__functions.h
+[1.222s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__struct.h
+[1.222s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__functions.h
+[1.222s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__struct.h
+[1.222s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__functions.h
+[1.222s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__functions.h
+[1.222s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__struct.h
+[1.222s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__type_support.h
+[1.222s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_un_set_em_stop.h
+[1.223s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/io_board_set_dig_out.h
+[1.223s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/us_board_toggle_sensor.h
+[1.223s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/initialize_contour_matching.h
+[1.223s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/optimizer.h
+[1.223s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_set_relay.h
+[1.223s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/reset_omni_wheels.h
+[1.223s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/environment/library_path.sh
+[1.223s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/environment/library_path.dsv
+[1.224s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/lib/libneo_srvs2__rosidl_generator_c.so
+[1.224s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2
+[1.224s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg
+[1.224s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.224s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv
+[1.224s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail
+[1.224s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__rosidl_typesupport_fastrtps_c.h
+[1.225s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__rosidl_typesupport_fastrtps_c.h
+[1.225s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__rosidl_typesupport_fastrtps_c.h
+[1.225s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__rosidl_typesupport_fastrtps_c.h
+[1.225s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__rosidl_typesupport_fastrtps_c.h
+[1.225s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__rosidl_typesupport_fastrtps_c.h
+[1.225s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__rosidl_typesupport_fastrtps_c.h
+[1.225s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__rosidl_typesupport_fastrtps_c.h
+[1.225s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__rosidl_typesupport_fastrtps_c.h
+[1.225s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__rosidl_typesupport_fastrtps_c.h
+[1.226s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__rosidl_typesupport_fastrtps_c.h
+[1.226s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__rosidl_typesupport_fastrtps_c.h
+[1.226s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_fastrtps_c.so
+[1.226s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2
+[1.226s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg
+[1.226s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.226s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv
+[1.226s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail
+[1.226s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__type_support.c
+[1.226s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__rosidl_typesupport_introspection_c.h
+[1.227s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__rosidl_typesupport_introspection_c.h
+[1.227s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__rosidl_typesupport_introspection_c.h
+[1.227s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__type_support.c
+[1.227s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__type_support.c
+[1.227s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__type_support.c
+[1.227s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__type_support.c
+[1.227s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__rosidl_typesupport_introspection_c.h
+[1.227s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__type_support.c
+[1.227s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__type_support.c
+[1.227s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__rosidl_typesupport_introspection_c.h
+[1.228s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__rosidl_typesupport_introspection_c.h
+[1.228s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__rosidl_typesupport_introspection_c.h
+[1.228s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__type_support.c
+[1.228s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__rosidl_typesupport_introspection_c.h
+[1.228s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__type_support.c
+[1.228s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__rosidl_typesupport_introspection_c.h
+[1.228s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__rosidl_typesupport_introspection_c.h
+[1.228s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__rosidl_typesupport_introspection_c.h
+[1.228s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__type_support.c
+[1.228s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__type_support.c
+[1.229s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__type_support.c
+[1.229s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__rosidl_typesupport_introspection_c.h
+[1.229s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_introspection_c.so
+[1.229s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_c.so
+[1.229s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2
+[1.229s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv
+[1.229s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/unlock_platform.hpp
+[1.229s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/set_safety_field.hpp
+[1.229s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/lock_platform.hpp
+[1.229s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/reset_omni_wheels.hpp
+[1.230s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_set_lcd_msg.hpp
+[1.230s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/io_board_set_dig_out.hpp
+[1.230s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_un_set_em_stop.hpp
+[1.230s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail
+[1.230s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__struct.hpp
+[1.230s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__struct.hpp
+[1.230s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__traits.hpp
+[1.230s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__struct.hpp
+[1.230s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__struct.hpp
+[1.231s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__builder.hpp
+[1.231s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__struct.hpp
+[1.231s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__builder.hpp
+[1.231s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__traits.hpp
+[1.231s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__builder.hpp
+[1.231s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__builder.hpp
+[1.231s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__builder.hpp
+[1.232s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__builder.hpp
+[1.232s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__traits.hpp
+[1.232s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__struct.hpp
+[1.232s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__struct.hpp
+[1.232s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__builder.hpp
+[1.232s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__struct.hpp
+[1.232s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__struct.hpp
+[1.232s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__builder.hpp
+[1.233s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__traits.hpp
+[1.233s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__builder.hpp
+[1.233s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__traits.hpp
+[1.233s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__traits.hpp
+[1.233s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__struct.hpp
+[1.233s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__builder.hpp
+[1.233s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__struct.hpp
+[1.234s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__traits.hpp
+[1.234s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__traits.hpp
+[1.234s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__traits.hpp
+[1.234s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__traits.hpp
+[1.234s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__traits.hpp
+[1.234s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__struct.hpp
+[1.234s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__traits.hpp
+[1.234s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__builder.hpp
+[1.235s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__builder.hpp
+[1.235s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_set_em_stop.hpp
+[1.235s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/initialize_contour_matching.hpp
+[1.236s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_set_relay.hpp
+[1.236s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/us_board_toggle_sensor.hpp
+[1.236s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/optimizer.hpp
+[1.236s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2
+[1.236s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg
+[1.236s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.237s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv
+[1.237s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail
+[1.237s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__rosidl_typesupport_fastrtps_cpp.hpp
+[1.237s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__rosidl_typesupport_fastrtps_cpp.hpp
+[1.237s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[1.237s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__rosidl_typesupport_fastrtps_cpp.hpp
+[1.237s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[1.237s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__rosidl_typesupport_fastrtps_cpp.hpp
+[1.237s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__rosidl_typesupport_fastrtps_cpp.hpp
+[1.237s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__rosidl_typesupport_fastrtps_cpp.hpp
+[1.238s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__rosidl_typesupport_fastrtps_cpp.hpp
+[1.238s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/dds_fastrtps
+[1.238s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__rosidl_typesupport_fastrtps_cpp.hpp
+[1.239s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__rosidl_typesupport_fastrtps_cpp.hpp
+[1.239s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__rosidl_typesupport_fastrtps_cpp.hpp
+[1.239s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_fastrtps_cpp.so
+[1.239s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2
+[1.239s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv
+[1.239s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail
+[1.240s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__type_support.cpp
+[1.240s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__type_support.cpp
+[1.240s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__rosidl_typesupport_introspection_cpp.hpp
+[1.240s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__rosidl_typesupport_introspection_cpp.hpp
+[1.240s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__type_support.cpp
+[1.240s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__type_support.cpp
+[1.240s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__type_support.cpp
+[1.241s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__rosidl_typesupport_introspection_cpp.hpp
+[1.241s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__type_support.cpp
+[1.241s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__rosidl_typesupport_introspection_cpp.hpp
+[1.241s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__type_support.cpp
+[1.241s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__type_support.cpp
+[1.241s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__rosidl_typesupport_introspection_cpp.hpp
+[1.241s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__type_support.cpp
+[1.241s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__rosidl_typesupport_introspection_cpp.hpp
+[1.241s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__rosidl_typesupport_introspection_cpp.hpp
+[1.241s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__rosidl_typesupport_introspection_cpp.hpp
+[1.242s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__rosidl_typesupport_introspection_cpp.hpp
+[1.242s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__rosidl_typesupport_introspection_cpp.hpp
+[1.242s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__type_support.cpp
+[1.242s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__rosidl_typesupport_introspection_cpp.hpp
+[1.242s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__type_support.cpp
+[1.242s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__rosidl_typesupport_introspection_cpp.hpp
+[1.242s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__type_support.cpp
+[1.243s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_introspection_cpp.so
+[1.243s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_cpp.so
+[1.243s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/environment/pythonpath.sh
+[1.244s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/environment/pythonpath.dsv
+[1.244s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2-0.1.0-py3.10.egg-info
+[1.244s] -- Installing: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2-0.1.0-py3.10.egg-info/top_level.txt
+[1.244s] -- Installing: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2-0.1.0-py3.10.egg-info/PKG-INFO
+[1.244s] -- Installing: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2-0.1.0-py3.10.egg-info/dependency_links.txt
+[1.244s] -- Installing: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2-0.1.0-py3.10.egg-info/SOURCES.txt
+[1.244s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2
+[1.244s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.244s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/_neo_srvs2_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.244s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.245s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/libneo_srvs2__rosidl_generator_py.so
+[1.245s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/_neo_srvs2_s.ep.rosidl_typesupport_c.c
+[1.245s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.245s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/_neo_srvs2_s.ep.rosidl_typesupport_introspection_c.c
+[1.245s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/__init__.py
+[1.245s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv
+[1.245s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_em_stop_s.c
+[1.245s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_initialize_contour_matching_s.c
+[1.245s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_relay.py
+[1.245s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_lock_platform_s.c
+[1.245s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_unlock_platform_s.c
+[1.245s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_optimizer.py
+[1.245s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_set_safety_field_s.c
+[1.246s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_reset_omni_wheels.py
+[1.246s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_io_board_set_dig_out_s.c
+[1.246s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_set_safety_field.py
+[1.246s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_unlock_platform.py
+[1.246s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_em_stop.py
+[1.246s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_io_board_set_dig_out.py
+[1.246s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_lcd_msg_s.c
+[1.246s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_reset_omni_wheels_s.c
+[1.246s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_lcd_msg.py
+[1.247s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_relay_s.c
+[1.247s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_initialize_contour_matching.py
+[1.247s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_us_board_toggle_sensor_s.c
+[1.247s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_lock_platform.py
+[1.247s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_optimizer_s.c
+[1.247s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_un_set_em_stop.py
+[1.247s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/__init__.py
+[1.248s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_us_board_toggle_sensor.py
+[1.248s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_un_set_em_stop_s.c
+[1.251s] Listing '/root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2'...
+[1.251s] Listing '/root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv'...
+[1.256s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.257s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.258s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.260s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/lib/libneo_srvs2__rosidl_generator_py.so
+[1.260s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetRelay.idl
+[1.260s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/IOBoardSetDigOut.idl
+[1.260s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetLCDMsg.idl
+[1.260s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/LockPlatform.idl
+[1.261s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/UnlockPlatform.idl
+[1.261s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/ResetOmniWheels.idl
+[1.261s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetEMStop.idl
+[1.261s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardUnSetEMStop.idl
+[1.262s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/USBoardToggleSensor.idl
+[1.262s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/Optimizer.idl
+[1.262s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/InitializeContourMatching.idl
+[1.262s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/SetSafetyField.idl
+[1.262s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetRelay.srv
+[1.262s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetRelay_Request.msg
+[1.263s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetRelay_Response.msg
+[1.263s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/IOBoardSetDigOut.srv
+[1.263s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/IOBoardSetDigOut_Request.msg
+[1.263s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/IOBoardSetDigOut_Response.msg
+[1.263s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetLCDMsg.srv
+[1.263s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetLCDMsg_Request.msg
+[1.263s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetLCDMsg_Response.msg
+[1.263s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/LockPlatform.srv
+[1.264s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/LockPlatform_Request.msg
+[1.264s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/LockPlatform_Response.msg
+[1.264s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/UnlockPlatform.srv
+[1.264s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/UnlockPlatform_Request.msg
+[1.264s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/UnlockPlatform_Response.msg
+[1.264s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/ResetOmniWheels.srv
+[1.264s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/ResetOmniWheels_Request.msg
+[1.265s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/ResetOmniWheels_Response.msg
+[1.265s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetEMStop.srv
+[1.265s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetEMStop_Request.msg
+[1.265s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetEMStop_Response.msg
+[1.265s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardUnSetEMStop.srv
+[1.265s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardUnSetEMStop_Request.msg
+[1.265s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardUnSetEMStop_Response.msg
+[1.266s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/USBoardToggleSensor.srv
+[1.266s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/USBoardToggleSensor_Request.msg
+[1.266s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/USBoardToggleSensor_Response.msg
+[1.266s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/Optimizer.srv
+[1.266s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/Optimizer_Request.msg
+[1.266s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/Optimizer_Response.msg
+[1.266s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/InitializeContourMatching.srv
+[1.266s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/InitializeContourMatching_Request.msg
+[1.266s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/InitializeContourMatching_Response.msg
+[1.267s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/SetSafetyField.srv
+[1.267s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/SetSafetyField_Request.msg
+[1.267s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/srv/SetSafetyField_Response.msg
+[1.267s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/ament_index/resource_index/package_run_dependencies/neo_srvs2
+[1.267s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/ament_index/resource_index/parent_prefix_path/neo_srvs2
+[1.267s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/environment/ament_prefix_path.sh
+[1.268s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/environment/ament_prefix_path.dsv
+[1.268s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/environment/path.sh
+[1.268s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/environment/path.dsv
+[1.268s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/local_setup.bash
+[1.268s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/local_setup.sh
+[1.268s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/local_setup.zsh
+[1.268s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/local_setup.dsv
+[1.268s] -- Installing: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/package.dsv
+[1.269s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/ament_index/resource_index/packages/neo_srvs2
+[1.269s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_generator_cExport.cmake
+[1.269s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_generator_cExport-noconfig.cmake
+[1.269s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_typesupport_fastrtps_cExport.cmake
+[1.269s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.269s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_introspection_cExport.cmake
+[1.269s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.269s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_cExport.cmake
+[1.270s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_cExport-noconfig.cmake
+[1.270s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_generator_cppExport.cmake
+[1.270s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.270s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.270s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_introspection_cppExport.cmake
+[1.270s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.270s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_cppExport.cmake
+[1.270s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_cppExport-noconfig.cmake
+[1.270s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_generator_pyExport.cmake
+[1.271s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_generator_pyExport-noconfig.cmake
+[1.271s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/rosidl_cmake-extras.cmake
+[1.271s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.271s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.271s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/ament_cmake_export_libraries-extras.cmake
+[1.271s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/ament_cmake_export_targets-extras.cmake
+[1.271s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.271s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.271s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2Config.cmake
+[1.272s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2Config-version.cmake
+[1.272s] -- Up-to-date: /root/ros2_code/humble/simulations/install/neo_srvs2/share/neo_srvs2/package.xml
+[1.359s] Invoked command in '/root/ros2_code/humble/simulations/build/neo_srvs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/simulations/warehouse_ws/install/amazon_robot_gazebo_spawner:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/neo_srvs2

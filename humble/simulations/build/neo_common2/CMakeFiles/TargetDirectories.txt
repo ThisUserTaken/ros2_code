@@ -1,0 +1,9 @@
+/root/ros2_code/humble/simulations/build/neo_common2/CMakeFiles/uninstall.dir
+/root/ros2_code/humble/simulations/build/neo_common2/CMakeFiles/neo_common2_uninstall.dir
+/root/ros2_code/humble/simulations/build/neo_common2/CMakeFiles/test.dir
+/root/ros2_code/humble/simulations/build/neo_common2/CMakeFiles/edit_cache.dir
+/root/ros2_code/humble/simulations/build/neo_common2/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/humble/simulations/build/neo_common2/CMakeFiles/list_install_components.dir
+/root/ros2_code/humble/simulations/build/neo_common2/CMakeFiles/install.dir
+/root/ros2_code/humble/simulations/build/neo_common2/CMakeFiles/install/local.dir
+/root/ros2_code/humble/simulations/build/neo_common2/CMakeFiles/install/strip.dir

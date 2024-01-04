@@ -1,0 +1,125 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from neo_msgs2/msg/RelayBoardV2.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module neo_msgs2 {
+  module msg {
+    typedef boolean boolean__16[16];
+    typedef boolean boolean__4[4];
+    typedef boolean boolean__8[8];
+    module RelayBoardV2_Constants {
+      @verbatim (language="comment", text=
+        "Possible Communication States" "\n"        "configuration process has not been started")
+      const int16 CS_NOT_ESTABLISHED = 0;
+      @verbatim (language="comment", text=
+        "configuration process failed")
+      const int16 CS_CONFIGURATION_FAILED = 1;
+      @verbatim (language="comment", text=
+        "communication is OK")
+      const int16 CS_OK = 2;
+      @verbatim (language="comment", text=
+        "comminication was lost")
+      const int16 CS_LOST = 3;
+      @verbatim (language="comment", text=
+        "comminication has errors")
+      const int16 CS_ERROR = 4;
+      @verbatim (language="comment", text=
+        "Possible Charging States" "\n"        "no charging in progress; can be started with service /RelayBoardV2/StartCharging")
+      const int16 CHS_NOTCHARGING = 0;
+      @verbatim (language="comment", text=
+        "RelayBoardV2 is starting charging process")
+      const int16 CHS_START_CHARGING = 1;
+      @verbatim (language="comment", text=
+        "charging in progress; can be stopped with service /RelayBoardV2/StopCharging")
+      const int16 CHS_CHARGING = 2;
+      @verbatim (language="comment", text=
+        "charging has been started but no charger was connected; this aborts charging")
+      const int16 CHS_NO_CHARGER = 3;
+      @verbatim (language="comment", text=
+        "brakes have been opened while charging; this aborts charging")
+      const int16 CHS_BRAKES_OPEN = 4;
+      @verbatim (language="comment", text=
+        "EMSTOP has been issued while charging; this aborts charging")
+      const int16 CHS_EMSTOP = 5;
+      @verbatim (language="comment", text=
+        "charging abort by host system")
+      const int16 CHS_ABORT = 6;
+      @verbatim (language="comment", text=
+        "charging finished")
+      const int16 CHS_FINISHED = 7;
+    };
+    @verbatim (language="comment", text=
+      "This message holds specific data available from Neobotix RelayBoardV2")
+    struct RelayBoardV2 {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Shows state for all possible errors" "\n"
+        "relayboardv2_state[0] if true no errors; if false check other fields" "\n"
+        "relayboardv2_state[1] if true charging relay error; check robot hardware" "\n"
+        "relayboardv2_state[2] if true release brakes button failed; check robot hardware" "\n"
+        "relayboardv2_state[3] if true motor error; check robot hardware" "\n"
+        "relayboardv2_state[4] if true safety relay error; check robot hardware" "\n"
+        "relayboardv2_state[5] if true Leistungsrelais error; check robot hardware" "\n"
+        "relayboardv2_state[6] if true EMStop system error; check robot hardware" "\n"
+        "relayboardv2_state[7] reserved" "\n"
+        "relayboardv2_state[8] reserved" "\n"
+        "relayboardv2_state[9] reserved" "\n"
+        "relayboardv2_state[10] reserved" "\n"
+        "relayboardv2_state[11] reserved" "\n"
+        "relayboardv2_state[12] reserved" "\n"
+        "relayboardv2_state[13] reserved" "\n"
+        "relayboardv2_state[14] reserved" "\n"
+        "relayboardv2_state[15] reserved")
+      boolean__16 relayboardv2_state;
+
+      @verbatim (language="comment", text=
+        "values see above")
+      int16 communication_state;
+
+      @verbatim (language="comment", text=
+        "values see above")
+      int16 charging_state;
+
+      @verbatim (language="comment", text=
+        "temperature on relayboardv2")
+      @unit (value="°C")
+      int16 temperature;
+
+      @verbatim (language="comment", text=
+        "battery voltage")
+      @unit (value="V")
+      float battery_voltage;
+
+      @verbatim (language="comment", text=
+        "charging current if not charging = 0")
+      @unit (value="A")
+      float charging_current;
+
+      @verbatim (language="comment", text=
+        "state for each relay on RelayBoardV2; True = Active; False = Inactive" "\n"
+        "relay_states is our charging relay" "\n"
+        "other are free to use")
+      @unit (value="0")
+      boolean__4 relay_states;
+
+      @verbatim (language="comment", text=
+        "state for each key on keypad; True = Pressed" "\n"
+        "keypad[0] info button" "\n"
+        "keypad[1] home button" "\n"
+        "keypad[2] start button" "\n"
+        "keypad[3] stop button" "\n"
+        "keypad[4] release brakes button" "\n"
+        "keypad[5] on demand digital input" "\n"
+        "keypad[6] on demand digital input" "\n"
+        "keypad[7] on demand digital input")
+      boolean__8 keypad;
+
+      @verbatim (language="comment", text=
+        "if true host system is asked to shut down")
+      boolean shutdown;
+    };
+  };
+};

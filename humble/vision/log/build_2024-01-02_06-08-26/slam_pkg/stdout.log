@@ -1,0 +1,21 @@
+-- Install configuration: ""
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/config
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/config/mapper_params_online_async.yaml
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/launch
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/launch/localization_launch.py
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/launch/online_async_launch.py
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/ament_index/resource_index/package_run_dependencies/slam_pkg
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/ament_index/resource_index/parent_prefix_path/slam_pkg
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/environment/path.sh
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/environment/path.dsv
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/local_setup.bash
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/local_setup.sh
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/local_setup.zsh
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/local_setup.dsv
+-- Up-to-date: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/package.dsv
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/ament_index/resource_index/packages/slam_pkg
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/cmake/slam_pkgConfig.cmake
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/cmake/slam_pkgConfig-version.cmake
+-- Installing: /root/ros2_code/humble/vision/install/slam_pkg/share/slam_pkg/package.xml
