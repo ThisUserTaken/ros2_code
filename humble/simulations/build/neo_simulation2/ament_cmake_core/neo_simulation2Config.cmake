@@ -16,7 +16,7 @@ set(_neo_simulation2_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT neo_simulation2_FIND_QUIETLY)
-  message(STATUS "Found neo_simulation2: 1.0.3 (${neo_simulation2_DIR})")
+  message(STATUS "Found neo_simulation2: 1.0.2 (${neo_simulation2_DIR})")
 endif()
 
 # warn when using a deprecated package

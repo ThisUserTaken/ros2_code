@@ -10,6 +10,7 @@ setup.py
 ../../build/cartographer_slam/cartographer_slam.egg-info/zip-safe
 cartographer_slam/__init__.py
 config/cartographer.lua
+config/cartographer_slam_setup.rviz
 config/joystick.yaml
 config/turtlebot_area.pgm
 config/turtlebot_area.yaml

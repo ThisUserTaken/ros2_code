@@ -28,8 +28,8 @@ def generate_launch_description():
             parameters=[planner_yaml]),
             
         Node(
-            package='nav2_recoveries',
-            executable='recoveries_server',
+            package='nav2_behaviors',
+            executable='behavior_server',
             name='recoveries_server',
             parameters=[recovery_yaml],
             output='screen'),

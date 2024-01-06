@@ -18,6 +18,7 @@
 /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/launch/gazebo_sim.launch.py
 /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/worlds/empty.world
 /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/worlds/yolo_test.world
+/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/worlds/aws.world
 /root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/worlds/obstacles.world
 /root/ros2_code/humble/vision/install/diff_robot_pkg/share/ament_index/resource_index/package_run_dependencies/diff_robot_pkg
 /root/ros2_code/humble/vision/install/diff_robot_pkg/share/ament_index/resource_index/parent_prefix_path/diff_robot_pkg

@@ -121,7 +121,7 @@
     </plugin>  </gazebo>
 
   <!-- camera -->
-<!-- <gazebo reference="camera_link_gazebo">
+<gazebo reference="camera_link_gazebo">
 
       <sensor type="depth" name="camera_link_gazebo">
 
@@ -157,7 +157,7 @@
              <max_depth>300.0</max_depth>
           </plugin>
         </sensor>
-      </gazebo>-->
+      </gazebo>
 
   <link name="base_footprint"/>
   <joint name="base_footprint_joint" type="fixed">
@@ -480,7 +480,7 @@
     <mu2>0.0001</mu2>
   </gazebo>
 
-<!-- <joint name="camera_joint" type="fixed">
+<joint name="camera_joint" type="fixed">
     <axis xyz="0 1 0"/>
     <origin rpy="0 0 3.14159" xyz="-0.228 0.015 0.461"/>
     <parent link="base_link"/>
@@ -520,7 +520,7 @@
   </link>
   <link name="camera_link_optical"/>
 
-  <link name="camera_link_gazebo"/> -->
+  <link name="camera_link_gazebo"/> 
 
 
 

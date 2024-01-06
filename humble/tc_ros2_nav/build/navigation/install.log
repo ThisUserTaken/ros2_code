@@ -7,6 +7,8 @@
 /root/ros2_code/humble/tc_ros2_nav/install/navigation/share/navigation/config/my_map.pgm
 /root/ros2_code/humble/tc_ros2_nav/install/navigation/share/navigation/config/my_map.yaml
 /root/ros2_code/humble/tc_ros2_nav/install/navigation/share/navigation/config/nav2_params.yaml
+/root/ros2_code/humble/tc_ros2_nav/install/navigation/share/navigation/config/nav2_params copy.yaml
+/root/ros2_code/humble/tc_ros2_nav/install/navigation/share/navigation/config/nav2_params_backup.yaml
 /root/ros2_code/humble/tc_ros2_nav/install/navigation/share/navigation/config/turtlebot_area.pgm
 /root/ros2_code/humble/tc_ros2_nav/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info/zip-safe
 /root/ros2_code/humble/tc_ros2_nav/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info/entry_points.txt

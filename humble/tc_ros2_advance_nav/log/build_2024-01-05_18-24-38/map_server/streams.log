@@ -1,0 +1,20 @@
+[2.564s] Invoking command in '/root/ros2_code/humble/tc_ros2_advance_nav/src/nav2_pkgs/map_server': PYTHONPATH=/root/ros2_code/humble/tc_ros2_advance_nav/build/map_server/prefix_override:/root/ros2_code/humble/tc_ros2_advance_nav/install/map_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/map_server build --build-base /root/ros2_code/humble/tc_ros2_advance_nav/build/map_server/build install --record /root/ros2_code/humble/tc_ros2_advance_nav/build/map_server/install.log --single-version-externally-managed
+[2.823s] running egg_info
+[2.824s] writing ../../../build/map_server/map_server.egg-info/PKG-INFO
+[2.824s] writing dependency_links to ../../../build/map_server/map_server.egg-info/dependency_links.txt
+[2.824s] writing entry points to ../../../build/map_server/map_server.egg-info/entry_points.txt
+[2.824s] writing requirements to ../../../build/map_server/map_server.egg-info/requires.txt
+[2.824s] writing top-level names to ../../../build/map_server/map_server.egg-info/top_level.txt
+[2.826s] reading manifest file '../../../build/map_server/map_server.egg-info/SOURCES.txt'
+[2.827s] writing manifest file '../../../build/map_server/map_server.egg-info/SOURCES.txt'
+[2.827s] running build
+[2.827s] running build_py
+[2.827s] running install
+[2.828s] running install_lib
+[2.829s] running install_data
+[2.830s] running install_egg_info
+[2.831s] removing '/root/ros2_code/humble/tc_ros2_advance_nav/install/map_server/lib/python3.10/site-packages/map_server-0.0.0-py3.10.egg-info' (and everything under it)
+[2.832s] Copying ../../../build/map_server/map_server.egg-info to /root/ros2_code/humble/tc_ros2_advance_nav/install/map_server/lib/python3.10/site-packages/map_server-0.0.0-py3.10.egg-info
+[2.833s] running install_scripts
+[2.853s] writing list of installed files to '/root/ros2_code/humble/tc_ros2_advance_nav/build/map_server/install.log'
+[2.942s] Invoked command in '/root/ros2_code/humble/tc_ros2_advance_nav/src/nav2_pkgs/map_server' returned '0': PYTHONPATH=/root/ros2_code/humble/tc_ros2_advance_nav/build/map_server/prefix_override:/root/ros2_code/humble/tc_ros2_advance_nav/install/map_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/map_server build --build-base /root/ros2_code/humble/tc_ros2_advance_nav/build/map_server/build install --record /root/ros2_code/humble/tc_ros2_advance_nav/build/map_server/install.log --single-version-externally-managed

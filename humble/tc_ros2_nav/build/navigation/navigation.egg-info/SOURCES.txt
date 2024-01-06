@@ -10,7 +10,9 @@ setup.py
 ../../build/navigation/navigation.egg-info/zip-safe
 config/my_map.pgm
 config/my_map.yaml
+config/nav2_params copy.yaml
 config/nav2_params.yaml
+config/nav2_params_backup.yaml
 config/turtlebot_area.pgm
 config/turtlebot_area.yaml
 launch/navigation.launch.py

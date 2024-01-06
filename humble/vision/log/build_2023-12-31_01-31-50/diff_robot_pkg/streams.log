@@ -1,8 +1,0 @@
-[0.204s] Invoking command in '/root/ros2_code/humble/vision/build/diff_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/vision/src/diff_robot_pkg -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/vision/install/diff_robot_pkg
-[0.213s] [31mCMake Error at CMakeLists.txt:10:
-[0.214s]   Parse error.  Expected a command name, got unquoted argument with text
-[0.214s]   "vision/src/diff_robot_pkg/worlds".
-[0.214s] 
-[0.214s] [0m
-[0.214s] -- Configuring incomplete, errors occurred!
-[0.534s] Invoked command in '/root/ros2_code/humble/vision/build/diff_robot_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/joystick_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/vision/src/diff_robot_pkg -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/vision/install/diff_robot_pkg

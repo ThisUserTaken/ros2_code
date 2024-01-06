@@ -1,0 +1,36 @@
+[1.408s] Invoking command in '/root/ros2_code/humble/vision/src/navigation_pkg': PYTHONPATH=/root/ros2_code/humble/vision/build/navigation_pkg/prefix_override:/root/ros2_code/humble/vision/install/navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_pkg build --build-base /root/ros2_code/humble/vision/build/navigation_pkg/build install --record /root/ros2_code/humble/vision/build/navigation_pkg/install.log --single-version-externally-managed
+[1.662s] running egg_info
+[1.662s] creating ../../build/navigation_pkg/navigation_pkg.egg-info
+[1.662s] writing ../../build/navigation_pkg/navigation_pkg.egg-info/PKG-INFO
+[1.663s] writing dependency_links to ../../build/navigation_pkg/navigation_pkg.egg-info/dependency_links.txt
+[1.663s] writing entry points to ../../build/navigation_pkg/navigation_pkg.egg-info/entry_points.txt
+[1.663s] writing requirements to ../../build/navigation_pkg/navigation_pkg.egg-info/requires.txt
+[1.663s] writing top-level names to ../../build/navigation_pkg/navigation_pkg.egg-info/top_level.txt
+[1.663s] writing manifest file '../../build/navigation_pkg/navigation_pkg.egg-info/SOURCES.txt'
+[1.665s] reading manifest file '../../build/navigation_pkg/navigation_pkg.egg-info/SOURCES.txt'
+[1.665s] writing manifest file '../../build/navigation_pkg/navigation_pkg.egg-info/SOURCES.txt'
+[1.665s] running build
+[1.665s] running build_py
+[1.665s] creating /root/ros2_code/humble/vision/build/navigation_pkg/build
+[1.666s] creating /root/ros2_code/humble/vision/build/navigation_pkg/build/lib
+[1.666s] creating /root/ros2_code/humble/vision/build/navigation_pkg/build/lib/navigation_pkg
+[1.666s] copying navigation_pkg/__init__.py -> /root/ros2_code/humble/vision/build/navigation_pkg/build/lib/navigation_pkg
+[1.666s] running install
+[1.666s] running install_lib
+[1.667s] creating /root/ros2_code/humble/vision/install/navigation_pkg/lib/python3.10/site-packages/navigation_pkg
+[1.667s] copying /root/ros2_code/humble/vision/build/navigation_pkg/build/lib/navigation_pkg/__init__.py -> /root/ros2_code/humble/vision/install/navigation_pkg/lib/python3.10/site-packages/navigation_pkg
+[1.667s] byte-compiling /root/ros2_code/humble/vision/install/navigation_pkg/lib/python3.10/site-packages/navigation_pkg/__init__.py to __init__.cpython-310.pyc
+[1.667s] running install_data
+[1.668s] creating /root/ros2_code/humble/vision/install/navigation_pkg/share/ament_index
+[1.668s] creating /root/ros2_code/humble/vision/install/navigation_pkg/share/ament_index/resource_index
+[1.668s] creating /root/ros2_code/humble/vision/install/navigation_pkg/share/ament_index/resource_index/packages
+[1.668s] copying resource/navigation_pkg -> /root/ros2_code/humble/vision/install/navigation_pkg/share/ament_index/resource_index/packages
+[1.668s] copying package.xml -> /root/ros2_code/humble/vision/install/navigation_pkg/share/navigation_pkg
+[1.668s] creating /root/ros2_code/humble/vision/install/navigation_pkg/share/navigation_pkg/launch
+[1.668s] copying launch/navigation_pkg.launch.py -> /root/ros2_code/humble/vision/install/navigation_pkg/share/navigation_pkg/launch
+[1.668s] creating /root/ros2_code/humble/vision/install/navigation_pkg/share/navigation_pkg/config
+[1.668s] running install_egg_info
+[1.670s] Copying ../../build/navigation_pkg/navigation_pkg.egg-info to /root/ros2_code/humble/vision/install/navigation_pkg/lib/python3.10/site-packages/navigation_pkg-0.0.0-py3.10.egg-info
+[1.671s] running install_scripts
+[1.690s] writing list of installed files to '/root/ros2_code/humble/vision/build/navigation_pkg/install.log'
+[1.791s] Invoked command in '/root/ros2_code/humble/vision/src/navigation_pkg' returned '0': PYTHONPATH=/root/ros2_code/humble/vision/build/navigation_pkg/prefix_override:/root/ros2_code/humble/vision/install/navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_pkg build --build-base /root/ros2_code/humble/vision/build/navigation_pkg/build install --record /root/ros2_code/humble/vision/build/navigation_pkg/install.log --single-version-externally-managed

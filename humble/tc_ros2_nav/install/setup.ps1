@@ -23,6 +23,9 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/root/ros2_code/humble/simulations/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/root/ros2_code/humble/aws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/root/ros2_code/humble/tc_ros2_advance_nav/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/root/ros2_code/humble/surround_view_ros/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/root/ros2_code/humble/frc9202/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/root/ros2_code/humble/vision/install\local_setup.ps1"

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/nav2_new_features/nav2_new_features.egg-info/PKG-INFO
+../../../build/nav2_new_features/nav2_new_features.egg-info/SOURCES.txt
+../../../build/nav2_new_features/nav2_new_features.egg-info/dependency_links.txt
+../../../build/nav2_new_features/nav2_new_features.egg-info/entry_points.txt
+../../../build/nav2_new_features/nav2_new_features.egg-info/requires.txt
+../../../build/nav2_new_features/nav2_new_features.egg-info/top_level.txt
+../../../build/nav2_new_features/nav2_new_features.egg-info/zip-safe
+nav2_new_features/__init__.py
+resource/nav2_new_features
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

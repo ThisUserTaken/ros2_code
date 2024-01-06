@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:10:
-  Parse error.  Expected a command name, got unquoted argument with text
-  "frc9202/src/gazebo_setup_pkg/worlds".
-
-[0m
