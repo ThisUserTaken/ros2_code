@@ -1,0 +1,33 @@
+[2.201s] Invoking command in '/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg': PYTHONPATH=/root/ros2_code/humble/vision/build/nav2_api_pkg/prefix_override:/root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_api_pkg build --build-base /root/ros2_code/humble/vision/build/nav2_api_pkg/build install --record /root/ros2_code/humble/vision/build/nav2_api_pkg/install.log --single-version-externally-managed
+[2.472s] running egg_info
+[2.473s] creating ../../../build/nav2_api_pkg/nav2_api_pkg.egg-info
+[2.473s] writing ../../../build/nav2_api_pkg/nav2_api_pkg.egg-info/PKG-INFO
+[2.473s] writing dependency_links to ../../../build/nav2_api_pkg/nav2_api_pkg.egg-info/dependency_links.txt
+[2.473s] writing entry points to ../../../build/nav2_api_pkg/nav2_api_pkg.egg-info/entry_points.txt
+[2.473s] writing requirements to ../../../build/nav2_api_pkg/nav2_api_pkg.egg-info/requires.txt
+[2.473s] writing top-level names to ../../../build/nav2_api_pkg/nav2_api_pkg.egg-info/top_level.txt
+[2.473s] writing manifest file '../../../build/nav2_api_pkg/nav2_api_pkg.egg-info/SOURCES.txt'
+[2.475s] reading manifest file '../../../build/nav2_api_pkg/nav2_api_pkg.egg-info/SOURCES.txt'
+[2.476s] writing manifest file '../../../build/nav2_api_pkg/nav2_api_pkg.egg-info/SOURCES.txt'
+[2.476s] running build
+[2.476s] running build_py
+[2.476s] creating /root/ros2_code/humble/vision/build/nav2_api_pkg/build
+[2.476s] creating /root/ros2_code/humble/vision/build/nav2_api_pkg/build/lib
+[2.476s] creating /root/ros2_code/humble/vision/build/nav2_api_pkg/build/lib/nav2_api_pkg
+[2.476s] copying nav2_api_pkg/__init__.py -> /root/ros2_code/humble/vision/build/nav2_api_pkg/build/lib/nav2_api_pkg
+[2.476s] running install
+[2.477s] running install_lib
+[2.477s] creating /root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages/nav2_api_pkg
+[2.477s] copying /root/ros2_code/humble/vision/build/nav2_api_pkg/build/lib/nav2_api_pkg/__init__.py -> /root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages/nav2_api_pkg
+[2.477s] byte-compiling /root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages/nav2_api_pkg/__init__.py to __init__.cpython-310.pyc
+[2.478s] running install_data
+[2.478s] creating /root/ros2_code/humble/vision/install/nav2_api_pkg/share/ament_index
+[2.478s] creating /root/ros2_code/humble/vision/install/nav2_api_pkg/share/ament_index/resource_index
+[2.478s] creating /root/ros2_code/humble/vision/install/nav2_api_pkg/share/ament_index/resource_index/packages
+[2.478s] copying resource/nav2_api_pkg -> /root/ros2_code/humble/vision/install/nav2_api_pkg/share/ament_index/resource_index/packages
+[2.479s] copying package.xml -> /root/ros2_code/humble/vision/install/nav2_api_pkg/share/nav2_api_pkg
+[2.479s] running install_egg_info
+[2.480s] Copying ../../../build/nav2_api_pkg/nav2_api_pkg.egg-info to /root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages/nav2_api_pkg-0.0.0-py3.10.egg-info
+[2.481s] running install_scripts
+[2.500s] writing list of installed files to '/root/ros2_code/humble/vision/build/nav2_api_pkg/install.log'
+[2.602s] Invoked command in '/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg' returned '0': PYTHONPATH=/root/ros2_code/humble/vision/build/nav2_api_pkg/prefix_override:/root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_api_pkg build --build-base /root/ros2_code/humble/vision/build/nav2_api_pkg/build install --record /root/ros2_code/humble/vision/build/nav2_api_pkg/install.log --single-version-externally-managed

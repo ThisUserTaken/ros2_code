@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/path_planner_pkg/path_planner_pkg.egg-info
+writing ../../build/path_planner_pkg/path_planner_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/path_planner_pkg/path_planner_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/path_planner_pkg/path_planner_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/path_planner_pkg/path_planner_pkg.egg-info/requires.txt
+writing top-level names to ../../build/path_planner_pkg/path_planner_pkg.egg-info/top_level.txt
+writing manifest file '../../build/path_planner_pkg/path_planner_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/path_planner_pkg/path_planner_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/path_planner_pkg/path_planner_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_code/humble/vision/build/path_planner_pkg/build
+creating /root/ros2_code/humble/vision/build/path_planner_pkg/build/lib
+creating /root/ros2_code/humble/vision/build/path_planner_pkg/build/lib/path_planner_pkg
+copying path_planner_pkg/__init__.py -> /root/ros2_code/humble/vision/build/path_planner_pkg/build/lib/path_planner_pkg
+running install
+running install_lib
+creating /root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages/path_planner_pkg
+copying /root/ros2_code/humble/vision/build/path_planner_pkg/build/lib/path_planner_pkg/__init__.py -> /root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages/path_planner_pkg
+byte-compiling /root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages/path_planner_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_code/humble/vision/install/path_planner_pkg/share/ament_index
+creating /root/ros2_code/humble/vision/install/path_planner_pkg/share/ament_index/resource_index
+creating /root/ros2_code/humble/vision/install/path_planner_pkg/share/ament_index/resource_index/packages
+copying resource/path_planner_pkg -> /root/ros2_code/humble/vision/install/path_planner_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg
+creating /root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/launch
+copying launch/navigation.launch.py -> /root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/launch
+copying launch/pathplanner.launch.py -> /root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/launch
+creating /root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/config
+copying config/recovery.yaml -> /root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/config
+copying config/bt_navigator.yaml -> /root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/config
+copying config/controller.yaml -> /root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/config
+copying config/planner_server.yaml -> /root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/config
+creating /root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/rviz_config
+copying rviz_config/pathplanning.rviz -> /root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/rviz_config
+copying rviz_config/nav2_default_view.rviz -> /root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/rviz_config
+running install_egg_info
+Copying ../../build/path_planner_pkg/path_planner_pkg.egg-info to /root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages/path_planner_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_code/humble/vision/build/path_planner_pkg/install.log'

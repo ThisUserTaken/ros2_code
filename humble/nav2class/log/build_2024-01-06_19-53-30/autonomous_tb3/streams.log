@@ -1,0 +1,89 @@
+[0.870s] Invoking command in '/root/ros2_code/humble/nav2class/src/autonomous_tb3': PYTHONPATH=/root/ros2_code/humble/nav2class/build/autonomous_tb3/prefix_override:/root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autonomous_tb3 build --build-base /root/ros2_code/humble/nav2class/build/autonomous_tb3/build install --record /root/ros2_code/humble/nav2class/build/autonomous_tb3/install.log --single-version-externally-managed
+[1.098s] running egg_info
+[1.098s] creating ../../build/autonomous_tb3/autonomous_tb3.egg-info
+[1.098s] writing ../../build/autonomous_tb3/autonomous_tb3.egg-info/PKG-INFO
+[1.098s] writing dependency_links to ../../build/autonomous_tb3/autonomous_tb3.egg-info/dependency_links.txt
+[1.098s] writing entry points to ../../build/autonomous_tb3/autonomous_tb3.egg-info/entry_points.txt
+[1.099s] writing requirements to ../../build/autonomous_tb3/autonomous_tb3.egg-info/requires.txt
+[1.099s] writing top-level names to ../../build/autonomous_tb3/autonomous_tb3.egg-info/top_level.txt
+[1.099s] writing manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[1.100s] reading manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[1.101s] writing manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[1.101s] running build
+[1.101s] running build_py
+[1.101s] creating /root/ros2_code/humble/nav2class/build/autonomous_tb3/build
+[1.101s] creating /root/ros2_code/humble/nav2class/build/autonomous_tb3/build/lib
+[1.101s] creating /root/ros2_code/humble/nav2class/build/autonomous_tb3/build/lib/autonomous_tb3
+[1.102s] copying autonomous_tb3/occupancy_grid_pub.py -> /root/ros2_code/humble/nav2class/build/autonomous_tb3/build/lib/autonomous_tb3
+[1.102s] copying autonomous_tb3/maze_solver.py -> /root/ros2_code/humble/nav2class/build/autonomous_tb3/build/lib/autonomous_tb3
+[1.102s] copying autonomous_tb3/hotel_waiter_single_goal.py -> /root/ros2_code/humble/nav2class/build/autonomous_tb3/build/lib/autonomous_tb3
+[1.102s] copying autonomous_tb3/spawn_entity.py -> /root/ros2_code/humble/nav2class/build/autonomous_tb3/build/lib/autonomous_tb3
+[1.102s] copying autonomous_tb3/hotel_waiter_multi_button.py -> /root/ros2_code/humble/nav2class/build/autonomous_tb3/build/lib/autonomous_tb3
+[1.102s] copying autonomous_tb3/__init__.py -> /root/ros2_code/humble/nav2class/build/autonomous_tb3/build/lib/autonomous_tb3
+[1.102s] running install
+[1.103s] running install_lib
+[1.103s] creating /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[1.103s] copying /root/ros2_code/humble/nav2class/build/autonomous_tb3/build/lib/autonomous_tb3/occupancy_grid_pub.py -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[1.103s] copying /root/ros2_code/humble/nav2class/build/autonomous_tb3/build/lib/autonomous_tb3/maze_solver.py -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[1.103s] copying /root/ros2_code/humble/nav2class/build/autonomous_tb3/build/lib/autonomous_tb3/hotel_waiter_single_goal.py -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[1.103s] copying /root/ros2_code/humble/nav2class/build/autonomous_tb3/build/lib/autonomous_tb3/spawn_entity.py -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[1.103s] copying /root/ros2_code/humble/nav2class/build/autonomous_tb3/build/lib/autonomous_tb3/hotel_waiter_multi_button.py -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[1.103s] copying /root/ros2_code/humble/nav2class/build/autonomous_tb3/build/lib/autonomous_tb3/__init__.py -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[1.104s] byte-compiling /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/occupancy_grid_pub.py to occupancy_grid_pub.cpython-310.pyc
+[1.104s] byte-compiling /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/maze_solver.py to maze_solver.cpython-310.pyc
+[1.104s] byte-compiling /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/hotel_waiter_single_goal.py to hotel_waiter_single_goal.cpython-310.pyc
+[1.105s] byte-compiling /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/spawn_entity.py to spawn_entity.cpython-310.pyc
+[1.105s] byte-compiling /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/hotel_waiter_multi_button.py to hotel_waiter_multi_button.cpython-310.pyc
+[1.106s] byte-compiling /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/__init__.py to __init__.cpython-310.pyc
+[1.106s] running install_data
+[1.106s] creating /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/ament_index
+[1.106s] creating /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/ament_index/resource_index
+[1.106s] creating /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/ament_index/resource_index/packages
+[1.107s] copying resource/autonomous_tb3 -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/ament_index/resource_index/packages
+[1.107s] copying package.xml -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3
+[1.107s] creating /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/launch
+[1.107s] copying launch/maze_navigation.launch.py -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/launch
+[1.107s] copying launch/tb3_world_navigation.launch.py -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/launch
+[1.107s] copying launch/mapping.launch.py -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/launch
+[1.107s] copying launch/hotel_waiter.launch.py -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/launch
+[1.107s] creating /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/config
+[1.107s] copying config/tb3_world.yaml -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/config
+[1.108s] copying config/maze.yaml -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/config
+[1.108s] copying config/tb3_nav.rviz -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/config
+[1.108s] copying config/hotel_map.yaml -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/config
+[1.108s] copying config/maze.pgm -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/config
+[1.108s] copying config/tb3_nav_params.yaml -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/config
+[1.108s] copying config/tb3_cartographer.lua -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/config
+[1.108s] copying config/hotel_map.pgm -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/config
+[1.108s] copying config/mapping.rviz -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/config
+[1.108s] copying config/tb3_world.pgm -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/config
+[1.109s] creating /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/world
+[1.109s] creating /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[1.109s] copying world/maze/model.config -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[1.109s] copying world/maze/model.sdf -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[1.109s] creating /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models
+[1.109s] creating /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/actor
+[1.109s] copying models/actor/model.config -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/actor
+[1.109s] copying models/actor/model.sdf -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/actor
+[1.109s] creating /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/table
+[1.110s] copying models/table/model-1_3.sdf -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/table
+[1.110s] copying models/table/model.config -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/table
+[1.110s] copying models/table/model-1_2.sdf -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/table
+[1.110s] copying models/table/model-1_4.sdf -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/table
+[1.110s] copying models/table/model.sdf -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/table
+[1.110s] creating /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[1.110s] copying models/beer/model-1_4.sdf -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[1.110s] copying models/beer/model.sdf -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[1.110s] copying models/beer/model.config -> /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/beer
+[1.110s] creating /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/beer/scripts
+[1.110s] creating /root/ros2_code/humble/nav2class/install/autonomous_tb3/share/autonomous_tb3/models/beer/texutres
+[1.111s] running install_egg_info
+[1.111s] Copying ../../build/autonomous_tb3/autonomous_tb3.egg-info to /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3-0.0.0-py3.10.egg-info
+[1.112s] running install_scripts
+[1.126s] Installing autonomous_waiter script to /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/autonomous_tb3
+[1.127s] Installing autonomous_waiter_lite script to /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/autonomous_tb3
+[1.127s] Installing maze_solver script to /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/autonomous_tb3
+[1.127s] Installing occupancy_grid_pub script to /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/autonomous_tb3
+[1.127s] Installing sdf_spawner script to /root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/autonomous_tb3
+[1.127s] writing list of installed files to '/root/ros2_code/humble/nav2class/build/autonomous_tb3/install.log'
+[1.170s] Invoked command in '/root/ros2_code/humble/nav2class/src/autonomous_tb3' returned '0': PYTHONPATH=/root/ros2_code/humble/nav2class/build/autonomous_tb3/prefix_override:/root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autonomous_tb3 build --build-base /root/ros2_code/humble/nav2class/build/autonomous_tb3/build install --record /root/ros2_code/humble/nav2class/build/autonomous_tb3/install.log --single-version-externally-managed

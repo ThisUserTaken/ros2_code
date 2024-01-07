@@ -1,0 +1,7 @@
+image: neobotix_area.pgm
+mode: trinary
+resolution: 0.05
+origin: [-43, -23.9, 0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.25
