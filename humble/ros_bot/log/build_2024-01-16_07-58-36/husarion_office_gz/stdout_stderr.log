@@ -1,0 +1,331 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_code/humble/ros_bot/build/husarion_office_gz
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/husarion_office_world.launch.py
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//empty_with_plugins.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//husarion_office.world
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//husarion_world.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//meshes/husarion_world.dae
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/meshes/AdjTable.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/meshes/AdjTable.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/meshes/AdjTable_Col.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/meshes/AdjTable_Col.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/meshes/texture.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/meshes/BathroomSink.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/meshes/BathroomSink.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/meshes/BathroomSink_Col.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/meshes/BathroomSink_Col.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/meshes/BathroomSink_Diffuse.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/meshes/BathroomSink_Metal.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/meshes/BathroomSink_Rough.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/meshes/CoffeeTable.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/meshes/CoffeeTable.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/meshes/CoffeeTable_Diffuse.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/meshes/CoffeeTable_Normal.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/meshes/CoffeeTable_SpecGloss.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/ConfTable/meshes/ConfTable2.stl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/ConfTable/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/ConfTable/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/materials/textures/DeskChair.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/meshes/DeskChair.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/meshes/DeskChair.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Door/meshes/door.stl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Door/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Door/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/meshes/Drawer.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/meshes/Drawer.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/meshes/Drawer.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/meshes/Drawer_Col.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/meshes/Fridge.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/meshes/Fridge.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/meshes/Fridge_Col.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/meshes/Fridge_Col.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/meshes/Fridge_Diffuse.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Kitchen/meshes/kitchen.stl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Kitchen/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Kitchen/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Laptop/meshes/laptop.stl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Laptop/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Laptop/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/BigRed.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/Blue.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/Broom.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/Cart2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/Cloth.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/Duster.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/Mop.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/MopCart2.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/MopCart2.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/Tongs.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Blue.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Cart.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Cloth.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Duster.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Glove.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Mop.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/MopCart3.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/MopCart3.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Parcel.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Plastic.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Red.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Sign.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Spray.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/meshes/Cart.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/meshes/MopCart4.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/meshes/MopCart4.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/meshes/blue.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/meshes/red.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/meshes/OfficeChairBlack.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/meshes/OfficeChairBlack.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/meshes/OfficeChairBlack.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/meshes/OfficeChairBlack_Col.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/meshes/OfficeChairBlack_Col.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/meta/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/meta/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/meta/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/meta/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/meta/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/meshes/SquareShelf.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/meshes/SquareShelf.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/meshes/SquareShelf_Col.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/meshes/SquareShelf_Col.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/meshes/SquareShelf_Diffuse.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Stairs/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Stairs/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/Table_Diffuse.jpg
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/model-1_2.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/model-1_3.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/model-1_4.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/meshes/toilet.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/meshes/toilet.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/meshes/TrashBin.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/meshes/TrashBin.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/meshes/TrashBin_Diffuse.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Tv/meshes/tv.stl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Tv/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Tv/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WaterDispenser/meshes/WaterDispenser.dae
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WaterDispenser/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WaterDispenser/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/meshes/WhiteCabinet.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/meshes/WhiteCabinet.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/meshes/WhiteCabinet.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/meshes/WoodenChair.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/meshes/WoodenChair.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/meshes/WoodenChair_Col.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/meshes/WoodenChair_Col.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/meshes/WoodenChair_Diffuse.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/meshes/WoodenChair_Rough.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/thumbnails/1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/thumbnails/2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/thumbnails/3.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/thumbnails/4.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/thumbnails/5.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/black_concrete.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_1.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_1.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_10.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_10.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_11.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_11.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_12.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_12.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_13.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_13.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_14.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_14.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_2.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_2.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_3.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_3.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_4.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_4.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_5.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_5.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_6.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_6.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_7.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_7.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_8.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_8.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_9.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_9.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/model.material
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/wall_1.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/wall_1.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/wall_2.mtl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/wall_2.obj
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/white_carpet.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/white_tiles.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/white_wall.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/wood1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/wood2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/meshes/astra.dae
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/meshes/box.dae
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/meshes/rplidar.dae
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/meshes/upper.dae
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/meshes/wheel-v2.stl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/meshes/wheel.dae
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/model.config
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/model.sdf
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/white_carpet.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/white_wall.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/wood1.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//models/wood2.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//nav2_maps/office_map.png
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/worlds//nav2_maps/office_map.yaml
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/ament_index/resource_index/package_run_dependencies/husarion_office_gz
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/ament_index/resource_index/parent_prefix_path/husarion_office_gz
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/environment/path.sh
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/environment/path.dsv
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/local_setup.bash
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/local_setup.sh
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/local_setup.zsh
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/local_setup.dsv
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/package.dsv
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/ament_index/resource_index/packages/husarion_office_gz
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/cmake/husarion_office_gzConfig.cmake
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/cmake/husarion_office_gzConfig-version.cmake
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/husarion_office_gz/share/husarion_office_gz/package.xml

@@ -1,0 +1,2291 @@
+<sdf version='1.7'>
+  <model name='omni_robot'>
+    <link name='base_footprint'>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>1.167</mass>
+        <inertia>
+          <ixx>0.0016</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0016</iyy>
+          <iyz>0</iyz>
+          <izz>0.0032</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_footprint_fixed_joint_lump__base_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/base/base_link.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>0.05</mu>
+              <mu2>0.05</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='base_footprint_fixed_joint_lump__base_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/base/base_link.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <sensor name='front_lrf_sensor' type='ray'>
+        <visualize>1</visualize>
+        <update_rate>40</update_rate>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>720</samples>
+              <resolution>1</resolution>
+              <min_angle>-3.14</min_angle>
+              <max_angle>3.14</max_angle>
+            </horizontal>
+          </scan>
+          <range>
+            <min>0.1</min>
+            <max>10</max>
+            <resolution>0.01</resolution>
+          </range>
+          <noise>
+            <type>gaussian</type>
+            <mean>0</mean>
+            <stddev>0.03</stddev>
+          </noise>
+        </ray>
+        <plugin name='gazebo_ros_front_lrf_controller' filename='libgazebo_ros_laser.so'>
+          <topicName>front/scan</topicName>
+          <frameName>front_lrf_link</frameName>
+        </plugin>
+        <pose>0 0 0.1395 0 -0 0</pose>
+      </sensor>
+    </link>
+    <joint name='first_wheel_joint' type='revolute'>
+      <pose relative_to='base_footprint'>0.086338 -0.086338 -0.022 0 0 -2.3562</pose>
+      <parent>base_footprint</parent>
+      <child>first_wheel_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <effort>100</effort>
+          <velocity>100</velocity>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='first_wheel_link'>
+      <pose relative_to='first_wheel_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 -0.011 0 0 -0 0</pose>
+        <mass>0.25</mass>
+        <inertia>
+          <ixx>0.00031</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0005</iyy>
+          <iyz>0</iyz>
+          <izz>0.00031</izz>
+        </inertia>
+      </inertial>
+      <collision name='first_wheel_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/omni_wheel/omni_wheel.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='first_wheel_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/omni_wheel/omni_wheel.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+    </link>
+    <joint name='r10_F_roller_joint' type='revolute'>
+      <pose relative_to='first_wheel_link'>-0.022885 0.006 -0.007436 1.25664 -0 1.5708</pose>
+      <parent>first_wheel_link</parent>
+      <child>r10_F_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r10_F_roller_link'>
+      <pose relative_to='r10_F_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r10_F_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r10_F_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r1_F_roller_joint' type='revolute'>
+      <pose relative_to='first_wheel_link'>0 -0.006 0.024063 0 -0 1.5708</pose>
+      <parent>first_wheel_link</parent>
+      <child>r1_F_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r1_F_roller_link'>
+      <pose relative_to='r1_F_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r1_F_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r1_F_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r2_F_roller_joint' type='revolute'>
+      <pose relative_to='first_wheel_link'>-0.022885 -0.006 0.007436 -1.25664 -0 1.5708</pose>
+      <parent>first_wheel_link</parent>
+      <child>r2_F_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r2_F_roller_link'>
+      <pose relative_to='r2_F_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r2_F_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r2_F_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r3_F_roller_joint' type='revolute'>
+      <pose relative_to='first_wheel_link'>-0.014144 -0.006 -0.019467 -2.51327 -0 1.5708</pose>
+      <parent>first_wheel_link</parent>
+      <child>r3_F_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r3_F_roller_link'>
+      <pose relative_to='r3_F_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r3_F_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r3_F_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r4_F_roller_joint' type='revolute'>
+      <pose relative_to='first_wheel_link'>0.014144 -0.006 -0.019467 2.51327 -0 1.5708</pose>
+      <parent>first_wheel_link</parent>
+      <child>r4_F_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r4_F_roller_link'>
+      <pose relative_to='r4_F_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r4_F_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r4_F_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r5_F_roller_joint' type='revolute'>
+      <pose relative_to='first_wheel_link'>0.022885 -0.006 0.007436 1.25664 -0 1.5708</pose>
+      <parent>first_wheel_link</parent>
+      <child>r5_F_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r5_F_roller_link'>
+      <pose relative_to='r5_F_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r5_F_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r5_F_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r6_F_roller_joint' type='revolute'>
+      <pose relative_to='first_wheel_link'>0 0.006 -0.024063 0 -0 1.5708</pose>
+      <parent>first_wheel_link</parent>
+      <child>r6_F_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r6_F_roller_link'>
+      <pose relative_to='r6_F_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r6_F_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r6_F_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r7_F_roller_joint' type='revolute'>
+      <pose relative_to='first_wheel_link'>0.022885 0.006 -0.007436 -1.25664 -0 1.5708</pose>
+      <parent>first_wheel_link</parent>
+      <child>r7_F_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r7_F_roller_link'>
+      <pose relative_to='r7_F_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r7_F_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r7_F_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r8_F_roller_joint' type='revolute'>
+      <pose relative_to='first_wheel_link'>0.014144 0.006 0.019467 -2.51327 -0 1.5708</pose>
+      <parent>first_wheel_link</parent>
+      <child>r8_F_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r8_F_roller_link'>
+      <pose relative_to='r8_F_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r8_F_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r8_F_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r9_F_roller_joint' type='revolute'>
+      <pose relative_to='first_wheel_link'>-0.014144 0.006 0.019467 2.51327 -0 1.5708</pose>
+      <parent>first_wheel_link</parent>
+      <child>r9_F_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r9_F_roller_link'>
+      <pose relative_to='r9_F_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r9_F_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r9_F_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='fourth_wheel_joint' type='revolute'>
+      <pose relative_to='base_footprint'>-0.086338 -0.086338 -0.022 0 -0 2.3562</pose>
+      <parent>base_footprint</parent>
+      <child>fourth_wheel_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <effort>100</effort>
+          <velocity>100</velocity>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='fourth_wheel_link'>
+      <pose relative_to='fourth_wheel_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 -0.011 0 0 -0 0</pose>
+        <mass>0.25</mass>
+        <inertia>
+          <ixx>0.00031</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0005</iyy>
+          <iyz>0</iyz>
+          <izz>0.00031</izz>
+        </inertia>
+      </inertial>
+      <collision name='fourth_wheel_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/omni_wheel/omni_wheel.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='fourth_wheel_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/omni_wheel/omni_wheel.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+    </link>
+    <joint name='r10_R_roller_joint' type='revolute'>
+      <pose relative_to='fourth_wheel_link'>-0.022885 0.006 -0.007436 1.25664 -0 1.5708</pose>
+      <parent>fourth_wheel_link</parent>
+      <child>r10_R_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r10_R_roller_link'>
+      <pose relative_to='r10_R_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r10_R_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r10_R_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r1_R_roller_joint' type='revolute'>
+      <pose relative_to='fourth_wheel_link'>0 -0.006 0.024063 0 -0 1.5708</pose>
+      <parent>fourth_wheel_link</parent>
+      <child>r1_R_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r1_R_roller_link'>
+      <pose relative_to='r1_R_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r1_R_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r1_R_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r2_R_roller_joint' type='revolute'>
+      <pose relative_to='fourth_wheel_link'>-0.022885 -0.006 0.007436 -1.25664 -0 1.5708</pose>
+      <parent>fourth_wheel_link</parent>
+      <child>r2_R_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r2_R_roller_link'>
+      <pose relative_to='r2_R_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r2_R_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r2_R_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r3_R_roller_joint' type='revolute'>
+      <pose relative_to='fourth_wheel_link'>-0.014144 -0.006 -0.019467 -2.51327 -0 1.5708</pose>
+      <parent>fourth_wheel_link</parent>
+      <child>r3_R_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r3_R_roller_link'>
+      <pose relative_to='r3_R_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r3_R_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r3_R_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r4_R_roller_joint' type='revolute'>
+      <pose relative_to='fourth_wheel_link'>0.014144 -0.006 -0.019467 2.51327 -0 1.5708</pose>
+      <parent>fourth_wheel_link</parent>
+      <child>r4_R_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r4_R_roller_link'>
+      <pose relative_to='r4_R_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r4_R_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r4_R_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r5_R_roller_joint' type='revolute'>
+      <pose relative_to='fourth_wheel_link'>0.022885 -0.006 0.007436 1.25664 -0 1.5708</pose>
+      <parent>fourth_wheel_link</parent>
+      <child>r5_R_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r5_R_roller_link'>
+      <pose relative_to='r5_R_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r5_R_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r5_R_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r6_R_roller_joint' type='revolute'>
+      <pose relative_to='fourth_wheel_link'>0 0.006 -0.024063 0 -0 1.5708</pose>
+      <parent>fourth_wheel_link</parent>
+      <child>r6_R_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r6_R_roller_link'>
+      <pose relative_to='r6_R_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r6_R_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r6_R_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r7_R_roller_joint' type='revolute'>
+      <pose relative_to='fourth_wheel_link'>0.022885 0.006 -0.007436 -1.25664 -0 1.5708</pose>
+      <parent>fourth_wheel_link</parent>
+      <child>r7_R_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r7_R_roller_link'>
+      <pose relative_to='r7_R_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r7_R_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r7_R_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r8_R_roller_joint' type='revolute'>
+      <pose relative_to='fourth_wheel_link'>0.014144 0.006 0.019467 -2.51327 -0 1.5708</pose>
+      <parent>fourth_wheel_link</parent>
+      <child>r8_R_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r8_R_roller_link'>
+      <pose relative_to='r8_R_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r8_R_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r8_R_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r9_R_roller_joint' type='revolute'>
+      <pose relative_to='fourth_wheel_link'>-0.014144 0.006 0.019467 2.51327 -0 1.5708</pose>
+      <parent>fourth_wheel_link</parent>
+      <child>r9_R_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r9_R_roller_link'>
+      <pose relative_to='r9_R_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r9_R_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r9_R_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='second_wheel_joint' type='revolute'>
+      <pose relative_to='base_footprint'>0.086338 0.086338 -0.022 0 0 -0.785398</pose>
+      <parent>base_footprint</parent>
+      <child>second_wheel_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <effort>100</effort>
+          <velocity>100</velocity>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='second_wheel_link'>
+      <pose relative_to='second_wheel_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 -0.011 0 0 -0 0</pose>
+        <mass>0.25</mass>
+        <inertia>
+          <ixx>0.00031</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0005</iyy>
+          <iyz>0</iyz>
+          <izz>0.00031</izz>
+        </inertia>
+      </inertial>
+      <collision name='second_wheel_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/omni_wheel/omni_wheel.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='second_wheel_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/omni_wheel/omni_wheel.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+    </link>
+    <joint name='r10_S_roller_joint' type='revolute'>
+      <pose relative_to='second_wheel_link'>-0.022885 0.006 -0.007436 1.25664 -0 1.5708</pose>
+      <parent>second_wheel_link</parent>
+      <child>r10_S_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r10_S_roller_link'>
+      <pose relative_to='r10_S_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r10_S_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r10_S_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r1_S_roller_joint' type='revolute'>
+      <pose relative_to='second_wheel_link'>0 -0.006 0.024063 0 -0 1.5708</pose>
+      <parent>second_wheel_link</parent>
+      <child>r1_S_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r1_S_roller_link'>
+      <pose relative_to='r1_S_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r1_S_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r1_S_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r2_S_roller_joint' type='revolute'>
+      <pose relative_to='second_wheel_link'>-0.022885 -0.006 0.007436 -1.25664 -0 1.5708</pose>
+      <parent>second_wheel_link</parent>
+      <child>r2_S_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r2_S_roller_link'>
+      <pose relative_to='r2_S_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r2_S_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r2_S_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r3_S_roller_joint' type='revolute'>
+      <pose relative_to='second_wheel_link'>-0.014144 -0.006 -0.019467 -2.51327 -0 1.5708</pose>
+      <parent>second_wheel_link</parent>
+      <child>r3_S_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r3_S_roller_link'>
+      <pose relative_to='r3_S_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r3_S_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r3_S_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r4_S_roller_joint' type='revolute'>
+      <pose relative_to='second_wheel_link'>0.014144 -0.006 -0.019467 2.51327 -0 1.5708</pose>
+      <parent>second_wheel_link</parent>
+      <child>r4_S_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r4_S_roller_link'>
+      <pose relative_to='r4_S_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r4_S_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r4_S_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r5_S_roller_joint' type='revolute'>
+      <pose relative_to='second_wheel_link'>0.022885 -0.006 0.007436 1.25664 -0 1.5708</pose>
+      <parent>second_wheel_link</parent>
+      <child>r5_S_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r5_S_roller_link'>
+      <pose relative_to='r5_S_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r5_S_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r5_S_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r6_S_roller_joint' type='revolute'>
+      <pose relative_to='second_wheel_link'>0 0.006 -0.024063 0 -0 1.5708</pose>
+      <parent>second_wheel_link</parent>
+      <child>r6_S_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r6_S_roller_link'>
+      <pose relative_to='r6_S_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r6_S_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r6_S_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r7_S_roller_joint' type='revolute'>
+      <pose relative_to='second_wheel_link'>0.022885 0.006 -0.007436 -1.25664 -0 1.5708</pose>
+      <parent>second_wheel_link</parent>
+      <child>r7_S_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r7_S_roller_link'>
+      <pose relative_to='r7_S_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r7_S_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r7_S_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r8_S_roller_joint' type='revolute'>
+      <pose relative_to='second_wheel_link'>0.014144 0.006 0.019467 -2.51327 -0 1.5708</pose>
+      <parent>second_wheel_link</parent>
+      <child>r8_S_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r8_S_roller_link'>
+      <pose relative_to='r8_S_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r8_S_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r8_S_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r9_S_roller_joint' type='revolute'>
+      <pose relative_to='second_wheel_link'>-0.014144 0.006 0.019467 2.51327 -0 1.5708</pose>
+      <parent>second_wheel_link</parent>
+      <child>r9_S_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r9_S_roller_link'>
+      <pose relative_to='r9_S_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r9_S_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r9_S_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='third_wheel_joint' type='revolute'>
+      <pose relative_to='base_footprint'>-0.086338 0.086338 -0.022 0 -0 0.785398</pose>
+      <parent>base_footprint</parent>
+      <child>third_wheel_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <effort>100</effort>
+          <velocity>100</velocity>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='third_wheel_link'>
+      <pose relative_to='third_wheel_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 -0.011 0 0 -0 0</pose>
+        <mass>0.25</mass>
+        <inertia>
+          <ixx>0.00031</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0005</iyy>
+          <iyz>0</iyz>
+          <izz>0.00031</izz>
+        </inertia>
+      </inertial>
+      <collision name='third_wheel_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/omni_wheel/omni_wheel.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='third_wheel_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/omni_wheel/omni_wheel.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+    </link>
+    <joint name='r10_T_roller_joint' type='revolute'>
+      <pose relative_to='third_wheel_link'>-0.022885 0.006 -0.007436 1.25664 -0 1.5708</pose>
+      <parent>third_wheel_link</parent>
+      <child>r10_T_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r10_T_roller_link'>
+      <pose relative_to='r10_T_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r10_T_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r10_T_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r1_T_roller_joint' type='revolute'>
+      <pose relative_to='third_wheel_link'>0 -0.006 0.024063 0 -0 1.5708</pose>
+      <parent>third_wheel_link</parent>
+      <child>r1_T_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r1_T_roller_link'>
+      <pose relative_to='r1_T_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r1_T_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r1_T_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r2_T_roller_joint' type='revolute'>
+      <pose relative_to='third_wheel_link'>-0.022885 -0.006 0.007436 -1.25664 -0 1.5708</pose>
+      <parent>third_wheel_link</parent>
+      <child>r2_T_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r2_T_roller_link'>
+      <pose relative_to='r2_T_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r2_T_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r2_T_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r3_T_roller_joint' type='revolute'>
+      <pose relative_to='third_wheel_link'>-0.014144 -0.006 -0.019467 -2.51327 -0 1.5708</pose>
+      <parent>third_wheel_link</parent>
+      <child>r3_T_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r3_T_roller_link'>
+      <pose relative_to='r3_T_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r3_T_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r3_T_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r4_T_roller_joint' type='revolute'>
+      <pose relative_to='third_wheel_link'>0.014144 -0.006 -0.019467 2.51327 -0 1.5708</pose>
+      <parent>third_wheel_link</parent>
+      <child>r4_T_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r4_T_roller_link'>
+      <pose relative_to='r4_T_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r4_T_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r4_T_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r5_T_roller_joint' type='revolute'>
+      <pose relative_to='third_wheel_link'>0.022885 -0.006 0.007436 1.25664 -0 1.5708</pose>
+      <parent>third_wheel_link</parent>
+      <child>r5_T_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r5_T_roller_link'>
+      <pose relative_to='r5_T_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r5_T_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r5_T_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r6_T_roller_joint' type='revolute'>
+      <pose relative_to='third_wheel_link'>0 0.006 -0.024063 0 -0 1.5708</pose>
+      <parent>third_wheel_link</parent>
+      <child>r6_T_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r6_T_roller_link'>
+      <pose relative_to='r6_T_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r6_T_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r6_T_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r7_T_roller_joint' type='revolute'>
+      <pose relative_to='third_wheel_link'>0.022885 0.006 -0.007436 -1.25664 -0 1.5708</pose>
+      <parent>third_wheel_link</parent>
+      <child>r7_T_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r7_T_roller_link'>
+      <pose relative_to='r7_T_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r7_T_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r7_T_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r8_T_roller_joint' type='revolute'>
+      <pose relative_to='third_wheel_link'>0.014144 0.006 0.019467 -2.51327 -0 1.5708</pose>
+      <parent>third_wheel_link</parent>
+      <child>r8_T_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r8_T_roller_link'>
+      <pose relative_to='r8_T_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r8_T_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r8_T_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='r9_T_roller_joint' type='revolute'>
+      <pose relative_to='third_wheel_link'>-0.014144 0.006 0.019467 2.51327 -0 1.5708</pose>
+      <parent>third_wheel_link</parent>
+      <child>r9_T_roller_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='r9_T_roller_link'>
+      <pose relative_to='r9_T_roller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.009</mass>
+        <inertia>
+          <ixx>1.257e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>3.42e-07</iyy>
+          <iyz>0</iyz>
+          <izz>1.257e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='r9_T_roller_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/STL/roller/roller.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='r9_T_roller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://omni_robot_description/meshes/DAE/roller/roller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <static>0</static>
+    <plugin name='gazebo_ros_control' filename='libgazebo_ros_control.so'/>
+  </model>
+</sdf>

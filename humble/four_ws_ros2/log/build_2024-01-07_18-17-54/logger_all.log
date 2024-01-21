@@ -1,0 +1,206 @@
+[0.916s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.916s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f15f04d5090>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f15f04d7c70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f15f04d7c70>>)
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.961s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.961s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.961s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.961s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.961s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/four_ws_ros2'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extensions ['ignore', 'ignore_ament_install']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'ignore'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'ignore_ament_install'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extensions ['colcon_pkg']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'colcon_pkg'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extensions ['colcon_meta']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'colcon_meta'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extensions ['ros']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'ros'
+[0.973s] DEBUG:colcon.colcon_core.package_identification:Package 'src/four_ws_control' with type 'ros.ament_cmake' and name 'four_ws_control'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ignore'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ignore_ament_install'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['colcon_pkg']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'colcon_pkg'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['colcon_meta']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'colcon_meta'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['ros']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ros'
+[0.974s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_simulation' with type 'ros.ament_cmake' and name 'gazebo_simulation'
+[0.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_args' from command line to 'None'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_target' from command line to 'None'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.048s] DEBUG:colcon.colcon_core.verb:Building package 'four_ws_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/four_ws_ros2/build/four_ws_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control', 'merge_install': False, 'path': '/root/ros2_code/humble/four_ws_ros2/src/four_ws_control', 'symlink_install': False, 'test_result_base': None}
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_args' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_target' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.061s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/four_ws_ros2/build/gazebo_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation', 'merge_install': False, 'path': '/root/ros2_code/humble/four_ws_ros2/src/gazebo_simulation', 'symlink_install': False, 'test_result_base': None}
+[1.074s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.091s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.091s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/four_ws_ros2/src/four_ws_control' with build type 'ament_cmake'
+[1.091s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/four_ws_ros2/src/four_ws_control'
+[1.105s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.105s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.105s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.211s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/four_ws_ros2/src/gazebo_simulation' with build type 'ament_cmake'
+[1.211s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/four_ws_ros2/src/gazebo_simulation'
+[1.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/four_ws_ros2/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/four_ws_ros2/src/four_ws_control -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/four_ws_ros2/install/four_ws_control
+[1.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/four_ws_ros2/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/four_ws_ros2/src/gazebo_simulation -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation
+[2.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/four_ws_ros2/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/four_ws_ros2/src/four_ws_control -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/four_ws_ros2/install/four_ws_control
+[2.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/four_ws_ros2/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/four_ws_ros2/build/four_ws_control -- -j12 -l12
+[2.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/four_ws_ros2/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/four_ws_ros2/build/four_ws_control -- -j12 -l12
+[2.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/four_ws_ros2/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/four_ws_ros2/build/four_ws_control
+[2.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_ws_control)
+[2.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/four_ws_ros2/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/four_ws_ros2/build/four_ws_control
+[2.197s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control' for CMake module files
+[2.197s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control' for CMake config files
+[2.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_ws_control', 'cmake_prefix_path')
+[2.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.ps1'
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.dsv'
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.sh'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/lib'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/bin'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/lib/pkgconfig/four_ws_control.pc'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/lib/python3.10/site-packages'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/bin'
+[2.242s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.ps1'
+[2.242s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.dsv'
+[2.243s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.sh'
+[2.243s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.bash'
+[2.244s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.zsh'
+[2.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/colcon-core/packages/four_ws_control)
+[2.287s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_ws_control)
+[2.303s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control' for CMake module files
+[2.303s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control' for CMake config files
+[2.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_ws_control', 'cmake_prefix_path')
+[2.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.ps1'
+[2.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.dsv'
+[2.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.sh'
+[2.323s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/lib'
+[2.323s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/bin'
+[2.323s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/lib/pkgconfig/four_ws_control.pc'
+[2.323s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/lib/python3.10/site-packages'
+[2.323s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/bin'
+[2.336s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.ps1'
+[2.337s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.dsv'
+[2.337s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.sh'
+[2.337s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.bash'
+[2.338s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.zsh'
+[2.338s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/colcon-core/packages/four_ws_control)
+[4.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/four_ws_ros2/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/four_ws_ros2/src/gazebo_simulation -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation
+[4.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/four_ws_ros2/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/four_ws_ros2/build/gazebo_simulation -- -j12 -l12
+[4.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/four_ws_ros2/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/four_ws_ros2/build/gazebo_simulation -- -j12 -l12
+[4.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/four_ws_ros2/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/four_ws_ros2/build/gazebo_simulation
+[4.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_simulation)
+[4.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/four_ws_ros2/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/four_ws_ros2/build/gazebo_simulation
+[4.370s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation' for CMake module files
+[4.370s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation' for CMake config files
+[4.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_simulation', 'cmake_prefix_path')
+[4.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.ps1'
+[4.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.dsv'
+[4.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.sh'
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/lib'
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/bin'
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/lib/pkgconfig/gazebo_simulation.pc'
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/lib/python3.10/site-packages'
+[4.385s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/bin'
+[4.397s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/package.ps1'
+[4.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/package.dsv'
+[4.398s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/package.sh'
+[4.398s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/package.bash'
+[4.399s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/package.zsh'
+[4.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/colcon-core/packages/gazebo_simulation)
+[4.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_simulation)
+[4.463s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation' for CMake module files
+[4.464s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation' for CMake config files
+[4.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_simulation', 'cmake_prefix_path')
+[4.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.ps1'
+[4.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.dsv'
+[4.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.sh'
+[4.478s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/lib'
+[4.478s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/bin'
+[4.478s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/lib/pkgconfig/gazebo_simulation.pc'
+[4.478s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/lib/python3.10/site-packages'
+[4.478s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/bin'
+[4.492s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/package.ps1'
+[4.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/package.dsv'
+[4.493s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/package.sh'
+[4.493s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/package.bash'
+[4.493s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/package.zsh'
+[4.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/four_ws_ros2/install/gazebo_simulation/share/colcon-core/packages/gazebo_simulation)
+[4.494s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.494s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.494s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.494s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.516s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.516s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.516s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.516s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.521s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[4.521s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.535s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/four_ws_ros2/install/local_setup.ps1'
+[4.536s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/four_ws_ros2/install/_local_setup_util_ps1.py'
+[4.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/four_ws_ros2/install/setup.ps1'
+[4.556s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/four_ws_ros2/install/local_setup.sh'
+[4.557s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/four_ws_ros2/install/_local_setup_util_sh.py'
+[4.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/four_ws_ros2/install/setup.sh'
+[4.573s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/four_ws_ros2/install/local_setup.bash'
+[4.574s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/four_ws_ros2/install/setup.bash'
+[4.588s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/four_ws_ros2/install/local_setup.zsh'
+[4.588s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/four_ws_ros2/install/setup.zsh'

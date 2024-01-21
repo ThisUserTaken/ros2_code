@@ -1,0 +1,219 @@
+[0.471s] Invoking command in '/root/ros2_code/humble/simulations/build/bcr_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/bcr_bot -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/bcr_bot
+[1.112s] -- The C compiler identification is GNU 11.4.0
+[1.113s] -- The CXX compiler identification is GNU 11.4.0
+[1.113s] -- Detecting C compiler ABI info
+[1.113s] -- Detecting C compiler ABI info - done
+[1.113s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.113s] -- Detecting C compile features
+[1.114s] -- Detecting C compile features - done
+[1.114s] -- Detecting CXX compiler ABI info
+[1.114s] -- Detecting CXX compiler ABI info - done
+[1.114s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.114s] -- Detecting CXX compile features
+[1.114s] -- Detecting CXX compile features - done
+[1.114s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.114s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.287s] -- Configuring done
+[1.290s] -- Generating done
+[1.290s] -- Build files have been written to: /root/ros2_code/humble/simulations/build/bcr_bot
+[1.437s] Invoked command in '/root/ros2_code/humble/simulations/build/bcr_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/simulations/src/bcr_bot -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/simulations/install/bcr_bot
+[1.438s] Invoking command in '/root/ros2_code/humble/simulations/build/bcr_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/bcr_bot -- -j12 -l12
+[1.482s] Invoked command in '/root/ros2_code/humble/simulations/build/bcr_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/simulations/build/bcr_bot -- -j12 -l12
+[1.519s] Invoking command in '/root/ros2_code/humble/simulations/build/bcr_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/bcr_bot
+[1.528s] -- Install configuration: ""
+[1.528s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//launch
+[1.528s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//launch/gazebo.launch.py
+[1.528s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//launch/rviz.launch.py
+[1.529s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//launch/gz.launch.py
+[1.529s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//meshes
+[1.529s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//meshes/realsense_texture.png
+[1.536s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//meshes/bcr_bot_mesh.dae
+[1.541s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//meshes/kinect
+[1.542s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//meshes/kinect/kinect.tga
+[1.542s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//meshes/kinect/kinect.jpg
+[1.543s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//meshes/kinect/kinect.dae
+[1.546s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//meshes/kinect/d415.dae
+[1.547s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//meshes/logo.png
+[1.548s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models
+[1.548s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01
+[1.548s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/model.config
+[1.548s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/.DS_Store
+[1.548s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/meshes
+[1.549s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE
+[1.550s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE
+[1.550s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/materials
+[1.550s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/materials/.DS_Store
+[1.550s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/materials/textures
+[1.550s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png
+[1.552s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png
+[1.554s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png
+[1.555s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png
+[1.556s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfE_01/model.sdf
+[1.556s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01
+[1.557s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/model.config
+[1.557s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/meshes
+[1.557s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE
+[1.558s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE
+[1.559s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials
+[1.559s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials/.DS_Store
+[1.559s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials/textures
+[1.559s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png
+[1.560s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png
+[1.563s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd
+[1.571s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png
+[1.572s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png
+[1.574s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_DeskC_01/model.sdf
+[1.574s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01
+[1.574s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/model.config
+[1.574s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/.DS_Store
+[1.575s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/meshes
+[1.575s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+[1.575s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+[1.577s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/materials
+[1.577s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/materials/.DS_Store
+[1.577s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures
+[1.577s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+[1.580s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/.DS_Store
+[1.580s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+[1.582s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+[1.584s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+[1.584s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01
+[1.585s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/model.config
+[1.585s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/meshes
+[1.585s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+[1.586s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+[1.586s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/materials
+[1.587s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures
+[1.587s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+[1.588s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+[1.590s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+[1.590s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01
+[1.590s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/model.config
+[1.591s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/meshes
+[1.591s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE
+[1.592s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE
+[1.592s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/materials
+[1.592s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/materials/textures
+[1.592s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+[1.600s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+[1.601s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_GroundB_01/model.sdf
+[1.601s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01
+[1.601s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/model.config
+[1.601s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/meshes
+[1.601s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE
+[1.602s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE
+[1.603s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/materials
+[1.603s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/materials/textures
+[1.603s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+[1.605s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_WallB_01/model.sdf
+[1.606s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01
+[1.606s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/model.config
+[1.606s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/.DS_Store
+[1.606s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/meshes
+[1.606s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE
+[1.607s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE
+[1.607s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/materials
+[1.607s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/materials/.DS_Store
+[1.608s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/materials/textures
+[1.608s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png
+[1.609s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Bucket_01/model.sdf
+[1.610s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01
+[1.610s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/model.config
+[1.610s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/meshes
+[1.610s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+[1.611s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+[1.611s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/materials
+[1.611s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures
+[1.611s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+[1.614s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+[1.615s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+[1.616s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01
+[1.616s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/model.config
+[1.616s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/meshes
+[1.616s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE
+[1.616s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE
+[1.618s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/materials
+[1.618s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/materials/textures
+[1.618s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png
+[1.620s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png
+[1.622s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png
+[1.623s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png
+[1.624s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfD_01/model.sdf
+[1.624s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01
+[1.624s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/model.config
+[1.625s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/meshes
+[1.625s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+[1.625s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+[1.627s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/materials
+[1.627s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/materials/textures
+[1.627s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+[1.629s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+[1.629s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01
+[1.629s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/model.config
+[1.630s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/meshes
+[1.630s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE
+[1.630s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE
+[1.632s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/materials
+[1.632s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/materials/textures
+[1.632s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png
+[1.633s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_RoofB_01/model.sdf
+[1.633s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01
+[1.633s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/model.config
+[1.633s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/meshes
+[1.633s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE
+[1.634s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE
+[1.634s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/materials
+[1.634s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/materials/textures
+[1.634s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png
+[1.635s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_Lamp_01/model.sdf
+[1.635s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01
+[1.635s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/model.config
+[1.636s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/.DS_Store
+[1.636s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/meshes
+[1.636s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[1.640s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[1.641s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/materials
+[1.641s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/materials/.DS_Store
+[1.641s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures
+[1.641s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[1.641s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[1.645s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[1.645s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01
+[1.645s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/model.config
+[1.645s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/meshes
+[1.645s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE
+[1.649s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE
+[1.649s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/materials
+[1.649s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/materials/textures
+[1.649s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+[1.650s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+[1.651s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+[1.653s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+[1.653s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//urdf
+[1.653s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//urdf/gz.xacro
+[1.653s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//urdf/macros.xacro
+[1.653s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//urdf/materials.xacro
+[1.654s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//urdf/bcr_bot.xacro
+[1.654s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//urdf/gazebo.xacro
+[1.655s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//worlds
+[1.655s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//worlds/empty.sdf
+[1.655s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//worlds/small_warehouse.sdf
+[1.655s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//rviz
+[1.655s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot//rviz/entire_setup.rviz
+[1.656s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/environment/bcr_bot.sh
+[1.656s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/ament_index/resource_index/package_run_dependencies/bcr_bot
+[1.656s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/ament_index/resource_index/parent_prefix_path/bcr_bot
+[1.657s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/environment/ament_prefix_path.sh
+[1.657s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/environment/ament_prefix_path.dsv
+[1.657s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/environment/path.sh
+[1.657s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/environment/path.dsv
+[1.657s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/local_setup.bash
+[1.658s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/local_setup.sh
+[1.658s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/local_setup.zsh
+[1.658s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/local_setup.dsv
+[1.658s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/package.dsv
+[1.658s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/ament_index/resource_index/packages/bcr_bot
+[1.658s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/cmake/bcr_botConfig.cmake
+[1.659s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/cmake/bcr_botConfig-version.cmake
+[1.659s] -- Installing: /root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/package.xml
+[1.661s] Invoked command in '/root/ros2_code/humble/simulations/build/bcr_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/simulations/build/bcr_bot

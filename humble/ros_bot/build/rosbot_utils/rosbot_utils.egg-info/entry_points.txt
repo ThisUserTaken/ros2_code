@@ -1,0 +1,3 @@
+[console_scripts]
+flash_firmware = rosbot_utils.flash_firmware:main
+

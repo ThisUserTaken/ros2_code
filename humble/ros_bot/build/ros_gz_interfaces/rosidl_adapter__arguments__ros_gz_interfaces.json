@@ -1,0 +1,26 @@
+{
+  "package_name": "ros_gz_interfaces",
+  "non_idl_tuples": [
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/Altimeter.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/Contact.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/Contacts.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/Dataframe.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/Entity.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/EntityFactory.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/Float32Array.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/GuiCamera.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/JointWrench.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/Light.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/ParamVec.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/SensorNoise.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/StringVec.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/TrackVisual.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/VideoRecord.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/WorldControl.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:msg/WorldReset.msg",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:srv/ControlWorld.srv",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:srv/DeleteEntity.srv",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:srv/SetEntityPose.srv",
+    "/root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_interfaces:srv/SpawnEntity.srv"
+  ]
+}

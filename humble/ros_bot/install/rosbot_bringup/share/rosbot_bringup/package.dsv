@@ -1,0 +1,6 @@
+source;share/rosbot_bringup/hook/pythonpath.ps1
+source;share/rosbot_bringup/hook/pythonpath.dsv
+source;share/rosbot_bringup/hook/pythonpath.sh
+source;share/rosbot_bringup/hook/ament_prefix_path.ps1
+source;share/rosbot_bringup/hook/ament_prefix_path.dsv
+source;share/rosbot_bringup/hook/ament_prefix_path.sh

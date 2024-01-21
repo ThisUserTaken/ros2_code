@@ -1,0 +1,4 @@
+source;share/four_ws_control/local_setup.bash
+source;share/four_ws_control/local_setup.dsv
+source;share/four_ws_control/local_setup.sh
+source;share/four_ws_control/local_setup.zsh

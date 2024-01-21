@@ -1,0 +1,18 @@
+[0.587s] Invoking command in '/root/ros2_code/humble/ros_bot/build/tutorial_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/install/tutorial_pkg:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/ros_bot/src/tutorial_pkg -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/ros_bot/install/tutorial_pkg
+[0.597s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.763s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.801s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.802s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.808s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.819s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.834s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.003s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.040s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.041s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.070s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.163s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.178s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[1.185s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.489s] -- Configuring done
+[1.511s] -- Generating done
+[1.512s] -- Build files have been written to: /root/ros2_code/humble/ros_bot/build/tutorial_pkg

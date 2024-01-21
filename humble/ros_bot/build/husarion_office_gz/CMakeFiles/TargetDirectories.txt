@@ -1,0 +1,9 @@
+/root/ros2_code/humble/ros_bot/build/husarion_office_gz/CMakeFiles/uninstall.dir
+/root/ros2_code/humble/ros_bot/build/husarion_office_gz/CMakeFiles/husarion_office_gz_uninstall.dir
+/root/ros2_code/humble/ros_bot/build/husarion_office_gz/CMakeFiles/test.dir
+/root/ros2_code/humble/ros_bot/build/husarion_office_gz/CMakeFiles/edit_cache.dir
+/root/ros2_code/humble/ros_bot/build/husarion_office_gz/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/humble/ros_bot/build/husarion_office_gz/CMakeFiles/list_install_components.dir
+/root/ros2_code/humble/ros_bot/build/husarion_office_gz/CMakeFiles/install.dir
+/root/ros2_code/humble/ros_bot/build/husarion_office_gz/CMakeFiles/install/local.dir
+/root/ros2_code/humble/ros_bot/build/husarion_office_gz/CMakeFiles/install/strip.dir

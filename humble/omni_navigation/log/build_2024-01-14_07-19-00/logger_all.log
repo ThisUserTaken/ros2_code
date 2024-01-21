@@ -1,0 +1,452 @@
+[1.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f464fe0f070>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f464fdff2b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f464fdff2b0>>)
+[1.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.120s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/omni_navigation'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage) by extensions ['ignore', 'ignore_ament_install']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage) by extension 'ignore'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage) by extension 'ignore_ament_install'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage) by extensions ['colcon_pkg']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage) by extension 'colcon_pkg'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage) by extensions ['colcon_meta']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage) by extension 'colcon_meta'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage) by extensions ['ros']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage) by extension 'ros'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage) by extensions ['cmake', 'python']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage) by extension 'cmake'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage) by extension 'python'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage) by extensions ['python_setup_py']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage) by extension 'python_setup_py'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/materials) by extensions ['ignore', 'ignore_ament_install']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/materials) by extension 'ignore'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/materials) by extension 'ignore_ament_install'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/materials) by extensions ['colcon_pkg']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/materials) by extension 'colcon_pkg'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/materials) by extensions ['colcon_meta']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/materials) by extension 'colcon_meta'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/materials) by extensions ['ros']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/materials) by extension 'ros'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/materials) by extensions ['cmake', 'python']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/materials) by extension 'cmake'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/materials) by extension 'python'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/materials) by extensions ['python_setup_py']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/materials) by extension 'python_setup_py'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/meshes) by extensions ['ignore', 'ignore_ament_install']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/meshes) by extension 'ignore'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/meshes) by extension 'ignore_ament_install'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/meshes) by extensions ['colcon_pkg']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/meshes) by extension 'colcon_pkg'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/meshes) by extensions ['colcon_meta']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/meshes) by extension 'colcon_meta'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/meshes) by extensions ['ros']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/meshes) by extension 'ros'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/meshes) by extensions ['cmake', 'python']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/meshes) by extension 'cmake'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/meshes) by extension 'python'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/meshes) by extensions ['python_setup_py']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(omni_stage/meshes) by extension 'python_setup_py'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ignore_ament_install'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['colcon_pkg']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'colcon_pkg'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['colcon_meta']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'colcon_meta'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['ros']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ros'
+[1.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_simulation' with type 'ros.ament_cmake' and name 'gazebo_simulation'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extension 'ignore'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extension 'ignore_ament_install'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extensions ['colcon_pkg']
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extension 'colcon_pkg'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extensions ['colcon_meta']
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extension 'colcon_meta'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extensions ['ros']
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_cartographer) by extension 'ros'
+[1.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omni_cartographer' with type 'ros.ament_cmake' and name 'omni_cartographer'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extensions ['ignore', 'ignore_ament_install']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extension 'ignore'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extension 'ignore_ament_install'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extensions ['colcon_pkg']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extension 'colcon_pkg'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extensions ['colcon_meta']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extension 'colcon_meta'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extensions ['ros']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_control) by extension 'ros'
+[1.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omni_control' with type 'ros.ament_cmake' and name 'omni_control'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extension 'ignore'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extension 'ignore_ament_install'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extensions ['colcon_pkg']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extension 'colcon_pkg'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extensions ['colcon_meta']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extension 'colcon_meta'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extensions ['ros']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_robot_description) by extension 'ros'
+[1.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omni_robot_description' with type 'ros.ament_cmake' and name 'omni_robot_description'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_pkg'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_meta']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_meta'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ros']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ros'
+[1.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[1.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_args' from command line to 'None'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_target' from command line to 'None'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.210s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[1.210s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[1.210s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[1.210s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.210s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.210s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/omni_navigation/build/gazebo_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation', 'merge_install': False, 'path': '/root/ros2_code/humble/omni_navigation/src/gazebo_simulation', 'symlink_install': False, 'test_result_base': None}
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_args' from command line to 'None'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_target' from command line to 'None'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.223s] DEBUG:colcon.colcon_core.verb:Building package 'omni_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/omni_navigation/build/omni_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/omni_navigation/install/omni_cartographer', 'merge_install': False, 'path': '/root/ros2_code/humble/omni_navigation/src/omni_cartographer', 'symlink_install': False, 'test_result_base': None}
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_args' from command line to 'None'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_target' from command line to 'None'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.236s] DEBUG:colcon.colcon_core.verb:Building package 'omni_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/omni_navigation/build/omni_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/omni_navigation/install/omni_control', 'merge_install': False, 'path': '/root/ros2_code/humble/omni_navigation/src/omni_control', 'symlink_install': False, 'test_result_base': None}
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_args' from command line to 'None'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_target' from command line to 'None'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.249s] DEBUG:colcon.colcon_core.verb:Building package 'omni_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/omni_navigation/build/omni_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/omni_navigation/install/omni_robot_description', 'merge_install': False, 'path': '/root/ros2_code/humble/omni_navigation/src/omni_robot_description', 'symlink_install': False, 'test_result_base': None}
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_args' from command line to 'None'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target' from command line to 'None'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.262s] DEBUG:colcon.colcon_core.verb:Building package 'rf2o_laser_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/omni_navigation/build/rf2o_laser_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry', 'merge_install': False, 'path': '/root/ros2_code/humble/omni_navigation/src/rf2o_laser_odometry', 'symlink_install': False, 'test_result_base': None}
+[1.285s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.298s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/omni_navigation/src/gazebo_simulation' with build type 'ament_cmake'
+[1.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/omni_navigation/src/gazebo_simulation'
+[1.313s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.327s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.327s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/omni_navigation/install/omni_robot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.327s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/omni_navigation/install/omni_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.327s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/omni_navigation/install/omni_cartographer' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.327s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.328s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.328s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/omni_navigation/install/omni_robot_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.328s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/omni_navigation/install/omni_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.328s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/omni_navigation/install/omni_cartographer' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.328s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.401s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/omni_navigation/src/omni_cartographer' with build type 'ament_cmake'
+[1.401s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/omni_navigation/src/omni_cartographer'
+[1.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.416s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.503s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/omni_navigation/src/omni_control' with build type 'ament_cmake'
+[1.504s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/omni_navigation/src/omni_control'
+[1.518s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.518s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.604s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/omni_navigation/src/omni_robot_description' with build type 'ament_cmake'
+[1.605s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/omni_navigation/src/omni_robot_description'
+[1.621s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.621s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.712s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/omni_navigation/src/rf2o_laser_odometry' with build type 'ament_cmake'
+[1.712s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/omni_navigation/src/rf2o_laser_odometry'
+[1.727s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.727s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/omni_navigation/src/gazebo_simulation -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/omni_navigation/install/gazebo_simulation
+[1.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/omni_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/omni_navigation/src/omni_cartographer -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/omni_navigation/install/omni_cartographer
+[1.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/omni_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/omni_navigation/src/omni_control -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/omni_navigation/install/omni_control
+[1.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/omni_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/omni_navigation/src/omni_robot_description -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/omni_navigation/install/omni_robot_description
+[1.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/omni_navigation/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry
+[2.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/omni_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/omni_navigation/src/omni_cartographer -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/omni_navigation/install/omni_cartographer
+[2.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/omni_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/omni_navigation/build/omni_cartographer -- -j12 -l12
+[2.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/omni_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/omni_navigation/build/omni_cartographer -- -j12 -l12
+[2.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/omni_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/omni_navigation/src/omni_control -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/omni_navigation/install/omni_control
+[2.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/omni_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/omni_navigation/build/omni_control -- -j12 -l12
+[2.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/omni_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/omni_navigation/src/omni_robot_description -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/omni_navigation/install/omni_robot_description
+[2.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/omni_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/omni_navigation/build/omni_robot_description -- -j12 -l12
+[2.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/omni_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/omni_navigation/build/omni_cartographer
+[2.815s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_cartographer)
+[2.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/omni_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/omni_navigation/build/omni_cartographer
+[2.835s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_cartographer' for CMake module files
+[2.836s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_cartographer' for CMake config files
+[2.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_cartographer', 'cmake_prefix_path')
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.ps1'
+[2.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.dsv'
+[2.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.sh'
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/bin'
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/lib/pkgconfig/omni_cartographer.pc'
+[2.855s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/lib/python3.10/site-packages'
+[2.855s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/bin'
+[2.869s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/package.ps1'
+[2.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/package.dsv'
+[2.871s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/package.sh'
+[2.871s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/package.bash'
+[2.871s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/package.zsh'
+[2.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/colcon-core/packages/omni_cartographer)
+[2.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/omni_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/omni_navigation/build/omni_control -- -j12 -l12
+[2.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/omni_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/omni_navigation/build/omni_robot_description -- -j12 -l12
+[2.909s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_cartographer)
+[2.923s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_cartographer' for CMake module files
+[2.923s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_cartographer' for CMake config files
+[2.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_cartographer', 'cmake_prefix_path')
+[2.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.ps1'
+[2.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.dsv'
+[2.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.sh'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/bin'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/lib/pkgconfig/omni_cartographer.pc'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/lib/python3.10/site-packages'
+[2.941s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/bin'
+[2.955s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/package.ps1'
+[2.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/package.dsv'
+[2.956s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/package.sh'
+[2.957s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/package.bash'
+[2.957s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/package.zsh'
+[2.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/colcon-core/packages/omni_cartographer)
+[2.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/omni_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/omni_navigation/build/omni_control
+[2.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/omni_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/omni_navigation/build/omni_robot_description
+[2.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_control)
+[2.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/omni_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/omni_navigation/build/omni_control
+[2.993s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_control' for CMake module files
+[2.994s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_control' for CMake config files
+[2.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_control', 'cmake_prefix_path')
+[3.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/hook/cmake_prefix_path.ps1'
+[3.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/hook/cmake_prefix_path.dsv'
+[3.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/hook/cmake_prefix_path.sh'
+[3.008s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_control/lib'
+[3.009s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_control/bin'
+[3.009s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_control/lib/pkgconfig/omni_control.pc'
+[3.009s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_control/lib/python3.10/site-packages'
+[3.009s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_control/bin'
+[3.029s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/package.ps1'
+[3.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/package.dsv'
+[3.029s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/package.sh'
+[3.030s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/package.bash'
+[3.030s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/package.zsh'
+[3.030s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/omni_navigation/install/omni_control/share/colcon-core/packages/omni_control)
+[3.033s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_robot_description)
+[3.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/omni_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/omni_navigation/build/omni_robot_description
+[3.048s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_robot_description' for CMake module files
+[3.048s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_robot_description' for CMake config files
+[3.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_robot_description', 'cmake_prefix_path')
+[3.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.ps1'
+[3.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.dsv'
+[3.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.sh'
+[3.064s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/bin'
+[3.064s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/lib/pkgconfig/omni_robot_description.pc'
+[3.064s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/lib/python3.10/site-packages'
+[3.064s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/bin'
+[3.079s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/package.ps1'
+[3.079s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/package.dsv'
+[3.080s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/package.sh'
+[3.080s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/package.bash'
+[3.080s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/package.zsh'
+[3.080s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/colcon-core/packages/omni_robot_description)
+[3.096s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_control)
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_control' for CMake module files
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_control' for CMake config files
+[3.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_control', 'cmake_prefix_path')
+[3.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/hook/cmake_prefix_path.ps1'
+[3.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/hook/cmake_prefix_path.dsv'
+[3.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/hook/cmake_prefix_path.sh'
+[3.127s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_control/lib'
+[3.127s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_control/bin'
+[3.127s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_control/lib/pkgconfig/omni_control.pc'
+[3.127s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_control/lib/python3.10/site-packages'
+[3.127s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_control/bin'
+[3.143s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/package.ps1'
+[3.144s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/package.dsv'
+[3.144s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/package.sh'
+[3.144s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/package.bash'
+[3.145s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_control/share/omni_control/package.zsh'
+[3.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/omni_navigation/install/omni_control/share/colcon-core/packages/omni_control)
+[3.160s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_robot_description)
+[3.176s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_robot_description' for CMake module files
+[3.177s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_robot_description' for CMake config files
+[3.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_robot_description', 'cmake_prefix_path')
+[3.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.ps1'
+[3.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.dsv'
+[3.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.sh'
+[3.192s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/bin'
+[3.192s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/lib/pkgconfig/omni_robot_description.pc'
+[3.193s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/lib/python3.10/site-packages'
+[3.193s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/bin'
+[3.207s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/package.ps1'
+[3.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/package.dsv'
+[3.208s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/package.sh'
+[3.208s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/package.bash'
+[3.208s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/omni_robot_description/package.zsh'
+[3.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/omni_navigation/install/omni_robot_description/share/colcon-core/packages/omni_robot_description)
+[4.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/omni_navigation/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry
+[4.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/omni_navigation/build/rf2o_laser_odometry -- -j12 -l12
+[4.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/omni_navigation/src/gazebo_simulation -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/omni_navigation/install/gazebo_simulation
+[4.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/omni_navigation/build/gazebo_simulation -- -j12 -l12
+[5.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/omni_navigation/build/gazebo_simulation -- -j12 -l12
+[5.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/omni_navigation/build/gazebo_simulation
+[5.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_simulation)
+[5.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/omni_navigation/build/gazebo_simulation
+[5.101s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation' for CMake module files
+[5.102s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation' for CMake config files
+[5.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_simulation', 'cmake_prefix_path')
+[5.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.ps1'
+[5.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.dsv'
+[5.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.sh'
+[5.129s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/lib'
+[5.130s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/bin'
+[5.130s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/lib/pkgconfig/gazebo_simulation.pc'
+[5.130s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/lib/python3.10/site-packages'
+[5.130s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/bin'
+[5.156s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/package.ps1'
+[5.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/package.dsv'
+[5.157s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/package.sh'
+[5.157s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/package.bash'
+[5.158s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/package.zsh'
+[5.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/colcon-core/packages/gazebo_simulation)
+[5.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_simulation)
+[5.213s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation' for CMake module files
+[5.214s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation' for CMake config files
+[5.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_simulation', 'cmake_prefix_path')
+[5.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.ps1'
+[5.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.dsv'
+[5.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.sh'
+[5.229s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/lib'
+[5.230s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/bin'
+[5.230s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/lib/pkgconfig/gazebo_simulation.pc'
+[5.230s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/lib/python3.10/site-packages'
+[5.230s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/bin'
+[5.264s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/package.ps1'
+[5.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/package.dsv'
+[5.265s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/package.sh'
+[5.266s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/package.bash'
+[5.266s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/package.zsh'
+[5.266s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/colcon-core/packages/gazebo_simulation)
+[22.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/omni_navigation/build/rf2o_laser_odometry -- -j12 -l12
+[23.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/omni_navigation/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/omni_navigation/build/rf2o_laser_odometry
+[23.032s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[23.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/omni_navigation/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/omni_navigation/build/rf2o_laser_odometry
+[23.046s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry' for CMake module files
+[23.047s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry' for CMake config files
+[23.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[23.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[23.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[23.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[23.061s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/lib'
+[23.061s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/bin'
+[23.061s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[23.061s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[23.061s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/bin'
+[23.075s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[23.075s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[23.075s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[23.075s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[23.076s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[23.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[23.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[23.141s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry' for CMake module files
+[23.141s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry' for CMake config files
+[23.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[23.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[23.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[23.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[23.156s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/lib'
+[23.156s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/bin'
+[23.156s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[23.156s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[23.156s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/bin'
+[23.170s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[23.170s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[23.170s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[23.171s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[23.171s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[23.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/omni_navigation/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[23.172s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.172s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.172s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[23.172s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.191s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[23.191s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.191s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.191s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.194s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[23.194s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/omni_navigation/install/local_setup.ps1'
+[23.210s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/omni_navigation/install/_local_setup_util_ps1.py'
+[23.211s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/omni_navigation/install/setup.ps1'
+[23.225s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/omni_navigation/install/local_setup.sh'
+[23.226s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/omni_navigation/install/_local_setup_util_sh.py'
+[23.226s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/omni_navigation/install/setup.sh'
+[23.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/omni_navigation/install/local_setup.bash'
+[23.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/omni_navigation/install/setup.bash'
+[23.258s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/omni_navigation/install/local_setup.zsh'
+[23.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/omni_navigation/install/setup.zsh'

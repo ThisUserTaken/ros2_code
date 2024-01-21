@@ -1,0 +1,180 @@
+[0.520s] Invoking command in '/root/ros2_code/humble/omni_navigation/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/omni_navigation/src/gazebo_simulation -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/omni_navigation/install/gazebo_simulation
+[0.665s] -- The C compiler identification is GNU 11.4.0
+[0.814s] -- The CXX compiler identification is GNU 11.4.0
+[0.823s] -- Detecting C compiler ABI info
+[0.895s] -- Detecting C compiler ABI info - done
+[0.901s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.901s] -- Detecting C compile features
+[0.902s] -- Detecting C compile features - done
+[0.904s] -- Detecting CXX compiler ABI info
+[0.986s] -- Detecting CXX compiler ABI info - done
+[0.995s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.995s] -- Detecting CXX compile features
+[0.995s] -- Detecting CXX compile features - done
+[1.004s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.193s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.367s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.367s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.368s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.368s]   problems in calling code that expects `find_package` result variables
+[1.368s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.368s] Call Stack (most recent call first):
+[1.368s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.368s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.368s]   CMakeLists.txt:20 (find_package)
+[1.368s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.368s] [0m
+[1.368s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.372s] -- Checking for module 'bullet>=2.82'
+[1.395s] --   Found bullet, version 3.05
+[1.556s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.614s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.666s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.884s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.911s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.927s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.945s] -- Searching for dependencies of ignition-math6
+[1.947s] -- Looking for OGRE...
+[1.948s] -- OGRE_PREFIX_WATCH changed.
+[1.953s] -- Checking for module 'OGRE'
+[1.971s] --   Found OGRE, version 1.9.0
+[2.016s] -- Found Ogre Ghadamon (1.9.0)
+[2.031s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.039s] -- Looking for OGRE_Paging...
+[2.045s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.045s] -- Looking for OGRE_Terrain...
+[2.050s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.051s] -- Looking for OGRE_Property...
+[2.056s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.056s] -- Looking for OGRE_RTShaderSystem...
+[2.061s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.062s] -- Looking for OGRE_Volume...
+[2.067s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.067s] -- Looking for OGRE_Overlay...
+[2.072s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.203s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.212s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.212s] -- Searching for dependencies of ignition-transport8
+[2.243s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.267s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.274s] -- Checking for module 'libzmq >= 4'
+[2.294s] --   Found libzmq , version 4.3.4
+[2.343s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.350s] -- Checking for module 'uuid'
+[2.368s] --   Found uuid, version 2.37.2
+[2.413s] -- Found UUID: TRUE  
+[2.421s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.422s] -- Searching for dependencies of ignition-msgs5
+[2.454s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.460s] -- Checking for module 'tinyxml2'
+[2.478s] --   Found tinyxml2, version 9.0.0
+[2.529s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.538s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.538s] -- Searching for dependencies of ignition-common3
+[2.540s] -- Looking for dlfcn.h - found
+[2.541s] -- Looking for libdl - found
+[2.542s] -- Found DL: TRUE  
+[2.561s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.562s] -- Searching for <ignition-common3> component [graphics]
+[2.569s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.569s] -- Searching for dependencies of ignition-common3-graphics
+[2.570s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.578s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.578s] -- Searching for dependencies of ignition-fuel_tools4
+[2.692s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.706s] -- Checking for module 'jsoncpp'
+[2.724s] --   Found jsoncpp, version 1.9.5
+[2.770s] -- Found JSONCPP: TRUE  
+[2.779s] -- Checking for module 'libzip'
+[2.796s] --   Found libzip, version 1.7.3
+[2.838s] -- Found ZIP: TRUE  
+[2.838s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.838s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.839s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.854s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[2.859s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.926s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.940s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.958s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.006s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.109s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.177s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[3.261s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.268s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.312s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.333s] -- Found Threads: TRUE  
+[3.469s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.559s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[3.642s] -- Configuring done
+[3.649s] -- Generating done
+[3.651s] -- Build files have been written to: /root/ros2_code/humble/omni_navigation/build/gazebo_simulation
+[3.664s] Invoked command in '/root/ros2_code/humble/omni_navigation/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/omni_navigation/src/gazebo_simulation -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/omni_navigation/install/gazebo_simulation
+[3.667s] Invoking command in '/root/ros2_code/humble/omni_navigation/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/omni_navigation/build/gazebo_simulation -- -j12 -l12
+[3.716s] Invoked command in '/root/ros2_code/humble/omni_navigation/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/omni_navigation/build/gazebo_simulation -- -j12 -l12
+[3.744s] Invoking command in '/root/ros2_code/humble/omni_navigation/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/omni_navigation/build/gazebo_simulation
+[3.753s] -- Install configuration: ""
+[3.754s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//launch
+[3.754s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//launch/robot_state_publisher.launch.py
+[3.754s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//launch/cartographer_slam.launch.py
+[3.754s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//launch/bringup_launch.py
+[3.754s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//launch/rviz_launch.py
+[3.754s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//launch/gazebo_sim_launch_rf2o.py
+[3.754s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models
+[3.754s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot
+[3.754s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/model.config
+[3.755s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes
+[3.755s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL
+[3.755s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/base
+[3.755s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/base/base_link.stl
+[3.757s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/roller
+[3.757s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/roller/roller.stl
+[3.759s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/omni_wheel
+[3.759s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/STL/omni_wheel/omni_wheel.stl
+[3.763s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE
+[3.763s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/base
+[3.764s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/base/base_link.stl
+[3.765s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/base/base_link.dae
+[3.767s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/base/Base.png
+[3.768s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/roller
+[3.768s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/roller/roller.dae
+[3.770s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/omni_wheel
+[3.770s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/meshes/DAE/omni_wheel/omni_wheel.dae
+[3.775s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/config
+[3.775s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/config/controllers.yaml
+[3.775s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//models/rs_robot/rs_robot.sdf
+[3.776s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//rviz
+[3.776s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//rviz/tb3_gazebo.rviz
+[3.776s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//rviz/nav2_default_view.rviz
+[3.777s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//worlds
+[3.777s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//worlds/omni_nav_world2.model
+[3.777s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//maps
+[3.777s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//maps/omni_map.yaml
+[3.778s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//maps/omni_map.pgm
+[3.778s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//params
+[3.778s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//params/nav2_params.yaml
+[3.779s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//urdf
+[3.779s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation//urdf/rs_robot.urdf
+[3.780s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/lib/gazebo_simulation/bringup_launch.py
+[3.780s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/lib/gazebo_simulation/robot_state_publisher.launch.py
+[3.780s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/lib/gazebo_simulation/rviz_launch.py
+[3.780s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/lib/gazebo_simulation/cartographer_slam.launch.py
+[3.780s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/lib/gazebo_simulation/gazebo_sim_launch_rf2o.py
+[3.781s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/ament_index/resource_index/package_run_dependencies/gazebo_simulation
+[3.781s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/ament_index/resource_index/parent_prefix_path/gazebo_simulation
+[3.781s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/environment/ament_prefix_path.sh
+[3.781s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/environment/ament_prefix_path.dsv
+[3.781s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/environment/path.sh
+[3.782s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/environment/path.dsv
+[3.782s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/local_setup.bash
+[3.782s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/local_setup.sh
+[3.782s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/local_setup.zsh
+[3.782s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/local_setup.dsv
+[3.782s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/package.dsv
+[3.783s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/ament_index/resource_index/packages/gazebo_simulation
+[3.783s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.783s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.783s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/cmake/gazebo_simulationConfig.cmake
+[3.783s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/cmake/gazebo_simulationConfig-version.cmake
+[3.784s] -- Installing: /root/ros2_code/humble/omni_navigation/install/gazebo_simulation/share/gazebo_simulation/package.xml
+[3.786s] Invoked command in '/root/ros2_code/humble/omni_navigation/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/omni_navigation/build/gazebo_simulation

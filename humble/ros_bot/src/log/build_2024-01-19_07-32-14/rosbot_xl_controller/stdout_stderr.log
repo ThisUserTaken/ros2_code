@@ -1,0 +1,27 @@
+running egg_info
+creating ../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info
+writing ../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/entry_points.txt
+writing requirements to ../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/requires.txt
+writing top-level names to ../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/top_level.txt
+writing manifest file '../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /root/ros2_code/humble/ros_bot/src/install/rosbot_xl_controller/share/ament_index
+creating /root/ros2_code/humble/ros_bot/src/install/rosbot_xl_controller/share/ament_index/resource_index
+creating /root/ros2_code/humble/ros_bot/src/install/rosbot_xl_controller/share/ament_index/resource_index/packages
+copying resource/rosbot_xl_controller -> /root/ros2_code/humble/ros_bot/src/install/rosbot_xl_controller/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/humble/ros_bot/src/install/rosbot_xl_controller/share/rosbot_xl_controller
+creating /root/ros2_code/humble/ros_bot/src/install/rosbot_xl_controller/share/rosbot_xl_controller/launch
+copying launch/controller.launch.py -> /root/ros2_code/humble/ros_bot/src/install/rosbot_xl_controller/share/rosbot_xl_controller/launch
+creating /root/ros2_code/humble/ros_bot/src/install/rosbot_xl_controller/share/rosbot_xl_controller/config
+copying config/diff_drive_controller.yaml -> /root/ros2_code/humble/ros_bot/src/install/rosbot_xl_controller/share/rosbot_xl_controller/config
+copying config/mecanum_drive_controller.yaml -> /root/ros2_code/humble/ros_bot/src/install/rosbot_xl_controller/share/rosbot_xl_controller/config
+running install_egg_info
+Copying ../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info to /root/ros2_code/humble/ros_bot/src/install/rosbot_xl_controller/lib/python3.10/site-packages/rosbot_xl_controller-0.8.2-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_code/humble/ros_bot/src/build/rosbot_xl_controller/install.log'

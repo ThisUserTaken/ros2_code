@@ -1,0 +1,1 @@
+rclcpp;launch;launch_ros;tf2;teleop_twist_keyboard;find_object_2d;libopencv-dev;slam_toolbox;navigation2;nav2_bringup;explore_lite

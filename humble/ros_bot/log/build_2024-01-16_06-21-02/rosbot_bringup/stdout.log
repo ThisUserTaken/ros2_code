@@ -1,0 +1,28 @@
+running egg_info
+creating ../../build/rosbot_bringup/rosbot_bringup.egg-info
+writing ../../build/rosbot_bringup/rosbot_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/rosbot_bringup/rosbot_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/rosbot_bringup/rosbot_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/rosbot_bringup/rosbot_bringup.egg-info/requires.txt
+writing top-level names to ../../build/rosbot_bringup/rosbot_bringup.egg-info/top_level.txt
+writing manifest file '../../build/rosbot_bringup/rosbot_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/rosbot_bringup/rosbot_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/rosbot_bringup/rosbot_bringup.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/ament_index
+creating /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/ament_index/resource_index
+creating /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/ament_index/resource_index/packages
+copying resource/rosbot_bringup -> /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/rosbot_bringup
+creating /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/rosbot_bringup/launch
+copying launch/bringup.launch.py -> /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/rosbot_bringup/launch
+copying launch/combined.launch.py -> /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/rosbot_bringup/launch
+creating /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/rosbot_bringup/config
+copying config/ekf.yaml -> /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/rosbot_bringup/config
+copying config/microros_localhost_only.xml -> /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/rosbot_bringup/config
+running install_egg_info
+Copying ../../build/rosbot_bringup/rosbot_bringup.egg-info to /root/ros2_code/humble/ros_bot/install/rosbot_bringup/lib/python3.10/site-packages/rosbot_bringup-0.8.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_code/humble/ros_bot/build/rosbot_bringup/install.log'

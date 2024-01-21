@@ -1,0 +1,120 @@
+[0.229s] Invoking command in '/root/ros2_code/humble/ros_bot/src/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control:/root/ros2_code/humble/ros_bot/install/tutorial_pkg:/root/ros2_code/humble/ros_bot/install/rosbot:/root/ros2_code/humble/ros_bot/install/rosbot_description:/root/ros2_code/humble/ros_bot/install/ros_components_description:/root/ros2_code/humble/ros_bot/install/husarion_office_gz:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /root/ros2_code/humble/ros_bot/src/gz_ros2_control/ign_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos
+[0.283s] -- The C compiler identification is GNU 11.4.0
+[0.332s] -- The CXX compiler identification is GNU 11.4.0
+[0.339s] -- Detecting C compiler ABI info
+[0.407s] -- Detecting C compiler ABI info - done
+[0.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.412s] -- Detecting C compile features
+[0.412s] -- Detecting C compile features - done
+[0.415s] -- Detecting CXX compiler ABI info
+[0.496s] -- Detecting CXX compiler ABI info - done
+[0.503s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.503s] -- Detecting CXX compile features
+[0.503s] -- Detecting CXX compile features - done
+[0.510s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.698s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.851s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.933s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.949s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.966s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.987s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.018s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.466s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.561s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.568s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.616s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.639s] -- Looking for pthread.h
+[1.718s] -- Looking for pthread.h - found
+[1.718s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.794s] -- Found Threads: TRUE  
+[1.910s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.951s] -- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.958s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.073s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.075s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.076s] -- Configured cppcheck include dirs: 
+[2.076s] -- Configured cppcheck exclude dirs and/or files: 
+[2.078s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.078s] -- Configured cpplint exclude dirs and/or files: 
+[2.079s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.080s] -- Added test 'lint_cmake' to check CMake code style
+[2.081s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.084s] -- Added test 'uncrustify' to check C / C++ code style
+[2.085s] -- Configured uncrustify additional arguments: 
+[2.085s] -- Added test 'xmllint' to check XML markup files
+[2.087s] -- Configuring done
+[2.110s] -- Generating done
+[2.112s] -- Build files have been written to: /root/ros2_code/humble/ros_bot/src/build/ign_ros2_control_demos
+[2.120s] Invoked command in '/root/ros2_code/humble/ros_bot/src/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control:/root/ros2_code/humble/ros_bot/install/tutorial_pkg:/root/ros2_code/humble/ros_bot/install/rosbot:/root/ros2_code/humble/ros_bot/install/rosbot_description:/root/ros2_code/humble/ros_bot/install/ros_components_description:/root/ros2_code/humble/ros_bot/install/husarion_office_gz:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /root/ros2_code/humble/ros_bot/src/gz_ros2_control/ign_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos
+[2.121s] Invoking command in '/root/ros2_code/humble/ros_bot/src/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control:/root/ros2_code/humble/ros_bot/install/tutorial_pkg:/root/ros2_code/humble/ros_bot/install/rosbot:/root/ros2_code/humble/ros_bot/install/rosbot_description:/root/ros2_code/humble/ros_bot/install/ros_components_description:/root/ros2_code/humble/ros_bot/install/husarion_office_gz:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /root/ros2_code/humble/ros_bot/src/build/ign_ros2_control_demos -- -j12 -l12
+[2.177s] [ 25%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[2.177s] [ 25%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[2.177s] [ 25%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[2.177s] [ 33%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[2.177s] [ 41%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[2.178s] [ 50%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[5.781s] [ 58%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[5.833s] [ 66%] [32m[1mLinking CXX executable example_velocity[0m
+[5.845s] [ 75%] [32m[1mLinking CXX executable example_diff_drive[0m
+[5.854s] [ 83%] [32m[1mLinking CXX executable example_effort[0m
+[5.982s] [ 83%] Built target example_tricycle_drive
+[6.025s] [ 83%] Built target example_velocity
+[6.032s] [ 83%] Built target example_diff_drive
+[6.048s] [ 83%] Built target example_effort
+[6.931s] [ 91%] [32m[1mLinking CXX executable example_gripper[0m
+[7.086s] [ 91%] Built target example_gripper
+[7.205s] [100%] [32m[1mLinking CXX executable example_position[0m
+[7.367s] [100%] Built target example_position
+[7.379s] Invoked command in '/root/ros2_code/humble/ros_bot/src/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control:/root/ros2_code/humble/ros_bot/install/tutorial_pkg:/root/ros2_code/humble/ros_bot/install/rosbot:/root/ros2_code/humble/ros_bot/install/rosbot_description:/root/ros2_code/humble/ros_bot/install/ros_components_description:/root/ros2_code/humble/ros_bot/install/husarion_office_gz:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /root/ros2_code/humble/ros_bot/src/build/ign_ros2_control_demos -- -j12 -l12
+[7.438s] Invoking command in '/root/ros2_code/humble/ros_bot/src/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control:/root/ros2_code/humble/ros_bot/install/tutorial_pkg:/root/ros2_code/humble/ros_bot/install/rosbot:/root/ros2_code/humble/ros_bot/install/rosbot_description:/root/ros2_code/humble/ros_bot/install/ros_components_description:/root/ros2_code/humble/ros_bot/install/husarion_office_gz:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /root/ros2_code/humble/ros_bot/src/build/ign_ros2_control_demos
+[7.445s] -- Install configuration: ""
+[7.445s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch
+[7.446s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_position.launch.py
+[7.446s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/diff_drive_example.launch.py
+[7.446s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[7.446s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[7.446s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_effort.launch.py
+[7.446s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_velocity.launch.py
+[7.447s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config
+[7.447s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/diff_drive_controller_velocity.yaml
+[7.447s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_effort.yaml
+[7.447s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/gripper_controller.yaml
+[7.447s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_velocity.yaml
+[7.447s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_position.yaml
+[7.447s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/tricycle_drive_controller.yaml
+[7.447s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf
+[7.447s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[7.447s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[7.448s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[7.448s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[7.448s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[7.448s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[7.448s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_position
+[7.450s] -- Set runtime path of "/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_position" to ""
+[7.450s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_velocity
+[7.451s] -- Set runtime path of "/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_velocity" to ""
+[7.452s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_effort
+[7.453s] -- Set runtime path of "/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_effort" to ""
+[7.453s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_diff_drive
+[7.455s] -- Set runtime path of "/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_diff_drive" to ""
+[7.455s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_tricycle_drive
+[7.456s] -- Set runtime path of "/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_tricycle_drive" to ""
+[7.456s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_gripper
+[7.458s] -- Set runtime path of "/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_gripper" to ""
+[7.458s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control_demos
+[7.458s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control_demos
+[7.458s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.sh
+[7.458s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.dsv
+[7.459s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.sh
+[7.459s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.dsv
+[7.459s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.bash
+[7.459s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.sh
+[7.459s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.zsh
+[7.459s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.dsv
+[7.460s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv
+[7.460s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ament_index/resource_index/packages/ign_ros2_control_demos
+[7.460s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig.cmake
+[7.460s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig-version.cmake
+[7.460s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.xml
+[7.463s] Invoked command in '/root/ros2_code/humble/ros_bot/src/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control:/root/ros2_code/humble/ros_bot/install/tutorial_pkg:/root/ros2_code/humble/ros_bot/install/rosbot:/root/ros2_code/humble/ros_bot/install/rosbot_description:/root/ros2_code/humble/ros_bot/install/ros_components_description:/root/ros2_code/humble/ros_bot/install/husarion_office_gz:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/ros_bot/src/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /root/ros2_code/humble/ros_bot/src/build/ign_ros2_control_demos

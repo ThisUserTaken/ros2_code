@@ -1,0 +1,26 @@
+[0.214s] Invoking command in '/root/ros2_code/humble/four_ws_ros2/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/four_ws_ros2/build/four_ws_control -- -j12 -l12
+[0.266s] Invoked command in '/root/ros2_code/humble/four_ws_ros2/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/four_ws_ros2/build/four_ws_control -- -j12 -l12
+[0.305s] Invoking command in '/root/ros2_code/humble/four_ws_ros2/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/four_ws_ros2/build/four_ws_control
+[0.313s] -- Install configuration: ""
+[0.313s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control//scripts
+[0.313s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control//scripts/robot_control.py
+[0.313s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control//launch
+[0.313s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control//launch/four_ws_control.launch.py
+[0.313s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/lib/four_ws_control/robot_control.py
+[0.314s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/lib/four_ws_control/four_ws_control.launch.py
+[0.314s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/ament_index/resource_index/package_run_dependencies/four_ws_control
+[0.314s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/ament_index/resource_index/parent_prefix_path/four_ws_control
+[0.314s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/environment/ament_prefix_path.sh
+[0.314s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/environment/ament_prefix_path.dsv
+[0.314s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/environment/path.sh
+[0.314s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/environment/path.dsv
+[0.314s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/local_setup.bash
+[0.314s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/local_setup.sh
+[0.314s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/local_setup.zsh
+[0.314s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/local_setup.dsv
+[0.314s] -- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.dsv
+[0.314s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/ament_index/resource_index/packages/four_ws_control
+[0.315s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/cmake/four_ws_controlConfig.cmake
+[0.315s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/cmake/four_ws_controlConfig-version.cmake
+[0.315s] -- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.xml
+[0.320s] Invoked command in '/root/ros2_code/humble/four_ws_ros2/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/four_ws_ros2/build/four_ws_control

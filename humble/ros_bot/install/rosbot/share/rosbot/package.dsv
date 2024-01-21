@@ -1,0 +1,8 @@
+source;share/rosbot/hook/cmake_prefix_path.ps1
+source;share/rosbot/hook/cmake_prefix_path.dsv
+source;share/rosbot/hook/cmake_prefix_path.sh
+source;share/rosbot/local_setup.bash
+source;share/rosbot/local_setup.dsv
+source;share/rosbot/local_setup.ps1
+source;share/rosbot/local_setup.sh
+source;share/rosbot/local_setup.zsh

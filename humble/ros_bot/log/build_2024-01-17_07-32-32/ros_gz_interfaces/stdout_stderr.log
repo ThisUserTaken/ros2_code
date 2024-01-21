@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_generator_c[0m
+[  0%] Built target ros_gz_interfaces__cpp
+[  0%] Built target ament_cmake_python_symlink_ros_gz_interfaces
+[35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 12%] Built target ros_gz_interfaces__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_fastrtps_c[0m
+[ 24%] Built target ros_gz_interfaces__rosidl_typesupport_cpp
+[ 36%] Built target ros_gz_interfaces__rosidl_typesupport_c
+[ 60%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_cpp
+[ 61%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c
+[ 73%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 85%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c
+[ 85%] Built target ros_gz_interfaces
+[ 86%] Built target ros_gz_interfaces__py
+[35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_generator_py[0m
+[ 97%] Built target ros_gz_interfaces__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[ 99%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 99%] Built target ros_gz_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing ros_gz_interfaces.egg-info/PKG-INFO
+writing dependency_links to ros_gz_interfaces.egg-info/dependency_links.txt
+writing top-level names to ros_gz_interfaces.egg-info/top_level.txt
+reading manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ros_gz_interfaces_egg

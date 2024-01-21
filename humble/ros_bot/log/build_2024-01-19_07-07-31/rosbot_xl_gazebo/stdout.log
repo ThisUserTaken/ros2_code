@@ -1,0 +1,24 @@
+running egg_info
+creating ../../../build/rosbot_xl_gazebo/rosbot_xl_gazebo.egg-info
+writing ../../../build/rosbot_xl_gazebo/rosbot_xl_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../../build/rosbot_xl_gazebo/rosbot_xl_gazebo.egg-info/dependency_links.txt
+writing entry points to ../../../build/rosbot_xl_gazebo/rosbot_xl_gazebo.egg-info/entry_points.txt
+writing requirements to ../../../build/rosbot_xl_gazebo/rosbot_xl_gazebo.egg-info/requires.txt
+writing top-level names to ../../../build/rosbot_xl_gazebo/rosbot_xl_gazebo.egg-info/top_level.txt
+writing manifest file '../../../build/rosbot_xl_gazebo/rosbot_xl_gazebo.egg-info/SOURCES.txt'
+reading manifest file '../../../build/rosbot_xl_gazebo/rosbot_xl_gazebo.egg-info/SOURCES.txt'
+writing manifest file '../../../build/rosbot_xl_gazebo/rosbot_xl_gazebo.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /root/ros2_code/humble/ros_bot/install/rosbot_xl_gazebo/share/ament_index
+creating /root/ros2_code/humble/ros_bot/install/rosbot_xl_gazebo/share/ament_index/resource_index
+creating /root/ros2_code/humble/ros_bot/install/rosbot_xl_gazebo/share/ament_index/resource_index/packages
+copying resource/rosbot_xl_gazebo -> /root/ros2_code/humble/ros_bot/install/rosbot_xl_gazebo/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/humble/ros_bot/install/rosbot_xl_gazebo/share/rosbot_xl_gazebo
+creating /root/ros2_code/humble/ros_bot/install/rosbot_xl_gazebo/share/rosbot_xl_gazebo/launch
+copying launch/simulation.launch.py -> /root/ros2_code/humble/ros_bot/install/rosbot_xl_gazebo/share/rosbot_xl_gazebo/launch
+running install_egg_info
+Copying ../../../build/rosbot_xl_gazebo/rosbot_xl_gazebo.egg-info to /root/ros2_code/humble/ros_bot/install/rosbot_xl_gazebo/lib/python3.10/site-packages/rosbot_xl_gazebo-0.8.2-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_code/humble/ros_bot/build/rosbot_xl_gazebo/install.log'

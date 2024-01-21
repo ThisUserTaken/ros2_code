@@ -1,0 +1,30 @@
+[0.752s] Invoking command in '/root/ros2_code/humble/ros_bot/src/rosbot_bringup': AMENT_PREFIX_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/ros_bot/install/rosbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_description:${CMAKE_PREFIX_PATH} GAZEBO_MODEL_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_description/share:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_description/share IGN_GAZEBO_RESOURCE_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_description/share:${IGN_GAZEBO_RESOURCE_PATH} PYTHONPATH=/root/ros2_code/humble/ros_bot/build/rosbot_bringup/prefix_override:/root/ros2_code/humble/ros_bot/install/rosbot_bringup/lib/python3.10/site-packages:/root/ros2_code/humble/ros_bot/install/rosbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosbot_bringup build --build-base /root/ros2_code/humble/ros_bot/build/rosbot_bringup/build install --record /root/ros2_code/humble/ros_bot/build/rosbot_bringup/install.log --single-version-externally-managed
+[0.969s] running egg_info
+[0.969s] creating ../../build/rosbot_bringup/rosbot_bringup.egg-info
+[0.969s] writing ../../build/rosbot_bringup/rosbot_bringup.egg-info/PKG-INFO
+[0.969s] writing dependency_links to ../../build/rosbot_bringup/rosbot_bringup.egg-info/dependency_links.txt
+[0.969s] writing entry points to ../../build/rosbot_bringup/rosbot_bringup.egg-info/entry_points.txt
+[0.969s] writing requirements to ../../build/rosbot_bringup/rosbot_bringup.egg-info/requires.txt
+[0.969s] writing top-level names to ../../build/rosbot_bringup/rosbot_bringup.egg-info/top_level.txt
+[0.969s] writing manifest file '../../build/rosbot_bringup/rosbot_bringup.egg-info/SOURCES.txt'
+[0.970s] reading manifest file '../../build/rosbot_bringup/rosbot_bringup.egg-info/SOURCES.txt'
+[0.970s] writing manifest file '../../build/rosbot_bringup/rosbot_bringup.egg-info/SOURCES.txt'
+[0.971s] running build
+[0.971s] running install
+[0.971s] running install_data
+[0.971s] creating /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/ament_index
+[0.971s] creating /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/ament_index/resource_index
+[0.971s] creating /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/ament_index/resource_index/packages
+[0.971s] copying resource/rosbot_bringup -> /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/ament_index/resource_index/packages
+[0.971s] copying package.xml -> /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/rosbot_bringup
+[0.971s] creating /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/rosbot_bringup/launch
+[0.971s] copying launch/bringup.launch.py -> /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/rosbot_bringup/launch
+[0.972s] copying launch/combined.launch.py -> /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/rosbot_bringup/launch
+[0.972s] creating /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/rosbot_bringup/config
+[0.972s] copying config/ekf.yaml -> /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/rosbot_bringup/config
+[0.972s] copying config/microros_localhost_only.xml -> /root/ros2_code/humble/ros_bot/install/rosbot_bringup/share/rosbot_bringup/config
+[0.972s] running install_egg_info
+[0.974s] Copying ../../build/rosbot_bringup/rosbot_bringup.egg-info to /root/ros2_code/humble/ros_bot/install/rosbot_bringup/lib/python3.10/site-packages/rosbot_bringup-0.8.0-py3.10.egg-info
+[0.975s] running install_scripts
+[0.992s] writing list of installed files to '/root/ros2_code/humble/ros_bot/build/rosbot_bringup/install.log'
+[1.016s] Invoked command in '/root/ros2_code/humble/ros_bot/src/rosbot_bringup' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/ros_bot/install/rosbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_description:${CMAKE_PREFIX_PATH} GAZEBO_MODEL_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_description/share:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_description/share IGN_GAZEBO_RESOURCE_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_description/share:${IGN_GAZEBO_RESOURCE_PATH} PYTHONPATH=/root/ros2_code/humble/ros_bot/build/rosbot_bringup/prefix_override:/root/ros2_code/humble/ros_bot/install/rosbot_bringup/lib/python3.10/site-packages:/root/ros2_code/humble/ros_bot/install/rosbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosbot_bringup build --build-base /root/ros2_code/humble/ros_bot/build/rosbot_bringup/build install --record /root/ros2_code/humble/ros_bot/build/rosbot_bringup/install.log --single-version-externally-managed

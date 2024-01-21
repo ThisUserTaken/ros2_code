@@ -1,0 +1,21 @@
+[2.083s] Invoking command in '/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg': PYTHONPATH=/root/ros2_code/humble/vision/build/path_planner_pkg/prefix_override:/root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/path_planner_pkg build --build-base /root/ros2_code/humble/vision/build/path_planner_pkg/build install --record /root/ros2_code/humble/vision/build/path_planner_pkg/install.log --single-version-externally-managed
+[2.402s] running egg_info
+[2.402s] writing ../../../build/path_planner_pkg/path_planner_pkg.egg-info/PKG-INFO
+[2.402s] writing dependency_links to ../../../build/path_planner_pkg/path_planner_pkg.egg-info/dependency_links.txt
+[2.403s] writing entry points to ../../../build/path_planner_pkg/path_planner_pkg.egg-info/entry_points.txt
+[2.403s] writing requirements to ../../../build/path_planner_pkg/path_planner_pkg.egg-info/requires.txt
+[2.403s] writing top-level names to ../../../build/path_planner_pkg/path_planner_pkg.egg-info/top_level.txt
+[2.404s] reading manifest file '../../../build/path_planner_pkg/path_planner_pkg.egg-info/SOURCES.txt'
+[2.405s] writing manifest file '../../../build/path_planner_pkg/path_planner_pkg.egg-info/SOURCES.txt'
+[2.405s] running build
+[2.405s] running build_py
+[2.406s] running install
+[2.406s] running install_lib
+[2.407s] running install_data
+[2.407s] copying launch/navigation.launch.py -> /root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/launch
+[2.408s] running install_egg_info
+[2.410s] removing '/root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages/path_planner_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.410s] Copying ../../../build/path_planner_pkg/path_planner_pkg.egg-info to /root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages/path_planner_pkg-0.0.0-py3.10.egg-info
+[2.412s] running install_scripts
+[2.432s] writing list of installed files to '/root/ros2_code/humble/vision/build/path_planner_pkg/install.log'
+[2.527s] Invoked command in '/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg' returned '0': PYTHONPATH=/root/ros2_code/humble/vision/build/path_planner_pkg/prefix_override:/root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/path_planner_pkg build --build-base /root/ros2_code/humble/vision/build/path_planner_pkg/build install --record /root/ros2_code/humble/vision/build/path_planner_pkg/install.log --single-version-externally-managed

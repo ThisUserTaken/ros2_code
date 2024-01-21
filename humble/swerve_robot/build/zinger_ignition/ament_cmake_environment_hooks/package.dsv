@@ -1,0 +1,4 @@
+source;share/zinger_ignition/local_setup.bash
+source;share/zinger_ignition/local_setup.dsv
+source;share/zinger_ignition/local_setup.sh
+source;share/zinger_ignition/local_setup.zsh

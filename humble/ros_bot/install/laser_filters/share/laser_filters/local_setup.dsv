@@ -1,0 +1,3 @@
+source;share/laser_filters/environment/ament_prefix_path.sh
+source;share/laser_filters/environment/library_path.sh
+source;share/laser_filters/environment/path.sh

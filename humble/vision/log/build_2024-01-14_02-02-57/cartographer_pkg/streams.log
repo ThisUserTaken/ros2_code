@@ -1,0 +1,20 @@
+[2.563s] Invoking command in '/root/ros2_code/humble/vision/src/cartographer_pkg': PYTHONPATH=/root/ros2_code/humble/vision/build/cartographer_pkg/prefix_override:/root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cartographer_pkg build --build-base /root/ros2_code/humble/vision/build/cartographer_pkg/build install --record /root/ros2_code/humble/vision/build/cartographer_pkg/install.log --single-version-externally-managed
+[2.849s] running egg_info
+[2.850s] writing ../../build/cartographer_pkg/cartographer_pkg.egg-info/PKG-INFO
+[2.850s] writing dependency_links to ../../build/cartographer_pkg/cartographer_pkg.egg-info/dependency_links.txt
+[2.850s] writing entry points to ../../build/cartographer_pkg/cartographer_pkg.egg-info/entry_points.txt
+[2.850s] writing requirements to ../../build/cartographer_pkg/cartographer_pkg.egg-info/requires.txt
+[2.850s] writing top-level names to ../../build/cartographer_pkg/cartographer_pkg.egg-info/top_level.txt
+[2.852s] reading manifest file '../../build/cartographer_pkg/cartographer_pkg.egg-info/SOURCES.txt'
+[2.853s] writing manifest file '../../build/cartographer_pkg/cartographer_pkg.egg-info/SOURCES.txt'
+[2.853s] running build
+[2.853s] running build_py
+[2.853s] running install
+[2.853s] running install_lib
+[2.855s] running install_data
+[2.856s] running install_egg_info
+[2.858s] removing '/root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages/cartographer_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.858s] Copying ../../build/cartographer_pkg/cartographer_pkg.egg-info to /root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages/cartographer_pkg-0.0.0-py3.10.egg-info
+[2.859s] running install_scripts
+[2.881s] writing list of installed files to '/root/ros2_code/humble/vision/build/cartographer_pkg/install.log'
+[2.998s] Invoked command in '/root/ros2_code/humble/vision/src/cartographer_pkg' returned '0': PYTHONPATH=/root/ros2_code/humble/vision/build/cartographer_pkg/prefix_override:/root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cartographer_pkg build --build-base /root/ros2_code/humble/vision/build/cartographer_pkg/build install --record /root/ros2_code/humble/vision/build/cartographer_pkg/install.log --single-version-externally-managed

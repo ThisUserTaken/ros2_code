@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: zinger-swerve-controller
+Version: 0.1.0
+Summary: Defines a four wheel independent steering, aka swerve, controller for the zinger robot.
+Home-page: UNKNOWN
+Maintainer: petrik
+Maintainer-email: petrikvandervelde@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,9 @@
+/root/ros2_code/humble/omni_navigation/build/gazebo_simulation/CMakeFiles/uninstall.dir
+/root/ros2_code/humble/omni_navigation/build/gazebo_simulation/CMakeFiles/gazebo_simulation_uninstall.dir
+/root/ros2_code/humble/omni_navigation/build/gazebo_simulation/CMakeFiles/test.dir
+/root/ros2_code/humble/omni_navigation/build/gazebo_simulation/CMakeFiles/edit_cache.dir
+/root/ros2_code/humble/omni_navigation/build/gazebo_simulation/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/humble/omni_navigation/build/gazebo_simulation/CMakeFiles/list_install_components.dir
+/root/ros2_code/humble/omni_navigation/build/gazebo_simulation/CMakeFiles/install.dir
+/root/ros2_code/humble/omni_navigation/build/gazebo_simulation/CMakeFiles/install/local.dir
+/root/ros2_code/humble/omni_navigation/build/gazebo_simulation/CMakeFiles/install/strip.dir

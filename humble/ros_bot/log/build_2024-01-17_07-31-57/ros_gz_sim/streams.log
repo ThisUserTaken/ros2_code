@@ -1,0 +1,34 @@
+[0.606s] Invoking command in '/root/ros2_code/humble/ros_bot/build/ros_gz_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/install/tutorial_pkg:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/ros_bot/install/ros_gz_sim
+[1.047s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.047s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.047s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.047s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.047s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.047s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.048s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.048s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.048s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.048s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.048s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.095s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.099s] -- Searching for dependencies of ignition-math6
+[1.129s] [31mCMake Error at CMakeLists.txt:81 (find_package):
+[1.129s]   By not providing "Findignition-transport11.cmake" in CMAKE_MODULE_PATH this
+[1.129s]   project has asked CMake to find a package configuration file provided by
+[1.129s]   "ignition-transport11", but CMake did not find one.
+[1.129s] 
+[1.129s]   Could not find a package configuration file provided by
+[1.130s]   "ignition-transport11" with any of the following names:
+[1.130s] 
+[1.130s]     ignition-transport11Config.cmake
+[1.130s]     ignition-transport11-config.cmake
+[1.130s] 
+[1.130s]   Add the installation prefix of "ignition-transport11" to CMAKE_PREFIX_PATH
+[1.130s]   or set "ignition-transport11_DIR" to a directory containing one of the
+[1.130s]   above files.  If "ignition-transport11" provides a separate development
+[1.130s]   package or SDK, be sure it has been installed.
+[1.130s] 
+[1.130s] [0m
+[1.130s] -- Configuring incomplete, errors occurred!
+[1.131s] See also "/root/ros2_code/humble/ros_bot/build/ros_gz_sim/CMakeFiles/CMakeOutput.log".
+[1.138s] Invoked command in '/root/ros2_code/humble/ros_bot/build/ros_gz_sim' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/install/tutorial_pkg:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/ros_bot/src/ros_gz/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/ros_bot/install/ros_gz_sim

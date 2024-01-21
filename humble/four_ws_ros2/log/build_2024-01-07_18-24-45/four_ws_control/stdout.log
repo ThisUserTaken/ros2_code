@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control//scripts
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control//scripts/robot_control.py
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control//launch
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control//launch/four_ws_control.launch.py
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/lib/four_ws_control/robot_control.py
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/lib/four_ws_control/four_ws_control.launch.py
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/ament_index/resource_index/package_run_dependencies/four_ws_control
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/ament_index/resource_index/parent_prefix_path/four_ws_control
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/environment/ament_prefix_path.sh
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/environment/path.sh
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/environment/path.dsv
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/local_setup.bash
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/local_setup.sh
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/local_setup.zsh
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/local_setup.dsv
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.dsv
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/ament_index/resource_index/packages/four_ws_control
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/cmake/four_ws_controlConfig.cmake
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/cmake/four_ws_controlConfig-version.cmake
+-- Up-to-date: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.xml

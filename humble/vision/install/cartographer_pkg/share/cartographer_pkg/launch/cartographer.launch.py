@@ -19,9 +19,9 @@ def generate_launch_description():
 
 
     return LaunchDescription([
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([os.path.join(joystick_pkg_dir, 'launch'), '/joystick.launch.py'])
-        ),
+        #IncludeLaunchDescription(
+        #    PythonLaunchDescriptionSource([os.path.join(joystick_pkg_dir, 'launch'), '/joystick.launch.py'])
+        #),
         
         Node(
             package='cartographer_ros', 

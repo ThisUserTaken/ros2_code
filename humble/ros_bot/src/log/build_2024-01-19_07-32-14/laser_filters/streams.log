@@ -1,0 +1,131 @@
+[0.661s] Invoking command in '/root/ros2_code/humble/ros_bot/src/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/src/install/rosbot_utils:/root/ros2_code/humble/ros_bot/src/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/src/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/src/install/rosbot_controller:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/ros_bot/src/laser_filters -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/ros_bot/src/install/laser_filters
+[1.512s] -- The C compiler identification is GNU 11.4.0
+[1.513s] -- The CXX compiler identification is GNU 11.4.0
+[1.513s] -- Detecting C compiler ABI info
+[1.513s] -- Detecting C compiler ABI info - done
+[1.513s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.514s] -- Detecting C compile features
+[1.514s] -- Detecting C compile features - done
+[1.514s] -- Detecting CXX compiler ABI info
+[1.514s] -- Detecting CXX compiler ABI info - done
+[1.515s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.515s] -- Detecting CXX compile features
+[1.515s] -- Detecting CXX compile features - done
+[1.515s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.515s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.676s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.699s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.722s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.749s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.790s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.926s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.934s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.999s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.029s] -- Looking for pthread.h
+[2.109s] -- Looking for pthread.h - found
+[2.110s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.188s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.189s] -- Found Threads: TRUE  
+[3.113s] -- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.123s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.132s] -- Configuring done
+[3.180s] -- Generating done
+[3.183s] -- Build files have been written to: /root/ros2_code/humble/ros_bot/src/build/laser_filters
+[3.523s] Invoked command in '/root/ros2_code/humble/ros_bot/src/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/src/install/rosbot_utils:/root/ros2_code/humble/ros_bot/src/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/src/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/src/install/rosbot_controller:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/ros_bot/src/laser_filters -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/ros_bot/src/install/laser_filters
+[3.524s] Invoking command in '/root/ros2_code/humble/ros_bot/src/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/src/install/rosbot_utils:/root/ros2_code/humble/ros_bot/src/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/src/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/src/install/rosbot_controller:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/ros_bot/src/build/laser_filters -- -j12 -l12
+[3.593s] [  6%] [32mBuilding CXX object CMakeFiles/laser_scan_filters.dir/src/laser_scan_filters.cpp.o[0m
+[3.594s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.594s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.569s] [ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.658s] [ 25%] Built target gtest_main
+[6.506s] [ 31%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.613s] [ 31%] Built target gtest
+[6.637s] [ 37%] [32mBuilding CXX object CMakeFiles/test_scan_filter_chain.dir/test/test_scan_filter_chain.cpp.o[0m
+[10.575s] [ 43%] [32m[1mLinking CXX shared library liblaser_scan_filters.so[0m
+[10.813s] [ 43%] Built target laser_scan_filters
+[10.838s] [ 62%] [32mBuilding CXX object CMakeFiles/scan_to_cloud_filter_chain.dir/src/scan_to_cloud_filter_chain.cpp.o[0m
+[10.838s] [ 62%] [32mBuilding CXX object CMakeFiles/scan_to_scan_filter_chain.dir/src/scan_to_scan_filter_chain.cpp.o[0m
+[10.838s] [ 62%] [32mBuilding CXX object CMakeFiles/generic_laser_filter_node.dir/src/generic_laser_filter_node.cpp.o[0m
+[10.839s] [ 68%] [32mBuilding CXX object CMakeFiles/test_shadow_detector.dir/test/test_shadow_detector.cpp.o[0m
+[11.835s] [ 75%] [32m[1mLinking CXX executable test_shadow_detector[0m
+[11.989s] [ 81%] [32m[1mLinking CXX executable test_scan_filter_chain[0m
+[12.046s] [ 81%] Built target test_shadow_detector
+[12.242s] [ 81%] Built target test_scan_filter_chain
+[20.936s] [ 87%] [32m[1mLinking CXX executable generic_laser_filter_node[0m
+[20.976s] [ 93%] [32m[1mLinking CXX executable scan_to_scan_filter_chain[0m
+[21.456s] [ 93%] Built target generic_laser_filter_node
+[21.477s] [ 93%] Built target scan_to_scan_filter_chain
+[21.689s] [100%] [32m[1mLinking CXX executable scan_to_cloud_filter_chain[0m
+[22.162s] [100%] Built target scan_to_cloud_filter_chain
+[22.174s] Invoked command in '/root/ros2_code/humble/ros_bot/src/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/src/install/rosbot_utils:/root/ros2_code/humble/ros_bot/src/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/src/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/src/install/rosbot_controller:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/ros_bot/src/build/laser_filters -- -j12 -l12
+[22.237s] Invoking command in '/root/ros2_code/humble/ros_bot/src/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/src/install/rosbot_utils:/root/ros2_code/humble/ros_bot/src/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/src/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/src/install/rosbot_controller:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/ros_bot/src/build/laser_filters
+[22.246s] -- Install configuration: ""
+[22.246s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/laser_filters_plugins.xml
+[22.247s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include
+[22.247s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters
+[22.247s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/footprint_filter.h
+[22.247s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/scan_mask_filter.h
+[22.247s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/intensity_filter.h
+[22.247s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/angular_bounds_filter.h
+[22.247s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/array_filter.h
+[22.248s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/box_filter.h
+[22.248s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/median_filter.h
+[22.248s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/range_filter.h
+[22.248s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/interpolation_filter.h
+[22.248s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/speckle_filter.h
+[22.248s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/scan_shadows_filter.h
+[22.248s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/scan_shadow_detector.h
+[22.248s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/angular_bounds_filter_in_place.h
+[22.248s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/environment/library_path.sh
+[22.249s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/environment/library_path.dsv
+[22.249s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/liblaser_scan_filters.so
+[22.254s] -- Set runtime path of "/root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/liblaser_scan_filters.so" to ""
+[22.254s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/laser_filters/scan_to_cloud_filter_chain
+[22.263s] -- Set runtime path of "/root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/laser_filters/scan_to_cloud_filter_chain" to ""
+[22.263s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/laser_filters/scan_to_scan_filter_chain
+[22.271s] -- Set runtime path of "/root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/laser_filters/scan_to_scan_filter_chain" to ""
+[22.271s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/laser_filters/generic_laser_filter_node
+[22.280s] -- Set runtime path of "/root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/laser_filters/generic_laser_filter_node" to ""
+[22.280s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples
+[22.280s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/intensity_filter_example.yaml
+[22.280s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/range_filter_example.yaml
+[22.280s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/range_filter_example.launch.py
+[22.280s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/mask_filter_example.launch.py
+[22.280s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/box_filter_example.launch.py
+[22.281s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/median_filter_example.yaml
+[22.281s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/footprint_filter_example.launch.py
+[22.281s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/intensity_filter_example.launch.py
+[22.281s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/shadow_filter_example.launch.py
+[22.281s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/shadow_filter_example.yaml
+[22.281s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/multiple_filters_example.yaml
+[22.281s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/angular_filter_example.launch.py
+[22.281s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/speckle_filter_example.yaml
+[22.281s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/footprint_filter_example.yaml
+[22.282s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/box_filter_example.yaml
+[22.282s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/median_filter_example.launch.py
+[22.282s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/pass_through_example.launch.py
+[22.282s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/angular_filter_example.yaml
+[22.282s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/speckle_filter_example.launch
+[22.282s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/multiple_filters_example.launch.py
+[22.282s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/mask_filter_example.yaml
+[22.283s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/pass_through_example.yaml
+[22.283s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/ament_index/resource_index/package_run_dependencies/laser_filters
+[22.283s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/ament_index/resource_index/parent_prefix_path/laser_filters
+[22.283s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/environment/ament_prefix_path.sh
+[22.283s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/environment/ament_prefix_path.dsv
+[22.284s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/environment/path.sh
+[22.284s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/environment/path.dsv
+[22.284s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/local_setup.bash
+[22.284s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/local_setup.sh
+[22.284s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/local_setup.zsh
+[22.284s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/local_setup.dsv
+[22.285s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/package.dsv
+[22.285s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/ament_index/resource_index/packages/laser_filters
+[22.285s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/ament_index/resource_index/filters__pluginlib__plugin/laser_filters
+[22.285s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.285s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.286s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_libraries-extras.cmake
+[22.286s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig.cmake
+[22.286s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig-version.cmake
+[22.286s] -- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/package.xml
+[22.288s] Invoked command in '/root/ros2_code/humble/ros_bot/src/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/src/install/rosbot_utils:/root/ros2_code/humble/ros_bot/src/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/src/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/src/install/rosbot_controller:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/ros_bot/src/build/laser_filters

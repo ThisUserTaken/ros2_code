@@ -1,0 +1,34 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_code/humble/ros_bot/build/rosbot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/meshes/body.stl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/meshes/cover.stl
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/meshes/mecanum_a.dae
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/meshes/mecanum_b.dae
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/meshes/wheel_a.dae
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/meshes/wheel_b.dae
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/urdf/body.urdf.xacro
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/urdf/components/vl53lox.urdf.xacro
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/urdf/rosbot.urdf.xacro
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/urdf/rosbot_macro.urdf.xacro
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/urdf/wheel.urdf.xacro
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/environment/rosbot_description.sh
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/ament_index/resource_index/package_run_dependencies/rosbot_description
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/ament_index/resource_index/parent_prefix_path/rosbot_description
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/environment/path.sh
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/environment/path.dsv
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/local_setup.bash
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/local_setup.sh
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/local_setup.zsh
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/local_setup.dsv
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/package.dsv
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/ament_index/resource_index/packages/rosbot_description
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig.cmake
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig-version.cmake
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/package.xml

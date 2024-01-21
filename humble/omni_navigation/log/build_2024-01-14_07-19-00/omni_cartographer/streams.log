@@ -1,0 +1,46 @@
+[0.423s] Invoking command in '/root/ros2_code/humble/omni_navigation/build/omni_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/omni_navigation/src/omni_cartographer -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/omni_navigation/install/omni_cartographer
+[0.562s] -- The C compiler identification is GNU 11.4.0
+[0.712s] -- The CXX compiler identification is GNU 11.4.0
+[0.721s] -- Detecting C compiler ABI info
+[0.794s] -- Detecting C compiler ABI info - done
+[0.802s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.803s] -- Detecting C compile features
+[0.803s] -- Detecting C compile features - done
+[0.807s] -- Detecting CXX compiler ABI info
+[0.888s] -- Detecting CXX compiler ABI info - done
+[0.897s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.897s] -- Detecting CXX compile features
+[0.898s] -- Detecting CXX compile features - done
+[0.905s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.090s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.305s] -- Configuring done
+[1.309s] -- Generating done
+[1.310s] -- Build files have been written to: /root/ros2_code/humble/omni_navigation/build/omni_cartographer
+[1.314s] Invoked command in '/root/ros2_code/humble/omni_navigation/build/omni_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/omni_navigation/src/omni_cartographer -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/omni_navigation/install/omni_cartographer
+[1.316s] Invoking command in '/root/ros2_code/humble/omni_navigation/build/omni_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/omni_navigation/build/omni_cartographer -- -j12 -l12
+[1.362s] Invoked command in '/root/ros2_code/humble/omni_navigation/build/omni_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/omni_navigation/build/omni_cartographer -- -j12 -l12
+[1.399s] Invoking command in '/root/ros2_code/humble/omni_navigation/build/omni_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/omni_navigation/build/omni_cartographer
+[1.408s] -- Install configuration: ""
+[1.408s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/config
+[1.408s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/config/omni_lds_2d.lua
+[1.409s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/launch
+[1.409s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/launch/cartographer.launch.py
+[1.409s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/launch/occupancy_grid.launch.py
+[1.409s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/rviz
+[1.409s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/rviz/tb3_cartographer.rviz
+[1.410s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/ament_index/resource_index/package_run_dependencies/omni_cartographer
+[1.410s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/ament_index/resource_index/parent_prefix_path/omni_cartographer
+[1.410s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/environment/ament_prefix_path.sh
+[1.410s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/environment/ament_prefix_path.dsv
+[1.411s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/environment/path.sh
+[1.411s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/environment/path.dsv
+[1.411s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/local_setup.bash
+[1.411s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/local_setup.sh
+[1.411s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/local_setup.zsh
+[1.411s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/local_setup.dsv
+[1.412s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/package.dsv
+[1.412s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/ament_index/resource_index/packages/omni_cartographer
+[1.412s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/cmake/omni_cartographerConfig.cmake
+[1.412s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/cmake/omni_cartographerConfig-version.cmake
+[1.412s] -- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/package.xml
+[1.414s] Invoked command in '/root/ros2_code/humble/omni_navigation/build/omni_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/omni_navigation/build/omni_cartographer

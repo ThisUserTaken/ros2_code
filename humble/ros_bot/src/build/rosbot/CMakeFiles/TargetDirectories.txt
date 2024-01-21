@@ -1,0 +1,9 @@
+/root/ros2_code/humble/ros_bot/src/build/rosbot/CMakeFiles/uninstall.dir
+/root/ros2_code/humble/ros_bot/src/build/rosbot/CMakeFiles/rosbot_uninstall.dir
+/root/ros2_code/humble/ros_bot/src/build/rosbot/CMakeFiles/test.dir
+/root/ros2_code/humble/ros_bot/src/build/rosbot/CMakeFiles/edit_cache.dir
+/root/ros2_code/humble/ros_bot/src/build/rosbot/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/humble/ros_bot/src/build/rosbot/CMakeFiles/list_install_components.dir
+/root/ros2_code/humble/ros_bot/src/build/rosbot/CMakeFiles/install.dir
+/root/ros2_code/humble/ros_bot/src/build/rosbot/CMakeFiles/install/local.dir
+/root/ros2_code/humble/ros_bot/src/build/rosbot/CMakeFiles/install/strip.dir

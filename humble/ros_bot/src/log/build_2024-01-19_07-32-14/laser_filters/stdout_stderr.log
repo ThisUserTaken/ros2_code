@@ -1,0 +1,125 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_code/humble/ros_bot/src/build/laser_filters
+[  6%] [32mBuilding CXX object CMakeFiles/laser_scan_filters.dir/src/laser_scan_filters.cpp.o[0m
+[ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 25%] Built target gtest_main
+[ 31%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 31%] Built target gtest
+[ 37%] [32mBuilding CXX object CMakeFiles/test_scan_filter_chain.dir/test/test_scan_filter_chain.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library liblaser_scan_filters.so[0m
+[ 43%] Built target laser_scan_filters
+[ 62%] [32mBuilding CXX object CMakeFiles/scan_to_cloud_filter_chain.dir/src/scan_to_cloud_filter_chain.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/scan_to_scan_filter_chain.dir/src/scan_to_scan_filter_chain.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/generic_laser_filter_node.dir/src/generic_laser_filter_node.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/test_shadow_detector.dir/test/test_shadow_detector.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable test_shadow_detector[0m
+[ 81%] [32m[1mLinking CXX executable test_scan_filter_chain[0m
+[ 81%] Built target test_shadow_detector
+[ 81%] Built target test_scan_filter_chain
+[ 87%] [32m[1mLinking CXX executable generic_laser_filter_node[0m
+[ 93%] [32m[1mLinking CXX executable scan_to_scan_filter_chain[0m
+[ 93%] Built target generic_laser_filter_node
+[ 93%] Built target scan_to_scan_filter_chain
+[100%] [32m[1mLinking CXX executable scan_to_cloud_filter_chain[0m
+[100%] Built target scan_to_cloud_filter_chain
+-- Install configuration: ""
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/laser_filters_plugins.xml
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/footprint_filter.h
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/scan_mask_filter.h
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/intensity_filter.h
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/angular_bounds_filter.h
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/array_filter.h
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/box_filter.h
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/median_filter.h
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/range_filter.h
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/interpolation_filter.h
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/speckle_filter.h
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/scan_shadows_filter.h
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/scan_shadow_detector.h
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/include/laser_filters/angular_bounds_filter_in_place.h
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/environment/library_path.sh
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/environment/library_path.dsv
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/liblaser_scan_filters.so
+-- Set runtime path of "/root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/liblaser_scan_filters.so" to ""
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/laser_filters/scan_to_cloud_filter_chain
+-- Set runtime path of "/root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/laser_filters/scan_to_cloud_filter_chain" to ""
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/laser_filters/scan_to_scan_filter_chain
+-- Set runtime path of "/root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/laser_filters/scan_to_scan_filter_chain" to ""
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/laser_filters/generic_laser_filter_node
+-- Set runtime path of "/root/ros2_code/humble/ros_bot/src/install/laser_filters/lib/laser_filters/generic_laser_filter_node" to ""
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/intensity_filter_example.yaml
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/range_filter_example.yaml
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/range_filter_example.launch.py
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/mask_filter_example.launch.py
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/box_filter_example.launch.py
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/median_filter_example.yaml
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/footprint_filter_example.launch.py
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/intensity_filter_example.launch.py
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/shadow_filter_example.launch.py
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/shadow_filter_example.yaml
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/multiple_filters_example.yaml
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/angular_filter_example.launch.py
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/speckle_filter_example.yaml
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/footprint_filter_example.yaml
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/box_filter_example.yaml
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/median_filter_example.launch.py
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/pass_through_example.launch.py
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/angular_filter_example.yaml
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/speckle_filter_example.launch
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/multiple_filters_example.launch.py
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/mask_filter_example.yaml
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/examples/pass_through_example.yaml
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/ament_index/resource_index/package_run_dependencies/laser_filters
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/ament_index/resource_index/parent_prefix_path/laser_filters
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/environment/path.sh
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/environment/path.dsv
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/local_setup.bash
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/local_setup.sh
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/local_setup.zsh
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/local_setup.dsv
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/package.dsv
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/ament_index/resource_index/packages/laser_filters
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/ament_index/resource_index/filters__pluginlib__plugin/laser_filters
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig.cmake
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig-version.cmake
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/laser_filters/share/laser_filters/package.xml

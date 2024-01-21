@@ -1,0 +1,37 @@
+[1.097s] Invoking command in '/root/ros2_code/humble/ros_bot/build/ign_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/ros_bot/build/ign_ros2_control -- -j12 -l12
+[2.370s] [35m[1mConsolidate compiler generated dependencies of target ign_ros2_control-system[0m
+[2.370s] [35m[1mConsolidate compiler generated dependencies of target ign_hardware_plugins[0m
+[2.371s] [ 50%] Built target ign_ros2_control-system
+[2.372s] [100%] Built target ign_hardware_plugins
+[2.380s] Invoked command in '/root/ros2_code/humble/ros_bot/build/ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/ros_bot/build/ign_ros2_control -- -j12 -l12
+[2.439s] Invoking command in '/root/ros2_code/humble/ros_bot/build/ign_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/ros_bot/build/ign_ros2_control
+[2.464s] -- Install configuration: ""
+[2.464s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/lib/libign_hardware_plugins.so
+[2.464s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/include
+[2.464s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/include/ign_ros2_control
+[2.464s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/include/ign_ros2_control/ign_system_interface.hpp
+[2.464s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/include/ign_ros2_control/ign_system.hpp
+[2.464s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/include/ign_ros2_control/ign_ros2_control_plugin.hpp
+[2.465s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/environment/library_path.sh
+[2.465s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/environment/library_path.dsv
+[2.465s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/lib/libign_ros2_control-system.so
+[2.465s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/ign_hardware_plugins.xml
+[2.465s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control
+[2.465s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control
+[2.465s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/environment/ament_prefix_path.sh
+[2.465s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/environment/ament_prefix_path.dsv
+[2.465s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/environment/path.sh
+[2.465s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/environment/path.dsv
+[2.466s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/local_setup.bash
+[2.466s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/local_setup.sh
+[2.466s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/local_setup.zsh
+[2.466s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/local_setup.dsv
+[2.466s] -- Installing: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/package.dsv
+[2.466s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ament_index/resource_index/packages/ign_ros2_control
+[2.466s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ament_index/resource_index/ign_ros2_control__pluginlib__plugin/ign_ros2_control
+[2.468s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.468s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[2.468s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/cmake/ign_ros2_controlConfig.cmake
+[2.469s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/cmake/ign_ros2_controlConfig-version.cmake
+[2.469s] -- Up-to-date: /root/ros2_code/humble/ros_bot/install/ign_ros2_control/share/ign_ros2_control/package.xml
+[2.484s] Invoked command in '/root/ros2_code/humble/ros_bot/build/ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/ros_bot/build/ign_ros2_control

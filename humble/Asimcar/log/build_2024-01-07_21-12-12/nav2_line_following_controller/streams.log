@@ -1,0 +1,43 @@
+[0.226s] Invoking command in '/root/ros2_code/humble/Asimcar/build/nav2_line_following_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/Asimcar/build/nav2_line_following_controller -- -j12 -l12
+[0.281s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.282s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.282s] [35m[1mConsolidate compiler generated dependencies of target nav2_line_following_controller[0m
+[0.304s] [ 15%] Built target gtest_main
+[0.309s] [ 30%] Built target gtest
+[0.326s] [ 53%] Built target nav2_line_following_controller
+[0.327s] [35m[1mConsolidate compiler generated dependencies of target geometry_test[0m
+[0.328s] [35m[1mConsolidate compiler generated dependencies of target route_test[0m
+[0.353s] [ 76%] Built target geometry_test
+[0.358s] [100%] Built target route_test
+[0.396s] Invoked command in '/root/ros2_code/humble/Asimcar/build/nav2_line_following_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/Asimcar/build/nav2_line_following_controller -- -j12 -l12
+[0.500s] Invoking command in '/root/ros2_code/humble/Asimcar/build/nav2_line_following_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/Asimcar/build/nav2_line_following_controller
+[0.508s] -- Install configuration: "Release"
+[0.508s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/lib/libnav2_line_following_controller.so
+[0.508s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/include/
+[0.508s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/include//nav2_line_following_controller
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/include//nav2_line_following_controller/route.h
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/include//nav2_line_following_controller/geometry.h
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/include//nav2_line_following_controller/line_following_controller.hpp
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/library_path.sh
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/library_path.dsv
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/nav2_line_following_controller.xml
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/ament_index/resource_index/package_run_dependencies/nav2_line_following_controller
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/ament_index/resource_index/parent_prefix_path/nav2_line_following_controller
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/ament_prefix_path.sh
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/ament_prefix_path.dsv
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/path.sh
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/path.dsv
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.bash
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.sh
+[0.509s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.zsh
+[0.510s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.dsv
+[0.510s] -- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/package.dsv
+[0.510s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/ament_index/resource_index/packages/nav2_line_following_controller
+[0.510s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_line_following_controller
+[0.510s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.510s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[0.510s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.510s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/nav2_line_following_controllerConfig.cmake
+[0.510s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/nav2_line_following_controllerConfig-version.cmake
+[0.510s] -- Up-to-date: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/package.xml
+[0.512s] Invoked command in '/root/ros2_code/humble/Asimcar/build/nav2_line_following_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/Asimcar/build/nav2_line_following_controller

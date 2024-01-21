@@ -1,0 +1,29 @@
+[1.713s] Invoking command in '/root/ros2_code/humble/ros_bot/src/rosbot_xl_ros/rosbot_xl_controller': AMENT_PREFIX_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_xl_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_xl_description:/root/ros2_code/humble/ros_bot/install/ros_components_description:/root/ros2_code/humble/ros_bot/install/tutorial_pkg:/root/ros2_code/humble/ros_bot/install/rosbot:/root/ros2_code/humble/ros_bot/install/rosbot_description:/root/ros2_code/humble/ros_bot/install/husarion_office_gz:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot GAZEBO_MODEL_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_xl_description/share:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_xl_description/share:${GZ_SIM_RESOURCE_PATH} IGN_GAZEBO_RESOURCE_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_xl_description/share:${IGN_GAZEBO_RESOURCE_PATH} PYTHONPATH=/root/ros2_code/humble/ros_bot/build/rosbot_xl_controller/prefix_override:/root/ros2_code/humble/ros_bot/install/rosbot_xl_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rosbot_xl_controller build --build-base /root/ros2_code/humble/ros_bot/build/rosbot_xl_controller/build install --record /root/ros2_code/humble/ros_bot/build/rosbot_xl_controller/install.log --single-version-externally-managed
+[2.110s] running egg_info
+[2.111s] creating ../../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info
+[2.112s] writing ../../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/PKG-INFO
+[2.112s] writing dependency_links to ../../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/dependency_links.txt
+[2.112s] writing entry points to ../../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/entry_points.txt
+[2.112s] writing requirements to ../../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/requires.txt
+[2.112s] writing top-level names to ../../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/top_level.txt
+[2.112s] writing manifest file '../../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/SOURCES.txt'
+[2.113s] reading manifest file '../../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/SOURCES.txt'
+[2.114s] writing manifest file '../../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info/SOURCES.txt'
+[2.115s] running build
+[2.115s] running install
+[2.115s] running install_data
+[2.116s] creating /root/ros2_code/humble/ros_bot/install/rosbot_xl_controller/share/ament_index
+[2.116s] creating /root/ros2_code/humble/ros_bot/install/rosbot_xl_controller/share/ament_index/resource_index
+[2.116s] creating /root/ros2_code/humble/ros_bot/install/rosbot_xl_controller/share/ament_index/resource_index/packages
+[2.116s] copying resource/rosbot_xl_controller -> /root/ros2_code/humble/ros_bot/install/rosbot_xl_controller/share/ament_index/resource_index/packages
+[2.116s] copying package.xml -> /root/ros2_code/humble/ros_bot/install/rosbot_xl_controller/share/rosbot_xl_controller
+[2.116s] creating /root/ros2_code/humble/ros_bot/install/rosbot_xl_controller/share/rosbot_xl_controller/launch
+[2.117s] copying launch/controller.launch.py -> /root/ros2_code/humble/ros_bot/install/rosbot_xl_controller/share/rosbot_xl_controller/launch
+[2.117s] creating /root/ros2_code/humble/ros_bot/install/rosbot_xl_controller/share/rosbot_xl_controller/config
+[2.117s] copying config/diff_drive_controller.yaml -> /root/ros2_code/humble/ros_bot/install/rosbot_xl_controller/share/rosbot_xl_controller/config
+[2.117s] copying config/mecanum_drive_controller.yaml -> /root/ros2_code/humble/ros_bot/install/rosbot_xl_controller/share/rosbot_xl_controller/config
+[2.117s] running install_egg_info
+[2.121s] Copying ../../../build/rosbot_xl_controller/rosbot_xl_controller.egg-info to /root/ros2_code/humble/ros_bot/install/rosbot_xl_controller/lib/python3.10/site-packages/rosbot_xl_controller-0.8.2-py3.10.egg-info
+[2.122s] running install_scripts
+[2.152s] writing list of installed files to '/root/ros2_code/humble/ros_bot/build/rosbot_xl_controller/install.log'
+[2.208s] Invoked command in '/root/ros2_code/humble/ros_bot/src/rosbot_xl_ros/rosbot_xl_controller' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_xl_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_xl_description:/root/ros2_code/humble/ros_bot/install/ros_components_description:/root/ros2_code/humble/ros_bot/install/tutorial_pkg:/root/ros2_code/humble/ros_bot/install/rosbot:/root/ros2_code/humble/ros_bot/install/rosbot_description:/root/ros2_code/humble/ros_bot/install/husarion_office_gz:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot GAZEBO_MODEL_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_xl_description/share:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_xl_description/share:${GZ_SIM_RESOURCE_PATH} IGN_GAZEBO_RESOURCE_PATH=/root/ros2_code/humble/ros_bot/install/rosbot_xl_description/share:${IGN_GAZEBO_RESOURCE_PATH} PYTHONPATH=/root/ros2_code/humble/ros_bot/build/rosbot_xl_controller/prefix_override:/root/ros2_code/humble/ros_bot/install/rosbot_xl_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rosbot_xl_controller build --build-base /root/ros2_code/humble/ros_bot/build/rosbot_xl_controller/build install --record /root/ros2_code/humble/ros_bot/build/rosbot_xl_controller/install.log --single-version-externally-managed

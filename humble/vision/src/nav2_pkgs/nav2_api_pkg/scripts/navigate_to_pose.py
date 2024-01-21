@@ -37,13 +37,11 @@ def main():
     # Security route, probably read in from a file for a real application
     # from either a map or drive and repeat.
     security_route = [
-        [1.792, 2.144],
-        [1.792, -5.44],
-        [1.792, -9.427],
-        [-3.665, -9.427],
-        [-3.665, -4.303],
-        [-3.665, 2.330],
-        [-3.665, 9.283]]
+        [0.0, 0.0],
+        [5.6237, 1.6078],
+        [-3.63409, 6.49605],
+        [-3.74, -8.4197]
+        ]
 
     # Set your demo's initial pose
     initial_pose = PoseStamped()

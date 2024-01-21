@@ -1,0 +1,22 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_code/humble/ros_bot/build/rosbot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/ament_index/resource_index/package_run_dependencies/rosbot
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/ament_index/resource_index/parent_prefix_path/rosbot
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/rosbot/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/rosbot/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/rosbot/environment/path.sh
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/rosbot/environment/path.dsv
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/rosbot/local_setup.bash
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/rosbot/local_setup.sh
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/rosbot/local_setup.zsh
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/rosbot/local_setup.dsv
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/rosbot/package.dsv
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/ament_index/resource_index/packages/rosbot
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/rosbot/cmake/rosbotConfig.cmake
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/rosbot/cmake/rosbotConfig-version.cmake
+-- Symlinking: /root/ros2_code/humble/ros_bot/install/rosbot/share/rosbot/package.xml

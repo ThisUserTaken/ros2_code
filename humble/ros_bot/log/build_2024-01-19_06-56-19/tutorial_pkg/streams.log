@@ -1,0 +1,48 @@
+[1.474s] Invoking command in '/root/ros2_code/humble/ros_bot/build/tutorial_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/ros_bot/build/tutorial_pkg -- -j12 -l12
+[1.645s] [ 25%] Built target tf_broadcaster
+[1.657s] [ 50%] Built target tracker
+[1.672s] [ 75%] Built target my_first_node
+[1.680s] [100%] Built target tf_listener
+[1.923s] Invoked command in '/root/ros2_code/humble/ros_bot/build/tutorial_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/ros_bot/build/tutorial_pkg -- -j12 -l12
+[2.479s] Invoking command in '/root/ros2_code/humble/ros_bot/build/tutorial_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/ros_bot/build/tutorial_pkg
+[2.496s] -- Install configuration: ""
+[2.498s] -- Execute custom install script
+[2.498s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/lib/tutorial_pkg/my_first_node
+[2.499s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/lib/tutorial_pkg/tracker
+[2.499s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/lib/tutorial_pkg/tf_broadcaster
+[2.499s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/lib/tutorial_pkg/tf_listener
+[2.500s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/config/amcl.yaml
+[2.500s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/config/explore.yaml
+[2.500s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/config/navigation.yaml
+[2.500s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/config/slam.yaml
+[2.501s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/launch/amcl.launch.py
+[2.501s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/launch/explore.launch.py
+[2.501s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/launch/my_launch_file.launch.py
+[2.501s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/launch/my_launch_file.xml
+[2.502s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/launch/my_launch_file.yaml
+[2.502s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/launch/navigation.launch.py
+[2.502s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/launch/slam.launch.py
+[2.502s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/maps/map.pgm
+[2.503s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/maps/map.yaml
+[2.503s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/maps/map_serialized.data
+[2.503s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/maps/map_serialized.posegraph
+[2.503s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/rviz/amcl.rviz
+[2.503s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/rviz/explore.rviz
+[2.504s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/rviz/navigation.rviz
+[2.504s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/rviz/slam.rviz
+[2.504s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/ament_index/resource_index/package_run_dependencies/tutorial_pkg
+[2.504s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/ament_index/resource_index/parent_prefix_path/tutorial_pkg
+[2.505s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/environment/ament_prefix_path.sh
+[2.505s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/environment/ament_prefix_path.dsv
+[2.505s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/environment/path.sh
+[2.505s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/environment/path.dsv
+[2.506s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/local_setup.bash
+[2.506s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/local_setup.sh
+[2.506s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/local_setup.zsh
+[2.507s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/local_setup.dsv
+[2.507s] -- Symlinking: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/package.dsv
+[2.525s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/ament_index/resource_index/packages/tutorial_pkg
+[2.526s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/cmake/tutorial_pkgConfig.cmake
+[2.526s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/cmake/tutorial_pkgConfig-version.cmake
+[2.526s] -- Up-to-date symlink: /root/ros2_code/humble/ros_bot/install/tutorial_pkg/share/tutorial_pkg/package.xml
+[3.124s] Invoked command in '/root/ros2_code/humble/ros_bot/build/tutorial_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/ros_bot/build/tutorial_pkg

@@ -1,0 +1,4 @@
+[01m[K/root/ros2_code/humble/ros_bot/src/tutorial_pkg/src/my_first_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::counter_callback(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/ros2_code/humble/ros_bot/src/tutorial_pkg/src/my_first_node.cpp:61:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   61 |     [01;35m[Kconst std_srvs::srv::Trigger::Request::SharedPtr req[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

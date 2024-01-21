@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing rosbot_gazebo.egg-info/PKG-INFO
+writing dependency_links to rosbot_gazebo.egg-info/dependency_links.txt
+writing entry points to rosbot_gazebo.egg-info/entry_points.txt
+writing requirements to rosbot_gazebo.egg-info/requires.txt
+writing top-level names to rosbot_gazebo.egg-info/top_level.txt
+reading manifest file 'rosbot_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'rosbot_gazebo.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros2_code/humble/ros_bot/install/rosbot_gazebo/lib/python3.10/site-packages/rosbot-gazebo.egg-link (link to .)
+
+Installed /root/ros2_code/humble/ros_bot/build/rosbot_gazebo
+running install_data

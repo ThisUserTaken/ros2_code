@@ -1,0 +1,1 @@
+/root/ros2_code/humble/ros_bot/build/tutorial_pkg/ament_cmake_core/tutorial_pkgConfig-version.cmake

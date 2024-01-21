@@ -1,0 +1,8 @@
+source;share/zinger_nav/hook/cmake_prefix_path.ps1
+source;share/zinger_nav/hook/cmake_prefix_path.dsv
+source;share/zinger_nav/hook/cmake_prefix_path.sh
+source;share/zinger_nav/local_setup.bash
+source;share/zinger_nav/local_setup.dsv
+source;share/zinger_nav/local_setup.ps1
+source;share/zinger_nav/local_setup.sh
+source;share/zinger_nav/local_setup.zsh

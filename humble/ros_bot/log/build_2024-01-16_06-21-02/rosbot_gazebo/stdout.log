@@ -1,0 +1,27 @@
+running egg_info
+creating ../../build/rosbot_gazebo/rosbot_gazebo.egg-info
+writing ../../build/rosbot_gazebo/rosbot_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../build/rosbot_gazebo/rosbot_gazebo.egg-info/dependency_links.txt
+writing entry points to ../../build/rosbot_gazebo/rosbot_gazebo.egg-info/entry_points.txt
+writing requirements to ../../build/rosbot_gazebo/rosbot_gazebo.egg-info/requires.txt
+writing top-level names to ../../build/rosbot_gazebo/rosbot_gazebo.egg-info/top_level.txt
+writing manifest file '../../build/rosbot_gazebo/rosbot_gazebo.egg-info/SOURCES.txt'
+reading manifest file '../../build/rosbot_gazebo/rosbot_gazebo.egg-info/SOURCES.txt'
+writing manifest file '../../build/rosbot_gazebo/rosbot_gazebo.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /root/ros2_code/humble/ros_bot/install/rosbot_gazebo/share/ament_index
+creating /root/ros2_code/humble/ros_bot/install/rosbot_gazebo/share/ament_index/resource_index
+creating /root/ros2_code/humble/ros_bot/install/rosbot_gazebo/share/ament_index/resource_index/packages
+copying resource/rosbot_gazebo -> /root/ros2_code/humble/ros_bot/install/rosbot_gazebo/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/humble/ros_bot/install/rosbot_gazebo/share/rosbot_gazebo
+creating /root/ros2_code/humble/ros_bot/install/rosbot_gazebo/share/rosbot_gazebo/launch
+copying launch/spawn.launch.py -> /root/ros2_code/humble/ros_bot/install/rosbot_gazebo/share/rosbot_gazebo/launch
+copying launch/simulation.launch.py -> /root/ros2_code/humble/ros_bot/install/rosbot_gazebo/share/rosbot_gazebo/launch
+creating /root/ros2_code/humble/ros_bot/install/rosbot_gazebo/share/rosbot_gazebo/config
+copying config/gz_remappings.yaml -> /root/ros2_code/humble/ros_bot/install/rosbot_gazebo/share/rosbot_gazebo/config
+running install_egg_info
+Copying ../../build/rosbot_gazebo/rosbot_gazebo.egg-info to /root/ros2_code/humble/ros_bot/install/rosbot_gazebo/lib/python3.10/site-packages/rosbot_gazebo-0.8.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_code/humble/ros_bot/build/rosbot_gazebo/install.log'

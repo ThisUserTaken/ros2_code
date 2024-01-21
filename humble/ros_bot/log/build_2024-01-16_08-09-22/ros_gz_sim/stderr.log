@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:81 (find_package):
+  By not providing "Findignition-transport11.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "ignition-transport11", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "ignition-transport11" with any of the following names:
+
+    ignition-transport11Config.cmake
+    ignition-transport11-config.cmake
+
+  Add the installation prefix of "ignition-transport11" to CMAKE_PREFIX_PATH
+  or set "ignition-transport11_DIR" to a directory containing one of the
+  above files.  If "ignition-transport11" provides a separate development
+  package or SDK, be sure it has been installed.
+
+[0m

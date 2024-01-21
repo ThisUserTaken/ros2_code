@@ -1,0 +1,54 @@
+[0.187s] Invoking command in '/root/ros2_code/humble/ros_bot/build/rosbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/ros_bot/src/rosbot_description -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/ros_bot/install/rosbot_description
+[0.258s] -- The C compiler identification is GNU 11.4.0
+[0.318s] -- The CXX compiler identification is GNU 11.4.0
+[0.329s] -- Detecting C compiler ABI info
+[0.404s] -- Detecting C compiler ABI info - done
+[0.409s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.409s] -- Detecting C compile features
+[0.409s] -- Detecting C compile features - done
+[0.412s] -- Detecting CXX compiler ABI info
+[0.497s] -- Detecting CXX compiler ABI info - done
+[0.502s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.502s] -- Detecting CXX compile features
+[0.502s] -- Detecting CXX compile features - done
+[0.511s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.688s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.881s] -- Configuring done
+[0.884s] -- Generating done
+[0.885s] -- Build files have been written to: /root/ros2_code/humble/ros_bot/build/rosbot_description
+[0.890s] Invoked command in '/root/ros2_code/humble/ros_bot/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/ros_bot/src/rosbot_description -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/ros_bot/install/rosbot_description
+[0.892s] Invoking command in '/root/ros2_code/humble/ros_bot/build/rosbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/ros_bot/build/rosbot_description -- -j12 -l12
+[0.936s] Invoked command in '/root/ros2_code/humble/ros_bot/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/ros_bot/build/rosbot_description -- -j12 -l12
+[0.977s] Invoking command in '/root/ros2_code/humble/ros_bot/build/rosbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/ros_bot/build/rosbot_description
+[0.984s] -- Install configuration: ""
+[0.985s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/meshes
+[0.985s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/meshes/mecanum_b.dae
+[0.992s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/meshes/mecanum_a.dae
+[0.999s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/meshes/body.stl
+[1.000s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/meshes/wheel_b.dae
+[1.000s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/meshes/wheel_a.dae
+[1.001s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/meshes/cover.stl
+[1.001s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/urdf
+[1.001s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/urdf/body.urdf.xacro
+[1.001s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/urdf/components
+[1.001s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/urdf/components/vl53lox.urdf.xacro
+[1.002s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/urdf/wheel.urdf.xacro
+[1.002s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/urdf/rosbot_macro.urdf.xacro
+[1.002s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/urdf/rosbot.urdf.xacro
+[1.002s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/environment/rosbot_description.sh
+[1.002s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/ament_index/resource_index/package_run_dependencies/rosbot_description
+[1.003s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/ament_index/resource_index/parent_prefix_path/rosbot_description
+[1.003s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/environment/ament_prefix_path.sh
+[1.003s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/environment/ament_prefix_path.dsv
+[1.003s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/environment/path.sh
+[1.003s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/environment/path.dsv
+[1.003s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/local_setup.bash
+[1.004s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/local_setup.sh
+[1.004s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/local_setup.zsh
+[1.004s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/local_setup.dsv
+[1.004s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/package.dsv
+[1.004s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/ament_index/resource_index/packages/rosbot_description
+[1.005s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig.cmake
+[1.005s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig-version.cmake
+[1.005s] -- Installing: /root/ros2_code/humble/ros_bot/install/rosbot_description/share/rosbot_description/package.xml
+[1.007s] Invoked command in '/root/ros2_code/humble/ros_bot/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/ros_bot/build/rosbot_description

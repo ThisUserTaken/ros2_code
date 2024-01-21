@@ -1,0 +1,40 @@
+[2.979s] Invoking command in '/root/ros2_code/humble/tc_ros2_advance_nav/src/nav2_pkgs/localization_server': PYTHONPATH=/root/ros2_code/humble/tc_ros2_advance_nav/build/localization_server/prefix_override:/root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/localization_server build --build-base /root/ros2_code/humble/tc_ros2_advance_nav/build/localization_server/build install --record /root/ros2_code/humble/tc_ros2_advance_nav/build/localization_server/install.log --single-version-externally-managed
+[3.247s] running egg_info
+[3.248s] creating ../../../build/localization_server/localization_server.egg-info
+[3.248s] writing ../../../build/localization_server/localization_server.egg-info/PKG-INFO
+[3.248s] writing dependency_links to ../../../build/localization_server/localization_server.egg-info/dependency_links.txt
+[3.248s] writing entry points to ../../../build/localization_server/localization_server.egg-info/entry_points.txt
+[3.248s] writing requirements to ../../../build/localization_server/localization_server.egg-info/requires.txt
+[3.248s] writing top-level names to ../../../build/localization_server/localization_server.egg-info/top_level.txt
+[3.248s] writing manifest file '../../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[3.250s] reading manifest file '../../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[3.251s] writing manifest file '../../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[3.251s] running build
+[3.251s] running build_py
+[3.251s] creating /root/ros2_code/humble/tc_ros2_advance_nav/build/localization_server/build
+[3.251s] creating /root/ros2_code/humble/tc_ros2_advance_nav/build/localization_server/build/lib
+[3.251s] creating /root/ros2_code/humble/tc_ros2_advance_nav/build/localization_server/build/lib/localization_server
+[3.251s] copying localization_server/__init__.py -> /root/ros2_code/humble/tc_ros2_advance_nav/build/localization_server/build/lib/localization_server
+[3.251s] running install
+[3.252s] running install_lib
+[3.252s] creating /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/lib/python3.10/site-packages/localization_server
+[3.252s] copying /root/ros2_code/humble/tc_ros2_advance_nav/build/localization_server/build/lib/localization_server/__init__.py -> /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/lib/python3.10/site-packages/localization_server
+[3.253s] byte-compiling /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/lib/python3.10/site-packages/localization_server/__init__.py to __init__.cpython-310.pyc
+[3.253s] running install_data
+[3.254s] creating /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/share/ament_index
+[3.254s] creating /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/share/ament_index/resource_index
+[3.254s] creating /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/share/ament_index/resource_index/packages
+[3.254s] copying resource/localization_server -> /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/share/ament_index/resource_index/packages
+[3.254s] copying package.xml -> /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/share/localization_server
+[3.254s] creating /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/share/localization_server/launch
+[3.254s] copying launch/localization.launch.py -> /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/share/localization_server/launch
+[3.254s] creating /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/share/localization_server/config
+[3.254s] copying config/amcl_config.yaml -> /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/share/localization_server/config
+[3.255s] copying config/amcl_barista_demo.yaml -> /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/share/localization_server/config
+[3.255s] creating /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/share/localization_server/rviz_config
+[3.255s] copying rviz_config/localization.rviz -> /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/share/localization_server/rviz_config
+[3.255s] running install_egg_info
+[3.257s] Copying ../../../build/localization_server/localization_server.egg-info to /root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info
+[3.258s] running install_scripts
+[3.280s] writing list of installed files to '/root/ros2_code/humble/tc_ros2_advance_nav/build/localization_server/install.log'
+[3.331s] Invoked command in '/root/ros2_code/humble/tc_ros2_advance_nav/src/nav2_pkgs/localization_server' returned '0': PYTHONPATH=/root/ros2_code/humble/tc_ros2_advance_nav/build/localization_server/prefix_override:/root/ros2_code/humble/tc_ros2_advance_nav/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/localization_server build --build-base /root/ros2_code/humble/tc_ros2_advance_nav/build/localization_server/build install --record /root/ros2_code/humble/tc_ros2_advance_nav/build/localization_server/install.log --single-version-externally-managed

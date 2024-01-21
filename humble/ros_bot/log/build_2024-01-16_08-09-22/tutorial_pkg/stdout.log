@@ -1,0 +1,4 @@
+[ 25%] Built target tf_listener
+[ 50%] Built target tf_broadcaster
+[ 75%] Built target my_first_node
+[100%] Built target tracker

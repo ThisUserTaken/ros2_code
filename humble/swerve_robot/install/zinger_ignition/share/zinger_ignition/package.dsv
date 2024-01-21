@@ -1,0 +1,8 @@
+source;share/zinger_ignition/hook/cmake_prefix_path.ps1
+source;share/zinger_ignition/hook/cmake_prefix_path.dsv
+source;share/zinger_ignition/hook/cmake_prefix_path.sh
+source;share/zinger_ignition/local_setup.bash
+source;share/zinger_ignition/local_setup.dsv
+source;share/zinger_ignition/local_setup.ps1
+source;share/zinger_ignition/local_setup.sh
+source;share/zinger_ignition/local_setup.zsh

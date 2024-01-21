@@ -1,0 +1,21 @@
+[1.283s] Invoking command in '/root/ros2_code/humble/ros_bot/src/rosbot_utils': PYTHONPATH=/root/ros2_code/humble/ros_bot/build/rosbot_utils/prefix_override:/root/ros2_code/humble/ros_bot/install/rosbot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosbot_utils build --build-base /root/ros2_code/humble/ros_bot/build/rosbot_utils/build install --record /root/ros2_code/humble/ros_bot/build/rosbot_utils/install.log --single-version-externally-managed
+[1.528s] running egg_info
+[1.529s] writing ../../build/rosbot_utils/rosbot_utils.egg-info/PKG-INFO
+[1.529s] writing dependency_links to ../../build/rosbot_utils/rosbot_utils.egg-info/dependency_links.txt
+[1.529s] writing entry points to ../../build/rosbot_utils/rosbot_utils.egg-info/entry_points.txt
+[1.529s] writing requirements to ../../build/rosbot_utils/rosbot_utils.egg-info/requires.txt
+[1.529s] writing top-level names to ../../build/rosbot_utils/rosbot_utils.egg-info/top_level.txt
+[1.531s] reading manifest file '../../build/rosbot_utils/rosbot_utils.egg-info/SOURCES.txt'
+[1.531s] writing manifest file '../../build/rosbot_utils/rosbot_utils.egg-info/SOURCES.txt'
+[1.531s] running build
+[1.532s] running build_py
+[1.532s] running install
+[1.532s] running install_lib
+[1.533s] running install_data
+[1.534s] running install_egg_info
+[1.535s] removing '/root/ros2_code/humble/ros_bot/install/rosbot_utils/lib/python3.10/site-packages/rosbot_utils-0.0.0-py3.10.egg-info' (and everything under it)
+[1.535s] Copying ../../build/rosbot_utils/rosbot_utils.egg-info to /root/ros2_code/humble/ros_bot/install/rosbot_utils/lib/python3.10/site-packages/rosbot_utils-0.0.0-py3.10.egg-info
+[1.536s] running install_scripts
+[1.554s] Installing flash_firmware script to /root/ros2_code/humble/ros_bot/install/rosbot_utils/lib/rosbot_utils
+[1.555s] writing list of installed files to '/root/ros2_code/humble/ros_bot/build/rosbot_utils/install.log'
+[1.578s] Invoked command in '/root/ros2_code/humble/ros_bot/src/rosbot_utils' returned '0': PYTHONPATH=/root/ros2_code/humble/ros_bot/build/rosbot_utils/prefix_override:/root/ros2_code/humble/ros_bot/install/rosbot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosbot_utils build --build-base /root/ros2_code/humble/ros_bot/build/rosbot_utils/build install --record /root/ros2_code/humble/ros_bot/build/rosbot_utils/install.log --single-version-externally-managed

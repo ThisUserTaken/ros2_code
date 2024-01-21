@@ -1,0 +1,419 @@
+[0.000000] (-) TimerEvent: {}
+[0.000233] (nav2_line_following_controller) JobQueued: {'identifier': 'nav2_line_following_controller', 'dependencies': OrderedDict()}
+[0.000390] (sim_car) JobQueued: {'identifier': 'sim_car', 'dependencies': OrderedDict()}
+[0.000813] (nav2_line_following_controller) JobStarted: {'identifier': 'nav2_line_following_controller'}
+[0.097903] (sim_car) JobStarted: {'identifier': 'sim_car'}
+[0.098812] (-) TimerEvent: {}
+[0.194238] (nav2_line_following_controller) JobProgress: {'identifier': 'nav2_line_following_controller', 'progress': 'cmake'}
+[0.194494] (nav2_line_following_controller) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_code/humble/Asimcar/src/nav2_line_following_controller', '-DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/Asimcar/install/nav2_line_following_controller'], 'cwd': '/root/ros2_code/humble/Asimcar/build/nav2_line_following_controller', 'env': OrderedDict([('NV_LIBCUBLAS_VERSION', '11.11.3.6-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-8'), ('CAMERA_TYPE', 'astraplus'), ('HOSTNAME', 'svt9202'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.15.5-1'), ('MAP_NAME', 'aws'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_code/humble/Asimcar/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('MY_ROBOT', 'mpo_700'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-8=11.8.0.86-1'), ('CUDA_VERSION', '11.8.0'), ('ROBOT_TYPE', 'r2'), ('CUSTOM_HISTORY_FILE', '/root/config/.custom_history__root_ros2_code_humble_learning'), ('COLCON_PREFIX_PATH', '/root/ros2_code/humble/vision/install:/root/ros2_code/humble/nav2class/install:/root/ros2_code/humble/simulations/install:/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-8'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.8 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NV_LIBCUSPARSE_VERSION', '11.7.5.86-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('NV_CUDA_LIB_VERSION', '11.8.0-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('NV_CUDA_CUDART_VERSION', '11.8.89-1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-8=11.11.3.6-1'), ('NVARCH', 'x86_64'), ('DISPLAY', ':0'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.15.5-1+cuda11.8'), ('NVIDIA_PRODUCT_NAME', 'CUDA'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/opt/ros/humble'), ('DEBIAN_FRONTEND', ''), ('ROS_WS', '/root/ros2_ws'), ('IGN_GAZEBO_RESOURCE_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/worlds:/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/models'), ('NV_NVTX_VERSION', '11.8.86-1'), ('NV_LIBNPP_VERSION', '11.8.0.86-1'), ('GAZEBO_RESOURCE_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/worlds:/usr/share/gazebo/../../share/gazebo-11:'), ('EXTERNAL_FILE', '/root/config/ros_commands'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('RPLIDAR_TYPE', 'a1'), ('PWD', '/root/ros2_code/humble/Asimcar/build/nav2_line_following_controller'), ('TURTLEBOT3_MODEL', 'waffle'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.15.5-1'), ('HISTFILE', '/root/config/.bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble')]), 'shell': False}
+[0.197678] (sim_car) JobProgress: {'identifier': 'sim_car', 'progress': 'cmake'}
+[0.197888] (sim_car) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_code/humble/Asimcar/src/sim_car/car_description', '-DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/Asimcar/install/sim_car'], 'cwd': '/root/ros2_code/humble/Asimcar/build/sim_car', 'env': OrderedDict([('NV_LIBCUBLAS_VERSION', '11.11.3.6-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-8'), ('CAMERA_TYPE', 'astraplus'), ('HOSTNAME', 'svt9202'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.15.5-1'), ('MAP_NAME', 'aws'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_code/humble/Asimcar/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('MY_ROBOT', 'mpo_700'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-8=11.8.0.86-1'), ('CUDA_VERSION', '11.8.0'), ('ROBOT_TYPE', 'r2'), ('CUSTOM_HISTORY_FILE', '/root/config/.custom_history__root_ros2_code_humble_learning'), ('COLCON_PREFIX_PATH', '/root/ros2_code/humble/vision/install:/root/ros2_code/humble/nav2class/install:/root/ros2_code/humble/simulations/install:/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-8'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.8 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NV_LIBCUSPARSE_VERSION', '11.7.5.86-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('NV_CUDA_LIB_VERSION', '11.8.0-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('NV_CUDA_CUDART_VERSION', '11.8.89-1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-8=11.11.3.6-1'), ('NVARCH', 'x86_64'), ('DISPLAY', ':0'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.15.5-1+cuda11.8'), ('NVIDIA_PRODUCT_NAME', 'CUDA'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/opt/ros/humble'), ('DEBIAN_FRONTEND', ''), ('ROS_WS', '/root/ros2_ws'), ('IGN_GAZEBO_RESOURCE_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/worlds:/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/models'), ('NV_NVTX_VERSION', '11.8.86-1'), ('NV_LIBNPP_VERSION', '11.8.0.86-1'), ('GAZEBO_RESOURCE_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/worlds:/usr/share/gazebo/../../share/gazebo-11:'), ('EXTERNAL_FILE', '/root/config/ros_commands'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('RPLIDAR_TYPE', 'a1'), ('PWD', '/root/ros2_code/humble/Asimcar/build/sim_car'), ('TURTLEBOT3_MODEL', 'waffle'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.15.5-1'), ('HISTFILE', '/root/config/.bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble')]), 'shell': False}
+[0.199156] (-) TimerEvent: {}
+[0.249640] (sim_car) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.249839] (nav2_line_following_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299270] (-) TimerEvent: {}
+[0.305518] (nav2_line_following_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.306433] (sim_car) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.312864] (nav2_line_following_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.313639] (sim_car) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.387663] (sim_car) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.388185] (nav2_line_following_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.392685] (sim_car) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.392891] (sim_car) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.393179] (sim_car) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.393328] (nav2_line_following_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.393505] (nav2_line_following_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.393643] (nav2_line_following_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.395999] (sim_car) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.396243] (nav2_line_following_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399387] (-) TimerEvent: {}
+[0.486793] (nav2_line_following_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.486970] (sim_car) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.491949] (nav2_line_following_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.492179] (nav2_line_following_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.492527] (nav2_line_following_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.497145] (sim_car) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.497440] (sim_car) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.497625] (sim_car) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.499446] (-) TimerEvent: {}
+[0.500190] (nav2_line_following_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.504438] (sim_car) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.599581] (-) TimerEvent: {}
+[0.674858] (nav2_line_following_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.676265] (sim_car) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.699684] (-) TimerEvent: {}
+[0.791935] (nav2_line_following_controller) StdoutLine: {'line': b'-- Found nav2_common: 1.1.12 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[0.792844] (sim_car) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.796268] (nav2_line_following_controller) StdoutLine: {'line': b'-- Found nav2_core: 1.1.12 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[0.799743] (-) TimerEvent: {}
+[0.859067] (sim_car) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.865060] (nav2_line_following_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.867904] (sim_car) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.874318] (nav2_line_following_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.880237] (sim_car) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.885929] (nav2_line_following_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.896608] (sim_car) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.899854] (-) TimerEvent: {}
+[0.901358] (nav2_line_following_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.921708] (sim_car) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.925948] (nav2_line_following_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.999975] (-) TimerEvent: {}
+[1.001523] (sim_car) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.005248] (nav2_line_following_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.006488] (sim_car) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.010192] (nav2_line_following_controller) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.051567] (sim_car) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.058571] (nav2_line_following_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.071320] (sim_car) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.077158] (nav2_line_following_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.100084] (-) TimerEvent: {}
+[1.146678] (sim_car) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.146953] (sim_car) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.148262] (nav2_line_following_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.148472] (nav2_line_following_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.200224] (-) TimerEvent: {}
+[1.225961] (sim_car) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.226285] (nav2_line_following_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.226672] (sim_car) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.227008] (nav2_line_following_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.300334] (-) TimerEvent: {}
+[1.367009] (sim_car) StdoutLine: {'line': b'-- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.371744] (sim_car) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.400452] (-) TimerEvent: {}
+[1.479368] (sim_car) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.480641] (sim_car) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.481433] (sim_car) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.484822] (sim_car) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.486302] (sim_car) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.492108] (sim_car) StdoutLine: {'line': b'-- Generating done\n'}
+[1.493379] (sim_car) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_code/humble/Asimcar/build/sim_car\n'}
+[1.500131] (sim_car) CommandEnded: {'returncode': 0}
+[1.500987] (-) TimerEvent: {}
+[1.501184] (sim_car) JobProgress: {'identifier': 'sim_car', 'progress': 'build'}
+[1.502193] (sim_car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_code/humble/Asimcar/build/sim_car', '--', '-j12', '-l12'], 'cwd': '/root/ros2_code/humble/Asimcar/build/sim_car', 'env': OrderedDict([('NV_LIBCUBLAS_VERSION', '11.11.3.6-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-8'), ('CAMERA_TYPE', 'astraplus'), ('HOSTNAME', 'svt9202'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.15.5-1'), ('MAP_NAME', 'aws'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_code/humble/Asimcar/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('MY_ROBOT', 'mpo_700'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-8=11.8.0.86-1'), ('CUDA_VERSION', '11.8.0'), ('ROBOT_TYPE', 'r2'), ('CUSTOM_HISTORY_FILE', '/root/config/.custom_history__root_ros2_code_humble_learning'), ('COLCON_PREFIX_PATH', '/root/ros2_code/humble/vision/install:/root/ros2_code/humble/nav2class/install:/root/ros2_code/humble/simulations/install:/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-8'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.8 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NV_LIBCUSPARSE_VERSION', '11.7.5.86-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('NV_CUDA_LIB_VERSION', '11.8.0-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('NV_CUDA_CUDART_VERSION', '11.8.89-1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-8=11.11.3.6-1'), ('NVARCH', 'x86_64'), ('DISPLAY', ':0'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.15.5-1+cuda11.8'), ('NVIDIA_PRODUCT_NAME', 'CUDA'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/opt/ros/humble'), ('DEBIAN_FRONTEND', ''), ('ROS_WS', '/root/ros2_ws'), ('IGN_GAZEBO_RESOURCE_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/worlds:/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/models'), ('NV_NVTX_VERSION', '11.8.86-1'), ('NV_LIBNPP_VERSION', '11.8.0.86-1'), ('GAZEBO_RESOURCE_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/worlds:/usr/share/gazebo/../../share/gazebo-11:'), ('EXTERNAL_FILE', '/root/config/ros_commands'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('RPLIDAR_TYPE', 'a1'), ('PWD', '/root/ros2_code/humble/Asimcar/build/sim_car'), ('TURTLEBOT3_MODEL', 'waffle'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.15.5-1'), ('HISTFILE', '/root/config/.bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble')]), 'shell': False}
+[1.549266] (sim_car) CommandEnded: {'returncode': 0}
+[1.576274] (sim_car) JobProgress: {'identifier': 'sim_car', 'progress': 'install'}
+[1.589965] (sim_car) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_code/humble/Asimcar/build/sim_car'], 'cwd': '/root/ros2_code/humble/Asimcar/build/sim_car', 'env': OrderedDict([('NV_LIBCUBLAS_VERSION', '11.11.3.6-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-8'), ('CAMERA_TYPE', 'astraplus'), ('HOSTNAME', 'svt9202'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.15.5-1'), ('MAP_NAME', 'aws'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_code/humble/Asimcar/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('MY_ROBOT', 'mpo_700'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-8=11.8.0.86-1'), ('CUDA_VERSION', '11.8.0'), ('ROBOT_TYPE', 'r2'), ('CUSTOM_HISTORY_FILE', '/root/config/.custom_history__root_ros2_code_humble_learning'), ('COLCON_PREFIX_PATH', '/root/ros2_code/humble/vision/install:/root/ros2_code/humble/nav2class/install:/root/ros2_code/humble/simulations/install:/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-8'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.8 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NV_LIBCUSPARSE_VERSION', '11.7.5.86-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('NV_CUDA_LIB_VERSION', '11.8.0-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('NV_CUDA_CUDART_VERSION', '11.8.89-1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-8=11.11.3.6-1'), ('NVARCH', 'x86_64'), ('DISPLAY', ':0'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.15.5-1+cuda11.8'), ('NVIDIA_PRODUCT_NAME', 'CUDA'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/opt/ros/humble'), ('DEBIAN_FRONTEND', ''), ('ROS_WS', '/root/ros2_ws'), ('IGN_GAZEBO_RESOURCE_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/worlds:/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/models'), ('NV_NVTX_VERSION', '11.8.86-1'), ('NV_LIBNPP_VERSION', '11.8.0.86-1'), ('GAZEBO_RESOURCE_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/worlds:/usr/share/gazebo/../../share/gazebo-11:'), ('EXTERNAL_FILE', '/root/config/ros_commands'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('RPLIDAR_TYPE', 'a1'), ('PWD', '/root/ros2_code/humble/Asimcar/build/sim_car'), ('TURTLEBOT3_MODEL', 'waffle'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.15.5-1'), ('HISTFILE', '/root/config/.bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble')]), 'shell': False}
+[1.598788] (sim_car) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.599037] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/lib/sim_car/convert_xacro.py\n'}
+[1.599159] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/lib/sim_car/spawn_bot.py\n'}
+[1.599264] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/lib/sim_car/sentry.py\n'}
+[1.599371] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch\n'}
+[1.599493] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/spawn_world.launch.py\n'}
+[1.599642] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/bringup.launch.py\n'}
+[1.599778] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/spawn_red_crash.launch.py\n'}
+[1.599985] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/bringup.launch2.py\n'}
+[1.600084] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/blue2.py\n'}
+[1.600184] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/all.launch.py\n'}
+[1.600312] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/spawn_car.launch.py\n'}
+[1.600438] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/blue_launch.py\n'}
+[1.600562] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//config\n'}
+[1.600652] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//config/nav2_params.yaml\n'}
+[1.600804] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//config/red-crash.rviz\n'}
+[1.600953] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//config/unused_blue_params.yaml\n'}
+[1.600994] (-) TimerEvent: {}
+[1.601135] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//config/teleop_twist_joy.yaml\n'}
+[1.601307] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//robot\n'}
+[1.601442] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//robot/red_crash.urdf.xacro\n'}
+[1.601558] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//robot/car.urdf.xacro\n'}
+[1.601789] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds\n'}
+[1.601902] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds/empty.world\n'}
+[1.602014] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds/simple_world_maps\n'}
+[1.602123] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669312051.pgm\n'}
+[1.602421] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669268298.yaml\n'}
+[1.602567] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669312051.yaml\n'}
+[1.602696] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669268298.pgm\n'}
+[1.603036] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds/simple.world\n'}
+[1.603271] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//scripts\n'}
+[1.603355] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//scripts/convert_xacro.py\n'}
+[1.603487] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//scripts/sentry.py\n'}
+[1.603614] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//scripts/play.html\n'}
+[1.603754] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//scripts/spawn_bot.py\n'}
+[1.603893] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//params\n'}
+[1.603972] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//params/intentionally_empty\n'}
+[1.604091] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//behavior_trees\n'}
+[1.604170] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//behavior_trees/navigate_w_replanning_time2.xml\n'}
+[1.604428] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/ament_index/resource_index/package_run_dependencies/sim_car\n'}
+[1.604635] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/ament_index/resource_index/parent_prefix_path/sim_car\n'}
+[1.604839] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/environment/ament_prefix_path.sh\n'}
+[1.605002] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/environment/ament_prefix_path.dsv\n'}
+[1.605166] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/environment/path.sh\n'}
+[1.605337] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/environment/path.dsv\n'}
+[1.605494] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/local_setup.bash\n'}
+[1.605645] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/local_setup.sh\n'}
+[1.605802] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/local_setup.zsh\n'}
+[1.605957] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/local_setup.dsv\n'}
+[1.606107] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/package.dsv\n'}
+[1.606303] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/ament_index/resource_index/packages/sim_car\n'}
+[1.606494] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/cmake/sim_carConfig.cmake\n'}
+[1.606627] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/cmake/sim_carConfig-version.cmake\n'}
+[1.606778] (sim_car) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/package.xml\n'}
+[1.608793] (sim_car) CommandEnded: {'returncode': 0}
+[1.701136] (-) TimerEvent: {}
+[1.780740] (sim_car) JobEnded: {'identifier': 'sim_car', 'rc': 0}
+[1.801215] (-) TimerEvent: {}
+[1.901477] (-) TimerEvent: {}
+[2.001806] (-) TimerEvent: {}
+[2.102139] (-) TimerEvent: {}
+[2.202468] (-) TimerEvent: {}
+[2.300575] (nav2_line_following_controller) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.300802] (nav2_line_following_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.302563] (-) TimerEvent: {}
+[2.402839] (-) TimerEvent: {}
+[2.503174] (-) TimerEvent: {}
+[2.603555] (-) TimerEvent: {}
+[2.704145] (-) TimerEvent: {}
+[2.804491] (-) TimerEvent: {}
+[2.904867] (-) TimerEvent: {}
+[3.005198] (-) TimerEvent: {}
+[3.105535] (-) TimerEvent: {}
+[3.205883] (-) TimerEvent: {}
+[3.306274] (-) TimerEvent: {}
+[3.406623] (-) TimerEvent: {}
+[3.507535] (-) TimerEvent: {}
+[3.587189] (nav2_line_following_controller) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[3.607630] (-) TimerEvent: {}
+[3.707881] (-) TimerEvent: {}
+[3.808219] (-) TimerEvent: {}
+[3.908566] (-) TimerEvent: {}
+[4.008900] (-) TimerEvent: {}
+[4.109238] (-) TimerEvent: {}
+[4.209644] (-) TimerEvent: {}
+[4.310012] (-) TimerEvent: {}
+[4.410336] (-) TimerEvent: {}
+[4.510626] (-) TimerEvent: {}
+[4.610963] (-) TimerEvent: {}
+[4.711305] (-) TimerEvent: {}
+[4.811722] (-) TimerEvent: {}
+[4.912165] (-) TimerEvent: {}
+[5.012457] (-) TimerEvent: {}
+[5.112785] (-) TimerEvent: {}
+[5.213146] (-) TimerEvent: {}
+[5.313459] (-) TimerEvent: {}
+[5.413816] (-) TimerEvent: {}
+[5.514139] (-) TimerEvent: {}
+[5.614560] (-) TimerEvent: {}
+[5.715020] (-) TimerEvent: {}
+[5.815347] (-) TimerEvent: {}
+[5.915666] (-) TimerEvent: {}
+[6.016170] (-) TimerEvent: {}
+[6.116491] (-) TimerEvent: {}
+[6.216814] (-) TimerEvent: {}
+[6.317168] (-) TimerEvent: {}
+[6.417522] (-) TimerEvent: {}
+[6.517862] (-) TimerEvent: {}
+[6.618196] (-) TimerEvent: {}
+[6.718540] (-) TimerEvent: {}
+[6.782828] (nav2_line_following_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[6.789340] (nav2_line_following_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[6.818651] (-) TimerEvent: {}
+[6.919283] (-) TimerEvent: {}
+[7.020082] (-) TimerEvent: {}
+[7.120455] (-) TimerEvent: {}
+[7.220792] (-) TimerEvent: {}
+[7.321128] (-) TimerEvent: {}
+[7.421469] (-) TimerEvent: {}
+[7.521829] (-) TimerEvent: {}
+[7.622265] (-) TimerEvent: {}
+[7.722682] (-) TimerEvent: {}
+[7.823123] (-) TimerEvent: {}
+[7.923528] (-) TimerEvent: {}
+[8.023881] (-) TimerEvent: {}
+[8.124245] (-) TimerEvent: {}
+[8.224712] (-) TimerEvent: {}
+[8.325122] (-) TimerEvent: {}
+[8.425460] (-) TimerEvent: {}
+[8.525817] (-) TimerEvent: {}
+[8.626223] (-) TimerEvent: {}
+[8.726586] (-) TimerEvent: {}
+[8.826957] (-) TimerEvent: {}
+[8.927423] (-) TimerEvent: {}
+[9.027870] (-) TimerEvent: {}
+[9.128244] (-) TimerEvent: {}
+[9.228652] (-) TimerEvent: {}
+[9.329020] (-) TimerEvent: {}
+[9.429431] (-) TimerEvent: {}
+[9.529874] (-) TimerEvent: {}
+[9.630289] (-) TimerEvent: {}
+[9.730636] (-) TimerEvent: {}
+[9.831002] (-) TimerEvent: {}
+[9.931408] (-) TimerEvent: {}
+[10.025261] (nav2_line_following_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.031548] (-) TimerEvent: {}
+[10.131978] (-) TimerEvent: {}
+[10.143330] (nav2_line_following_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[10.147371] (nav2_line_following_controller) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_code/humble/Asimcar/build/nav2_line_following_controller\n'}
+[10.177377] (nav2_line_following_controller) CommandEnded: {'returncode': 0}
+[10.177867] (nav2_line_following_controller) JobProgress: {'identifier': 'nav2_line_following_controller', 'progress': 'build'}
+[10.177897] (nav2_line_following_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_code/humble/Asimcar/build/nav2_line_following_controller', '--', '-j12', '-l12'], 'cwd': '/root/ros2_code/humble/Asimcar/build/nav2_line_following_controller', 'env': OrderedDict([('NV_LIBCUBLAS_VERSION', '11.11.3.6-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-8'), ('CAMERA_TYPE', 'astraplus'), ('HOSTNAME', 'svt9202'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.15.5-1'), ('MAP_NAME', 'aws'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_code/humble/Asimcar/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('MY_ROBOT', 'mpo_700'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-8=11.8.0.86-1'), ('CUDA_VERSION', '11.8.0'), ('ROBOT_TYPE', 'r2'), ('CUSTOM_HISTORY_FILE', '/root/config/.custom_history__root_ros2_code_humble_learning'), ('COLCON_PREFIX_PATH', '/root/ros2_code/humble/vision/install:/root/ros2_code/humble/nav2class/install:/root/ros2_code/humble/simulations/install:/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-8'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.8 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NV_LIBCUSPARSE_VERSION', '11.7.5.86-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('NV_CUDA_LIB_VERSION', '11.8.0-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('NV_CUDA_CUDART_VERSION', '11.8.89-1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-8=11.11.3.6-1'), ('NVARCH', 'x86_64'), ('DISPLAY', ':0'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.15.5-1+cuda11.8'), ('NVIDIA_PRODUCT_NAME', 'CUDA'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/opt/ros/humble'), ('DEBIAN_FRONTEND', ''), ('ROS_WS', '/root/ros2_ws'), ('IGN_GAZEBO_RESOURCE_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/worlds:/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/models'), ('NV_NVTX_VERSION', '11.8.86-1'), ('NV_LIBNPP_VERSION', '11.8.0.86-1'), ('GAZEBO_RESOURCE_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/worlds:/usr/share/gazebo/../../share/gazebo-11:'), ('EXTERNAL_FILE', '/root/config/ros_commands'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('RPLIDAR_TYPE', 'a1'), ('PWD', '/root/ros2_code/humble/Asimcar/build/nav2_line_following_controller'), ('TURTLEBOT3_MODEL', 'waffle'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.15.5-1'), ('HISTFILE', '/root/config/.bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble')]), 'shell': False}
+[10.232107] (-) TimerEvent: {}
+[10.244995] (nav2_line_following_controller) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[10.245211] (nav2_line_following_controller) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/nav2_line_following_controller.dir/src/line_following_controller.cpp.o\x1b[0m\n'}
+[10.245315] (nav2_line_following_controller) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[10.245454] (nav2_line_following_controller) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/nav2_line_following_controller.dir/src/geometry.cpp.o\x1b[0m\n'}
+[10.332595] (-) TimerEvent: {}
+[10.434361] (-) TimerEvent: {}
+[10.534908] (-) TimerEvent: {}
+[10.635244] (-) TimerEvent: {}
+[10.735576] (-) TimerEvent: {}
+[10.835907] (-) TimerEvent: {}
+[10.936303] (-) TimerEvent: {}
+[11.036634] (-) TimerEvent: {}
+[11.078581] (nav2_line_following_controller) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[11.137363] (-) TimerEvent: {}
+[11.158102] (nav2_line_following_controller) StdoutLine: {'line': b'[ 38%] Built target gtest_main\n'}
+[11.237501] (-) TimerEvent: {}
+[11.337984] (-) TimerEvent: {}
+[11.438400] (-) TimerEvent: {}
+[11.538714] (-) TimerEvent: {}
+[11.639090] (-) TimerEvent: {}
+[11.739499] (-) TimerEvent: {}
+[11.839835] (-) TimerEvent: {}
+[11.940184] (-) TimerEvent: {}
+[12.040618] (-) TimerEvent: {}
+[12.140928] (-) TimerEvent: {}
+[12.241242] (-) TimerEvent: {}
+[12.341549] (-) TimerEvent: {}
+[12.441846] (-) TimerEvent: {}
+[12.542142] (-) TimerEvent: {}
+[12.642432] (-) TimerEvent: {}
+[12.742730] (-) TimerEvent: {}
+[12.843025] (-) TimerEvent: {}
+[12.943338] (-) TimerEvent: {}
+[13.043630] (-) TimerEvent: {}
+[13.143940] (-) TimerEvent: {}
+[13.244305] (-) TimerEvent: {}
+[13.344778] (-) TimerEvent: {}
+[13.445110] (-) TimerEvent: {}
+[13.545406] (-) TimerEvent: {}
+[13.645707] (-) TimerEvent: {}
+[13.746005] (-) TimerEvent: {}
+[13.846324] (-) TimerEvent: {}
+[13.946726] (-) TimerEvent: {}
+[14.047170] (-) TimerEvent: {}
+[14.147487] (-) TimerEvent: {}
+[14.247803] (-) TimerEvent: {}
+[14.348102] (-) TimerEvent: {}
+[14.448401] (-) TimerEvent: {}
+[14.548714] (-) TimerEvent: {}
+[14.649046] (-) TimerEvent: {}
+[14.749449] (-) TimerEvent: {}
+[14.849752] (-) TimerEvent: {}
+[14.950053] (-) TimerEvent: {}
+[15.050366] (-) TimerEvent: {}
+[15.150655] (-) TimerEvent: {}
+[15.250999] (-) TimerEvent: {}
+[15.351323] (-) TimerEvent: {}
+[15.451622] (-) TimerEvent: {}
+[15.551939] (-) TimerEvent: {}
+[15.652303] (-) TimerEvent: {}
+[15.752817] (-) TimerEvent: {}
+[15.853235] (-) TimerEvent: {}
+[15.953541] (-) TimerEvent: {}
+[16.053843] (-) TimerEvent: {}
+[16.073461] (nav2_line_following_controller) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[16.153945] (-) TimerEvent: {}
+[16.167373] (nav2_line_following_controller) StdoutLine: {'line': b'[ 46%] Built target gtest\n'}
+[16.192213] (nav2_line_following_controller) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/geometry_test.dir/src/geometry_test.cpp.o\x1b[0m\n'}
+[16.192433] (nav2_line_following_controller) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/geometry_test.dir/src/geometry.cpp.o\x1b[0m\n'}
+[16.192515] (nav2_line_following_controller) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/route_test.dir/src/route_test.cpp.o\x1b[0m\n'}
+[16.194873] (nav2_line_following_controller) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/route_test.dir/src/geometry.cpp.o\x1b[0m\n'}
+[16.254056] (-) TimerEvent: {}
+[16.354411] (-) TimerEvent: {}
+[16.454907] (-) TimerEvent: {}
+[16.555349] (-) TimerEvent: {}
+[16.655719] (-) TimerEvent: {}
+[16.756119] (-) TimerEvent: {}
+[16.856475] (-) TimerEvent: {}
+[16.956857] (-) TimerEvent: {}
+[17.057309] (-) TimerEvent: {}
+[17.157738] (-) TimerEvent: {}
+[17.258094] (-) TimerEvent: {}
+[17.358455] (-) TimerEvent: {}
+[17.458826] (-) TimerEvent: {}
+[17.559187] (-) TimerEvent: {}
+[17.659558] (-) TimerEvent: {}
+[17.759963] (-) TimerEvent: {}
+[17.860381] (-) TimerEvent: {}
+[17.960755] (-) TimerEvent: {}
+[18.019299] (nav2_line_following_controller) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable geometry_test\x1b[0m\n'}
+[18.060876] (-) TimerEvent: {}
+[18.131515] (nav2_line_following_controller) StdoutLine: {'line': b'[ 84%] Built target geometry_test\n'}
+[18.161006] (-) TimerEvent: {}
+[18.261346] (-) TimerEvent: {}
+[18.361724] (-) TimerEvent: {}
+[18.462158] (-) TimerEvent: {}
+[18.562563] (-) TimerEvent: {}
+[18.662913] (-) TimerEvent: {}
+[18.763298] (-) TimerEvent: {}
+[18.863768] (-) TimerEvent: {}
+[18.964261] (-) TimerEvent: {}
+[19.064723] (-) TimerEvent: {}
+[19.165147] (-) TimerEvent: {}
+[19.265482] (-) TimerEvent: {}
+[19.365830] (-) TimerEvent: {}
+[19.466177] (-) TimerEvent: {}
+[19.566789] (-) TimerEvent: {}
+[19.667409] (-) TimerEvent: {}
+[19.767813] (-) TimerEvent: {}
+[19.868253] (-) TimerEvent: {}
+[19.954526] (nav2_line_following_controller) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_line_following_controller.so\x1b[0m\n'}
+[19.968379] (-) TimerEvent: {}
+[20.068736] (-) TimerEvent: {}
+[20.169166] (-) TimerEvent: {}
+[20.177858] (nav2_line_following_controller) StdoutLine: {'line': b'[ 92%] Built target nav2_line_following_controller\n'}
+[20.270194] (-) TimerEvent: {}
+[20.371534] (-) TimerEvent: {}
+[20.471915] (-) TimerEvent: {}
+[20.572297] (-) TimerEvent: {}
+[20.672616] (-) TimerEvent: {}
+[20.772960] (-) TimerEvent: {}
+[20.873304] (-) TimerEvent: {}
+[20.973678] (-) TimerEvent: {}
+[21.074016] (-) TimerEvent: {}
+[21.174349] (-) TimerEvent: {}
+[21.274721] (-) TimerEvent: {}
+[21.375166] (-) TimerEvent: {}
+[21.422341] (nav2_line_following_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable route_test\x1b[0m\n'}
+[21.475292] (-) TimerEvent: {}
+[21.575888] (-) TimerEvent: {}
+[21.622166] (nav2_line_following_controller) StdoutLine: {'line': b'[100%] Built target route_test\n'}
+[21.634740] (nav2_line_following_controller) CommandEnded: {'returncode': 0}
+[21.675914] (-) TimerEvent: {}
+[21.684990] (nav2_line_following_controller) JobProgress: {'identifier': 'nav2_line_following_controller', 'progress': 'install'}
+[21.687461] (nav2_line_following_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_code/humble/Asimcar/build/nav2_line_following_controller'], 'cwd': '/root/ros2_code/humble/Asimcar/build/nav2_line_following_controller', 'env': OrderedDict([('NV_LIBCUBLAS_VERSION', '11.11.3.6-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-8'), ('CAMERA_TYPE', 'astraplus'), ('HOSTNAME', 'svt9202'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.15.5-1'), ('MAP_NAME', 'aws'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_code/humble/Asimcar/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('MY_ROBOT', 'mpo_700'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-8=11.8.0.86-1'), ('CUDA_VERSION', '11.8.0'), ('ROBOT_TYPE', 'r2'), ('CUSTOM_HISTORY_FILE', '/root/config/.custom_history__root_ros2_code_humble_learning'), ('COLCON_PREFIX_PATH', '/root/ros2_code/humble/vision/install:/root/ros2_code/humble/nav2class/install:/root/ros2_code/humble/simulations/install:/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-8'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.8 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NV_LIBCUSPARSE_VERSION', '11.7.5.86-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('NV_CUDA_LIB_VERSION', '11.8.0-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('NV_CUDA_CUDART_VERSION', '11.8.89-1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-8=11.11.3.6-1'), ('NVARCH', 'x86_64'), ('DISPLAY', ':0'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.15.5-1+cuda11.8'), ('NVIDIA_PRODUCT_NAME', 'CUDA'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/opt/ros/humble'), ('DEBIAN_FRONTEND', ''), ('ROS_WS', '/root/ros2_ws'), ('IGN_GAZEBO_RESOURCE_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/worlds:/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/models'), ('NV_NVTX_VERSION', '11.8.86-1'), ('NV_LIBNPP_VERSION', '11.8.0.86-1'), ('GAZEBO_RESOURCE_PATH', '/root/ros2_code/humble/simulations/install/bcr_bot/share/bcr_bot/worlds:/usr/share/gazebo/../../share/gazebo-11:'), ('EXTERNAL_FILE', '/root/config/ros_commands'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('RPLIDAR_TYPE', 'a1'), ('PWD', '/root/ros2_code/humble/Asimcar/build/nav2_line_following_controller'), ('TURTLEBOT3_MODEL', 'waffle'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages:/root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.15.5-1'), ('HISTFILE', '/root/config/.bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_code/humble/vision/install/diff_robot_pkg:/root/ros2_code/humble/simulations/install/neo_simulation2:/root/ros2_code/humble/simulations/install/bcr_bot:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble')]), 'shell': False}
+[21.701582] (nav2_line_following_controller) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[21.701914] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/lib/libnav2_line_following_controller.so\n'}
+[21.704949] (nav2_line_following_controller) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/lib/libnav2_line_following_controller.so" to ""\n'}
+[21.705093] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/include/\n'}
+[21.705160] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/include//nav2_line_following_controller\n'}
+[21.705222] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/include//nav2_line_following_controller/route.h\n'}
+[21.705439] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/include//nav2_line_following_controller/geometry.h\n'}
+[21.705631] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/include//nav2_line_following_controller/line_following_controller.hpp\n'}
+[21.705977] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/library_path.sh\n'}
+[21.706192] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/library_path.dsv\n'}
+[21.706389] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/nav2_line_following_controller.xml\n'}
+[21.706695] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/ament_index/resource_index/package_run_dependencies/nav2_line_following_controller\n'}
+[21.706949] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/ament_index/resource_index/parent_prefix_path/nav2_line_following_controller\n'}
+[21.707169] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/ament_prefix_path.sh\n'}
+[21.707390] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/ament_prefix_path.dsv\n'}
+[21.707597] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/path.sh\n'}
+[21.707827] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/environment/path.dsv\n'}
+[21.708010] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.bash\n'}
+[21.708221] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.sh\n'}
+[21.708441] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.zsh\n'}
+[21.708648] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/local_setup.dsv\n'}
+[21.708854] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/package.dsv\n'}
+[21.709123] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/ament_index/resource_index/packages/nav2_line_following_controller\n'}
+[21.709387] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_line_following_controller\n'}
+[21.709679] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.709887] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.710120] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.710367] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/nav2_line_following_controllerConfig.cmake\n'}
+[21.710554] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/cmake/nav2_line_following_controllerConfig-version.cmake\n'}
+[21.710763] (nav2_line_following_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_code/humble/Asimcar/install/nav2_line_following_controller/share/nav2_line_following_controller/package.xml\n'}
+[21.715073] (nav2_line_following_controller) CommandEnded: {'returncode': 0}
+[21.776019] (-) TimerEvent: {}
+[21.876488] (-) TimerEvent: {}
+[21.921277] (nav2_line_following_controller) JobEnded: {'identifier': 'nav2_line_following_controller', 'rc': 0}
+[21.921920] (-) EventReactorShutdown: {}

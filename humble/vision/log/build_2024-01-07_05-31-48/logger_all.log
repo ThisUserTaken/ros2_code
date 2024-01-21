@@ -1,0 +1,350 @@
+[0.993s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.993s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3fb755e860>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3fb755ebf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3fb755ebf0>>)
+[1.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.039s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.039s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.039s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.039s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.039s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.039s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/vision'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_pkg) by extension 'ignore'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_pkg) by extension 'ignore_ament_install'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_pkg) by extensions ['colcon_pkg']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_pkg) by extension 'colcon_pkg'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_pkg) by extensions ['colcon_meta']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_pkg) by extension 'colcon_meta'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_pkg) by extensions ['ros']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_pkg) by extension 'ros'
+[1.055s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_pkg' with type 'ros.ament_python' and name 'cartographer_pkg'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_pkg) by extension 'ignore'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_pkg) by extension 'ignore_ament_install'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_pkg) by extensions ['colcon_pkg']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_pkg) by extension 'colcon_pkg'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_pkg) by extensions ['colcon_meta']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_pkg) by extension 'colcon_meta'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_pkg) by extensions ['ros']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_pkg) by extension 'ros'
+[1.056s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_robot_pkg' with type 'ros.ament_cmake' and name 'diff_robot_pkg'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pkg) by extension 'ignore'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pkg) by extension 'ignore_ament_install'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pkg) by extensions ['colcon_pkg']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pkg) by extension 'colcon_pkg'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pkg) by extensions ['colcon_meta']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pkg) by extension 'colcon_meta'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pkg) by extensions ['ros']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pkg) by extension 'ros'
+[1.057s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_pkg' with type 'ros.ament_python' and name 'joystick_pkg'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs) by extension 'ignore'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs) by extension 'ignore_ament_install'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs) by extensions ['colcon_pkg']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs) by extension 'colcon_pkg'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs) by extensions ['colcon_meta']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs) by extension 'colcon_meta'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs) by extensions ['ros']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs) by extension 'ros'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs) by extensions ['cmake', 'python']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs) by extension 'cmake'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs) by extension 'python'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs) by extensions ['python_setup_py']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs) by extension 'python_setup_py'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/nav2_api_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/nav2_api_pkg) by extension 'ignore'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/nav2_api_pkg) by extension 'ignore_ament_install'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/nav2_api_pkg) by extensions ['colcon_pkg']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/nav2_api_pkg) by extension 'colcon_pkg'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/nav2_api_pkg) by extensions ['colcon_meta']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/nav2_api_pkg) by extension 'colcon_meta'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/nav2_api_pkg) by extensions ['ros']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/nav2_api_pkg) by extension 'ros'
+[1.059s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_pkgs/nav2_api_pkg' with type 'ros.ament_python' and name 'nav2_api_pkg'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/path_planner_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/path_planner_pkg) by extension 'ignore'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/path_planner_pkg) by extension 'ignore_ament_install'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/path_planner_pkg) by extensions ['colcon_pkg']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/path_planner_pkg) by extension 'colcon_pkg'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/path_planner_pkg) by extensions ['colcon_meta']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/path_planner_pkg) by extension 'colcon_meta'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/path_planner_pkg) by extensions ['ros']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pkgs/path_planner_pkg) by extension 'ros'
+[1.060s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_pkgs/path_planner_pkg' with type 'ros.ament_python' and name 'path_planner_pkg'
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'cartographer_pkg' build argument 'cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'cartographer_pkg' build argument 'cmake_target' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'cartographer_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'cartographer_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'cartographer_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'cartographer_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'cartographer_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'cartographer_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'cartographer_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.136s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/vision/build/cartographer_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/vision/install/cartographer_pkg', 'merge_install': False, 'path': '/root/ros2_code/humble/vision/src/cartographer_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.149s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_pkg' build argument 'cmake_args' from command line to 'None'
+[1.149s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_pkg' build argument 'cmake_target' from command line to 'None'
+[1.149s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.149s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.149s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.149s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.149s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.149s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.149s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.149s] DEBUG:colcon.colcon_core.verb:Building package 'diff_robot_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/vision/build/diff_robot_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/vision/install/diff_robot_pkg', 'merge_install': False, 'path': '/root/ros2_code/humble/vision/src/diff_robot_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'joystick_pkg' build argument 'cmake_args' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'joystick_pkg' build argument 'cmake_target' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'joystick_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'joystick_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'joystick_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'joystick_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'joystick_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'joystick_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'joystick_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.163s] DEBUG:colcon.colcon_core.verb:Building package 'joystick_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/vision/build/joystick_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/vision/install/joystick_pkg', 'merge_install': False, 'path': '/root/ros2_code/humble/vision/src/joystick_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'nav2_api_pkg' build argument 'cmake_args' from command line to 'None'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'nav2_api_pkg' build argument 'cmake_target' from command line to 'None'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'nav2_api_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'nav2_api_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'nav2_api_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'nav2_api_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'nav2_api_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'nav2_api_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'nav2_api_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.181s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_api_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/vision/build/nav2_api_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/vision/install/nav2_api_pkg', 'merge_install': False, 'path': '/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'path_planner_pkg' build argument 'cmake_args' from command line to 'None'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'path_planner_pkg' build argument 'cmake_target' from command line to 'None'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'path_planner_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'path_planner_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'path_planner_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'path_planner_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'path_planner_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'path_planner_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'path_planner_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.196s] DEBUG:colcon.colcon_core.verb:Building package 'path_planner_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/vision/build/path_planner_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/vision/install/path_planner_pkg', 'merge_install': False, 'path': '/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.237s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.257s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/humble/vision/src/cartographer_pkg' with build type 'ament_python'
+[1.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_pkg', 'ament_prefix_path')
+[1.272s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/cartographer_pkg/share/cartographer_pkg/hook/ament_prefix_path.ps1'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/vision/install/cartographer_pkg/share/cartographer_pkg/hook/ament_prefix_path.dsv'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/cartographer_pkg/share/cartographer_pkg/hook/ament_prefix_path.sh'
+[1.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.375s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/vision/src/diff_robot_pkg' with build type 'ament_cmake'
+[1.376s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/vision/src/diff_robot_pkg'
+[1.390s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.390s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.475s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/humble/vision/src/joystick_pkg' with build type 'ament_python'
+[1.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_pkg', 'ament_prefix_path')
+[1.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/hook/ament_prefix_path.ps1'
+[1.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/hook/ament_prefix_path.dsv'
+[1.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/hook/ament_prefix_path.sh'
+[1.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.572s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg' with build type 'ament_python'
+[1.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_api_pkg', 'ament_prefix_path')
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/nav2_api_pkg/share/nav2_api_pkg/hook/ament_prefix_path.ps1'
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/vision/install/nav2_api_pkg/share/nav2_api_pkg/hook/ament_prefix_path.dsv'
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/nav2_api_pkg/share/nav2_api_pkg/hook/ament_prefix_path.sh'
+[1.602s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.673s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg' with build type 'ament_python'
+[1.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_planner_pkg', 'ament_prefix_path')
+[1.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/hook/ament_prefix_path.ps1'
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/hook/ament_prefix_path.dsv'
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/hook/ament_prefix_path.sh'
+[1.701s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.701s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.009s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/humble/vision/src/cartographer_pkg'
+[2.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/vision/build/diff_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/vision/build/diff_robot_pkg -- -j12 -l12
+[2.336s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/humble/vision/src/joystick_pkg'
+[2.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.700s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg'
+[2.715s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.715s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.088s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg'
+[3.106s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.106s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/vision/build/diff_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/vision/build/diff_robot_pkg -- -j12 -l12
+[3.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/vision/build/diff_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/vision/build/diff_robot_pkg
+[3.249s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_robot_pkg)
+[3.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/vision/build/diff_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/vision/build/diff_robot_pkg
+[3.274s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/diff_robot_pkg' for CMake module files
+[3.275s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/diff_robot_pkg' for CMake config files
+[3.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_robot_pkg', 'cmake_prefix_path')
+[3.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/hook/cmake_prefix_path.ps1'
+[3.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/hook/cmake_prefix_path.dsv'
+[3.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/hook/cmake_prefix_path.sh'
+[3.292s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/diff_robot_pkg/bin'
+[3.293s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/diff_robot_pkg/lib/pkgconfig/diff_robot_pkg.pc'
+[3.293s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/diff_robot_pkg/lib/python3.10/site-packages'
+[3.293s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/diff_robot_pkg/bin'
+[3.311s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/package.ps1'
+[3.312s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/package.dsv'
+[3.313s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/package.sh'
+[3.314s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/package.bash'
+[3.314s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/package.zsh'
+[3.315s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/vision/install/diff_robot_pkg/share/colcon-core/packages/diff_robot_pkg)
+[3.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_robot_pkg)
+[3.380s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/diff_robot_pkg' for CMake module files
+[3.381s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/diff_robot_pkg' for CMake config files
+[3.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_robot_pkg', 'cmake_prefix_path')
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/hook/cmake_prefix_path.ps1'
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/hook/cmake_prefix_path.dsv'
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/hook/cmake_prefix_path.sh'
+[3.401s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/diff_robot_pkg/bin'
+[3.401s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/diff_robot_pkg/lib/pkgconfig/diff_robot_pkg.pc'
+[3.402s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/diff_robot_pkg/lib/python3.10/site-packages'
+[3.402s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/diff_robot_pkg/bin'
+[3.427s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/package.ps1'
+[3.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/package.dsv'
+[3.428s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/package.sh'
+[3.429s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/package.bash'
+[3.429s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/diff_robot_pkg/share/diff_robot_pkg/package.zsh'
+[3.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/vision/install/diff_robot_pkg/share/colcon-core/packages/diff_robot_pkg)
+[3.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/vision/src/cartographer_pkg': PYTHONPATH=/root/ros2_code/humble/vision/build/cartographer_pkg/prefix_override:/root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cartographer_pkg build --build-base /root/ros2_code/humble/vision/build/cartographer_pkg/build install --record /root/ros2_code/humble/vision/build/cartographer_pkg/install.log --single-version-externally-managed
+[3.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg': PYTHONPATH=/root/ros2_code/humble/vision/build/path_planner_pkg/prefix_override:/root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/path_planner_pkg build --build-base /root/ros2_code/humble/vision/build/path_planner_pkg/build install --record /root/ros2_code/humble/vision/build/path_planner_pkg/install.log --single-version-externally-managed
+[3.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/vision/src/joystick_pkg': PYTHONPATH=/root/ros2_code/humble/vision/build/joystick_pkg/prefix_override:/root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pkg build --build-base /root/ros2_code/humble/vision/build/joystick_pkg/build install --record /root/ros2_code/humble/vision/build/joystick_pkg/install.log --single-version-externally-managed
+[3.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg': PYTHONPATH=/root/ros2_code/humble/vision/build/nav2_api_pkg/prefix_override:/root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_api_pkg build --build-base /root/ros2_code/humble/vision/build/nav2_api_pkg/build install --record /root/ros2_code/humble/vision/build/nav2_api_pkg/install.log --single-version-externally-managed
+[3.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/vision/src/cartographer_pkg' returned '0': PYTHONPATH=/root/ros2_code/humble/vision/build/cartographer_pkg/prefix_override:/root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cartographer_pkg build --build-base /root/ros2_code/humble/vision/build/cartographer_pkg/build install --record /root/ros2_code/humble/vision/build/cartographer_pkg/install.log --single-version-externally-managed
+[3.972s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/cartographer_pkg' for CMake module files
+[3.973s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/cartographer_pkg' for CMake config files
+[3.973s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/cartographer_pkg/lib'
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/cartographer_pkg/bin'
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/cartographer_pkg/lib/pkgconfig/cartographer_pkg.pc'
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages'
+[3.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_pkg', 'pythonpath')
+[3.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/cartographer_pkg/share/cartographer_pkg/hook/pythonpath.ps1'
+[3.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/vision/install/cartographer_pkg/share/cartographer_pkg/hook/pythonpath.dsv'
+[3.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/cartographer_pkg/share/cartographer_pkg/hook/pythonpath.sh'
+[3.989s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/cartographer_pkg/bin'
+[3.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_pkg)
+[4.004s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/cartographer_pkg/share/cartographer_pkg/package.ps1'
+[4.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/vision/install/cartographer_pkg/share/cartographer_pkg/package.dsv'
+[4.005s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/cartographer_pkg/share/cartographer_pkg/package.sh'
+[4.005s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/cartographer_pkg/share/cartographer_pkg/package.bash'
+[4.006s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/cartographer_pkg/share/cartographer_pkg/package.zsh'
+[4.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/vision/install/cartographer_pkg/share/colcon-core/packages/cartographer_pkg)
+[4.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/vision/src/joystick_pkg' returned '0': PYTHONPATH=/root/ros2_code/humble/vision/build/joystick_pkg/prefix_override:/root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pkg build --build-base /root/ros2_code/humble/vision/build/joystick_pkg/build install --record /root/ros2_code/humble/vision/build/joystick_pkg/install.log --single-version-externally-managed
+[4.021s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/joystick_pkg' for CMake module files
+[4.022s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/joystick_pkg' for CMake config files
+[4.022s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/joystick_pkg/lib'
+[4.022s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/joystick_pkg/bin'
+[4.022s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/joystick_pkg/lib/pkgconfig/joystick_pkg.pc'
+[4.022s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages'
+[4.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_pkg', 'pythonpath')
+[4.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/hook/pythonpath.ps1'
+[4.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/hook/pythonpath.dsv'
+[4.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/hook/pythonpath.sh'
+[4.037s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/joystick_pkg/bin'
+[4.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick_pkg)
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/package.ps1'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/package.dsv'
+[4.052s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/package.sh'
+[4.052s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/package.bash'
+[4.052s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/joystick_pkg/share/joystick_pkg/package.zsh'
+[4.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/vision/install/joystick_pkg/share/colcon-core/packages/joystick_pkg)
+[4.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg' returned '0': PYTHONPATH=/root/ros2_code/humble/vision/build/path_planner_pkg/prefix_override:/root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/path_planner_pkg build --build-base /root/ros2_code/humble/vision/build/path_planner_pkg/build install --record /root/ros2_code/humble/vision/build/path_planner_pkg/install.log --single-version-externally-managed
+[4.070s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/path_planner_pkg' for CMake module files
+[4.070s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/path_planner_pkg' for CMake config files
+[4.071s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/path_planner_pkg/lib'
+[4.071s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/path_planner_pkg/bin'
+[4.071s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/path_planner_pkg/lib/pkgconfig/path_planner_pkg.pc'
+[4.071s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages'
+[4.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_planner_pkg', 'pythonpath')
+[4.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/hook/pythonpath.ps1'
+[4.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/hook/pythonpath.dsv'
+[4.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/hook/pythonpath.sh'
+[4.090s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/path_planner_pkg/bin'
+[4.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_planner_pkg)
+[4.104s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/package.ps1'
+[4.105s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/package.dsv'
+[4.105s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/package.sh'
+[4.105s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/package.bash'
+[4.106s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/path_planner_pkg/share/path_planner_pkg/package.zsh'
+[4.106s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/vision/install/path_planner_pkg/share/colcon-core/packages/path_planner_pkg)
+[4.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg' returned '0': PYTHONPATH=/root/ros2_code/humble/vision/build/nav2_api_pkg/prefix_override:/root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_api_pkg build --build-base /root/ros2_code/humble/vision/build/nav2_api_pkg/build install --record /root/ros2_code/humble/vision/build/nav2_api_pkg/install.log --single-version-externally-managed
+[4.125s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/nav2_api_pkg' for CMake module files
+[4.126s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/nav2_api_pkg' for CMake config files
+[4.126s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/nav2_api_pkg/lib'
+[4.126s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/nav2_api_pkg/bin'
+[4.126s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/nav2_api_pkg/lib/pkgconfig/nav2_api_pkg.pc'
+[4.127s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages'
+[4.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_api_pkg', 'pythonpath')
+[4.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/nav2_api_pkg/share/nav2_api_pkg/hook/pythonpath.ps1'
+[4.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/vision/install/nav2_api_pkg/share/nav2_api_pkg/hook/pythonpath.dsv'
+[4.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/vision/install/nav2_api_pkg/share/nav2_api_pkg/hook/pythonpath.sh'
+[4.141s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/vision/install/nav2_api_pkg/bin'
+[4.141s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_api_pkg)
+[4.158s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/nav2_api_pkg/share/nav2_api_pkg/package.ps1'
+[4.159s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/vision/install/nav2_api_pkg/share/nav2_api_pkg/package.dsv'
+[4.159s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/nav2_api_pkg/share/nav2_api_pkg/package.sh'
+[4.160s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/nav2_api_pkg/share/nav2_api_pkg/package.bash'
+[4.161s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/vision/install/nav2_api_pkg/share/nav2_api_pkg/package.zsh'
+[4.161s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/vision/install/nav2_api_pkg/share/colcon-core/packages/nav2_api_pkg)
+[4.162s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.162s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.162s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.162s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.181s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.185s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[4.186s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.201s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/vision/install/local_setup.ps1'
+[4.202s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/vision/install/_local_setup_util_ps1.py'
+[4.203s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/vision/install/setup.ps1'
+[4.217s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/vision/install/local_setup.sh'
+[4.218s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/vision/install/_local_setup_util_sh.py'
+[4.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/vision/install/setup.sh'
+[4.233s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/vision/install/local_setup.bash'
+[4.234s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/vision/install/setup.bash'
+[4.248s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/vision/install/local_setup.zsh'
+[4.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/vision/install/setup.zsh'

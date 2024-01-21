@@ -1,0 +1,9 @@
+/root/ros2_code/humble/four_ws_ros2/build/four_ws_control/CMakeFiles/uninstall.dir
+/root/ros2_code/humble/four_ws_ros2/build/four_ws_control/CMakeFiles/four_ws_control_uninstall.dir
+/root/ros2_code/humble/four_ws_ros2/build/four_ws_control/CMakeFiles/test.dir
+/root/ros2_code/humble/four_ws_ros2/build/four_ws_control/CMakeFiles/edit_cache.dir
+/root/ros2_code/humble/four_ws_ros2/build/four_ws_control/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/humble/four_ws_ros2/build/four_ws_control/CMakeFiles/list_install_components.dir
+/root/ros2_code/humble/four_ws_ros2/build/four_ws_control/CMakeFiles/install.dir
+/root/ros2_code/humble/four_ws_ros2/build/four_ws_control/CMakeFiles/install/local.dir
+/root/ros2_code/humble/four_ws_ros2/build/four_ws_control/CMakeFiles/install/strip.dir

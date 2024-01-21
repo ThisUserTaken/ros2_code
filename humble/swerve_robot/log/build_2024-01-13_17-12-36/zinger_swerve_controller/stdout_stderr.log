@@ -1,0 +1,67 @@
+running egg_info
+creating ../../build/zinger_swerve_controller/zinger_swerve_controller.egg-info
+writing ../../build/zinger_swerve_controller/zinger_swerve_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/zinger_swerve_controller/zinger_swerve_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/zinger_swerve_controller/zinger_swerve_controller.egg-info/entry_points.txt
+writing requirements to ../../build/zinger_swerve_controller/zinger_swerve_controller.egg-info/requires.txt
+writing top-level names to ../../build/zinger_swerve_controller/zinger_swerve_controller.egg-info/top_level.txt
+writing manifest file '../../build/zinger_swerve_controller/zinger_swerve_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/zinger_swerve_controller/zinger_swerve_controller.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/zinger_swerve_controller/zinger_swerve_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build
+creating /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib
+creating /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller
+copying zinger_swerve_controller/profile.py -> /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller
+copying zinger_swerve_controller/swerve_controller.py -> /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller
+copying zinger_swerve_controller/geometry.py -> /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller
+copying zinger_swerve_controller/states.py -> /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller
+copying zinger_swerve_controller/control_model.py -> /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller
+copying zinger_swerve_controller/control.py -> /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller
+copying zinger_swerve_controller/drive_module.py -> /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller
+copying zinger_swerve_controller/control_profile.py -> /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller
+copying zinger_swerve_controller/steering_controller.py -> /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller
+copying zinger_swerve_controller/errors.py -> /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller
+copying zinger_swerve_controller/__init__.py -> /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller
+running install
+running install_lib
+creating /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller
+copying /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller/profile.py -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller
+copying /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller/swerve_controller.py -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller
+copying /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller/geometry.py -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller
+copying /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller/states.py -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller
+copying /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller/control_model.py -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller
+copying /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller/control.py -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller
+copying /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller/drive_module.py -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller
+copying /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller/control_profile.py -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller
+copying /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller/steering_controller.py -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller
+copying /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller/errors.py -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller
+copying /root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/build/lib/zinger_swerve_controller/__init__.py -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller
+byte-compiling /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller/profile.py to profile.cpython-310.pyc
+byte-compiling /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller/swerve_controller.py to swerve_controller.cpython-310.pyc
+byte-compiling /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller/geometry.py to geometry.cpython-310.pyc
+byte-compiling /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller/states.py to states.cpython-310.pyc
+byte-compiling /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller/control_model.py to control_model.cpython-310.pyc
+byte-compiling /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller/control.py to control.cpython-310.pyc
+byte-compiling /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller/drive_module.py to drive_module.cpython-310.pyc
+byte-compiling /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller/control_profile.py to control_profile.cpython-310.pyc
+byte-compiling /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller/steering_controller.py to steering_controller.cpython-310.pyc
+byte-compiling /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller/errors.py to errors.cpython-310.pyc
+byte-compiling /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/share/ament_index
+creating /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/share/ament_index/resource_index
+creating /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/share/ament_index/resource_index/packages
+copying resource/zinger_swerve_controller -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/share/zinger_swerve_controller
+creating /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/share/zinger_swerve_controller/launch
+copying launch/swerve_controller.launch.py -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/share/zinger_swerve_controller/launch
+creating /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/share/zinger_swerve_controller/config
+copying config/swerve.yaml -> /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/share/zinger_swerve_controller/config
+running install_egg_info
+Copying ../../build/zinger_swerve_controller/zinger_swerve_controller.egg-info to /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/python3.10/site-packages/zinger_swerve_controller-0.1.0-py3.10.egg-info
+running install_scripts
+Installing swerve_controller script to /root/ros2_code/humble/swerve_robot/install/zinger_swerve_controller/lib/zinger_swerve_controller
+writing list of installed files to '/root/ros2_code/humble/swerve_robot/build/zinger_swerve_controller/install.log'

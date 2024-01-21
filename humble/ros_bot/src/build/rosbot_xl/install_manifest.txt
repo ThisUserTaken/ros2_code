@@ -1,0 +1,15 @@
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/ament_index/resource_index/package_run_dependencies/rosbot_xl
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/ament_index/resource_index/parent_prefix_path/rosbot_xl
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/rosbot_xl/environment/ament_prefix_path.sh
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/rosbot_xl/environment/ament_prefix_path.dsv
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/rosbot_xl/environment/path.sh
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/rosbot_xl/environment/path.dsv
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/rosbot_xl/local_setup.bash
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/rosbot_xl/local_setup.sh
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/rosbot_xl/local_setup.zsh
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/rosbot_xl/local_setup.dsv
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/rosbot_xl/package.dsv
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/ament_index/resource_index/packages/rosbot_xl
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/rosbot_xl/cmake/rosbot_xlConfig.cmake
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/rosbot_xl/cmake/rosbot_xlConfig-version.cmake
+/root/ros2_code/humble/ros_bot/src/install/rosbot_xl/share/rosbot_xl/package.xml

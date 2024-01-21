@@ -1,0 +1,22 @@
+[3.383s] Invoking command in '/root/ros2_code/humble/ros_bot/src/rqt_tf_tree': PYTHONPATH=/root/ros2_code/humble/ros_bot/build/rqt_tf_tree/prefix_override:/root/ros2_code/humble/ros_bot/install/rqt_tf_tree/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rqt_tf_tree build --build-base /root/ros2_code/humble/ros_bot/build/rqt_tf_tree/build install --record /root/ros2_code/humble/ros_bot/build/rqt_tf_tree/install.log --single-version-externally-managed
+[3.863s] running egg_info
+[3.864s] writing ../../build/rqt_tf_tree/rqt_tf_tree.egg-info/PKG-INFO
+[3.864s] writing dependency_links to ../../build/rqt_tf_tree/rqt_tf_tree.egg-info/dependency_links.txt
+[3.865s] writing entry points to ../../build/rqt_tf_tree/rqt_tf_tree.egg-info/entry_points.txt
+[3.865s] writing requirements to ../../build/rqt_tf_tree/rqt_tf_tree.egg-info/requires.txt
+[3.865s] writing top-level names to ../../build/rqt_tf_tree/rqt_tf_tree.egg-info/top_level.txt
+[3.868s] reading manifest file '../../build/rqt_tf_tree/rqt_tf_tree.egg-info/SOURCES.txt'
+[3.868s] adding license file 'LICENSE'
+[3.869s] writing manifest file '../../build/rqt_tf_tree/rqt_tf_tree.egg-info/SOURCES.txt'
+[3.869s] running build
+[3.869s] running build_py
+[3.870s] running install
+[3.870s] running install_lib
+[3.873s] running install_data
+[3.874s] running install_egg_info
+[3.878s] removing '/root/ros2_code/humble/ros_bot/install/rqt_tf_tree/lib/python3.10/site-packages/rqt_tf_tree-1.0.4-py3.10.egg-info' (and everything under it)
+[3.879s] Copying ../../build/rqt_tf_tree/rqt_tf_tree.egg-info to /root/ros2_code/humble/ros_bot/install/rqt_tf_tree/lib/python3.10/site-packages/rqt_tf_tree-1.0.4-py3.10.egg-info
+[3.880s] running install_scripts
+[3.914s] Installing rqt_tf_tree script to /root/ros2_code/humble/ros_bot/install/rqt_tf_tree/lib/rqt_tf_tree
+[3.916s] writing list of installed files to '/root/ros2_code/humble/ros_bot/build/rqt_tf_tree/install.log'
+[4.286s] Invoked command in '/root/ros2_code/humble/ros_bot/src/rqt_tf_tree' returned '0': PYTHONPATH=/root/ros2_code/humble/ros_bot/build/rqt_tf_tree/prefix_override:/root/ros2_code/humble/ros_bot/install/rqt_tf_tree/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rqt_tf_tree build --build-base /root/ros2_code/humble/ros_bot/build/rqt_tf_tree/build install --record /root/ros2_code/humble/ros_bot/build/rqt_tf_tree/install.log --single-version-externally-managed

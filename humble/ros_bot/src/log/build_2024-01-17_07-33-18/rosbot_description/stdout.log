@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_code/humble/ros_bot/src/build/rosbot_description
+-- Install configuration: ""
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/meshes
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/meshes/mecanum_b.dae
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/meshes/mecanum_a.dae
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/meshes/body.stl
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/meshes/wheel_b.dae
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/meshes/wheel_a.dae
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/meshes/cover.stl
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/urdf
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/urdf/body.urdf.xacro
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/urdf/components
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/urdf/components/vl53lox.urdf.xacro
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/urdf/wheel.urdf.xacro
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/urdf/rosbot_macro.urdf.xacro
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/urdf/rosbot.urdf.xacro
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/environment/rosbot_description.sh
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/ament_index/resource_index/package_run_dependencies/rosbot_description
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/ament_index/resource_index/parent_prefix_path/rosbot_description
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/environment/path.sh
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/environment/path.dsv
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/local_setup.bash
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/local_setup.sh
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/local_setup.zsh
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/local_setup.dsv
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/package.dsv
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/ament_index/resource_index/packages/rosbot_description
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig.cmake
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig-version.cmake
+-- Installing: /root/ros2_code/humble/ros_bot/src/install/rosbot_description/share/rosbot_description/package.xml

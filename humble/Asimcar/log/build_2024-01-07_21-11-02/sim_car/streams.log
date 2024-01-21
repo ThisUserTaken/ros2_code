@@ -1,0 +1,96 @@
+[0.101s] Invoking command in '/root/ros2_code/humble/Asimcar/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/Asimcar/src/sim_car/car_description -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/Asimcar/install/sim_car
+[0.152s] -- The C compiler identification is GNU 11.4.0
+[0.209s] -- The CXX compiler identification is GNU 11.4.0
+[0.216s] -- Detecting C compiler ABI info
+[0.290s] -- Detecting C compiler ABI info - done
+[0.295s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.295s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.298s] -- Detecting CXX compiler ABI info
+[0.389s] -- Detecting CXX compiler ABI info - done
+[0.399s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.400s] -- Detecting CXX compile features
+[0.400s] -- Detecting CXX compile features - done
+[0.407s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.578s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.695s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.761s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.770s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.782s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.799s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.824s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.904s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.909s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.954s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.974s] -- Looking for pthread.h
+[1.049s] -- Looking for pthread.h - found
+[1.049s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.128s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.129s] -- Found Threads: TRUE  
+[1.269s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[1.274s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.382s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.383s] -- Added test 'lint_cmake' to check CMake code style
+[1.384s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.387s] -- Added test 'xmllint' to check XML markup files
+[1.388s] -- Configuring done
+[1.394s] -- Generating done
+[1.396s] -- Build files have been written to: /root/ros2_code/humble/Asimcar/build/sim_car
+[1.403s] Invoked command in '/root/ros2_code/humble/Asimcar/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/Asimcar/src/sim_car/car_description -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/Asimcar/install/sim_car
+[1.405s] Invoking command in '/root/ros2_code/humble/Asimcar/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/Asimcar/build/sim_car -- -j12 -l12
+[1.451s] Invoked command in '/root/ros2_code/humble/Asimcar/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/Asimcar/build/sim_car -- -j12 -l12
+[1.492s] Invoking command in '/root/ros2_code/humble/Asimcar/build/sim_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/Asimcar/build/sim_car
+[1.501s] -- Install configuration: ""
+[1.501s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/lib/sim_car/convert_xacro.py
+[1.501s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/lib/sim_car/spawn_bot.py
+[1.501s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/lib/sim_car/sentry.py
+[1.501s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch
+[1.502s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/spawn_world.launch.py
+[1.502s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/bringup.launch.py
+[1.502s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/spawn_red_crash.launch.py
+[1.502s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/bringup.launch2.py
+[1.502s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/blue2.py
+[1.502s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/all.launch.py
+[1.502s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/spawn_car.launch.py
+[1.503s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//launch/blue_launch.py
+[1.503s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//config
+[1.503s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//config/nav2_params.yaml
+[1.503s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//config/red-crash.rviz
+[1.503s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//config/unused_blue_params.yaml
+[1.503s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//config/teleop_twist_joy.yaml
+[1.503s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//robot
+[1.504s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//robot/red_crash.urdf.xacro
+[1.504s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//robot/car.urdf.xacro
+[1.504s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds
+[1.504s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds/empty.world
+[1.504s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds/simple_world_maps
+[1.504s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669312051.pgm
+[1.505s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669268298.yaml
+[1.505s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669312051.yaml
+[1.505s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds/simple_world_maps/map_1669268298.pgm
+[1.505s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//worlds/simple.world
+[1.505s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//scripts
+[1.505s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//scripts/convert_xacro.py
+[1.506s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//scripts/sentry.py
+[1.506s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//scripts/play.html
+[1.506s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//scripts/spawn_bot.py
+[1.506s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//params
+[1.506s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//params/intentionally_empty
+[1.506s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//behavior_trees
+[1.506s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car//behavior_trees/navigate_w_replanning_time2.xml
+[1.507s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/ament_index/resource_index/package_run_dependencies/sim_car
+[1.507s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/ament_index/resource_index/parent_prefix_path/sim_car
+[1.507s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/environment/ament_prefix_path.sh
+[1.507s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/environment/ament_prefix_path.dsv
+[1.507s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/environment/path.sh
+[1.507s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/environment/path.dsv
+[1.508s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/local_setup.bash
+[1.508s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/local_setup.sh
+[1.508s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/local_setup.zsh
+[1.508s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/local_setup.dsv
+[1.508s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/package.dsv
+[1.508s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/ament_index/resource_index/packages/sim_car
+[1.509s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/cmake/sim_carConfig.cmake
+[1.509s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/cmake/sim_carConfig-version.cmake
+[1.509s] -- Installing: /root/ros2_code/humble/Asimcar/install/sim_car/share/sim_car/package.xml
+[1.511s] Invoked command in '/root/ros2_code/humble/Asimcar/build/sim_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/Asimcar/build/sim_car

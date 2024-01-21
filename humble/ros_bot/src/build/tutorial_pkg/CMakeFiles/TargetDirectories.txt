@@ -1,0 +1,13 @@
+/root/ros2_code/humble/ros_bot/src/build/tutorial_pkg/CMakeFiles/uninstall.dir
+/root/ros2_code/humble/ros_bot/src/build/tutorial_pkg/CMakeFiles/tutorial_pkg_uninstall.dir
+/root/ros2_code/humble/ros_bot/src/build/tutorial_pkg/CMakeFiles/my_first_node.dir
+/root/ros2_code/humble/ros_bot/src/build/tutorial_pkg/CMakeFiles/tracker.dir
+/root/ros2_code/humble/ros_bot/src/build/tutorial_pkg/CMakeFiles/tf_broadcaster.dir
+/root/ros2_code/humble/ros_bot/src/build/tutorial_pkg/CMakeFiles/tf_listener.dir
+/root/ros2_code/humble/ros_bot/src/build/tutorial_pkg/CMakeFiles/test.dir
+/root/ros2_code/humble/ros_bot/src/build/tutorial_pkg/CMakeFiles/edit_cache.dir
+/root/ros2_code/humble/ros_bot/src/build/tutorial_pkg/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/humble/ros_bot/src/build/tutorial_pkg/CMakeFiles/list_install_components.dir
+/root/ros2_code/humble/ros_bot/src/build/tutorial_pkg/CMakeFiles/install.dir
+/root/ros2_code/humble/ros_bot/src/build/tutorial_pkg/CMakeFiles/install/local.dir
+/root/ros2_code/humble/ros_bot/src/build/tutorial_pkg/CMakeFiles/install/strip.dir

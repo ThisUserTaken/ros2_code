@@ -1,0 +1,48 @@
+running egg_info
+creating ../../../build/map_server/map_server.egg-info
+writing ../../../build/map_server/map_server.egg-info/PKG-INFO
+writing dependency_links to ../../../build/map_server/map_server.egg-info/dependency_links.txt
+writing entry points to ../../../build/map_server/map_server.egg-info/entry_points.txt
+writing requirements to ../../../build/map_server/map_server.egg-info/requires.txt
+writing top-level names to ../../../build/map_server/map_server.egg-info/top_level.txt
+writing manifest file '../../../build/map_server/map_server.egg-info/SOURCES.txt'
+reading manifest file '../../../build/map_server/map_server.egg-info/SOURCES.txt'
+writing manifest file '../../../build/map_server/map_server.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_code/humble/simulations/build/map_server/build
+creating /root/ros2_code/humble/simulations/build/map_server/build/lib
+creating /root/ros2_code/humble/simulations/build/map_server/build/lib/map_server
+copying map_server/__init__.py -> /root/ros2_code/humble/simulations/build/map_server/build/lib/map_server
+running install
+running install_lib
+creating /root/ros2_code/humble/simulations/install/map_server/lib/python3.10/site-packages/map_server
+copying /root/ros2_code/humble/simulations/build/map_server/build/lib/map_server/__init__.py -> /root/ros2_code/humble/simulations/install/map_server/lib/python3.10/site-packages/map_server
+byte-compiling /root/ros2_code/humble/simulations/install/map_server/lib/python3.10/site-packages/map_server/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_code/humble/simulations/install/map_server/share/ament_index
+creating /root/ros2_code/humble/simulations/install/map_server/share/ament_index/resource_index
+creating /root/ros2_code/humble/simulations/install/map_server/share/ament_index/resource_index/packages
+copying resource/map_server -> /root/ros2_code/humble/simulations/install/map_server/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_code/humble/simulations/install/map_server/share/map_server
+creating /root/ros2_code/humble/simulations/install/map_server/share/map_server/launch
+copying launch/nav2_map_server.launch.py -> /root/ros2_code/humble/simulations/install/map_server/share/map_server/launch
+creating /root/ros2_code/humble/simulations/install/map_server/share/map_server/rviz_config
+creating /root/ros2_code/humble/simulations/install/map_server/share/map_server/maps
+copying maps/map.pgm -> /root/ros2_code/humble/simulations/install/map_server/share/map_server/maps
+copying maps/neobotix_area.pgm -> /root/ros2_code/humble/simulations/install/map_server/share/map_server/maps
+copying maps/map_keepout.png -> /root/ros2_code/humble/simulations/install/map_server/share/map_server/maps
+copying maps/map_rotated2.pgm -> /root/ros2_code/humble/simulations/install/map_server/share/map_server/maps
+copying maps/map_speeds.pgm -> /root/ros2_code/humble/simulations/install/map_server/share/map_server/maps
+copying maps/map_keepout.yaml -> /root/ros2_code/humble/simulations/install/map_server/share/map_server/maps
+copying maps/map_rotated.pgm -> /root/ros2_code/humble/simulations/install/map_server/share/map_server/maps
+copying maps/map_keepout.pgm -> /root/ros2_code/humble/simulations/install/map_server/share/map_server/maps
+copying maps/map.yaml -> /root/ros2_code/humble/simulations/install/map_server/share/map_server/maps
+copying maps/map_rotated.png -> /root/ros2_code/humble/simulations/install/map_server/share/map_server/maps
+copying maps/map_speeds.yaml -> /root/ros2_code/humble/simulations/install/map_server/share/map_server/maps
+copying maps/neobotix_area.yaml -> /root/ros2_code/humble/simulations/install/map_server/share/map_server/maps
+copying maps/map_keepout2.pgm -> /root/ros2_code/humble/simulations/install/map_server/share/map_server/maps
+running install_egg_info
+Copying ../../../build/map_server/map_server.egg-info to /root/ros2_code/humble/simulations/install/map_server/lib/python3.10/site-packages/map_server-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_code/humble/simulations/build/map_server/install.log'

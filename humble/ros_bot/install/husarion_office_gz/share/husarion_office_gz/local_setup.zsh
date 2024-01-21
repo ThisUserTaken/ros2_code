@@ -1,0 +1,1 @@
+/root/ros2_code/humble/ros_bot/build/husarion_office_gz/ament_cmake_environment_hooks/local_setup.zsh

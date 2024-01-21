@@ -1,0 +1,15 @@
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/ament_index/resource_index/package_run_dependencies/rosbot
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/ament_index/resource_index/parent_prefix_path/rosbot
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/rosbot/environment/ament_prefix_path.sh
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/rosbot/environment/ament_prefix_path.dsv
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/rosbot/environment/path.sh
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/rosbot/environment/path.dsv
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/rosbot/local_setup.bash
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/rosbot/local_setup.sh
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/rosbot/local_setup.zsh
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/rosbot/local_setup.dsv
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/rosbot/package.dsv
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/ament_index/resource_index/packages/rosbot
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/rosbot/cmake/rosbotConfig.cmake
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/rosbot/cmake/rosbotConfig-version.cmake
+/root/ros2_code/humble/ros_bot/src/install/rosbot/share/rosbot/package.xml

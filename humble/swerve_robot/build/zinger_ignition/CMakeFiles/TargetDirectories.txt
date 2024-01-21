@@ -1,0 +1,9 @@
+/root/ros2_code/humble/swerve_robot/build/zinger_ignition/CMakeFiles/uninstall.dir
+/root/ros2_code/humble/swerve_robot/build/zinger_ignition/CMakeFiles/zinger_ignition_uninstall.dir
+/root/ros2_code/humble/swerve_robot/build/zinger_ignition/CMakeFiles/test.dir
+/root/ros2_code/humble/swerve_robot/build/zinger_ignition/CMakeFiles/edit_cache.dir
+/root/ros2_code/humble/swerve_robot/build/zinger_ignition/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/humble/swerve_robot/build/zinger_ignition/CMakeFiles/list_install_components.dir
+/root/ros2_code/humble/swerve_robot/build/zinger_ignition/CMakeFiles/install.dir
+/root/ros2_code/humble/swerve_robot/build/zinger_ignition/CMakeFiles/install/local.dir
+/root/ros2_code/humble/swerve_robot/build/zinger_ignition/CMakeFiles/install/strip.dir

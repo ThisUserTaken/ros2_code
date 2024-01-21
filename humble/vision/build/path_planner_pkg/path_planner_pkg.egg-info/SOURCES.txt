@@ -12,6 +12,8 @@ config/amcl_barista_demo.yaml
 config/amcl_config.yaml
 config/bt_navigator.yaml
 config/controller.yaml
+config/filters.yaml
+config/nav2_params.yaml
 config/planner_server.yaml
 config/recovery.yaml
 launch/navigation.launch.py

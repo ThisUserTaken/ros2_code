@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_code/humble/four_ws_ros2/build/four_ws_control
+-- Install configuration: ""
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control//scripts
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control//scripts/robot_control.py
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control//launch
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control//launch/four_ws_control.launch.py
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/lib/four_ws_control/robot_control.py
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/lib/four_ws_control/four_ws_control.launch.py
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/ament_index/resource_index/package_run_dependencies/four_ws_control
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/ament_index/resource_index/parent_prefix_path/four_ws_control
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/environment/path.sh
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/environment/path.dsv
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/local_setup.bash
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/local_setup.sh
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/local_setup.zsh
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/local_setup.dsv
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.dsv
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/ament_index/resource_index/packages/four_ws_control
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/cmake/four_ws_controlConfig.cmake
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/cmake/four_ws_controlConfig-version.cmake
+-- Installing: /root/ros2_code/humble/four_ws_ros2/install/four_ws_control/share/four_ws_control/package.xml

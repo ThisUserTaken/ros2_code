@@ -1,0 +1,35 @@
+[0.640s] Invoking command in '/root/ros2_code/humble/ros_bot/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/install/tutorial_pkg:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/ros_bot/build/ros_gz_interfaces -- -j12 -l12
+[1.023s] [35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_generator_c[0m
+[1.023s] [  0%] Built target ros_gz_interfaces__cpp
+[1.023s] [  0%] Built target ament_cmake_python_symlink_ros_gz_interfaces
+[1.024s] [35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_cpp[0m
+[1.024s] [35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.024s] [35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.024s] [ 12%] Built target ros_gz_interfaces__rosidl_generator_c
+[1.025s] [35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_c[0m
+[1.025s] [35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_introspection_c[0m
+[1.025s] [35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.026s] [ 24%] Built target ros_gz_interfaces__rosidl_typesupport_cpp
+[1.026s] [ 36%] Built target ros_gz_interfaces__rosidl_typesupport_c
+[1.026s] [ 60%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_cpp
+[1.026s] [ 61%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c
+[1.026s] [ 73%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.026s] [ 85%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c
+[1.026s] [ 85%] Built target ros_gz_interfaces
+[1.026s] [ 86%] Built target ros_gz_interfaces__py
+[1.027s] [35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_generator_py[0m
+[1.027s] [ 97%] Built target ros_gz_interfaces__rosidl_generator_py
+[1.027s] [35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.027s] [35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_c__pyext[0m
+[1.027s] [35m[1mConsolidate compiler generated dependencies of target ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.027s] [ 99%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.027s] [ 99%] Built target ros_gz_interfaces__rosidl_typesupport_c__pyext
+[1.027s] [100%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.027s] running egg_info
+[1.028s] writing ros_gz_interfaces.egg-info/PKG-INFO
+[1.028s] writing dependency_links to ros_gz_interfaces.egg-info/dependency_links.txt
+[1.028s] writing top-level names to ros_gz_interfaces.egg-info/top_level.txt
+[1.029s] reading manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'
+[1.029s] writing manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'
+[1.029s] [100%] Built target ament_cmake_python_build_ros_gz_interfaces_egg
+[1.039s] Invoked command in '/root/ros2_code/humble/ros_bot/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/ros_bot/install/tutorial_pkg:/root/ros2_code/humble/ros_bot/install/rosbot_utils:/root/ros2_code/humble/ros_bot/install/rosbot_gazebo:/root/ros2_code/humble/ros_bot/install/rosbot_bringup:/root/ros2_code/humble/ros_bot/install/rosbot_controller:/root/ros2_code/humble/vision/install/path_planner_pkg:/root/ros2_code/humble/vision/install/nav2_api_pkg:/root/ros2_code/humble/vision/install/joystick_pkg:/root/ros2_code/humble/vision/install/cartographer_pkg:/root/ros2_code/humble/nav2class/install/autonomous_tb3:/root/ros2_code/humble/simulations/install/path_planner_server:/root/ros2_code/humble/simulations/install/map_server:/root/ros2_code/humble/simulations/install/localization_server:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/ros_bot/build/ros_gz_interfaces -- -j12 -l12

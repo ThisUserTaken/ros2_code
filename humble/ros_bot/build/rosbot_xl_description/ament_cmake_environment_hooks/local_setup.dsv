@@ -1,0 +1,3 @@
+source;share/rosbot_xl_description/environment/ament_prefix_path.sh
+source;share/rosbot_xl_description/environment/path.sh
+source;share/rosbot_xl_description/environment/rosbot_xl_description.sh

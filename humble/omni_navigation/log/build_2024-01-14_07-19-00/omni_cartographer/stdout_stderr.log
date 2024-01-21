@@ -1,0 +1,40 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_code/humble/omni_navigation/build/omni_cartographer
+-- Install configuration: ""
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/config
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/config/omni_lds_2d.lua
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/launch
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/launch/cartographer.launch.py
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/launch/occupancy_grid.launch.py
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/rviz
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/rviz/tb3_cartographer.rviz
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/ament_index/resource_index/package_run_dependencies/omni_cartographer
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/ament_index/resource_index/parent_prefix_path/omni_cartographer
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/environment/path.sh
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/environment/path.dsv
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/local_setup.bash
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/local_setup.sh
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/local_setup.zsh
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/local_setup.dsv
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/package.dsv
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/ament_index/resource_index/packages/omni_cartographer
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/cmake/omni_cartographerConfig.cmake
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/cmake/omni_cartographerConfig-version.cmake
+-- Installing: /root/ros2_code/humble/omni_navigation/install/omni_cartographer/share/omni_cartographer/package.xml
