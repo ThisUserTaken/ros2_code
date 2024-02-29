@@ -1,0 +1,3 @@
+source;share/depthai_bridge/environment/ament_prefix_path.sh
+source;share/depthai_bridge/environment/library_path.sh
+source;share/depthai_bridge/environment/path.sh

@@ -1,0 +1,4 @@
+source;share/depthai-ros/local_setup.bash
+source;share/depthai-ros/local_setup.dsv
+source;share/depthai-ros/local_setup.sh
+source;share/depthai-ros/local_setup.zsh

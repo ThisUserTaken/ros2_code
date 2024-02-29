@@ -1,0 +1,11 @@
+source;share/depthai_filters/hook/cmake_prefix_path.ps1
+source;share/depthai_filters/hook/cmake_prefix_path.dsv
+source;share/depthai_filters/hook/cmake_prefix_path.sh
+source;share/depthai_filters/hook/ld_library_path_lib.ps1
+source;share/depthai_filters/hook/ld_library_path_lib.dsv
+source;share/depthai_filters/hook/ld_library_path_lib.sh
+source;share/depthai_filters/local_setup.bash
+source;share/depthai_filters/local_setup.dsv
+source;share/depthai_filters/local_setup.ps1
+source;share/depthai_filters/local_setup.sh
+source;share/depthai_filters/local_setup.zsh

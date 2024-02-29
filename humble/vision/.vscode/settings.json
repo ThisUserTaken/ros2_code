@@ -1,0 +1,35 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/simulations/install/path_planner_server/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/simulations/install/map_server/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/simulations/install/localization_server/lib/python3.10/site-packages",
+        "/root/dai_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages",
+        "/root/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages",
+        "/root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/frc9202/install/yolov8_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/root/ros2_code/humble/vision/install/path_planner_pkg/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/vision/install/nav2_api_pkg/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/vision/install/joystick_pkg/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/vision/install/cartographer_pkg/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/nav2class/install/autonomous_tb3/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/simulations/install/path_planner_server/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/simulations/install/map_server/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/simulations/install/localization_server/lib/python3.10/site-packages",
+        "/root/dai_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages",
+        "/root/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages",
+        "/root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/frc9202/install/yolov8_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages"
+    ]
+}

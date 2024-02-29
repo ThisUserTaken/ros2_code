@@ -1,0 +1,15 @@
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/ament_index/resource_index/package_run_dependencies/depthai-ros
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/ament_index/resource_index/parent_prefix_path/depthai-ros
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/depthai-ros/environment/ament_prefix_path.sh
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/depthai-ros/environment/ament_prefix_path.dsv
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/depthai-ros/environment/path.sh
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/depthai-ros/environment/path.dsv
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/depthai-ros/local_setup.bash
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/depthai-ros/local_setup.sh
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/depthai-ros/local_setup.zsh
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/depthai-ros/local_setup.dsv
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/depthai-ros/package.dsv
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/ament_index/resource_index/packages/depthai-ros
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/depthai-ros/cmake/depthai-rosConfig.cmake
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/depthai-ros/cmake/depthai-rosConfig-version.cmake
+/root/ros2_code/humble/dai_ws/install/depthai-ros/share/depthai-ros/package.xml

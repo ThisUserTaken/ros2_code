@@ -1,0 +1,1 @@
+libboost-dev;rclcpp;cv_bridge;camera_info_manager;depthai;depthai_ros_msgs;image_transport;libopencv-dev;ros_environment;sensor_msgs;std_msgs;stereo_msgs;vision_msgs;tf2_ros;tf2;tf2_geometry_msgs;composition_interfaces;robot_state_publisher;xacro

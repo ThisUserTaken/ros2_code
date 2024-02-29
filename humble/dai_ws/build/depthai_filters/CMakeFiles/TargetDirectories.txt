@@ -1,0 +1,10 @@
+/root/ros2_code/humble/dai_ws/build/depthai_filters/CMakeFiles/uninstall.dir
+/root/ros2_code/humble/dai_ws/build/depthai_filters/CMakeFiles/depthai_filters_uninstall.dir
+/root/ros2_code/humble/dai_ws/build/depthai_filters/CMakeFiles/depthai_filters.dir
+/root/ros2_code/humble/dai_ws/build/depthai_filters/CMakeFiles/test.dir
+/root/ros2_code/humble/dai_ws/build/depthai_filters/CMakeFiles/edit_cache.dir
+/root/ros2_code/humble/dai_ws/build/depthai_filters/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/humble/dai_ws/build/depthai_filters/CMakeFiles/list_install_components.dir
+/root/ros2_code/humble/dai_ws/build/depthai_filters/CMakeFiles/install.dir
+/root/ros2_code/humble/dai_ws/build/depthai_filters/CMakeFiles/install/local.dir
+/root/ros2_code/humble/dai_ws/build/depthai_filters/CMakeFiles/install/strip.dir

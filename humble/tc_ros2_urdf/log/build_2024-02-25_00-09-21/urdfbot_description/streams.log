@@ -1,0 +1,31 @@
+[0.247s] Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description -- -j12 -l12
+[0.312s] Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description -- -j12 -l12
+[0.374s] Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description
+[0.382s] -- Install configuration: ""
+[0.386s] -- Execute custom install script
+[0.389s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//urdf/urdfbot_simple.urdf
+[0.391s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//rviz/urdf_vis.rviz
+[0.393s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//launch/urdf_visualize.launch.py
+[0.393s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//launch/urdf_visualize_rviz.launch.py
+[0.394s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_body.dae
+[0.395s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_claw.dae
+[0.396s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_foot.dae
+[0.396s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_head.dae
+[0.397s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_limb.dae
+[0.398s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_texture.png
+[0.399s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/ament_index/resource_index/package_run_dependencies/urdfbot_description
+[0.399s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/ament_index/resource_index/parent_prefix_path/urdfbot_description
+[0.400s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/environment/ament_prefix_path.sh
+[0.400s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/environment/ament_prefix_path.dsv
+[0.400s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/environment/path.sh
+[0.401s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/environment/path.dsv
+[0.402s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/local_setup.bash
+[0.402s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/local_setup.sh
+[0.403s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/local_setup.zsh
+[0.403s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/local_setup.dsv
+[0.404s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/package.dsv
+[0.418s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/ament_index/resource_index/packages/urdfbot_description
+[0.419s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/cmake/urdfbot_descriptionConfig.cmake
+[0.419s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/cmake/urdfbot_descriptionConfig-version.cmake
+[0.419s] -- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/package.xml
+[0.429s] Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description

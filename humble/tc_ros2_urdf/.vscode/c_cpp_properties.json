@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/root/cyglidar_ws/install/cyglidar_d1_ros2/include/**",
+        "/root/dai_ws/install/depthai_ros_driver/include/**",
+        "/root/dai_ws/install/depthai_filters/include/**",
+        "/root/dai_ws/install/depthai_bridge/include/**",
+        "/root/dai_ws/install/depthai_ros_msgs/include/**",
+        "/root/ros2_code/humble/frc9202/install/yolov8_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_description/include/**",
+        "/root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_gazebo/include/**",
+        "/root/ros2_code/humble/tc_ros2_urdf/src/urdfbot_description/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

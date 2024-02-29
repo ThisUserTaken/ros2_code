@@ -1,0 +1,206 @@
+[1.133s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.133s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe2666cd180>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe2669728f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe2669728f0>>)
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.186s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/n100'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_wheeltec_n100_imu) by extensions ['ignore', 'ignore_ament_install']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_wheeltec_n100_imu) by extension 'ignore'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_wheeltec_n100_imu) by extension 'ignore_ament_install'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_wheeltec_n100_imu) by extensions ['colcon_pkg']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_wheeltec_n100_imu) by extension 'colcon_pkg'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_wheeltec_n100_imu) by extensions ['colcon_meta']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_wheeltec_n100_imu) by extension 'colcon_meta'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_wheeltec_n100_imu) by extensions ['ros']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_wheeltec_n100_imu) by extension 'ros'
+[1.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_wheeltec_n100_imu' with type 'ros.ament_cmake' and name 'wheeltec_n100_imu'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ignore'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ignore_ament_install'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['colcon_pkg']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'colcon_pkg'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['colcon_meta']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'colcon_meta'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['ros']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ros'
+[1.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial-ros2' with type 'ros.ament_cmake' and name 'serial'
+[1.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.316s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/n100/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/n100/install/serial', 'merge_install': False, 'path': '/root/ros2_code/humble/n100/src/serial-ros2', 'symlink_install': True, 'test_result_base': None}
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'cmake_args' from command line to 'None'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'cmake_target' from command line to 'None'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'cmake_clean_first' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'cmake_force_configure' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'ament_cmake_args' from command line to 'None'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.331s] DEBUG:colcon.colcon_core.verb:Building package 'wheeltec_n100_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/n100/build/wheeltec_n100_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/n100/install/wheeltec_n100_imu', 'merge_install': False, 'path': '/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu', 'symlink_install': True, 'test_result_base': None}
+[1.346s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.362s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/n100/src/serial-ros2' with build type 'ament_cmake'
+[1.363s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/n100/src/serial-ros2'
+[1.383s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/n100/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/n100/src/serial-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/n100/install/serial
+[2.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/n100/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/n100/src/serial-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/n100/install/serial
+[2.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/n100/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/n100/build/serial -- -j12 -l12
+[3.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/n100/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/n100/build/serial -- -j12 -l12
+[3.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/n100/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/n100/build/serial
+[3.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[3.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/n100/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/n100/build/serial
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/serial' for CMake module files
+[3.735s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/serial' for CMake config files
+[3.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[3.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/n100/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[3.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/n100/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[3.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/n100/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/serial/lib'
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/serial/bin'
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/serial/lib/pkgconfig/serial.pc'
+[3.755s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/serial/lib/python3.10/site-packages'
+[3.755s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/serial/bin'
+[3.770s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/serial/share/serial/package.ps1'
+[3.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/n100/install/serial/share/serial/package.dsv'
+[3.771s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/serial/share/serial/package.sh'
+[3.772s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/serial/share/serial/package.bash'
+[3.773s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/serial/share/serial/package.zsh'
+[3.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/n100/install/serial/share/colcon-core/packages/serial)
+[3.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[3.845s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/serial' for CMake module files
+[3.846s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/serial' for CMake config files
+[3.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[3.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/n100/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[3.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/n100/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[3.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/n100/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[3.864s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/serial/lib'
+[3.864s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/serial/bin'
+[3.864s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/serial/lib/pkgconfig/serial.pc'
+[3.865s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/serial/lib/python3.10/site-packages'
+[3.865s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/serial/bin'
+[3.885s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/serial/share/serial/package.ps1'
+[3.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/n100/install/serial/share/serial/package.dsv'
+[3.886s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/serial/share/serial/package.sh'
+[3.886s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/serial/share/serial/package.bash'
+[3.886s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/serial/share/serial/package.zsh'
+[3.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/n100/install/serial/share/colcon-core/packages/serial)
+[3.887s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu' with build type 'ament_cmake'
+[3.887s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu'
+[3.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/n100/build/wheeltec_n100_imu': AMENT_PREFIX_PATH=/root/ros2_code/humble/n100/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/n100/install/serial:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/n100/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/n100/install/wheeltec_n100_imu
+[6.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/n100/build/wheeltec_n100_imu' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/n100/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/n100/install/serial:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/n100/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/n100/install/wheeltec_n100_imu
+[6.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/n100/build/wheeltec_n100_imu': AMENT_PREFIX_PATH=/root/ros2_code/humble/n100/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/n100/install/serial:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/n100/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros2_code/humble/n100/build/wheeltec_n100_imu -- -j12 -l12
+[12.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/n100/build/wheeltec_n100_imu' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/n100/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/n100/install/serial:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/n100/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros2_code/humble/n100/build/wheeltec_n100_imu -- -j12 -l12
+[12.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/n100/build/wheeltec_n100_imu': AMENT_PREFIX_PATH=/root/ros2_code/humble/n100/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/n100/install/serial:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/n100/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros2_code/humble/n100/build/wheeltec_n100_imu
+[12.604s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_n100_imu)
+[12.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/n100/build/wheeltec_n100_imu' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/n100/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/n100/install/serial:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/n100/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros2_code/humble/n100/build/wheeltec_n100_imu
+[12.631s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/wheeltec_n100_imu' for CMake module files
+[12.632s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/wheeltec_n100_imu' for CMake config files
+[12.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_n100_imu', 'cmake_prefix_path')
+[12.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/hook/cmake_prefix_path.ps1'
+[12.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/hook/cmake_prefix_path.dsv'
+[12.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/hook/cmake_prefix_path.sh'
+[12.653s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/lib'
+[12.653s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/bin'
+[12.653s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/lib/pkgconfig/wheeltec_n100_imu.pc'
+[12.653s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/lib/python3.10/site-packages'
+[12.654s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/bin'
+[12.673s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.ps1'
+[12.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.dsv'
+[12.674s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.sh'
+[12.674s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.bash'
+[12.674s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.zsh'
+[12.674s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/colcon-core/packages/wheeltec_n100_imu)
+[12.714s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_n100_imu)
+[12.742s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/wheeltec_n100_imu' for CMake module files
+[12.743s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/wheeltec_n100_imu' for CMake config files
+[12.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_n100_imu', 'cmake_prefix_path')
+[12.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/hook/cmake_prefix_path.ps1'
+[12.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/hook/cmake_prefix_path.dsv'
+[12.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/hook/cmake_prefix_path.sh'
+[12.776s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/lib'
+[12.776s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/bin'
+[12.776s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/lib/pkgconfig/wheeltec_n100_imu.pc'
+[12.776s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/lib/python3.10/site-packages'
+[12.777s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/bin'
+[12.793s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.ps1'
+[12.793s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.dsv'
+[12.794s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.sh'
+[12.794s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.bash'
+[12.795s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.zsh'
+[12.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/colcon-core/packages/wheeltec_n100_imu)
+[12.796s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.796s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.796s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.797s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.841s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[12.841s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.841s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.842s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.844s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[12.844s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.868s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/n100/install/local_setup.ps1'
+[12.870s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/n100/install/_local_setup_util_ps1.py'
+[12.872s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/n100/install/setup.ps1'
+[12.892s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/n100/install/local_setup.sh'
+[12.892s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/n100/install/_local_setup_util_sh.py'
+[12.893s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/n100/install/setup.sh'
+[12.913s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/n100/install/local_setup.bash'
+[12.914s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/n100/install/setup.bash'
+[12.932s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/n100/install/local_setup.zsh'
+[12.933s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/n100/install/setup.zsh'

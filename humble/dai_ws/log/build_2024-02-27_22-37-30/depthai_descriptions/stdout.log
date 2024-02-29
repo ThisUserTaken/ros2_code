@@ -1,0 +1,51 @@
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_code/humble/dai_ws/build/depthai_descriptions
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/base_descr.urdf.xacro
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/depthai_descr.urdf.xacro
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/base_macro.urdf.xacro
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/depthai_macro.urdf.xacro
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-CM4-POE.stl
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-IOT-75.stl
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LITE.stl
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LR.stl
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-POE.stl
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO-W.stl
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO.stl
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-S2.stl
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-SR.stl
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D.stl
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/ament_index/resource_index/package_run_dependencies/depthai_descriptions
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/ament_index/resource_index/parent_prefix_path/depthai_descriptions
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.sh
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.dsv
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.bash
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.sh
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.zsh
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.dsv
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/ament_index/resource_index/packages/depthai_descriptions
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig.cmake
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig-version.cmake
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/package.xml
+-- Installing: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/launch
+-- Installing: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/launch/urdf_launch.py

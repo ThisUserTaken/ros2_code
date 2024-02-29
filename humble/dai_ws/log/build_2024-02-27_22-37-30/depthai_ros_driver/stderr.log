@@ -1,0 +1,48 @@
+[1m/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_driver/src/param_handlers/sensor_param_handler.cpp:126:54: [0m[0;1;35mwarning: [0m[1mformat string is not a string literal (potentially insecure) [-Wformat-security][0m
+            RCLCPP_ERROR(getROSNode()->get_logger(), err_stream.str().c_str());
+[0;1;32m                                                     ^~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:1407:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_ERROR'[0m
+      __VA_ARGS__); \
+[0;1;32m      ^~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:997:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_ERROR_NAMED'[0m
+    __VA_ARGS__)
+[0;1;32m    ^~~~~~~~~~~
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[0;1;32m                                                               ^~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_driver/src/param_handlers/sensor_param_handler.cpp:126:54: [0m[0;1;30mnote: [0mtreat the string as an argument to avoid this[0m
+            RCLCPP_ERROR(getROSNode()->get_logger(), err_stream.str().c_str());
+[0;1;32m                                                     ^
+[0m[0;32m                                                     "%s", 
+[0m[1m/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:1407:7: [0m[0;1;30mnote: [0mexpanded from macro 'RCLCPP_ERROR'[0m
+      __VA_ARGS__); \
+[0;1;32m      ^
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:997:5: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_ERROR_NAMED'[0m
+    __VA_ARGS__)
+[0;1;32m    ^
+[0m[1m/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:72:64: [0m[0;1;30mnote: [0mexpanded from macro 'RCUTILS_LOG_COND_NAMED'[0m
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[0;1;32m                                                               ^
+[0m1 warning generated.
+In file included from /root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_driver/src/pipeline/pipeline_generator.cpp:9:
+In file included from /opt/ros/humble/include/pluginlib/pluginlib/./class_loader.hpp:38:
+In file included from /opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52:
+[1m/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:271:5: [0m[0;1;35mwarning: [0m[1mdelete called on 'depthai_ros_driver::pipeline_gen::BasePipeline' that is abstract but has non-virtual destructor [-Wdelete-abstract-non-virtual-dtor][0m
+    delete (obj);
+[0;1;32m    ^
+[0m[1m/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:152:31: [0m[0;1;30mnote: [0min instantiation of function template specialization 'class_loader::ClassLoader::onPluginDeletion<depthai_ros_driver::pipeline_gen::BasePipeline>' requested here[0m
+      std::bind(&ClassLoader::onPluginDeletion<Base>, this, std::placeholders::_1)
+[0;1;32m                              ^
+[0m[1m/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:157:20: [0m[0;1;30mnote: [0min instantiation of function template specialization 'class_loader::ClassLoader::createUniqueInstance<depthai_ros_driver::pipeline_gen::BasePipeline>' requested here[0m
+    return loader->createUniqueInstance<Base>(class_name);
+[0;1;32m                   ^
+[0m[1m/opt/ros/humble/include/pluginlib/pluginlib/./class_loader_imp.hpp:170:47: [0m[0;1;30mnote: [0min instantiation of function template specialization 'class_loader::MultiLibraryClassLoader::createUniqueInstance<depthai_ros_driver::pipeline_gen::BasePipeline>' requested here[0m
+    UniquePtr<T> obj = lowlevel_class_loader_.createUniqueInstance<T>(class_type);
+[0;1;32m                                              ^
+[0m[1m/opt/ros/humble/include/pluginlib/pluginlib/./class_loader_imp.hpp:151:10: [0m[0;1;30mnote: [0min instantiation of member function 'pluginlib::ClassLoader<depthai_ros_driver::pipeline_gen::BasePipeline>::createUniqueInstance' requested here[0m
+  return createUniqueInstance(lookup_name);
+[0;1;32m         ^
+[0m[1m/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_driver/src/pipeline/pipeline_generator.cpp:34:71: [0m[0;1;30mnote: [0min instantiation of member function 'pluginlib::ClassLoader<depthai_ros_driver::pipeline_gen::BasePipeline>::createSharedInstance' requested here[0m
+        std::shared_ptr<BasePipeline> pipelinePlugin = pipelineLoader.createSharedInstance(pluginType);
+[0;1;32m                                                                      ^
+[0m1 warning generated.

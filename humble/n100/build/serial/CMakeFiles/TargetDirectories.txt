@@ -1,0 +1,10 @@
+/root/ros2_code/humble/n100/build/serial/CMakeFiles/uninstall.dir
+/root/ros2_code/humble/n100/build/serial/CMakeFiles/serial_uninstall.dir
+/root/ros2_code/humble/n100/build/serial/CMakeFiles/serial.dir
+/root/ros2_code/humble/n100/build/serial/CMakeFiles/test.dir
+/root/ros2_code/humble/n100/build/serial/CMakeFiles/edit_cache.dir
+/root/ros2_code/humble/n100/build/serial/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/humble/n100/build/serial/CMakeFiles/list_install_components.dir
+/root/ros2_code/humble/n100/build/serial/CMakeFiles/install.dir
+/root/ros2_code/humble/n100/build/serial/CMakeFiles/install/local.dir
+/root/ros2_code/humble/n100/build/serial/CMakeFiles/install/strip.dir

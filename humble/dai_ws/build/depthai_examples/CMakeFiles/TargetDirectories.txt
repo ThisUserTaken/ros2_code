@@ -1,0 +1,17 @@
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/uninstall.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/depthai_examples_uninstall.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/crop_control_service.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/mobilenet_node.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/rgb_stereo_node.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/stereo_inertial_node.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/feature_tracker.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/stereo_node.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/yolov4_spatial_node.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/yolov4_node.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/test.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/edit_cache.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/list_install_components.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/install.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/install/local.dir
+/root/ros2_code/humble/dai_ws/build/depthai_examples/CMakeFiles/install/strip.dir

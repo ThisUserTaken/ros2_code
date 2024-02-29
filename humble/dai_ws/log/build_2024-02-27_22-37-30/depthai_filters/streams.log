@@ -1,0 +1,90 @@
+[0.851s] Invoking command in '/root/ros2_code/humble/dai_ws/build/depthai_filters': AMENT_PREFIX_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthimage_to_laserscan:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_filters -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/dai_ws/install/depthai_filters
+[1.362s] -- The CXX compiler identification is Clang 14.0.0
+[1.681s] -- The C compiler identification is Clang 14.0.0
+[1.712s] -- Detecting CXX compiler ABI info
+[2.360s] -- Detecting CXX compiler ABI info - done
+[2.410s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[2.412s] -- Detecting CXX compile features
+[2.415s] -- Detecting CXX compile features - done
+[2.437s] -- Detecting C compiler ABI info
+[2.869s] -- Detecting C compiler ABI info - done
+[2.910s] -- Check for working C compiler: /usr/bin/clang - skipped
+[2.912s] -- Detecting C compile features
+[2.915s] -- Detecting C compile features - done
+[2.953s] -- Found ament_cmake_auto: 1.3.7 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[3.983s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.335s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.518s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.585s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.676s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.137s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.179s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[8.480s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[8.598s] -- Looking for pthread.h
+[9.031s] -- Looking for pthread.h - found
+[9.032s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.470s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.474s] -- Found Threads: TRUE  
+[14.270s] -- Configuring done
+[14.354s] -- Generating done
+[14.362s] -- Build files have been written to: /root/ros2_code/humble/dai_ws/build/depthai_filters
+[14.394s] Invoked command in '/root/ros2_code/humble/dai_ws/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthimage_to_laserscan:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_filters -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/dai_ws/install/depthai_filters
+[14.400s] Invoking command in '/root/ros2_code/humble/dai_ws/build/depthai_filters': AMENT_PREFIX_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthimage_to_laserscan:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_code/humble/dai_ws/build/depthai_filters -- -j12 -l12
+[14.646s] [ 12%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/segmentation_overlay.cpp.o[0m
+[14.651s] [ 25%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/wls_filter.cpp.o[0m
+[14.656s] [ 37%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/spatial_bb.cpp.o[0m
+[14.657s] [ 50%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/feature_tracker_overlay.cpp.o[0m
+[14.659s] [ 62%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/detection2d_overlay.cpp.o[0m
+[14.662s] [ 75%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/features_3d.cpp.o[0m
+[14.671s] [ 87%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/utils.cpp.o[0m
+[69.625s] In file included from /root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_filters/src/feature_tracker_overlay.cpp:1:
+[69.625s] [1m/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_filters/include/depthai_filters/feature_tracker_overlay.hpp:36:9: [0m[0;1;35mwarning: [0m[1mprivate field 'maxTrackedFeaturesPathLength' is not used [-Wunused-private-field][0m
+[69.626s]     int maxTrackedFeaturesPathLength = 30;
+[69.626s] [0;1;32m        ^
+[86.498s] [0m1 warning generated.
+[104.230s] [100%] [32m[1mLinking CXX shared library libdepthai_filters.so[0m
+[117.266s] [100%] Built target depthai_filters
+[117.313s] Invoked command in '/root/ros2_code/humble/dai_ws/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthimage_to_laserscan:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_code/humble/dai_ws/build/depthai_filters -- -j12 -l12
+[117.626s] Invoking command in '/root/ros2_code/humble/dai_ws/build/depthai_filters': AMENT_PREFIX_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthimage_to_laserscan:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_code/humble/dai_ws/build/depthai_filters
+[117.683s] -- Install configuration: ""
+[117.686s] -- Execute custom install script
+[117.694s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/launch/det2d_usb_cam_overlay.launch.py
+[117.752s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/launch/example_det2d_overlay.launch.py
+[117.803s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/launch/example_feature_3d.launch.py
+[117.860s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/launch/example_feature_tracker.launch.py
+[117.909s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/launch/example_seg_overlay.launch.py
+[117.961s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/launch/example_wls_filter.launch.py
+[118.024s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/launch/spatial_bb.launch.py
+[118.092s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/config/detection.yaml
+[118.153s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/config/feature_tracker.yaml
+[118.198s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/config/spatial_bb.yaml
+[118.256s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/config/usb_cam_overlay.yaml
+[118.303s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/config/wls.yaml
+[118.369s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/lib/libdepthai_filters.so
+[118.430s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/include/depthai_filters/detection2d_overlay.hpp
+[118.491s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/include/depthai_filters/feature_tracker_overlay.hpp
+[118.553s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/include/depthai_filters/features_3d.hpp
+[118.606s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/include/depthai_filters/segmentation_overlay.hpp
+[118.671s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/include/depthai_filters/spatial_bb.hpp
+[118.731s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/include/depthai_filters/utils.hpp
+[118.792s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/include/depthai_filters/wls_filter.hpp
+[118.850s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/ament_index/resource_index/package_run_dependencies/depthai_filters
+[118.900s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/ament_index/resource_index/parent_prefix_path/depthai_filters
+[118.965s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.sh
+[119.015s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.dsv
+[119.065s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/environment/path.sh
+[119.127s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/environment/path.dsv
+[119.187s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/local_setup.bash
+[119.240s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/local_setup.sh
+[119.299s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/local_setup.zsh
+[119.351s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/local_setup.dsv
+[119.406s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/package.dsv
+[119.476s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/ament_index/resource_index/packages/depthai_filters
+[119.524s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/ament_index/resource_index/rclcpp_components/depthai_filters
+[119.587s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+[119.635s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig.cmake
+[119.687s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig-version.cmake
+[119.742s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_filters/share/depthai_filters/package.xml
+[119.807s] Invoked command in '/root/ros2_code/humble/dai_ws/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthimage_to_laserscan:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_code/humble/dai_ws/build/depthai_filters

@@ -1,0 +1,15 @@
+{
+  "package_name": "depthai_ros_msgs",
+  "non_idl_tuples": [
+    "/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs:msg/AutoFocusCtrl.msg",
+    "/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs:msg/HandLandmark.msg",
+    "/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs:msg/HandLandmarkArray.msg",
+    "/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs:msg/ImuWithMagneticField.msg",
+    "/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs:msg/TrackedFeature.msg",
+    "/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs:msg/TrackedFeatures.msg",
+    "/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs:msg/SpatialDetection.msg",
+    "/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs:msg/SpatialDetectionArray.msg",
+    "/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs:srv/TriggerNamed.srv",
+    "/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs:srv/NormalizedImageCrop.srv"
+  ]
+}

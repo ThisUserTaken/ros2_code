@@ -1,0 +1,57 @@
+[1.607s] Invoking command in '/root/ros2_code/humble/dai_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_descriptions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/dai_ws/install/depthai_descriptions
+[2.033s] -- The C compiler identification is Clang 14.0.0
+[2.630s] -- The CXX compiler identification is Clang 14.0.0
+[2.666s] -- Detecting C compiler ABI info
+[3.156s] -- Detecting C compiler ABI info - done
+[3.216s] -- Check for working C compiler: /usr/bin/clang - skipped
+[3.218s] -- Detecting C compile features
+[3.221s] -- Detecting C compile features - done
+[3.243s] -- Detecting CXX compiler ABI info
+[3.934s] -- Detecting CXX compiler ABI info - done
+[3.977s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[3.979s] -- Detecting CXX compile features
+[3.983s] -- Detecting CXX compile features - done
+[4.029s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.133s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.528s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.321s] -- Configuring done
+[6.339s] -- Generating done
+[6.344s] -- Build files have been written to: /root/ros2_code/humble/dai_ws/build/depthai_descriptions
+[6.367s] Invoked command in '/root/ros2_code/humble/dai_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_descriptions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/dai_ws/install/depthai_descriptions
+[6.379s] Invoking command in '/root/ros2_code/humble/dai_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/dai_ws/build/depthai_descriptions -- -j12 -l12
+[6.554s] Invoked command in '/root/ros2_code/humble/dai_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/dai_ws/build/depthai_descriptions -- -j12 -l12
+[6.702s] Invoking command in '/root/ros2_code/humble/dai_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/dai_ws/build/depthai_descriptions
+[6.735s] -- Install configuration: ""
+[6.737s] -- Execute custom install script
+[6.739s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/base_descr.urdf.xacro
+[6.775s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/depthai_descr.urdf.xacro
+[6.820s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/base_macro.urdf.xacro
+[6.853s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/depthai_macro.urdf.xacro
+[6.899s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-CM4-POE.stl
+[6.946s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-IOT-75.stl
+[6.992s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LITE.stl
+[7.030s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LR.stl
+[7.066s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-POE.stl
+[7.106s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO-W.stl
+[7.140s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO.stl
+[7.175s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-S2.stl
+[7.209s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-SR.stl
+[7.247s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D.stl
+[7.282s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/ament_index/resource_index/package_run_dependencies/depthai_descriptions
+[7.319s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/ament_index/resource_index/parent_prefix_path/depthai_descriptions
+[7.354s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.sh
+[7.393s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.dsv
+[7.428s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.sh
+[7.467s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.dsv
+[7.510s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.bash
+[7.547s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.sh
+[7.582s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.zsh
+[7.620s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.dsv
+[7.655s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv
+[7.692s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/ament_index/resource_index/packages/depthai_descriptions
+[7.730s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig.cmake
+[7.768s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig-version.cmake
+[7.804s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/package.xml
+[7.840s] -- Installing: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/launch
+[7.841s] -- Installing: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/launch/urdf_launch.py
+[7.848s] Invoked command in '/root/ros2_code/humble/dai_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/dai_ws/build/depthai_descriptions

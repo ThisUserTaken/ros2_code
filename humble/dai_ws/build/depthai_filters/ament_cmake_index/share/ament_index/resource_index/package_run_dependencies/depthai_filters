@@ -1,0 +1,1 @@
+sensor_msgs;rclcpp;rclcpp_components;vision_msgs;message_filters;libopencv-dev;cv_bridge;image_transport;visualization_msgs;depthai_ros_msgs

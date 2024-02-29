@@ -1,0 +1,1 @@
+ament_cmake_auto:camera_calibration:cv_bridge:depthai:depthai_bridge:depthai_descriptions:depthai_examples:depthai_ros_msgs:diagnostic_msgs:diagnostic_updater:image_pipeline:image_transport:image_transport_plugins:pluginlib:rclcpp:rclcpp_components:sensor_msgs:std_msgs:std_srvs:vision_msgs

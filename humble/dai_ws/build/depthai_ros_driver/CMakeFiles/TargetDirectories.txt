@@ -1,0 +1,15 @@
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/uninstall.dir
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/depthai_ros_driver_uninstall.dir
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/depthai_ros_driver_common.dir
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/depthai_ros_driver_sensor_nodes.dir
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/depthai_ros_driver_nn_nodes.dir
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/depthai_ros_driver.dir
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/ament_cmake_python_symlink_depthai_ros_driver.dir
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/ament_cmake_python_build_depthai_ros_driver_egg.dir
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/test.dir
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/edit_cache.dir
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/list_install_components.dir
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/install.dir
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/install/local.dir
+/root/ros2_code/humble/dai_ws/build/depthai_ros_driver/CMakeFiles/install/strip.dir

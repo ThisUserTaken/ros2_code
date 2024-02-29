@@ -1,0 +1,1 @@
+camera_info_manager:composition_interfaces:cv_bridge:depthai:depthai_ros_msgs:image_transport:libboost-dev:libopencv-dev:rclcpp:robot_state_publisher:ros_environment:sensor_msgs:std_msgs:stereo_msgs:tf2:tf2_geometry_msgs:tf2_ros:vision_msgs:xacro

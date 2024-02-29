@@ -1,0 +1,110 @@
+[6.878s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/root/ros2_code/humble/vision']
+[6.878s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/root/ros2_code/humble/vision'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4ccd770970>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f4ccd771210>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f4ccd771210>>)
+[7.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.286s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/vision'
+[7.286s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision) by extensions ['ignore', 'ignore_ament_install']
+[7.287s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision) by extension 'ignore'
+[7.287s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision) by extension 'ignore_ament_install'
+[7.287s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision) by extensions ['colcon_pkg']
+[7.288s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision) by extension 'colcon_pkg'
+[7.288s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision) by extensions ['colcon_meta']
+[7.288s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision) by extension 'colcon_meta'
+[7.288s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision) by extensions ['ros']
+[7.289s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision) by extension 'ros'
+[7.359s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision) by extensions ['cmake', 'python']
+[7.359s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision) by extension 'cmake'
+[7.360s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision) by extension 'python'
+[7.361s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision) by extensions ['python_setup_py']
+[7.362s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision) by extension 'python_setup_py'
+[7.363s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/build) by extensions ['ignore', 'ignore_ament_install']
+[7.363s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/build) by extension 'ignore'
+[7.364s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/build) ignored
+[7.365s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/install) by extensions ['ignore', 'ignore_ament_install']
+[7.365s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/install) by extension 'ignore'
+[7.366s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/install) ignored
+[7.366s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/log) by extensions ['ignore', 'ignore_ament_install']
+[7.366s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/log) by extension 'ignore'
+[7.367s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/log) ignored
+[7.367s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src) by extensions ['ignore', 'ignore_ament_install']
+[7.367s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src) by extension 'ignore'
+[7.367s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src) by extension 'ignore_ament_install'
+[7.368s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src) by extensions ['colcon_pkg']
+[7.368s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src) by extension 'colcon_pkg'
+[7.368s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src) by extensions ['colcon_meta']
+[7.368s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src) by extension 'colcon_meta'
+[7.368s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src) by extensions ['ros']
+[7.368s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src) by extension 'ros'
+[7.369s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src) by extensions ['cmake', 'python']
+[7.369s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src) by extension 'cmake'
+[7.369s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src) by extension 'python'
+[7.369s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src) by extensions ['python_setup_py']
+[7.370s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src) by extension 'python_setup_py'
+[7.371s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/cartographer_pkg) by extensions ['ignore', 'ignore_ament_install']
+[7.373s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/cartographer_pkg) by extension 'ignore'
+[7.374s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/cartographer_pkg) by extension 'ignore_ament_install'
+[7.374s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/cartographer_pkg) by extensions ['colcon_pkg']
+[7.374s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/cartographer_pkg) by extension 'colcon_pkg'
+[7.374s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/cartographer_pkg) by extensions ['colcon_meta']
+[7.375s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/cartographer_pkg) by extension 'colcon_meta'
+[7.375s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/cartographer_pkg) by extensions ['ros']
+[7.375s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/cartographer_pkg) by extension 'ros'
+[7.395s] DEBUG:colcon.colcon_core.package_identification:Package '/root/ros2_code/humble/vision/src/cartographer_pkg' with type 'ros.ament_python' and name 'cartographer_pkg'
+[7.396s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/diff_robot_pkg) by extensions ['ignore', 'ignore_ament_install']
+[7.396s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/diff_robot_pkg) by extension 'ignore'
+[7.397s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/diff_robot_pkg) by extension 'ignore_ament_install'
+[7.397s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/diff_robot_pkg) by extensions ['colcon_pkg']
+[7.397s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/diff_robot_pkg) by extension 'colcon_pkg'
+[7.398s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/diff_robot_pkg) by extensions ['colcon_meta']
+[7.398s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/diff_robot_pkg) by extension 'colcon_meta'
+[7.398s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/diff_robot_pkg) by extensions ['ros']
+[7.398s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/diff_robot_pkg) by extension 'ros'
+[7.401s] DEBUG:colcon.colcon_core.package_identification:Package '/root/ros2_code/humble/vision/src/diff_robot_pkg' with type 'ros.ament_cmake' and name 'diff_robot_pkg'
+[7.403s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/joystick_pkg) by extensions ['ignore', 'ignore_ament_install']
+[7.404s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/joystick_pkg) by extension 'ignore'
+[7.404s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/joystick_pkg) by extension 'ignore_ament_install'
+[7.405s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/joystick_pkg) by extensions ['colcon_pkg']
+[7.405s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/joystick_pkg) by extension 'colcon_pkg'
+[7.405s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/joystick_pkg) by extensions ['colcon_meta']
+[7.406s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/joystick_pkg) by extension 'colcon_meta'
+[7.406s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/joystick_pkg) by extensions ['ros']
+[7.406s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/joystick_pkg) by extension 'ros'
+[7.411s] DEBUG:colcon.colcon_core.package_identification:Package '/root/ros2_code/humble/vision/src/joystick_pkg' with type 'ros.ament_python' and name 'joystick_pkg'
+[7.412s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[7.412s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs) by extension 'ignore'
+[7.413s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs) by extension 'ignore_ament_install'
+[7.413s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs) by extensions ['colcon_pkg']
+[7.414s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs) by extension 'colcon_pkg'
+[7.414s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs) by extensions ['colcon_meta']
+[7.414s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs) by extension 'colcon_meta'
+[7.415s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs) by extensions ['ros']
+[7.415s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs) by extension 'ros'
+[7.416s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs) by extensions ['cmake', 'python']
+[7.416s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs) by extension 'cmake'
+[7.416s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs) by extension 'python'
+[7.416s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs) by extensions ['python_setup_py']
+[7.416s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs) by extension 'python_setup_py'
+[7.418s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg) by extensions ['ignore', 'ignore_ament_install']
+[7.420s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg) by extension 'ignore'
+[7.421s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg) by extension 'ignore_ament_install'
+[7.421s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg) by extensions ['colcon_pkg']
+[7.422s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg) by extension 'colcon_pkg'
+[7.422s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg) by extensions ['colcon_meta']
+[7.422s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg) by extension 'colcon_meta'
+[7.422s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg) by extensions ['ros']
+[7.422s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg) by extension 'ros'
+[7.425s] DEBUG:colcon.colcon_core.package_identification:Package '/root/ros2_code/humble/vision/src/nav2_pkgs/nav2_api_pkg' with type 'ros.ament_python' and name 'nav2_api_pkg'
+[7.426s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg) by extensions ['ignore', 'ignore_ament_install']
+[7.426s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg) by extension 'ignore'
+[7.427s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg) by extension 'ignore_ament_install'
+[7.427s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg) by extensions ['colcon_pkg']
+[7.427s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg) by extension 'colcon_pkg'
+[7.427s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg) by extensions ['colcon_meta']
+[7.427s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg) by extension 'colcon_meta'
+[7.428s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg) by extensions ['ros']
+[7.428s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg) by extension 'ros'
+[7.433s] DEBUG:colcon.colcon_core.package_identification:Package '/root/ros2_code/humble/vision/src/nav2_pkgs/path_planner_pkg' with type 'ros.ament_python' and name 'path_planner_pkg'
+[7.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

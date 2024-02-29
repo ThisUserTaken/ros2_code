@@ -1,0 +1,1 @@
+/root/ros2_code/humble/dai_ws/build/depthai_ros_msgs/rosidl_cmake/srv/NormalizedImageCrop_Response.msg

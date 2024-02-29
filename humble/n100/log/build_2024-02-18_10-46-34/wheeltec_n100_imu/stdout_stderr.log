@@ -1,0 +1,177 @@
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found serial: 1.2.1 (/root/ros2_code/humble/n100/install/serial/share/serial/cmake)
+-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_code/humble/n100/build/wheeltec_n100_imu
+[ 50%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:221:16: [0m[0;1;35mwarning: [0m[1munused variable 'ground_sn_s' [-Wunused-variable][0m
+        size_t ground_sn_s = serial_.read(ground_sn, 1);
+[0;1;32m               ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:244:16: [0m[0;1;35mwarning: [0m[1munused variable 'ground_ignore_s' [-Wunused-variable][0m
+        size_t ground_ignore_s = serial_.read(ground_ignore, (check_len[0]+4));
+[0;1;32m               ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:333:16: [0m[0;1;35mwarning: [0m[1munused variable 'data_s' [-Wunused-variable][0m
+        size_t data_s = serial_.read(imu_frame_.read_buf.read_msg, (IMU_LEN + 1)); //48+1
+[0;1;32m               ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:366:16: [0m[0;1;35mwarning: [0m[1munused variable 'data_s' [-Wunused-variable][0m
+        size_t data_s = serial_.read(ahrs_frame_.read_buf.read_msg, (AHRS_LEN + 1)); //48+1
+[0;1;32m               ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:397:16: [0m[0;1;35mwarning: [0m[1munused variable 'data_s' [-Wunused-variable][0m
+        size_t data_s = serial_.read(insgps_frame_.read_buf.read_msg, (INSGPS_LEN + 1)); //48+1
+[0;1;32m               ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:422:28: [0m[0;1;35mwarning: [0m[1munused variable 'q_r' [-Wunused-variable][0m
+        Eigen::Quaterniond q_r =
+[0;1;32m                           ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:434:28: [0m[0;1;35mwarning: [0m[1munused variable 'q_xiao_rr' [-Wunused-variable][0m
+        Eigen::Quaterniond q_xiao_rr =
+[0;1;32m                           ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:254:14: [0m[0;1;35mwarning: [0m[1munused variable 'crc16_H_s' [-Wunused-variable][0m
+      size_t crc16_H_s = serial_.read(head_crc16_H, 1);
+[0;1;32m             ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:201:14: [0m[0;1;35mwarning: [0m[1munused variable 'len_s' [-Wunused-variable][0m
+      size_t len_s = serial_.read(check_len, 1);
+[0;1;32m             ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:190:14: [0m[0;1;35mwarning: [0m[1munused variable 'type_s' [-Wunused-variable][0m
+      size_t type_s = serial_.read(head_type, 1);
+[0;1;32m             ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:255:14: [0m[0;1;35mwarning: [0m[1munused variable 'crc16_L_s' [-Wunused-variable][0m
+      size_t crc16_L_s = serial_.read(head_crc16_L, 1);
+[0;1;32m             ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:249:14: [0m[0;1;35mwarning: [0m[1munused variable 'sn_s' [-Wunused-variable][0m
+      size_t sn_s = serial_.read(check_sn, 1);
+[0;1;32m             ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:251:14: [0m[0;1;35mwarning: [0m[1munused variable 'crc8_s' [-Wunused-variable][0m
+      size_t crc8_s = serial_.read(head_crc8, 1);
+[0;1;32m             ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:18: [0m[0;1;35mwarning: [0m[1mvariable 'magx' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized][0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m                 ^~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:519:9: [0m[0;1;30mnote: [0muninitialized use occurs here[0m
+        magx *= 1.0e-7;
+[0;1;32m        ^~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:14: [0m[0;1;30mnote: [0mremove the 'if' if its condition is always true[0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m             ^~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:500:20: [0m[0;1;30mnote: [0minitialize the variable 'magx' to silence this warning[0m
+        double magx, magy, magz, roll, pitch;
+[0;1;32m                   ^
+[0m[0;32m                    = 0.0
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:18: [0m[0;1;35mwarning: [0m[1mvariable 'magy' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized][0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m                 ^~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:520:9: [0m[0;1;30mnote: [0muninitialized use occurs here[0m
+        magy *= 1.0e-7;
+[0;1;32m        ^~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:14: [0m[0;1;30mnote: [0mremove the 'if' if its condition is always true[0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m             ^~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:500:26: [0m[0;1;30mnote: [0minitialize the variable 'magy' to silence this warning[0m
+        double magx, magy, magz, roll, pitch;
+[0;1;32m                         ^
+[0m[0;32m                          = 0.0
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:18: [0m[0;1;35mwarning: [0m[1mvariable 'magz' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized][0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m                 ^~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:521:9: [0m[0;1;30mnote: [0muninitialized use occurs here[0m
+        magz *= 1.0e-7;
+[0;1;32m        ^~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:14: [0m[0;1;30mnote: [0mremove the 'if' if its condition is always true[0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m             ^~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:500:32: [0m[0;1;30mnote: [0minitialize the variable 'magz' to silence this warning[0m
+        double magx, magy, magz, roll, pitch;
+[0;1;32m                               ^
+[0m[0;32m                                = 0.0
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:18: [0m[0;1;35mwarning: [0m[1mvariable 'roll' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized][0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m                 ^~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:527:25: [0m[0;1;30mnote: [0muninitialized use occurs here[0m
+        magCalculateYaw(roll, pitch, magyaw, magx, magy, magz);
+[0;1;32m                        ^~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:14: [0m[0;1;30mnote: [0mremove the 'if' if its condition is always true[0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m             ^~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:500:38: [0m[0;1;30mnote: [0minitialize the variable 'roll' to silence this warning[0m
+        double magx, magy, magz, roll, pitch;
+[0;1;32m                                     ^
+[0m[0;32m                                      = 0.0
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:18: [0m[0;1;35mwarning: [0m[1mvariable 'pitch' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized][0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m                 ^~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:527:31: [0m[0;1;30mnote: [0muninitialized use occurs here[0m
+        magCalculateYaw(roll, pitch, magyaw, magx, magy, magz);
+[0;1;32m                              ^~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:14: [0m[0;1;30mnote: [0mremove the 'if' if its condition is always true[0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m             ^~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:500:45: [0m[0;1;30mnote: [0minitialize the variable 'pitch' to silence this warning[0m
+        double magx, magy, magz, roll, pitch;
+[0;1;32m                                            ^
+[0m[0;32m                                             = 0.0
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:136:7: [0m[0;1;35mwarning: [0m[1mprivate field 'crc_error_' is not used [-Wunused-private-field][0m
+  int crc_error_ = 0;
+[0;1;32m      ^
+[0m19 warnings generated.
+[100%] [32m[1mLinking CXX executable imu_node[0m
+[100%] Built target imu_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/lib/wheeltec_n100_imu/imu_node
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/ament_index/resource_index/package_run_dependencies/wheeltec_n100_imu
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/ament_index/resource_index/parent_prefix_path/wheeltec_n100_imu
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/environment/path.sh
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/environment/path.dsv
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/local_setup.bash
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/local_setup.sh
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/local_setup.zsh
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/local_setup.dsv
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.dsv
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/ament_index/resource_index/packages/wheeltec_n100_imu
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/cmake/wheeltec_n100_imuConfig.cmake
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/cmake/wheeltec_n100_imuConfig-version.cmake
+-- Symlinking: /root/ros2_code/humble/n100/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.xml

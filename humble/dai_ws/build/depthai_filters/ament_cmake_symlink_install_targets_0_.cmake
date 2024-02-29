@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros2_code/humble/dai_ws/build/depthai_filters/libdepthai_filters.so" "TARGETS" "depthai_filters" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

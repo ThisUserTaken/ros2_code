@@ -1,0 +1,53 @@
+[0.139s] Invoking command in '/root/ros2_code/humble/n100/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/n100/src/serial-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/n100/install/serial
+[0.216s] -- The C compiler identification is Clang 14.0.0
+[0.355s] -- The CXX compiler identification is Clang 14.0.0
+[0.363s] -- Detecting C compiler ABI info
+[0.567s] -- Detecting C compiler ABI info - done
+[0.574s] -- Check for working C compiler: /usr/bin/clang - skipped
+[0.574s] -- Detecting C compile features
+[0.574s] -- Detecting C compile features - done
+[0.577s] -- Detecting CXX compiler ABI info
+[0.749s] -- Detecting CXX compiler ABI info - done
+[0.756s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[0.756s] -- Detecting CXX compile features
+[0.757s] -- Detecting CXX compile features - done
+[0.772s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.994s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.064s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.207s] -- Configuring done
+[1.212s] -- Generating done
+[1.213s] -- Build files have been written to: /root/ros2_code/humble/n100/build/serial
+[1.219s] Invoked command in '/root/ros2_code/humble/n100/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/n100/src/serial-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/n100/install/serial
+[1.222s] Invoking command in '/root/ros2_code/humble/n100/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/n100/build/serial -- -j12 -l12
+[1.314s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[1.314s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[1.315s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[2.035s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[2.107s] [100%] Built target serial
+[2.120s] Invoked command in '/root/ros2_code/humble/n100/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/n100/build/serial -- -j12 -l12
+[2.159s] Invoking command in '/root/ros2_code/humble/n100/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/n100/build/serial
+[2.166s] -- Install configuration: ""
+[2.166s] -- Execute custom install script
+[2.166s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/environment/library_path.sh
+[2.174s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/environment/library_path.dsv
+[2.182s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/lib/libserial.a
+[2.189s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/include/serial/serial.h
+[2.196s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/include/serial/v8stdint.h
+[2.204s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[2.211s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[2.220s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/environment/ament_prefix_path.sh
+[2.228s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/environment/ament_prefix_path.dsv
+[2.240s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/environment/path.sh
+[2.250s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/environment/path.dsv
+[2.260s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/local_setup.bash
+[2.268s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/local_setup.sh
+[2.275s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/local_setup.zsh
+[2.282s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/local_setup.dsv
+[2.288s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/package.dsv
+[2.295s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/ament_index/resource_index/packages/serial
+[2.301s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.308s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[2.320s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/cmake/serialConfig.cmake
+[2.329s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/cmake/serialConfig-version.cmake
+[2.337s] -- Symlinking: /root/ros2_code/humble/n100/install/serial/share/serial/package.xml
+[2.349s] Invoked command in '/root/ros2_code/humble/n100/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/n100/build/serial

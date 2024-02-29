@@ -1,0 +1,118 @@
+[0.800s] Invoking command in '/root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/dai_ws/src/depthimage_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan
+[1.218s] -- The C compiler identification is Clang 14.0.0
+[1.882s] -- The CXX compiler identification is Clang 14.0.0
+[1.920s] -- Detecting C compiler ABI info
+[2.374s] -- Detecting C compiler ABI info - done
+[2.406s] -- Check for working C compiler: /usr/bin/clang - skipped
+[2.408s] -- Detecting C compile features
+[2.411s] -- Detecting C compile features - done
+[2.427s] -- Detecting CXX compiler ABI info
+[3.060s] -- Detecting CXX compiler ABI info - done
+[3.121s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[3.124s] -- Detecting CXX compile features
+[3.128s] -- Detecting CXX compile features - done
+[3.183s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.300s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.711s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.208s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[5.810s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.889s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.001s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.161s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.425s] -- Found OpenCV: /usr (found version "4.5.4") found components: core 
+[8.459s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[9.030s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.065s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[9.333s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[9.442s] -- Looking for pthread.h
+[9.903s] -- Looking for pthread.h - found
+[9.904s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.356s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.361s] -- Found Threads: TRUE  
+[11.285s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[11.837s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[12.539s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[12.544s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[13.168s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[13.170s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[13.877s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[13.931s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.724s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.777s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.799s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.800s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/ros2_code/humble/dai_ws/src/depthimage_to_laserscan/include>
+[14.801s] -- Configured cppcheck exclude dirs and/or files: 
+[14.824s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.824s] -- Configured cpplint exclude dirs and/or files: 
+[14.830s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.842s] -- Added test 'lint_cmake' to check CMake code style
+[14.850s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[14.873s] -- Added test 'uncrustify' to check C / C++ code style
+[14.873s] -- Configured uncrustify additional arguments: 
+[14.880s] -- Added test 'xmllint' to check XML markup files
+[14.907s] -- Configuring done
+[15.074s] -- Generating done
+[15.085s] -- Build files have been written to: /root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan
+[15.123s] Invoked command in '/root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/dai_ws/src/depthimage_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan
+[15.130s] Invoking command in '/root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan -- -j12 -l12
+[15.411s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[15.417s] [ 16%] [32mBuilding CXX object CMakeFiles/DepthImageToLaserScan.dir/src/DepthImageToLaserScan.cpp.o[0m
+[15.418s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[21.081s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[21.412s] [ 33%] Built target gtest_main
+[23.357s] [ 41%] [32m[1mLinking CXX shared library libDepthImageToLaserScan.so[0m
+[24.129s] [ 41%] Built target DepthImageToLaserScan
+[24.421s] [ 50%] [32mBuilding CXX object CMakeFiles/DepthImageToLaserScanROS.dir/src/DepthImageToLaserScanROS.cpp.o[0m
+[33.587s] [ 58%] [32m[1mLinking CXX static library libgtest.a[0m
+[34.101s] [ 58%] Built target gtest
+[74.225s] [ 66%] [32m[1mLinking CXX shared library libDepthImageToLaserScanROS.so[0m
+[76.885s] [ 66%] Built target DepthImageToLaserScanROS
+[76.976s] [ 75%] [32mBuilding CXX object CMakeFiles/depthimage_to_laserscan_node.dir/src/depthimage_to_laserscan.cpp.o[0m
+[76.977s] [ 83%] [32mBuilding CXX object CMakeFiles/depthimage_to_laserscan-test.dir/test/DepthImageToLaserScanTest.cpp.o[0m
+[85.928s] [ 91%] [32m[1mLinking CXX executable depthimage_to_laserscan-test[0m
+[88.106s] [ 91%] Built target depthimage_to_laserscan-test
+[95.406s] [100%] [32m[1mLinking CXX executable depthimage_to_laserscan_node[0m
+[97.545s] [100%] Built target depthimage_to_laserscan_node
+[97.589s] Invoked command in '/root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan -- -j12 -l12
+[97.784s] Invoking command in '/root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan
+[97.820s] -- Install configuration: ""
+[97.823s] -- Execute custom install script
+[97.826s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScan.hpp
+[97.863s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScanROS.hpp
+[97.899s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/depth_traits.hpp
+[97.942s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch/depthimage_to_laserscan-launch.py
+[97.987s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch/depthimage_to_laserscan_composed-launch.py
+[98.034s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//cfg/param.yaml
+[98.079s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/lib/depthimage_to_laserscan/depthimage_to_laserscan_node
+[98.124s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScan_export.h
+[98.158s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScanROS_export.h
+[98.204s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/library_path.sh
+[98.238s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/library_path.dsv
+[98.272s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/package_run_dependencies/depthimage_to_laserscan
+[98.310s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/parent_prefix_path/depthimage_to_laserscan
+[98.343s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/ament_prefix_path.sh
+[98.376s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/ament_prefix_path.dsv
+[98.414s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/path.sh
+[98.451s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/path.dsv
+[98.490s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.bash
+[98.530s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.sh
+[98.565s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.zsh
+[98.604s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.dsv
+[98.637s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.dsv
+[98.673s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/packages/depthimage_to_laserscan
+[98.710s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/rclcpp_components/depthimage_to_laserscan
+[98.744s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[98.777s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[98.820s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_targets-extras.cmake
+[98.863s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[98.905s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig.cmake
+[98.938s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig-version.cmake
+[98.971s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.xml
+[99.005s] -- Installing: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/lib/libDepthImageToLaserScan.so
+[99.010s] -- Set runtime path of "/root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/lib/libDepthImageToLaserScan.so" to ""
+[99.011s] -- Installing: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/lib/libDepthImageToLaserScanROS.so
+[99.058s] -- Set runtime path of "/root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/lib/libDepthImageToLaserScanROS.so" to ""
+[99.059s] -- Installing: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/export_depthimage_to_laserscanExport.cmake
+[99.060s] -- Installing: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/export_depthimage_to_laserscanExport-noconfig.cmake
+[99.070s] Invoked command in '/root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan

@@ -1,0 +1,1 @@
+/root/ros2_code/humble/dai_ws/build/depthai-ros/ament_cmake_core/depthai-rosConfig-version.cmake

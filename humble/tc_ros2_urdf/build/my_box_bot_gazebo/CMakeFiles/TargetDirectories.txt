@@ -1,0 +1,9 @@
+/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo/CMakeFiles/uninstall.dir
+/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo/CMakeFiles/my_box_bot_gazebo_uninstall.dir
+/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo/CMakeFiles/test.dir
+/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo/CMakeFiles/edit_cache.dir
+/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo/CMakeFiles/list_install_components.dir
+/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo/CMakeFiles/install.dir
+/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo/CMakeFiles/install/local.dir
+/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo/CMakeFiles/install/strip.dir

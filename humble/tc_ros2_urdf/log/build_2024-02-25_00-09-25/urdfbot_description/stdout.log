@@ -1,0 +1,27 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//urdf/urdfbot_simple.urdf
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//rviz/urdf_vis.rviz
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//launch/urdf_visualize.launch.py
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//launch/urdf_visualize_rviz.launch.py
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_body.dae
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_claw.dae
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_foot.dae
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_head.dae
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_limb.dae
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description//meshes/urdfbot_texture.png
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/ament_index/resource_index/package_run_dependencies/urdfbot_description
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/ament_index/resource_index/parent_prefix_path/urdfbot_description
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/environment/path.sh
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/environment/path.dsv
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/local_setup.bash
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/local_setup.sh
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/local_setup.zsh
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/local_setup.dsv
+-- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/package.dsv
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/ament_index/resource_index/packages/urdfbot_description
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/cmake/urdfbot_descriptionConfig.cmake
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/cmake/urdfbot_descriptionConfig-version.cmake
+-- Up-to-date symlink: /root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/package.xml

@@ -1,0 +1,19 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/root/dai_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages",
+        "/root/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages",
+        "/root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/frc9202/install/yolov8_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/root/dai_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages",
+        "/root/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages",
+        "/root/ros2_code/humble/learning/install/ball_tracker/lib/python3.10/site-packages",
+        "/root/ros2_code/humble/frc9202/install/yolov8_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages"
+    ]
+}

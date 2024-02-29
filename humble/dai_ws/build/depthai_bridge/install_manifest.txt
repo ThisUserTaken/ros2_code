@@ -1,0 +1,5 @@
+/root/ros2_code/humble/dai_ws/install/depthai_bridge/lib/libdepthai_bridge.so
+/root/ros2_code/humble/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargets.cmake
+/root/ros2_code/humble/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargets-noconfig.cmake
+/root/ros2_code/humble/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargetsExport.cmake
+/root/ros2_code/humble/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargetsExport-noconfig.cmake

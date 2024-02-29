@@ -1,0 +1,33 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/base_descr.urdf.xacro
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/depthai_descr.urdf.xacro
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/base_macro.urdf.xacro
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/depthai_macro.urdf.xacro
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-CM4-POE.stl
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-IOT-75.stl
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LITE.stl
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LR.stl
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-POE.stl
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO-W.stl
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO.stl
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-S2.stl
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-SR.stl
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D.stl
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/ament_index/resource_index/package_run_dependencies/depthai_descriptions
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/ament_index/resource_index/parent_prefix_path/depthai_descriptions
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.sh
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.dsv
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.bash
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.sh
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.zsh
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.dsv
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/ament_index/resource_index/packages/depthai_descriptions
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig.cmake
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig-version.cmake
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/package.xml
+-- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/launch
+-- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_descriptions/share/depthai_descriptions/launch/urdf_launch.py

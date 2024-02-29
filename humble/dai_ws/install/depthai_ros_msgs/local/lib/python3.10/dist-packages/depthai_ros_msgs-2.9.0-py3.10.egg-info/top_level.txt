@@ -1,0 +1,1 @@
+/root/ros2_code/humble/dai_ws/build/depthai_ros_msgs/ament_cmake_python/depthai_ros_msgs/depthai_ros_msgs.egg-info/top_level.txt

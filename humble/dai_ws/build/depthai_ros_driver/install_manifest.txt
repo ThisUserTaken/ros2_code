@@ -1,0 +1,8 @@
+/root/ros2_code/humble/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver.so
+/root/ros2_code/humble/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_sensor_nodes.so
+/root/ros2_code/humble/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_nn_nodes.so
+/root/ros2_code/humble/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_common.so
+/root/ros2_code/humble/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargets.cmake
+/root/ros2_code/humble/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargets-noconfig.cmake
+/root/ros2_code/humble/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargetsExport.cmake
+/root/ros2_code/humble/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargetsExport-noconfig.cmake

@@ -1,0 +1,108 @@
+[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:221:16: [0m[0;1;35mwarning: [0m[1munused variable 'ground_sn_s' [-Wunused-variable][0m
+        size_t ground_sn_s = serial_.read(ground_sn, 1);
+[0;1;32m               ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:244:16: [0m[0;1;35mwarning: [0m[1munused variable 'ground_ignore_s' [-Wunused-variable][0m
+        size_t ground_ignore_s = serial_.read(ground_ignore, (check_len[0]+4));
+[0;1;32m               ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:333:16: [0m[0;1;35mwarning: [0m[1munused variable 'data_s' [-Wunused-variable][0m
+        size_t data_s = serial_.read(imu_frame_.read_buf.read_msg, (IMU_LEN + 1)); //48+1
+[0;1;32m               ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:366:16: [0m[0;1;35mwarning: [0m[1munused variable 'data_s' [-Wunused-variable][0m
+        size_t data_s = serial_.read(ahrs_frame_.read_buf.read_msg, (AHRS_LEN + 1)); //48+1
+[0;1;32m               ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:397:16: [0m[0;1;35mwarning: [0m[1munused variable 'data_s' [-Wunused-variable][0m
+        size_t data_s = serial_.read(insgps_frame_.read_buf.read_msg, (INSGPS_LEN + 1)); //48+1
+[0;1;32m               ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:422:28: [0m[0;1;35mwarning: [0m[1munused variable 'q_r' [-Wunused-variable][0m
+        Eigen::Quaterniond q_r =
+[0;1;32m                           ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:434:28: [0m[0;1;35mwarning: [0m[1munused variable 'q_xiao_rr' [-Wunused-variable][0m
+        Eigen::Quaterniond q_xiao_rr =
+[0;1;32m                           ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:254:14: [0m[0;1;35mwarning: [0m[1munused variable 'crc16_H_s' [-Wunused-variable][0m
+      size_t crc16_H_s = serial_.read(head_crc16_H, 1);
+[0;1;32m             ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:201:14: [0m[0;1;35mwarning: [0m[1munused variable 'len_s' [-Wunused-variable][0m
+      size_t len_s = serial_.read(check_len, 1);
+[0;1;32m             ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:190:14: [0m[0;1;35mwarning: [0m[1munused variable 'type_s' [-Wunused-variable][0m
+      size_t type_s = serial_.read(head_type, 1);
+[0;1;32m             ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:255:14: [0m[0;1;35mwarning: [0m[1munused variable 'crc16_L_s' [-Wunused-variable][0m
+      size_t crc16_L_s = serial_.read(head_crc16_L, 1);
+[0;1;32m             ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:249:14: [0m[0;1;35mwarning: [0m[1munused variable 'sn_s' [-Wunused-variable][0m
+      size_t sn_s = serial_.read(check_sn, 1);
+[0;1;32m             ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:251:14: [0m[0;1;35mwarning: [0m[1munused variable 'crc8_s' [-Wunused-variable][0m
+      size_t crc8_s = serial_.read(head_crc8, 1);
+[0;1;32m             ^
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:18: [0m[0;1;35mwarning: [0m[1mvariable 'magx' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized][0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m                 ^~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:519:9: [0m[0;1;30mnote: [0muninitialized use occurs here[0m
+        magx *= 1.0e-7;
+[0;1;32m        ^~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:14: [0m[0;1;30mnote: [0mremove the 'if' if its condition is always true[0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m             ^~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:500:20: [0m[0;1;30mnote: [0minitialize the variable 'magx' to silence this warning[0m
+        double magx, magy, magz, roll, pitch;
+[0;1;32m                   ^
+[0m[0;32m                    = 0.0
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:18: [0m[0;1;35mwarning: [0m[1mvariable 'magy' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized][0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m                 ^~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:520:9: [0m[0;1;30mnote: [0muninitialized use occurs here[0m
+        magy *= 1.0e-7;
+[0;1;32m        ^~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:14: [0m[0;1;30mnote: [0mremove the 'if' if its condition is always true[0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m             ^~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:500:26: [0m[0;1;30mnote: [0minitialize the variable 'magy' to silence this warning[0m
+        double magx, magy, magz, roll, pitch;
+[0;1;32m                         ^
+[0m[0;32m                          = 0.0
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:18: [0m[0;1;35mwarning: [0m[1mvariable 'magz' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized][0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m                 ^~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:521:9: [0m[0;1;30mnote: [0muninitialized use occurs here[0m
+        magz *= 1.0e-7;
+[0;1;32m        ^~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:14: [0m[0;1;30mnote: [0mremove the 'if' if its condition is always true[0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m             ^~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:500:32: [0m[0;1;30mnote: [0minitialize the variable 'magz' to silence this warning[0m
+        double magx, magy, magz, roll, pitch;
+[0;1;32m                               ^
+[0m[0;32m                                = 0.0
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:18: [0m[0;1;35mwarning: [0m[1mvariable 'roll' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized][0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m                 ^~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:527:25: [0m[0;1;30mnote: [0muninitialized use occurs here[0m
+        magCalculateYaw(roll, pitch, magyaw, magx, magy, magz);
+[0;1;32m                        ^~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:14: [0m[0;1;30mnote: [0mremove the 'if' if its condition is always true[0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m             ^~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:500:38: [0m[0;1;30mnote: [0minitialize the variable 'roll' to silence this warning[0m
+        double magx, magy, magz, roll, pitch;
+[0;1;32m                                     ^
+[0m[0;32m                                      = 0.0
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:18: [0m[0;1;35mwarning: [0m[1mvariable 'pitch' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized][0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m                 ^~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:527:31: [0m[0;1;30mnote: [0muninitialized use occurs here[0m
+        magCalculateYaw(roll, pitch, magyaw, magx, magy, magz);
+[0;1;32m                              ^~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:508:14: [0m[0;1;30mnote: [0mremove the 'if' if its condition is always true[0m
+        else if (device_type_ == 1){ //Coordinate transformation of car and imu single product ROS standard//
+[0;1;32m             ^~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:500:45: [0m[0;1;30mnote: [0minitialize the variable 'pitch' to silence this warning[0m
+        double magx, magy, magz, roll, pitch;
+[0;1;32m                                            ^
+[0m[0;32m                                             = 0.0
+[0m[1m/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:136:7: [0m[0;1;35mwarning: [0m[1mprivate field 'crc_error_' is not used [-Wunused-private-field][0m
+  int crc_error_ = 0;
+[0;1;32m      ^
+[0m19 warnings generated.
