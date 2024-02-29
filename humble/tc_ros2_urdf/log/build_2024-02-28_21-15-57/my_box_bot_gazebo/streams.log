@@ -1,0 +1,150 @@
+[0.495s] Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo': AMENT_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo
+[0.700s] -- The C compiler identification is Clang 14.0.0
+[0.984s] -- The CXX compiler identification is Clang 14.0.0
+[0.998s] -- Detecting C compiler ABI info
+[1.241s] -- Detecting C compiler ABI info - done
+[1.261s] -- Check for working C compiler: /usr/bin/clang - skipped
+[1.262s] -- Detecting C compile features
+[1.263s] -- Detecting C compile features - done
+[1.271s] -- Detecting CXX compiler ABI info
+[1.590s] -- Detecting CXX compiler ABI info - done
+[1.603s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[1.604s] -- Detecting CXX compile features
+[1.605s] -- Detecting CXX compile features - done
+[1.631s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.137s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.304s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.554s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[2.589s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.910s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.962s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.005s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.092s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.208s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.573s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.591s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.780s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.868s] -- Looking for pthread.h
+[4.103s] -- Looking for pthread.h - found
+[4.103s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.332s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.337s] -- Found Threads: TRUE  
+[4.999s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[5.001s] -- Checking for module 'bullet>=2.82'
+[5.060s] --   Found bullet, version 3.05
+[5.455s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[5.620s] -- Found assimp: /usr/include (found version "5.2.0") 
+[5.764s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[5.915s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.992s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[6.042s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.078s] -- Searching for dependencies of ignition-math6
+[6.087s] -- Looking for OGRE...
+[6.087s] -- OGRE_PREFIX_WATCH changed.
+[6.096s] -- Checking for module 'OGRE'
+[6.120s] --   Found OGRE, version 1.9.0
+[6.243s] -- Found Ogre Ghadamon (1.9.0)
+[6.284s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[6.299s] -- Looking for OGRE_Paging...
+[6.312s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[6.312s] -- Looking for OGRE_Terrain...
+[6.324s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[6.325s] -- Looking for OGRE_Property...
+[6.352s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[6.353s] -- Looking for OGRE_RTShaderSystem...
+[6.370s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[6.370s] -- Looking for OGRE_Volume...
+[6.388s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[6.388s] -- Looking for OGRE_Overlay...
+[6.401s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[6.818s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.842s] -- Looking for ignition-transport8 -- found version 8.2.1
+[6.845s] -- Searching for dependencies of ignition-transport8
+[6.917s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[6.987s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[6.996s] -- Checking for module 'libzmq >= 4'
+[7.040s] --   Found libzmq , version 4.3.4
+[7.127s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[7.151s] -- Checking for module 'uuid'
+[7.200s] --   Found uuid, version 2.37.2
+[7.309s] -- Found UUID: TRUE  
+[7.334s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.336s] -- Searching for dependencies of ignition-msgs5
+[7.430s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.451s] -- Checking for module 'tinyxml2'
+[7.486s] --   Found tinyxml2, version 9.0.0
+[7.572s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.592s] -- Looking for ignition-common3 -- found version 3.14.0
+[7.593s] -- Searching for dependencies of ignition-common3
+[7.594s] -- Looking for dlfcn.h - found
+[7.595s] -- Looking for libdl - found
+[7.597s] -- Found DL: TRUE  
+[7.628s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[7.630s] -- Searching for <ignition-common3> component [graphics]
+[7.665s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[7.666s] -- Searching for dependencies of ignition-common3-graphics
+[7.667s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.687s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[7.688s] -- Searching for dependencies of ignition-fuel_tools4
+[7.933s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[7.983s] -- Checking for module 'jsoncpp'
+[8.026s] --   Found jsoncpp, version 1.9.5
+[8.129s] -- Found JSONCPP: TRUE  
+[8.149s] -- Checking for module 'libzip'
+[8.196s] --   Found libzip, version 1.7.3
+[8.298s] -- Found ZIP: TRUE  
+[8.299s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.301s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.302s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.327s] -- Gazebo version: 11.10
+[8.327s] -- Checking for module 'tbb'
+[8.360s] --   Found tbb, version 2021.5.0
+[8.488s] -- Found my_box_bot_description: 0.0.0 (/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/cmake)
+[8.499s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.834s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.845s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.850s] -- Added test 'lint_cmake' to check CMake code style
+[8.856s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.867s] -- Added test 'xmllint' to check XML markup files
+[8.878s] -- Configuring done
+[8.895s] -- Generating done
+[8.899s] -- Build files have been written to: /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo
+[8.916s] Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo
+[8.920s] Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo': AMENT_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo -- -j12 -l12
+[9.019s] Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo -- -j12 -l12
+[9.093s] Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo': AMENT_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo
+[9.113s] -- Install configuration: ""
+[9.114s] -- Execute custom install script
+[9.116s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/control.launch.py
+[9.132s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/control_position_velocity.launch.py
+[9.156s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_description.launch.py
+[9.185s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2.launch.xml
+[9.215s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2_control.launch.xml
+[9.231s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2_control_complete.launch.xml
+[9.252s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2_control_velocity.launch.xml
+[9.281s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2_final.launch.xml
+[9.297s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2_physical.launch.xml
+[9.314s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2_sensor.launch.xml
+[9.329s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/start_world.launch.py
+[9.349s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//worlds/box_bot_empty.world
+[9.379s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/meshes/box_room.dae
+[9.395s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/meshes/chambre.png
+[9.409s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/model.config
+[9.424s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/model.sdf
+[9.448s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/lib/my_box_bot_gazebo/move_laser.py
+[9.480s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/ament_index/resource_index/package_run_dependencies/my_box_bot_gazebo
+[9.499s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/ament_index/resource_index/parent_prefix_path/my_box_bot_gazebo
+[9.520s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/ament_prefix_path.sh
+[9.537s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/ament_prefix_path.dsv
+[9.557s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/path.sh
+[9.580s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/path.dsv
+[9.598s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.bash
+[9.617s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.sh
+[9.637s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.zsh
+[9.662s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.dsv
+[9.687s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.dsv
+[9.711s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/ament_index/resource_index/packages/my_box_bot_gazebo
+[9.724s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/cmake/my_box_bot_gazeboConfig.cmake
+[9.737s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/cmake/my_box_bot_gazeboConfig-version.cmake
+[9.762s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.xml
+[9.802s] Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo

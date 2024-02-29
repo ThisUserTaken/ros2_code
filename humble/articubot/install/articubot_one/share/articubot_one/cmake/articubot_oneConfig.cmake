@@ -1,0 +1,1 @@
+/root/ros2_code/humble/articubot/build/articubot_one/ament_cmake_core/articubot_oneConfig.cmake

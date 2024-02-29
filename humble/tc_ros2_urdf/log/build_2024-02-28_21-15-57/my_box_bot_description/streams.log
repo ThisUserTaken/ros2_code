@@ -1,0 +1,78 @@
+[1.104s] Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description
+[2.048s] -- The C compiler identification is Clang 14.0.0
+[2.428s] -- The CXX compiler identification is Clang 14.0.0
+[2.463s] -- Detecting C compiler ABI info
+[2.798s] -- Detecting C compiler ABI info - done
+[2.823s] -- Check for working C compiler: /usr/bin/clang - skipped
+[2.825s] -- Detecting C compile features
+[2.825s] -- Detecting C compile features - done
+[2.836s] -- Detecting CXX compiler ABI info
+[3.296s] -- Detecting CXX compiler ABI info - done
+[3.319s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[3.320s] -- Detecting CXX compile features
+[3.322s] -- Detecting CXX compile features - done
+[3.359s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.053s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.304s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.648s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[5.125s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[5.144s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.613s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.628s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.632s] -- Added test 'lint_cmake' to check CMake code style
+[5.635s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.644s] -- Added test 'xmllint' to check XML markup files
+[5.650s] -- Configuring done
+[5.663s] -- Generating done
+[5.668s] -- Build files have been written to: /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description
+[5.695s] Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description
+[5.702s] Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description -- -j12 -l12
+[5.824s] Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description -- -j12 -l12
+[5.927s] Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description
+[5.947s] -- Install configuration: ""
+[5.948s] -- Execute custom install script
+[5.950s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot.xacro
+[5.983s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot_control_complete.urdf
+[6.014s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot_control_complete_sensor.urdf
+[6.037s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot_control_complete_velocity.urdf
+[6.062s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot_final.urdf
+[6.096s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot_geometric.urdf
+[6.121s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot_geometric_meshes.urdf
+[6.143s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot_meshes_collisions_inertias.urdf
+[6.169s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot_physcal_control.urdf
+[6.202s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot_physical_properties.urdf
+[6.229s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//rviz/urdf_vis.rviz
+[6.260s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_control.launch.py
+[6.294s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_control_complete.launch.py
+[6.323s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_control_velocity.launch.py
+[6.350s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_final.launch.py
+[6.384s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_geometric.launch.py
+[6.415s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_meshes.launch.py
+[6.438s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_meshes_collisions_inertias.launch.py
+[6.463s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_physical.launch.py
+[6.499s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//launch/urdf_visualize_sensor.launch.py
+[6.530s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//meshes/cute_cube.blend
+[6.553s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//meshes/cute_cube.dae
+[6.585s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//meshes/lambert3_baseColor.png
+[6.616s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors/realsense.dae
+[6.638s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors/rplidar.dae
+[6.665s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors/rplidartexture.png
+[6.699s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//meshes/textures/lambert3_baseColor.png
+[6.724s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//config/controller_position.yaml
+[6.746s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description//config/controller_position_velocity.yaml
+[6.774s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/ament_index/resource_index/package_run_dependencies/my_box_bot_description
+[6.809s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/ament_index/resource_index/parent_prefix_path/my_box_bot_description
+[6.831s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/environment/ament_prefix_path.sh
+[6.852s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/environment/ament_prefix_path.dsv
+[6.885s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/environment/path.sh
+[6.915s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/environment/path.dsv
+[6.941s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/local_setup.bash
+[6.966s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/local_setup.sh
+[6.999s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/local_setup.zsh
+[7.031s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/local_setup.dsv
+[7.055s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/package.dsv
+[7.085s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/ament_index/resource_index/packages/my_box_bot_description
+[7.118s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/cmake/my_box_bot_descriptionConfig.cmake
+[7.145s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/cmake/my_box_bot_descriptionConfig-version.cmake
+[7.166s] -- Symlinking: /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/package.xml
+[7.278s] Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description

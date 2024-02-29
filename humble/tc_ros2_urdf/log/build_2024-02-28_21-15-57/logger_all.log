@@ -1,0 +1,299 @@
+[2.894s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[2.894s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2f2e590910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2f2e844c10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2f2e844c10>>)
+[3.018s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.018s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.018s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.019s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/tc_ros2_urdf'
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'ignore'
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'ignore_ament_install'
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extensions ['colcon_pkg']
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'colcon_pkg'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extensions ['colcon_meta']
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'colcon_meta'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extensions ['ros']
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'ros'
+[3.059s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_box_bot_description' with type 'ros.ament_cmake' and name 'my_box_bot_description'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'ignore'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'ignore_ament_install'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extensions ['colcon_pkg']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'colcon_pkg'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extensions ['colcon_meta']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'colcon_meta'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extensions ['ros']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'ros'
+[3.062s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_box_bot_gazebo' with type 'ros.ament_cmake' and name 'my_box_bot_gazebo'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes) by extensions ['ignore', 'ignore_ament_install']
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes) by extension 'ignore'
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes) by extension 'ignore_ament_install'
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes) by extensions ['colcon_pkg']
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes) by extension 'colcon_pkg'
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes) by extensions ['colcon_meta']
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes) by extension 'colcon_meta'
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes) by extensions ['ros']
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes) by extension 'ros'
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes) by extensions ['cmake', 'python']
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes) by extension 'cmake'
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes) by extension 'python'
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes) by extensions ['python_setup_py']
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes) by extension 'python_setup_py'
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes/meshes) by extensions ['ignore', 'ignore_ament_install']
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes/meshes) by extension 'ignore'
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes/meshes) by extension 'ignore_ament_install'
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes/meshes) by extensions ['colcon_pkg']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes/meshes) by extension 'colcon_pkg'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes/meshes) by extensions ['colcon_meta']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes/meshes) by extension 'colcon_meta'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes/meshes) by extensions ['ros']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes/meshes) by extension 'ros'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes/meshes) by extensions ['cmake', 'python']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes/meshes) by extension 'cmake'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes/meshes) by extension 'python'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes/meshes) by extensions ['python_setup_py']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_meshes/meshes) by extension 'python_setup_py'
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extensions ['ignore', 'ignore_ament_install']
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extension 'ignore'
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extension 'ignore_ament_install'
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extensions ['colcon_pkg']
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extension 'colcon_pkg'
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extensions ['colcon_meta']
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extension 'colcon_meta'
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extensions ['ros']
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdfbot_description) by extension 'ros'
+[3.067s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urdfbot_description' with type 'ros.ament_cmake' and name 'urdfbot_description'
+[3.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.263s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_args' from command line to 'None'
+[3.263s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_target' from command line to 'None'
+[3.263s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.263s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.263s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.263s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.263s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.263s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.264s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.264s] DEBUG:colcon.colcon_core.verb:Building package 'my_box_bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description', 'merge_install': False, 'path': '/root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_description', 'symlink_install': True, 'test_result_base': None}
+[3.300s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'cmake_args' from command line to 'None'
+[3.300s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'cmake_target' from command line to 'None'
+[3.300s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.300s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.300s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.300s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.300s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.300s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.301s] Level 5:colcon.colcon_core.verb:set package 'urdfbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.301s] DEBUG:colcon.colcon_core.verb:Building package 'urdfbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description', 'merge_install': False, 'path': '/root/ros2_code/humble/tc_ros2_urdf/src/urdfbot_description', 'symlink_install': True, 'test_result_base': None}
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_args' from command line to 'None'
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_target' from command line to 'None'
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.335s] DEBUG:colcon.colcon_core.verb:Building package 'my_box_bot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo', 'merge_install': False, 'path': '/root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_gazebo', 'symlink_install': True, 'test_result_base': None}
+[3.369s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.402s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.403s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_description' with build type 'ament_cmake'
+[3.403s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_description'
+[3.504s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.506s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.018s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/tc_ros2_urdf/src/urdfbot_description' with build type 'ament_cmake'
+[4.019s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/tc_ros2_urdf/src/urdfbot_description'
+[4.081s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.081s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description
+[4.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/tc_ros2_urdf/src/urdfbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description
+[9.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/tc_ros2_urdf/src/urdfbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description
+[9.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description -- -j12 -l12
+[9.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description
+[9.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description -- -j12 -l12
+[9.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description -- -j12 -l12
+[9.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description -- -j12 -l12
+[9.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description
+[9.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description
+[10.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdfbot_description)
+[10.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/tc_ros2_urdf/build/urdfbot_description
+[10.158s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description' for CMake module files
+[10.159s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description' for CMake config files
+[10.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdfbot_description', 'cmake_prefix_path')
+[10.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/hook/cmake_prefix_path.ps1'
+[10.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/hook/cmake_prefix_path.dsv'
+[10.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/hook/cmake_prefix_path.sh'
+[10.238s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/bin'
+[10.238s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/lib/pkgconfig/urdfbot_description.pc'
+[10.243s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/lib/python3.10/site-packages'
+[10.243s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/bin'
+[10.314s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/package.ps1'
+[10.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/package.dsv'
+[10.322s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/package.sh'
+[10.325s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/package.bash'
+[10.328s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/package.zsh'
+[10.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/colcon-core/packages/urdfbot_description)
+[10.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdfbot_description)
+[10.548s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description' for CMake module files
+[10.549s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description' for CMake config files
+[10.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdfbot_description', 'cmake_prefix_path')
+[10.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/hook/cmake_prefix_path.ps1'
+[10.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/hook/cmake_prefix_path.dsv'
+[10.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/hook/cmake_prefix_path.sh'
+[10.623s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/bin'
+[10.623s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/lib/pkgconfig/urdfbot_description.pc'
+[10.624s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/lib/python3.10/site-packages'
+[10.624s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/bin'
+[10.666s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/package.ps1'
+[10.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/package.dsv'
+[10.670s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/package.sh'
+[10.672s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/package.bash'
+[10.674s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/urdfbot_description/package.zsh'
+[10.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/tc_ros2_urdf/install/urdfbot_description/share/colcon-core/packages/urdfbot_description)
+[10.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_box_bot_description)
+[10.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_description
+[10.748s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description' for CMake module files
+[10.749s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description' for CMake config files
+[10.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_box_bot_description', 'cmake_prefix_path')
+[10.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.ps1'
+[10.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.dsv'
+[10.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.sh'
+[10.832s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/bin'
+[10.832s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/lib/pkgconfig/my_box_bot_description.pc'
+[10.833s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/lib/python3.10/site-packages'
+[10.833s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/bin'
+[10.883s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/package.ps1'
+[10.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/package.dsv'
+[10.886s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/package.sh'
+[10.888s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/package.bash'
+[10.890s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/package.zsh'
+[10.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/colcon-core/packages/my_box_bot_description)
+[11.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_box_bot_description)
+[11.053s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description' for CMake module files
+[11.054s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description' for CMake config files
+[11.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_box_bot_description', 'cmake_prefix_path')
+[11.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.ps1'
+[11.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.dsv'
+[11.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.sh'
+[11.118s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/bin'
+[11.118s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/lib/pkgconfig/my_box_bot_description.pc'
+[11.119s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/lib/python3.10/site-packages'
+[11.120s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/bin'
+[11.158s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/package.ps1'
+[11.159s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/package.dsv'
+[11.160s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/package.sh'
+[11.161s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/package.bash'
+[11.161s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/package.zsh'
+[11.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/colcon-core/packages/my_box_bot_description)
+[11.163s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_gazebo' with build type 'ament_cmake'
+[11.163s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_gazebo'
+[11.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo': AMENT_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo
+[20.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/tc_ros2_urdf/src/my_box_bot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo
+[20.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo': AMENT_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo -- -j12 -l12
+[20.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo -- -j12 -l12
+[20.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo': AMENT_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo
+[20.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_box_bot_gazebo)
+[20.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo' returned '0': AMENT_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description:/root/cyglidar_ws/install/cyglidar_d1_ros2:/root/dai_ws/install/depthai-ros:/root/dai_ws/install/depthai_ros_driver:/root/dai_ws/install/depthai_filters:/root/dai_ws/install/depthai_examples:/root/dai_ws/install/depthai_bridge:/root/dai_ws/install/depthai_ros_msgs:/root/dai_ws/install/depthai_descriptions:/root/ros2_code/humble/learning/install/articubot_one:/root/ros2_code/humble/frc9202/install/yolov8_msgs:/root/ros2_code/humble/frc9202/install/yolo_recognition:/root/ros2_code/humble/frc9202/install/gazebo_setup_pkg:/root/ros2_code/humble/surround_view_ros/install/omni_robot_description:/root/ros2_code/humble/surround_view_ros/install/omni_control:/root/ros2_code/humble/surround_view_ros/install/gazebo_simulation:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/tc_ros2_urdf/build/my_box_bot_gazebo
+[21.020s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo' for CMake module files
+[21.022s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo' for CMake config files
+[21.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_box_bot_gazebo', 'cmake_prefix_path')
+[21.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.ps1'
+[21.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.dsv'
+[21.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.sh'
+[21.070s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/lib'
+[21.071s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/bin'
+[21.071s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/lib/pkgconfig/my_box_bot_gazebo.pc'
+[21.071s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/lib/python3.10/site-packages'
+[21.072s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/bin'
+[21.113s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.ps1'
+[21.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.dsv'
+[21.116s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.sh'
+[21.118s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.bash'
+[21.119s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.zsh'
+[21.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/colcon-core/packages/my_box_bot_gazebo)
+[21.245s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_box_bot_gazebo)
+[21.282s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo' for CMake module files
+[21.282s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo' for CMake config files
+[21.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_box_bot_gazebo', 'cmake_prefix_path')
+[21.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.ps1'
+[21.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.dsv'
+[21.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.sh'
+[21.337s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/lib'
+[21.337s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/bin'
+[21.338s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/lib/pkgconfig/my_box_bot_gazebo.pc'
+[21.339s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/lib/python3.10/site-packages'
+[21.339s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/bin'
+[21.376s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.ps1'
+[21.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.dsv'
+[21.379s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.sh'
+[21.379s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.bash'
+[21.380s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.zsh'
+[21.381s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_gazebo/share/colcon-core/packages/my_box_bot_gazebo)
+[21.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.382s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.382s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[21.382s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.491s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[21.491s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[21.491s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[21.491s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[21.504s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[21.505s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.561s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/tc_ros2_urdf/install/local_setup.ps1'
+[21.563s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/tc_ros2_urdf/install/_local_setup_util_ps1.py'
+[21.565s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/tc_ros2_urdf/install/setup.ps1'
+[21.601s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/tc_ros2_urdf/install/local_setup.sh'
+[21.602s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/tc_ros2_urdf/install/_local_setup_util_sh.py'
+[21.603s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/tc_ros2_urdf/install/setup.sh'
+[21.639s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/tc_ros2_urdf/install/local_setup.bash'
+[21.641s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/tc_ros2_urdf/install/setup.bash'
+[21.680s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/tc_ros2_urdf/install/local_setup.zsh'
+[21.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/tc_ros2_urdf/install/setup.zsh'
