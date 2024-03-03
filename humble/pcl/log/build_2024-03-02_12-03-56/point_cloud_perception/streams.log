@@ -1,0 +1,32 @@
+[1.968s] Invoking command in '/root/ros2_code/humble/pcl/build/point_cloud_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/pcl/install/robot_math:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/point_cloud_perception -- -j12 -l12
+[3.990s] [35m[1mConsolidate compiler generated dependencies of target voxeling[0m
+[3.991s] [35m[1mConsolidate compiler generated dependencies of target planner_seg[0m
+[3.992s] [35m[1mConsolidate compiler generated dependencies of target clustering[0m
+[3.997s] [ 33%] Built target planner_seg
+[3.998s] [ 66%] Built target voxeling
+[3.999s] [100%] Built target clustering
+[4.016s] Invoked command in '/root/ros2_code/humble/pcl/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/pcl/install/robot_math:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/point_cloud_perception -- -j12 -l12
+[4.239s] Invoking command in '/root/ros2_code/humble/pcl/build/point_cloud_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/pcl/install/robot_math:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/point_cloud_perception
+[4.283s] -- Install configuration: ""
+[4.284s] -- Execute custom install script
+[4.285s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/lib/point_cloud_perception/voxeling
+[4.286s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/lib/point_cloud_perception/planner_seg
+[4.286s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/lib/point_cloud_perception/clustering
+[4.290s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab.launch.py
+[4.290s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception//launch/rtab_mapping.launch.py
+[4.292s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/ament_index/resource_index/package_run_dependencies/point_cloud_perception
+[4.293s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/ament_index/resource_index/parent_prefix_path/point_cloud_perception
+[4.295s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/environment/ament_prefix_path.sh
+[4.297s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/environment/ament_prefix_path.dsv
+[4.298s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/environment/path.sh
+[4.300s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/environment/path.dsv
+[4.301s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/local_setup.bash
+[4.305s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/local_setup.sh
+[4.305s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/local_setup.zsh
+[4.306s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/local_setup.dsv
+[4.307s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/package.dsv
+[4.347s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/ament_index/resource_index/packages/point_cloud_perception
+[4.348s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/cmake/point_cloud_perceptionConfig.cmake
+[4.349s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/cmake/point_cloud_perceptionConfig-version.cmake
+[4.351s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/package.xml
+[4.722s] Invoked command in '/root/ros2_code/humble/pcl/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/pcl/install/robot_math:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/point_cloud_perception

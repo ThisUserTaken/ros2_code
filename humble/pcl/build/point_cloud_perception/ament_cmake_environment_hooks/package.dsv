@@ -1,0 +1,4 @@
+source;share/point_cloud_perception/local_setup.bash
+source;share/point_cloud_perception/local_setup.dsv
+source;share/point_cloud_perception/local_setup.sh
+source;share/point_cloud_perception/local_setup.zsh

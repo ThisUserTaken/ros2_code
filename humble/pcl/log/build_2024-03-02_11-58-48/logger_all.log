@@ -1,0 +1,420 @@
+[2.368s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[2.369s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5677193d60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5677434eb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5677434eb0>>)
+[2.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.511s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/pcl'
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extensions ['ignore', 'ignore_ament_install']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'ignore'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'ignore_ament_install'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extensions ['colcon_pkg']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'colcon_pkg'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extensions ['colcon_meta']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'colcon_meta'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extensions ['ros']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'ros'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extensions ['cmake', 'python']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'cmake'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'python'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extensions ['python_setup_py']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'python_setup_py'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extensions ['ignore', 'ignore_ament_install']
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extension 'ignore'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extension 'ignore_ament_install'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extensions ['colcon_pkg']
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extension 'colcon_pkg'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extensions ['colcon_meta']
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extension 'colcon_meta'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extensions ['ros']
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extension 'ros'
+[2.549s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_learners/navigation_tb3' with type 'ros.ament_cmake' and name 'navigation_tb3'
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extensions ['ignore', 'ignore_ament_install']
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extension 'ignore'
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extension 'ignore_ament_install'
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extensions ['colcon_pkg']
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extension 'colcon_pkg'
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extensions ['colcon_meta']
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extension 'colcon_meta'
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extensions ['ros']
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extension 'ros'
+[2.551s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_learners/nodes' with type 'ros.ament_cmake' and name 'nodes'
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extensions ['ignore', 'ignore_ament_install']
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extension 'ignore'
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extension 'ignore_ament_install'
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extensions ['colcon_pkg']
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extension 'colcon_pkg'
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extensions ['colcon_meta']
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extension 'colcon_meta'
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extensions ['ros']
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extension 'ros'
+[2.553s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_learners/point_cloud_perception' with type 'ros.ament_cmake' and name 'point_cloud_perception'
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extensions ['ignore', 'ignore_ament_install']
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'ignore'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'ignore_ament_install'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extensions ['colcon_pkg']
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'colcon_pkg'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extensions ['colcon_meta']
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'colcon_meta'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extensions ['ros']
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'ros'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extensions ['cmake', 'python']
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'cmake'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'python'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extensions ['python_setup_py']
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'python_setup_py'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extensions ['ignore', 'ignore_ament_install']
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extension 'ignore'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extension 'ignore_ament_install'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extensions ['colcon_pkg']
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extension 'colcon_pkg'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extensions ['colcon_meta']
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extension 'colcon_meta'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extensions ['ros']
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extension 'ros'
+[2.557s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_learners/robot_math' with type 'ros.ament_python' and name 'robot_math'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extension 'ignore'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extension 'colcon_pkg'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extensions ['colcon_meta']
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extension 'colcon_meta'
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extensions ['ros']
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extension 'ros'
+[2.559s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_learners/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[2.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.733s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_args' from command line to 'None'
+[2.733s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_target' from command line to 'None'
+[2.733s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.733s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_clean_cache' from command line to 'False'
+[2.734s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_clean_first' from command line to 'False'
+[2.734s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_force_configure' from command line to 'False'
+[2.734s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'ament_cmake_args' from command line to 'None'
+[2.734s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'catkin_cmake_args' from command line to 'None'
+[2.734s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.734s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_tb3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/pcl/build/navigation_tb3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/pcl/install/navigation_tb3', 'merge_install': False, 'path': '/root/ros2_code/humble/pcl/src/ros2_learners/navigation_tb3', 'symlink_install': True, 'test_result_base': None}
+[2.765s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_args' from command line to 'None'
+[2.765s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_target' from command line to 'None'
+[2.765s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.765s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[2.765s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_clean_first' from command line to 'False'
+[2.765s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_force_configure' from command line to 'False'
+[2.765s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'ament_cmake_args' from command line to 'None'
+[2.765s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[2.765s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.765s] DEBUG:colcon.colcon_core.verb:Building package 'nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/pcl/build/nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/pcl/install/nodes', 'merge_install': False, 'path': '/root/ros2_code/humble/pcl/src/ros2_learners/nodes', 'symlink_install': True, 'test_result_base': None}
+[2.796s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_args' from command line to 'None'
+[2.796s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_target' from command line to 'None'
+[2.796s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.796s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[2.796s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_clean_first' from command line to 'False'
+[2.796s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_force_configure' from command line to 'False'
+[2.797s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'ament_cmake_args' from command line to 'None'
+[2.797s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[2.797s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.797s] DEBUG:colcon.colcon_core.verb:Building package 'point_cloud_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/pcl/build/point_cloud_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/pcl/install/point_cloud_perception', 'merge_install': False, 'path': '/root/ros2_code/humble/pcl/src/ros2_learners/point_cloud_perception', 'symlink_install': True, 'test_result_base': None}
+[2.847s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_args' from command line to 'None'
+[2.847s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_target' from command line to 'None'
+[2.847s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.848s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_clean_cache' from command line to 'False'
+[2.848s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_clean_first' from command line to 'False'
+[2.848s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_force_configure' from command line to 'False'
+[2.848s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'ament_cmake_args' from command line to 'None'
+[2.848s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'catkin_cmake_args' from command line to 'None'
+[2.848s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.849s] DEBUG:colcon.colcon_core.verb:Building package 'robot_math' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/pcl/build/robot_math', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/pcl/install/robot_math', 'merge_install': False, 'path': '/root/ros2_code/humble/pcl/src/ros2_learners/robot_math', 'symlink_install': True, 'test_result_base': None}
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.893s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.893s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/pcl/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/root/ros2_code/humble/pcl/src/ros2_learners/turtlebot3_gazebo', 'symlink_install': True, 'test_result_base': None}
+[2.934s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.966s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.966s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/pcl/src/ros2_learners/navigation_tb3' with build type 'ament_cmake'
+[2.966s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/pcl/src/ros2_learners/navigation_tb3'
+[3.032s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.033s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.033s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.452s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/pcl/src/ros2_learners/nodes' with build type 'ament_cmake'
+[3.452s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/pcl/src/ros2_learners/nodes'
+[3.536s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.907s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/pcl/src/ros2_learners/point_cloud_perception' with build type 'ament_cmake'
+[3.907s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/pcl/src/ros2_learners/point_cloud_perception'
+[3.988s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.989s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.432s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_code/humble/pcl/src/ros2_learners/robot_math' with build type 'ament_python'
+[4.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_math', 'ament_prefix_path')
+[4.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/robot_math/share/robot_math/hook/ament_prefix_path.ps1'
+[4.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/pcl/install/robot_math/share/robot_math/hook/ament_prefix_path.dsv'
+[4.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/robot_math/share/robot_math/hook/ament_prefix_path.sh'
+[4.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.978s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/pcl/src/ros2_learners/turtlebot3_gazebo' with build type 'ament_cmake'
+[4.979s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/pcl/src/ros2_learners/turtlebot3_gazebo'
+[5.057s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.057s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/pcl/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/pcl/src/ros2_learners/navigation_tb3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/pcl/install/navigation_tb3
+[5.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/pcl/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/pcl/src/ros2_learners/nodes -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/pcl/install/nodes
+[5.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/pcl/build/point_cloud_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/pcl/src/ros2_learners/point_cloud_perception -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/pcl/install/point_cloud_perception
+[6.888s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_code/humble/pcl/src/ros2_learners/robot_math'
+[6.983s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/pcl/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/pcl/src/ros2_learners/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/pcl/install/turtlebot3_gazebo
+[10.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/pcl/build/robot_math': PYTHONPATH=/root/ros2_code/humble/pcl/build/robot_math/prefix_override:/root/ros2_code/humble/pcl/install/robot_math/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ros2_code/humble/pcl/build/robot_math/build --no-deps install_data
+[12.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_math', 'pythonpath_develop')
+[12.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/pcl/build/robot_math' returned '0': PYTHONPATH=/root/ros2_code/humble/pcl/build/robot_math/prefix_override:/root/ros2_code/humble/pcl/install/robot_math/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ros2_code/humble/pcl/build/robot_math/build --no-deps install_data
+[12.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/build/robot_math/share/robot_math/hook/pythonpath_develop.ps1'
+[12.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/pcl/build/robot_math/share/robot_math/hook/pythonpath_develop.dsv'
+[12.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/build/robot_math/share/robot_math/hook/pythonpath_develop.sh'
+[13.061s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/robot_math' for CMake module files
+[13.063s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/robot_math' for CMake config files
+[13.065s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/robot_math/lib'
+[13.066s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/robot_math/bin'
+[13.066s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/robot_math/lib/pkgconfig/robot_math.pc'
+[13.067s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/robot_math/lib/python3.10/site-packages'
+[13.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_math', 'pythonpath')
+[13.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/robot_math/share/robot_math/hook/pythonpath.ps1'
+[13.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/pcl/install/robot_math/share/robot_math/hook/pythonpath.dsv'
+[13.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/robot_math/share/robot_math/hook/pythonpath.sh'
+[13.162s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/robot_math/bin'
+[13.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_math)
+[13.249s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/robot_math/share/robot_math/package.ps1'
+[13.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/pcl/install/robot_math/share/robot_math/package.dsv'
+[13.255s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/robot_math/share/robot_math/package.sh'
+[13.258s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/robot_math/share/robot_math/package.bash'
+[13.261s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/robot_math/share/robot_math/package.zsh'
+[13.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/pcl/install/robot_math/share/colcon-core/packages/robot_math)
+[15.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/pcl/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/pcl/src/ros2_learners/navigation_tb3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/pcl/install/navigation_tb3
+[15.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/pcl/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/navigation_tb3 -- -j12 -l12
+[15.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/pcl/build/nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/pcl/src/ros2_learners/nodes -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/pcl/install/nodes
+[15.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/pcl/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/nodes -- -j12 -l12
+[22.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/pcl/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/pcl/src/ros2_learners/point_cloud_perception -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/pcl/install/point_cloud_perception
+[22.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/pcl/build/point_cloud_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/point_cloud_perception -- -j12 -l12
+[25.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/pcl/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/pcl/src/ros2_learners/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/pcl/install/turtlebot3_gazebo
+[25.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/pcl/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/turtlebot3_gazebo -- -j12 -l12
+[41.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/pcl/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/navigation_tb3 -- -j12 -l12
+[41.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/pcl/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/navigation_tb3
+[43.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_tb3)
+[43.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/pcl/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/navigation_tb3
+[43.622s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/navigation_tb3' for CMake module files
+[43.627s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/navigation_tb3' for CMake config files
+[43.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_tb3', 'cmake_prefix_path')
+[43.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.ps1'
+[43.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.dsv'
+[43.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.sh'
+[43.773s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/navigation_tb3/lib'
+[43.774s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/navigation_tb3/bin'
+[43.774s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/navigation_tb3/lib/pkgconfig/navigation_tb3.pc'
+[43.776s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/navigation_tb3/lib/python3.10/site-packages'
+[43.777s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/navigation_tb3/bin'
+[43.890s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/package.ps1'
+[43.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/package.dsv'
+[43.895s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/package.sh'
+[43.897s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/package.bash'
+[43.898s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/package.zsh'
+[43.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/pcl/install/navigation_tb3/share/colcon-core/packages/navigation_tb3)
+[44.258s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_tb3)
+[44.398s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/navigation_tb3' for CMake module files
+[44.402s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/navigation_tb3' for CMake config files
+[44.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_tb3', 'cmake_prefix_path')
+[44.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.ps1'
+[44.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.dsv'
+[44.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.sh'
+[44.554s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/navigation_tb3/lib'
+[44.554s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/navigation_tb3/bin'
+[44.555s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/navigation_tb3/lib/pkgconfig/navigation_tb3.pc'
+[44.556s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/navigation_tb3/lib/python3.10/site-packages'
+[44.558s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/navigation_tb3/bin'
+[44.700s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/package.ps1'
+[44.703s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/package.dsv'
+[44.706s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/package.sh'
+[44.708s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/package.bash'
+[44.711s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/package.zsh'
+[44.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/pcl/install/navigation_tb3/share/colcon-core/packages/navigation_tb3)
+[60.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/pcl/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/point_cloud_perception -- -j12 -l12
+[60.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/pcl/build/point_cloud_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/point_cloud_perception
+[61.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/pcl/build/nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/nodes -- -j12 -l12
+[61.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/pcl/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/nodes
+[61.458s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(point_cloud_perception)
+[61.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/pcl/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/point_cloud_perception
+[61.611s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/point_cloud_perception' for CMake module files
+[61.615s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/point_cloud_perception' for CMake config files
+[61.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('point_cloud_perception', 'cmake_prefix_path')
+[61.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.ps1'
+[61.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.dsv'
+[61.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.sh'
+[61.724s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/point_cloud_perception/lib'
+[61.725s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/point_cloud_perception/bin'
+[61.725s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/point_cloud_perception/lib/pkgconfig/point_cloud_perception.pc'
+[61.727s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/point_cloud_perception/lib/python3.10/site-packages'
+[61.729s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/point_cloud_perception/bin'
+[61.821s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/package.ps1'
+[61.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/package.dsv'
+[61.826s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/package.sh'
+[61.827s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/package.bash'
+[61.828s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/package.zsh'
+[61.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/pcl/install/point_cloud_perception/share/colcon-core/packages/point_cloud_perception)
+[62.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(point_cloud_perception)
+[62.240s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/point_cloud_perception' for CMake module files
+[62.242s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/point_cloud_perception' for CMake config files
+[62.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('point_cloud_perception', 'cmake_prefix_path')
+[62.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.ps1'
+[62.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.dsv'
+[62.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.sh'
+[62.333s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/point_cloud_perception/lib'
+[62.333s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/point_cloud_perception/bin'
+[62.334s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/point_cloud_perception/lib/pkgconfig/point_cloud_perception.pc'
+[62.335s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/point_cloud_perception/lib/python3.10/site-packages'
+[62.337s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/point_cloud_perception/bin'
+[62.473s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/package.ps1'
+[62.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/package.dsv'
+[62.479s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/package.sh'
+[62.482s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/package.bash'
+[62.484s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/package.zsh'
+[62.486s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/pcl/install/point_cloud_perception/share/colcon-core/packages/point_cloud_perception)
+[62.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nodes)
+[62.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/pcl/build/nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/nodes
+[62.633s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/nodes' for CMake module files
+[62.637s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/nodes' for CMake config files
+[62.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('nodes', 'cmake_prefix_path')
+[62.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/nodes/share/nodes/hook/cmake_prefix_path.ps1'
+[62.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/pcl/install/nodes/share/nodes/hook/cmake_prefix_path.dsv'
+[62.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/nodes/share/nodes/hook/cmake_prefix_path.sh'
+[62.783s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/nodes/lib'
+[62.784s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/nodes/bin'
+[62.784s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/nodes/lib/pkgconfig/nodes.pc'
+[62.786s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/nodes/lib/python3.10/site-packages'
+[62.787s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/nodes/bin'
+[62.924s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/nodes/share/nodes/package.ps1'
+[62.927s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/pcl/install/nodes/share/nodes/package.dsv'
+[62.929s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/nodes/share/nodes/package.sh'
+[62.931s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/nodes/share/nodes/package.bash'
+[62.933s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/nodes/share/nodes/package.zsh'
+[62.934s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/pcl/install/nodes/share/colcon-core/packages/nodes)
+[63.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nodes)
+[63.341s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/nodes' for CMake module files
+[63.343s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/nodes' for CMake config files
+[63.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('nodes', 'cmake_prefix_path')
+[63.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/nodes/share/nodes/hook/cmake_prefix_path.ps1'
+[63.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/pcl/install/nodes/share/nodes/hook/cmake_prefix_path.dsv'
+[63.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/nodes/share/nodes/hook/cmake_prefix_path.sh'
+[63.431s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/nodes/lib'
+[63.431s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/nodes/bin'
+[63.432s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/nodes/lib/pkgconfig/nodes.pc'
+[63.433s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/nodes/lib/python3.10/site-packages'
+[63.434s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/nodes/bin'
+[63.518s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/nodes/share/nodes/package.ps1'
+[63.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/pcl/install/nodes/share/nodes/package.dsv'
+[63.522s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/nodes/share/nodes/package.sh'
+[63.524s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/nodes/share/nodes/package.bash'
+[63.526s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/nodes/share/nodes/package.zsh'
+[63.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/pcl/install/nodes/share/colcon-core/packages/nodes)
+[77.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/pcl/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/turtlebot3_gazebo -- -j12 -l12
+[77.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/pcl/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/turtlebot3_gazebo
+[80.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[80.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/pcl/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/turtlebot3_gazebo
+[80.344s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo' for CMake module files
+[80.348s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo' for CMake config files
+[80.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[80.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[80.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[80.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[80.437s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/lib'
+[80.437s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/bin'
+[80.437s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[80.438s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[80.439s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/bin'
+[80.522s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[80.523s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[80.525s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[80.526s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[80.527s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[80.528s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[80.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[80.885s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo' for CMake module files
+[80.887s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo' for CMake config files
+[80.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[80.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[80.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[80.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[80.974s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/lib'
+[80.974s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/bin'
+[80.975s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[80.976s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[80.976s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/bin'
+[81.057s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[81.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[81.061s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[81.063s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[81.064s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[81.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[81.066s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[81.068s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[81.068s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[81.068s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[81.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[81.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[81.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[81.171s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[81.179s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[81.181s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[81.265s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/pcl/install/local_setup.ps1'
+[81.272s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/pcl/install/_local_setup_util_ps1.py'
+[81.277s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/pcl/install/setup.ps1'
+[81.364s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/pcl/install/local_setup.sh'
+[81.367s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/pcl/install/_local_setup_util_sh.py'
+[81.369s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/pcl/install/setup.sh'
+[81.461s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/pcl/install/local_setup.bash'
+[81.463s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/pcl/install/setup.bash'
+[81.552s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/pcl/install/local_setup.zsh'
+[81.554s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/pcl/install/setup.zsh'

@@ -1,0 +1,264 @@
+[5.950s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'pointcloud_to_laserscan']
+[5.950s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['pointcloud_to_laserscan'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa2eef80bb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa2ef234eb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa2ef234eb0>>)
+[6.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.207s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/dai_ws'
+[6.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.260s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.260s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.261s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.261s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.262s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.262s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.263s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.263s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[6.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ignore'
+[6.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ignore_ament_install'
+[6.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['colcon_pkg']
+[6.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'colcon_pkg'
+[6.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['colcon_meta']
+[6.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'colcon_meta'
+[6.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['ros']
+[6.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ros'
+[6.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['cmake', 'python']
+[6.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'cmake'
+[6.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'python'
+[6.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['python_setup_py']
+[6.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'python_setup_py'
+[6.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[6.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ignore'
+[6.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ignore_ament_install'
+[6.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['colcon_pkg']
+[6.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'colcon_pkg'
+[6.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['colcon_meta']
+[6.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'colcon_meta'
+[6.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['ros']
+[6.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ros'
+[6.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai-ros' with type 'ros.ament_cmake' and name 'depthai-ros'
+[6.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['ignore', 'ignore_ament_install']
+[6.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ignore'
+[6.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ignore_ament_install'
+[6.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['colcon_pkg']
+[6.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'colcon_pkg'
+[6.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['colcon_meta']
+[6.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'colcon_meta'
+[6.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['ros']
+[6.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ros'
+[6.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_bridge' with type 'ros.ament_cmake' and name 'depthai_bridge'
+[6.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[6.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ignore'
+[6.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ignore_ament_install'
+[6.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['colcon_pkg']
+[6.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'colcon_pkg'
+[6.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['colcon_meta']
+[6.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'colcon_meta'
+[6.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['ros']
+[6.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ros'
+[6.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_descriptions' with type 'ros.ament_cmake' and name 'depthai_descriptions'
+[6.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['ignore', 'ignore_ament_install']
+[6.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ignore'
+[6.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ignore_ament_install'
+[6.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['colcon_pkg']
+[6.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'colcon_pkg'
+[6.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['colcon_meta']
+[6.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'colcon_meta'
+[6.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['ros']
+[6.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ros'
+[6.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_examples' with type 'ros.ament_cmake' and name 'depthai_examples'
+[6.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['ignore', 'ignore_ament_install']
+[6.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ignore'
+[6.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ignore_ament_install'
+[6.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['colcon_pkg']
+[6.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'colcon_pkg'
+[6.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['colcon_meta']
+[6.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'colcon_meta'
+[6.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['ros']
+[6.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ros'
+[6.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_filters' with type 'ros.ament_cmake' and name 'depthai_filters'
+[6.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['ignore', 'ignore_ament_install']
+[6.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ignore'
+[6.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ignore_ament_install'
+[6.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['colcon_pkg']
+[6.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'colcon_pkg'
+[6.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['colcon_meta']
+[6.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'colcon_meta'
+[6.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['ros']
+[6.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ros'
+[6.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_ros_driver' with type 'ros.ament_cmake' and name 'depthai_ros_driver'
+[6.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[6.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ignore'
+[6.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ignore_ament_install'
+[6.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_pkg']
+[6.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'colcon_pkg'
+[6.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_meta']
+[6.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'colcon_meta'
+[6.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['ros']
+[6.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ros'
+[6.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_ros_msgs' with type 'ros.ament_cmake' and name 'depthai_ros_msgs'
+[6.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[6.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'ignore'
+[6.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'ignore_ament_install'
+[6.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extensions ['colcon_pkg']
+[6.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'colcon_pkg'
+[6.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extensions ['colcon_meta']
+[6.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'colcon_meta'
+[6.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extensions ['ros']
+[6.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'ros'
+[6.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extensions ['cmake', 'python']
+[6.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'cmake'
+[6.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'python'
+[6.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extensions ['python_setup_py']
+[6.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'python_setup_py'
+[6.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[6.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'ignore'
+[6.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'ignore_ament_install'
+[6.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['colcon_pkg']
+[6.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'colcon_pkg'
+[6.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['colcon_meta']
+[6.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'colcon_meta'
+[6.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['ros']
+[6.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'ros'
+[6.358s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthimage_to_laserscan' with type 'ros.ament_cmake' and name 'depthimage_to_laserscan'
+[6.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[6.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ignore'
+[6.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ignore_ament_install'
+[6.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['colcon_pkg']
+[6.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'colcon_pkg'
+[6.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['colcon_meta']
+[6.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'colcon_meta'
+[6.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['ros']
+[6.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ros'
+[6.365s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pointcloud_to_laserscan' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[6.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.734s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai_descriptions' in 'src/depthai-ros/depthai_descriptions'
+[6.734s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai_ros_msgs' in 'src/depthai-ros/depthai_ros_msgs'
+[6.734s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthimage_to_laserscan' in 'src/depthimage_to_laserscan'
+[6.734s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai_bridge' in 'src/depthai-ros/depthai_bridge'
+[6.735s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai_filters' in 'src/depthai-ros/depthai_filters'
+[6.735s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai_examples' in 'src/depthai-ros/depthai_examples'
+[6.735s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai_ros_driver' in 'src/depthai-ros/depthai_ros_driver'
+[6.735s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai-ros' in 'src/depthai-ros/depthai-ros'
+[6.825s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[6.826s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[6.826s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.826s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[6.826s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[6.826s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[6.826s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[6.826s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[6.826s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.827s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/dai_ws/build/pointcloud_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan', 'merge_install': False, 'path': '/root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan', 'symlink_install': False, 'test_result_base': None}
+[6.912s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.002s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan' with build type 'ament_cmake'
+[7.003s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan'
+[7.096s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.097s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.097s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/dai_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan
+[14.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/dai_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan
+[14.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/dai_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/dai_ws/build/pointcloud_to_laserscan -- -j12 -l12
+[15.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/dai_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/dai_ws/build/pointcloud_to_laserscan -- -j12 -l12
+[15.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/dai_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/dai_ws/build/pointcloud_to_laserscan
+[15.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[15.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/dai_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/dai_ws/build/pointcloud_to_laserscan
+[15.912s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan' for CMake module files
+[15.915s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan' for CMake config files
+[15.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[16.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[16.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[16.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[16.010s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/lib'
+[16.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[16.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[16.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[16.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[16.103s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/bin'
+[16.104s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[16.112s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/lib/python3.10/site-packages'
+[16.113s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/bin'
+[16.204s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[16.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[16.211s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[16.215s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[16.217s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[16.220s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[16.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[16.620s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan' for CMake module files
+[16.622s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan' for CMake config files
+[16.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[16.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[16.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[16.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[16.722s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/lib'
+[16.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[16.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[16.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[16.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[16.822s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/bin'
+[16.823s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[16.824s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/lib/python3.10/site-packages'
+[16.826s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/bin'
+[16.924s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[16.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[16.928s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[16.930s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[16.931s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[16.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/dai_ws/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[16.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.935s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.936s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.936s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.063s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[17.063s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.063s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.064s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.071s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[17.072s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.171s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/dai_ws/install/local_setup.ps1'
+[17.178s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/dai_ws/install/_local_setup_util_ps1.py'
+[17.184s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/dai_ws/install/setup.ps1'
+[17.292s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/dai_ws/install/local_setup.sh'
+[17.294s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/dai_ws/install/_local_setup_util_sh.py'
+[17.296s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/dai_ws/install/setup.sh'
+[17.395s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/dai_ws/install/local_setup.bash'
+[17.397s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/dai_ws/install/setup.bash'
+[17.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/dai_ws/install/local_setup.zsh'
+[17.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/dai_ws/install/setup.zsh'

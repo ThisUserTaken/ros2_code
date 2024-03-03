@@ -1,0 +1,78 @@
+[2.037s] Invoking command in '/root/ros2_code/humble/pcl/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/pcl/src/ros2_learners/nodes -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/pcl/install/nodes
+[4.328s] -- The C compiler identification is Clang 14.0.0
+[4.330s] -- The CXX compiler identification is Clang 14.0.0
+[4.336s] -- Detecting C compiler ABI info
+[4.337s] -- Detecting C compiler ABI info - done
+[4.338s] -- Check for working C compiler: /usr/bin/clang - skipped
+[4.338s] -- Detecting C compile features
+[4.339s] -- Detecting C compile features - done
+[4.340s] -- Detecting CXX compiler ABI info
+[4.340s] -- Detecting CXX compiler ABI info - done
+[4.341s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[4.342s] -- Detecting CXX compile features
+[4.342s] -- Detecting CXX compile features - done
+[4.343s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.947s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.320s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.839s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[6.413s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.495s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.592s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.768s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.990s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.054s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[8.404s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[8.547s] -- Looking for pthread.h
+[9.037s] -- Looking for pthread.h - found
+[9.038s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.486s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.491s] -- Found Threads: TRUE  
+[10.534s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[11.319s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.953s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.955s] -- Configured cppcheck include dirs: 
+[11.955s] -- Configured cppcheck exclude dirs and/or files: 
+[11.959s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.965s] -- Added test 'lint_cmake' to check CMake code style
+[11.972s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.979s] -- Added test 'uncrustify' to check C / C++ code style
+[11.980s] -- Configured uncrustify additional arguments: 
+[11.985s] -- Added test 'xmllint' to check XML markup files
+[12.003s] -- Configuring done
+[12.091s] -- Generating done
+[12.098s] -- Build files have been written to: /root/ros2_code/humble/pcl/build/nodes
+[12.129s] Invoked command in '/root/ros2_code/humble/pcl/build/nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/pcl/src/ros2_learners/nodes -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/pcl/install/nodes
+[12.136s] Invoking command in '/root/ros2_code/humble/pcl/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/nodes -- -j12 -l12
+[12.377s] [ 16%] [32mBuilding CXX object CMakeFiles/sub_node.dir/src/subscriber.cpp.o[0m
+[12.378s] [ 33%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/publisher.cpp.o[0m
+[12.401s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_pub.dir/src/laser_publisher.cpp.o[0m
+[35.929s] [ 66%] [32m[1mLinking CXX executable laser_pub[0m
+[36.317s] [ 83%] [32m[1mLinking CXX executable pub_node[0m
+[37.188s] [ 83%] Built target laser_pub
+[37.610s] [ 83%] Built target pub_node
+[55.260s] [100%] [32m[1mLinking CXX executable sub_node[0m
+[57.532s] [100%] Built target sub_node
+[57.594s] Invoked command in '/root/ros2_code/humble/pcl/build/nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/nodes -- -j12 -l12
+[57.852s] Invoking command in '/root/ros2_code/humble/pcl/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/nodes
+[57.899s] -- Install configuration: ""
+[57.902s] -- Execute custom install script
+[57.904s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/lib/nodes/pub_node
+[57.961s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/lib/nodes/sub_node
+[58.016s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/lib/nodes/laser_pub
+[58.058s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes
+[58.116s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes
+[58.163s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/nodes/environment/ament_prefix_path.sh
+[58.204s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/nodes/environment/ament_prefix_path.dsv
+[58.246s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/nodes/environment/path.sh
+[58.284s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/nodes/environment/path.dsv
+[58.322s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/nodes/local_setup.bash
+[58.369s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/nodes/local_setup.sh
+[58.406s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/nodes/local_setup.zsh
+[58.447s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/nodes/local_setup.dsv
+[58.486s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/nodes/package.dsv
+[58.525s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/ament_index/resource_index/packages/nodes
+[58.567s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/nodes/cmake/nodesConfig.cmake
+[58.605s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/nodes/cmake/nodesConfig-version.cmake
+[58.648s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/nodes/package.xml
+[59.042s] Invoked command in '/root/ros2_code/humble/pcl/build/nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/nodes

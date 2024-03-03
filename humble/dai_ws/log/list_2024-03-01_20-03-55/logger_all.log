@@ -1,0 +1,164 @@
+[6.225s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/root/ros2_code/humble/dai_ws']
+[6.225s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/root/ros2_code/humble/dai_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3b30f2c5b0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f3b30f2e440>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f3b30f2e440>>)
+[6.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.526s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/dai_ws'
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws) by extensions ['ignore', 'ignore_ament_install']
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws) by extension 'ignore'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws) by extension 'ignore_ament_install'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws) by extensions ['colcon_pkg']
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws) by extension 'colcon_pkg'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws) by extensions ['colcon_meta']
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws) by extension 'colcon_meta'
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws) by extensions ['ros']
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws) by extension 'ros'
+[6.577s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws) by extensions ['cmake', 'python']
+[6.578s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws) by extension 'cmake'
+[6.578s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws) by extension 'python'
+[6.578s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws) by extensions ['python_setup_py']
+[6.579s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws) by extension 'python_setup_py'
+[6.579s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[6.580s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/build) by extension 'ignore'
+[6.580s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/build) ignored
+[6.581s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[6.581s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/install) by extension 'ignore'
+[6.581s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/install) ignored
+[6.582s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[6.582s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/log) by extension 'ignore'
+[6.582s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/log) ignored
+[6.583s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[6.583s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src) by extension 'ignore'
+[6.583s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src) by extension 'ignore_ament_install'
+[6.584s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src) by extensions ['colcon_pkg']
+[6.584s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src) by extension 'colcon_pkg'
+[6.584s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src) by extensions ['colcon_meta']
+[6.584s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src) by extension 'colcon_meta'
+[6.584s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src) by extensions ['ros']
+[6.584s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src) by extension 'ros'
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src) by extensions ['cmake', 'python']
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src) by extension 'cmake'
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src) by extension 'python'
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src) by extensions ['python_setup_py']
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src) by extension 'python_setup_py'
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros) by extension 'ignore'
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros) by extension 'ignore_ament_install'
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros) by extensions ['colcon_pkg']
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros) by extension 'colcon_pkg'
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros) by extensions ['colcon_meta']
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros) by extension 'colcon_meta'
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros) by extensions ['ros']
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros) by extension 'ros'
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros) by extensions ['cmake', 'python']
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros) by extension 'cmake'
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros) by extension 'python'
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros) by extensions ['python_setup_py']
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros) by extension 'python_setup_py'
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[6.590s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai-ros) by extension 'ignore'
+[6.590s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai-ros) by extension 'ignore_ament_install'
+[6.590s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai-ros) by extensions ['colcon_pkg']
+[6.590s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai-ros) by extension 'colcon_pkg'
+[6.591s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai-ros) by extensions ['colcon_meta']
+[6.591s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai-ros) by extension 'colcon_meta'
+[6.591s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai-ros) by extensions ['ros']
+[6.591s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai-ros) by extension 'ros'
+[6.603s] DEBUG:colcon.colcon_core.package_identification:Package '/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai-ros' with type 'ros.ament_cmake' and name 'depthai-ros'
+[6.604s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_bridge) by extensions ['ignore', 'ignore_ament_install']
+[6.605s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_bridge) by extension 'ignore'
+[6.605s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_bridge) by extension 'ignore_ament_install'
+[6.606s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_bridge) by extensions ['colcon_pkg']
+[6.606s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_bridge) by extension 'colcon_pkg'
+[6.606s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_bridge) by extensions ['colcon_meta']
+[6.607s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_bridge) by extension 'colcon_meta'
+[6.607s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_bridge) by extensions ['ros']
+[6.607s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_bridge) by extension 'ros'
+[6.615s] DEBUG:colcon.colcon_core.package_identification:Package '/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_bridge' with type 'ros.ament_cmake' and name 'depthai_bridge'
+[6.616s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[6.616s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_descriptions) by extension 'ignore'
+[6.616s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_descriptions) by extension 'ignore_ament_install'
+[6.617s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_descriptions) by extensions ['colcon_pkg']
+[6.617s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_descriptions) by extension 'colcon_pkg'
+[6.617s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_descriptions) by extensions ['colcon_meta']
+[6.617s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_descriptions) by extension 'colcon_meta'
+[6.618s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_descriptions) by extensions ['ros']
+[6.618s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_descriptions) by extension 'ros'
+[6.620s] DEBUG:colcon.colcon_core.package_identification:Package '/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_descriptions' with type 'ros.ament_cmake' and name 'depthai_descriptions'
+[6.620s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_examples) by extensions ['ignore', 'ignore_ament_install']
+[6.621s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_examples) by extension 'ignore'
+[6.621s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_examples) by extension 'ignore_ament_install'
+[6.621s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_examples) by extensions ['colcon_pkg']
+[6.622s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_examples) by extension 'colcon_pkg'
+[6.622s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_examples) by extensions ['colcon_meta']
+[6.622s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_examples) by extension 'colcon_meta'
+[6.622s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_examples) by extensions ['ros']
+[6.622s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_examples) by extension 'ros'
+[6.632s] DEBUG:colcon.colcon_core.package_identification:Package '/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_examples' with type 'ros.ament_cmake' and name 'depthai_examples'
+[6.632s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_filters) by extensions ['ignore', 'ignore_ament_install']
+[6.633s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_filters) by extension 'ignore'
+[6.633s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_filters) by extension 'ignore_ament_install'
+[6.633s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_filters) by extensions ['colcon_pkg']
+[6.633s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_filters) by extension 'colcon_pkg'
+[6.633s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_filters) by extensions ['colcon_meta']
+[6.634s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_filters) by extension 'colcon_meta'
+[6.634s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_filters) by extensions ['ros']
+[6.634s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_filters) by extension 'ros'
+[6.639s] DEBUG:colcon.colcon_core.package_identification:Package '/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_filters' with type 'ros.ament_cmake' and name 'depthai_filters'
+[6.639s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_driver) by extensions ['ignore', 'ignore_ament_install']
+[6.640s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_driver) by extension 'ignore'
+[6.640s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_driver) by extension 'ignore_ament_install'
+[6.640s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_driver) by extensions ['colcon_pkg']
+[6.640s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_driver) by extension 'colcon_pkg'
+[6.641s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_driver) by extensions ['colcon_meta']
+[6.641s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_driver) by extension 'colcon_meta'
+[6.641s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_driver) by extensions ['ros']
+[6.641s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_driver) by extension 'ros'
+[6.649s] DEBUG:colcon.colcon_core.package_identification:Package '/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_driver' with type 'ros.ament_cmake' and name 'depthai_ros_driver'
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs) by extension 'ignore'
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs) by extension 'ignore_ament_install'
+[6.651s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_pkg']
+[6.651s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs) by extension 'colcon_pkg'
+[6.651s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_meta']
+[6.651s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs) by extension 'colcon_meta'
+[6.652s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs) by extensions ['ros']
+[6.652s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs) by extension 'ros'
+[6.660s] DEBUG:colcon.colcon_core.package_identification:Package '/root/ros2_code/humble/dai_ws/src/depthai-ros/depthai_ros_msgs' with type 'ros.ament_cmake' and name 'depthai_ros_msgs'
+[6.661s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[6.662s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/docs) by extension 'ignore'
+[6.662s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/docs) by extension 'ignore_ament_install'
+[6.663s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/docs) by extensions ['colcon_pkg']
+[6.663s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/docs) by extension 'colcon_pkg'
+[6.663s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/docs) by extensions ['colcon_meta']
+[6.664s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/docs) by extension 'colcon_meta'
+[6.664s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/docs) by extensions ['ros']
+[6.664s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/docs) by extension 'ros'
+[6.665s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/docs) by extensions ['cmake', 'python']
+[6.665s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/docs) by extension 'cmake'
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/docs) by extension 'python'
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/docs) by extensions ['python_setup_py']
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthai-ros/docs) by extension 'python_setup_py'
+[6.667s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthimage_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[6.667s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthimage_to_laserscan) by extension 'ignore'
+[6.668s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthimage_to_laserscan) by extension 'ignore_ament_install'
+[6.668s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthimage_to_laserscan) by extensions ['colcon_pkg']
+[6.668s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthimage_to_laserscan) by extension 'colcon_pkg'
+[6.668s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthimage_to_laserscan) by extensions ['colcon_meta']
+[6.669s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthimage_to_laserscan) by extension 'colcon_meta'
+[6.669s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthimage_to_laserscan) by extensions ['ros']
+[6.669s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/depthimage_to_laserscan) by extension 'ros'
+[6.673s] DEBUG:colcon.colcon_core.package_identification:Package '/root/ros2_code/humble/dai_ws/src/depthimage_to_laserscan' with type 'ros.ament_cmake' and name 'depthimage_to_laserscan'
+[6.673s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[6.674s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan) by extension 'ignore'
+[6.674s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan) by extension 'ignore_ament_install'
+[6.674s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan) by extensions ['colcon_pkg']
+[6.674s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan) by extension 'colcon_pkg'
+[6.674s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan) by extensions ['colcon_meta']
+[6.675s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan) by extension 'colcon_meta'
+[6.675s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan) by extensions ['ros']
+[6.675s] Level 1:colcon.colcon_core.package_identification:_identify(/root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan) by extension 'ros'
+[6.680s] DEBUG:colcon.colcon_core.package_identification:Package '/root/ros2_code/humble/dai_ws/src/pointcloud_to_laserscan' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[6.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

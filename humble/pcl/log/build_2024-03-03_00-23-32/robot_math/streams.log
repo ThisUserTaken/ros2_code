@@ -1,0 +1,18 @@
+[4.802s] Invoking command in '/root/ros2_code/humble/pcl/build/robot_math': PYTHONPATH=/root/ros2_code/humble/pcl/build/robot_math/prefix_override:/root/ros2_code/humble/pcl/install/robot_math/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ros2_code/humble/pcl/build/robot_math/build --no-deps install_data
+[5.939s] running develop
+[6.521s] running egg_info
+[6.521s] writing robot_math.egg-info/PKG-INFO
+[6.522s] writing dependency_links to robot_math.egg-info/dependency_links.txt
+[6.522s] writing entry points to robot_math.egg-info/entry_points.txt
+[6.523s] writing requirements to robot_math.egg-info/requires.txt
+[6.523s] writing top-level names to robot_math.egg-info/top_level.txt
+[6.530s] reading manifest file 'robot_math.egg-info/SOURCES.txt'
+[6.533s] writing manifest file 'robot_math.egg-info/SOURCES.txt'
+[6.540s] running build_ext
+[6.541s] Creating /root/ros2_code/humble/pcl/install/robot_math/lib/python3.10/site-packages/robot-math.egg-link (link to .)
+[6.544s] Installing circle_motion_node script to /root/ros2_code/humble/pcl/install/robot_math/lib/robot_math
+[6.545s] Installing go_To_Goal_node script to /root/ros2_code/humble/pcl/install/robot_math/lib/robot_math
+[6.546s] 
+[6.546s] Installed /root/ros2_code/humble/pcl/build/robot_math
+[6.546s] running install_data
+[6.593s] Invoked command in '/root/ros2_code/humble/pcl/build/robot_math' returned '0': PYTHONPATH=/root/ros2_code/humble/pcl/build/robot_math/prefix_override:/root/ros2_code/humble/pcl/install/robot_math/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ros2_code/humble/pcl/build/robot_math/build --no-deps install_data

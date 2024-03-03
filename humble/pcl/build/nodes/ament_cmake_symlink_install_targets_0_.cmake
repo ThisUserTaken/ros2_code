@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros2_code/humble/pcl/build/nodes/pub_node" "/root/ros2_code/humble/pcl/build/nodes/sub_node" "/root/ros2_code/humble/pcl/build/nodes/laser_pub" "TARGETS" "pub_node" "sub_node" "laser_pub" "DESTINATION" "lib/nodes")

@@ -1,0 +1,13 @@
+/root/ros2_code/humble/pcl/build/turtlebot3_gazebo/CMakeFiles/uninstall.dir
+/root/ros2_code/humble/pcl/build/turtlebot3_gazebo/CMakeFiles/turtlebot3_gazebo_uninstall.dir
+/root/ros2_code/humble/pcl/build/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir
+/root/ros2_code/humble/pcl/build/turtlebot3_gazebo/CMakeFiles/obstacle1.dir
+/root/ros2_code/humble/pcl/build/turtlebot3_gazebo/CMakeFiles/obstacle2.dir
+/root/ros2_code/humble/pcl/build/turtlebot3_gazebo/CMakeFiles/obstacles.dir
+/root/ros2_code/humble/pcl/build/turtlebot3_gazebo/CMakeFiles/test.dir
+/root/ros2_code/humble/pcl/build/turtlebot3_gazebo/CMakeFiles/edit_cache.dir
+/root/ros2_code/humble/pcl/build/turtlebot3_gazebo/CMakeFiles/rebuild_cache.dir
+/root/ros2_code/humble/pcl/build/turtlebot3_gazebo/CMakeFiles/list_install_components.dir
+/root/ros2_code/humble/pcl/build/turtlebot3_gazebo/CMakeFiles/install.dir
+/root/ros2_code/humble/pcl/build/turtlebot3_gazebo/CMakeFiles/install/local.dir
+/root/ros2_code/humble/pcl/build/turtlebot3_gazebo/CMakeFiles/install/strip.dir

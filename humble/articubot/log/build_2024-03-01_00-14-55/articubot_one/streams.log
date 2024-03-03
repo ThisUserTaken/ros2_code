@@ -1,0 +1,56 @@
+[0.980s] Invoking command in '/root/ros2_code/humble/articubot/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/articubot/build/articubot_one -- -j12 -l12
+[1.145s] Invoked command in '/root/ros2_code/humble/articubot/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/articubot/build/articubot_one -- -j12 -l12
+[1.296s] Invoking command in '/root/ros2_code/humble/articubot/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/articubot/build/articubot_one
+[1.326s] -- Install configuration: ""
+[1.327s] -- Execute custom install script
+[1.329s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[1.330s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[1.331s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[1.332s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/config/empty.yaml
+[1.332s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[1.333s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[1.333s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/config/joystick.yaml
+[1.334s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/config/main.rviz
+[1.334s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/config/map.rviz
+[1.335s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[1.335s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[1.335s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[1.336s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[1.336s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[1.337s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/description/camera.xacro
+[1.338s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[1.339s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/description/face.xacro
+[1.339s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[1.340s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[1.340s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/description/lidar.xacro
+[1.341s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[1.341s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[1.342s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[1.342s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[1.343s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[1.344s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[1.344s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[1.345s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[1.346s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[1.346s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[1.347s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[1.347s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[1.347s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[1.348s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/worlds/empty.world
+[1.348s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[1.349s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.350s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.351s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.352s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.352s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/environment/path.sh
+[1.353s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.354s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/local_setup.bash
+[1.354s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/local_setup.sh
+[1.355s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.356s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.356s] -- Symlinking: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/package.dsv
+[1.393s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.393s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.394s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.395s] -- Up-to-date symlink: /root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/package.xml
+[1.403s] Invoked command in '/root/ros2_code/humble/articubot/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/articubot/build/articubot_one

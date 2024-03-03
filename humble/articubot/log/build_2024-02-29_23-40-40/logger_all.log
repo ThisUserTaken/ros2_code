@@ -1,0 +1,136 @@
+[5.357s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[5.357s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f96c0988c40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f96c0c3ceb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f96c0c3ceb0>>)
+[5.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.597s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_code/humble/articubot'
+[5.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.651s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.651s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.651s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.652s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.652s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.652s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.653s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.653s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.653s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.654s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.654s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.654s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.654s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.655s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.655s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[5.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[5.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[5.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[5.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[5.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[5.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[5.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[5.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[5.669s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[5.670s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.670s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.670s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.670s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.670s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.076s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[6.076s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[6.076s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.076s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[6.077s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[6.077s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[6.077s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[6.077s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[6.077s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.077s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_code/humble/articubot/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_code/humble/articubot/install/articubot_one', 'merge_install': False, 'path': '/root/ros2_code/humble/articubot/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[6.156s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.239s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_code/humble/articubot/src/articubot_one' with build type 'ament_cmake'
+[6.240s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_code/humble/articubot/src/articubot_one'
+[6.347s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.348s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.348s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/articubot/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/articubot/build/articubot_one -- -j12 -l12
+[7.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/articubot/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/articubot/build/articubot_one -- -j12 -l12
+[7.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_code/humble/articubot/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/articubot/build/articubot_one
+[7.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[7.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_code/humble/articubot/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/articubot/build/articubot_one
+[7.814s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/articubot/install/articubot_one' for CMake module files
+[7.816s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/articubot/install/articubot_one' for CMake config files
+[7.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[7.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[7.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[7.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[7.914s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/articubot/install/articubot_one/bin'
+[7.915s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/articubot/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[7.922s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/articubot/install/articubot_one/lib/python3.10/site-packages'
+[7.923s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/articubot/install/articubot_one/bin'
+[8.012s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/package.ps1'
+[8.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/package.dsv'
+[8.019s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/package.sh'
+[8.022s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/package.bash'
+[8.025s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/package.zsh'
+[8.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/articubot/install/articubot_one/share/colcon-core/packages/articubot_one)
+[8.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[8.297s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/articubot/install/articubot_one' for CMake module files
+[8.299s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/articubot/install/articubot_one' for CMake config files
+[8.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[8.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[8.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[8.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[8.388s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/articubot/install/articubot_one/bin'
+[8.388s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/articubot/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[8.389s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/articubot/install/articubot_one/lib/python3.10/site-packages'
+[8.390s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_code/humble/articubot/install/articubot_one/bin'
+[8.470s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/package.ps1'
+[8.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/package.dsv'
+[8.474s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/package.sh'
+[8.475s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/package.bash'
+[8.477s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_code/humble/articubot/install/articubot_one/share/articubot_one/package.zsh'
+[8.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_code/humble/articubot/install/articubot_one/share/colcon-core/packages/articubot_one)
+[8.481s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.482s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.482s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.482s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[8.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.585s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.585s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.592s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[8.593s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.683s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/articubot/install/local_setup.ps1'
+[8.688s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/articubot/install/_local_setup_util_ps1.py'
+[8.695s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/articubot/install/setup.ps1'
+[8.784s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/articubot/install/local_setup.sh'
+[8.787s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_code/humble/articubot/install/_local_setup_util_sh.py'
+[8.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/articubot/install/setup.sh'
+[8.881s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/articubot/install/local_setup.bash'
+[8.883s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/articubot/install/setup.bash'
+[8.968s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_code/humble/articubot/install/local_setup.zsh'
+[8.971s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_code/humble/articubot/install/setup.zsh'

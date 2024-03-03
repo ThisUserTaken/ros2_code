@@ -1,0 +1,49 @@
+[2.300s] Invoking command in '/root/ros2_code/humble/pcl/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/navigation_tb3 -- -j12 -l12
+[4.038s] [100%] Built target pub_occupancy_grid
+[4.039s] [100%] Built target ament_cmake_python_symlink_navigation_tb3
+[4.040s] running egg_info
+[4.040s] writing navigation_tb3.egg-info/PKG-INFO
+[4.042s] writing dependency_links to navigation_tb3.egg-info/dependency_links.txt
+[4.042s] writing top-level names to navigation_tb3.egg-info/top_level.txt
+[4.042s] reading manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[4.045s] writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[4.045s] [100%] Built target ament_cmake_python_build_navigation_tb3_egg
+[4.053s] Invoked command in '/root/ros2_code/humble/pcl/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/navigation_tb3 -- -j12 -l12
+[4.217s] Invoking command in '/root/ros2_code/humble/pcl/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/navigation_tb3
+[4.248s] -- Install configuration: ""
+[4.250s] -- Execute custom install script
+[4.252s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/lib/navigation_tb3/pub_occupancy_grid
+[4.255s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/launch/mapping.launch.py
+[4.256s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/launch/navigation.launch.py
+[4.258s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/config/mapping.rviz
+[4.259s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/config/navigation.rviz
+[4.260s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/config/tb3_map.pgm
+[4.261s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/config/tb3_map.yaml
+[4.262s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/config/tb3_nav2_params.yaml
+[4.263s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/config/turtlebot3_lds_2d.lua
+[4.266s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.sh
+[4.267s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.dsv
+[4.271s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/PKG-INFO
+[4.272s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.275s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.276s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/top_level.txt
+[4.278s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3/__init__.py
+[4.280s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/lib/navigation_tb3/single_goal_nav.py
+[4.284s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/lib/navigation_tb3/multi_waypoints.py
+[4.285s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/ament_index/resource_index/package_run_dependencies/navigation_tb3
+[4.287s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/ament_index/resource_index/parent_prefix_path/navigation_tb3
+[4.288s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.sh
+[4.290s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.dsv
+[4.293s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/environment/path.sh
+[4.294s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/environment/path.dsv
+[4.296s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/local_setup.bash
+[4.298s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/local_setup.sh
+[4.299s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/local_setup.zsh
+[4.300s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/local_setup.dsv
+[4.301s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/package.dsv
+[4.345s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/ament_index/resource_index/packages/navigation_tb3
+[4.347s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config.cmake
+[4.348s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config-version.cmake
+[4.349s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/package.xml
+[4.535s] Listing '/root/ros2_code/humble/pcl/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3'...
+[4.920s] Invoked command in '/root/ros2_code/humble/pcl/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/navigation_tb3

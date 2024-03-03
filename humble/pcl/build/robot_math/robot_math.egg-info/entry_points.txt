@@ -1,0 +1,4 @@
+[console_scripts]
+circle_motion_node = robot_math.andular_velocity:main
+go_To_Goal_node = robot_math.gtg:main
+

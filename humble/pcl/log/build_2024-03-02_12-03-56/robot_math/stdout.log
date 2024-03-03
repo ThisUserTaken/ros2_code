@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing robot_math.egg-info/PKG-INFO
+writing dependency_links to robot_math.egg-info/dependency_links.txt
+writing entry points to robot_math.egg-info/entry_points.txt
+writing requirements to robot_math.egg-info/requires.txt
+writing top-level names to robot_math.egg-info/top_level.txt
+reading manifest file 'robot_math.egg-info/SOURCES.txt'
+writing manifest file 'robot_math.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros2_code/humble/pcl/install/robot_math/lib/python3.10/site-packages/robot-math.egg-link (link to .)
+Installing circle_motion_node script to /root/ros2_code/humble/pcl/install/robot_math/lib/robot_math
+Installing go_To_Goal_node script to /root/ros2_code/humble/pcl/install/robot_math/lib/robot_math
+
+Installed /root/ros2_code/humble/pcl/build/robot_math
+running install_data

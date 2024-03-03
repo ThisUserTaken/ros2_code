@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros2_code/humble/pcl/build/point_cloud_perception/voxeling" "/root/ros2_code/humble/pcl/build/point_cloud_perception/planner_seg" "/root/ros2_code/humble/pcl/build/point_cloud_perception/clustering" "TARGETS" "voxeling" "planner_seg" "clustering" "DESTINATION" "lib/point_cloud_perception")

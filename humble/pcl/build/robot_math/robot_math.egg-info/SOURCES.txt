@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/robot_math
+robot_math/__init__.py
+robot_math/andular_velocity.py
+robot_math/gtg.py
+robot_math.egg-info/PKG-INFO
+robot_math.egg-info/SOURCES.txt
+robot_math.egg-info/dependency_links.txt
+robot_math.egg-info/entry_points.txt
+robot_math.egg-info/requires.txt
+robot_math.egg-info/top_level.txt
+robot_math.egg-info/zip-safe

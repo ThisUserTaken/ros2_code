@@ -1,0 +1,90 @@
+[2.511s] Invoking command in '/root/ros2_code/humble/pcl/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/pcl/src/ros2_learners/navigation_tb3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/pcl/install/navigation_tb3
+[4.794s] -- The C compiler identification is Clang 14.0.0
+[4.796s] -- The CXX compiler identification is Clang 14.0.0
+[4.799s] -- Detecting C compiler ABI info
+[4.799s] -- Detecting C compiler ABI info - done
+[4.803s] -- Check for working C compiler: /usr/bin/clang - skipped
+[4.805s] -- Detecting C compile features
+[4.808s] -- Detecting C compile features - done
+[4.808s] -- Detecting CXX compiler ABI info
+[4.809s] -- Detecting CXX compiler ABI info - done
+[4.810s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[4.811s] -- Detecting CXX compile features
+[4.812s] -- Detecting CXX compile features - done
+[4.812s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.426s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.759s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.334s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[6.907s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.989s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.085s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.473s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.394s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.438s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[8.734s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[8.872s] -- Looking for pthread.h
+[9.376s] -- Looking for pthread.h - found
+[9.378s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.857s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.861s] -- Found Threads: TRUE  
+[10.887s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[11.655s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[12.407s] -- Configuring done
+[12.456s] -- Generating done
+[12.466s] -- Build files have been written to: /root/ros2_code/humble/pcl/build/navigation_tb3
+[12.500s] Invoked command in '/root/ros2_code/humble/pcl/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/pcl/src/ros2_learners/navigation_tb3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/pcl/install/navigation_tb3
+[12.502s] Invoking command in '/root/ros2_code/humble/pcl/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/navigation_tb3 -- -j12 -l12
+[12.730s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_occupancy_grid.dir/src/pub_occupancy_grid.cpp.o[0m
+[12.772s] [ 50%] Built target ament_cmake_python_symlink_navigation_tb3
+[14.338s] running egg_info
+[14.341s] creating navigation_tb3.egg-info
+[14.344s] writing navigation_tb3.egg-info/PKG-INFO
+[14.344s] writing dependency_links to navigation_tb3.egg-info/dependency_links.txt
+[14.345s] writing top-level names to navigation_tb3.egg-info/top_level.txt
+[14.346s] writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[14.358s] reading manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[14.362s] writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[14.488s] [ 50%] Built target ament_cmake_python_build_navigation_tb3_egg
+[36.686s] [100%] [32m[1mLinking CXX executable pub_occupancy_grid[0m
+[37.998s] [100%] Built target pub_occupancy_grid
+[38.065s] Invoked command in '/root/ros2_code/humble/pcl/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/navigation_tb3 -- -j12 -l12
+[38.283s] Invoking command in '/root/ros2_code/humble/pcl/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/navigation_tb3
+[38.319s] -- Install configuration: ""
+[38.322s] -- Execute custom install script
+[38.324s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/lib/navigation_tb3/pub_occupancy_grid
+[38.377s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/launch/mapping.launch.py
+[38.418s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/launch/navigation.launch.py
+[38.464s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/config/mapping.rviz
+[38.508s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/config/navigation.rviz
+[38.560s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/config/tb3_map.pgm
+[38.619s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/config/tb3_map.yaml
+[38.670s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/config/tb3_nav2_params.yaml
+[38.725s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/config/turtlebot3_lds_2d.lua
+[38.777s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.sh
+[38.831s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.dsv
+[38.886s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/PKG-INFO
+[38.938s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/SOURCES.txt
+[38.988s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/dependency_links.txt
+[39.040s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/top_level.txt
+[39.094s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3/__init__.py
+[39.148s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/lib/navigation_tb3/single_goal_nav.py
+[39.200s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/lib/navigation_tb3/multi_waypoints.py
+[39.252s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/ament_index/resource_index/package_run_dependencies/navigation_tb3
+[39.304s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/ament_index/resource_index/parent_prefix_path/navigation_tb3
+[39.362s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.sh
+[39.416s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.dsv
+[39.468s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/environment/path.sh
+[39.520s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/environment/path.dsv
+[39.579s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/local_setup.bash
+[39.632s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/local_setup.sh
+[39.684s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/local_setup.zsh
+[39.736s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/local_setup.dsv
+[39.787s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/package.dsv
+[39.841s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/ament_index/resource_index/packages/navigation_tb3
+[39.895s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config.cmake
+[39.947s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config-version.cmake
+[40.005s] -- Symlinking: /root/ros2_code/humble/pcl/install/navigation_tb3/share/navigation_tb3/package.xml
+[40.447s] Listing '/root/ros2_code/humble/pcl/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3'...
+[40.448s] Compiling '/root/ros2_code/humble/pcl/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3/__init__.py'...
+[40.495s] Invoked command in '/root/ros2_code/humble/pcl/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/navigation_tb3

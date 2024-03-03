@@ -1,0 +1,1 @@
+/root/ros2_code/humble/pcl/build/turtlebot3_gazebo/ament_cmake_environment_hooks/local_setup.zsh

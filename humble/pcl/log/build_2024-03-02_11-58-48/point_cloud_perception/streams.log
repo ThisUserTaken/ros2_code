@@ -1,0 +1,173 @@
+[1.594s] Invoking command in '/root/ros2_code/humble/pcl/build/point_cloud_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/pcl/src/ros2_learners/point_cloud_perception -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/pcl/install/point_cloud_perception
+[3.889s] -- The C compiler identification is Clang 14.0.0
+[3.889s] -- The CXX compiler identification is Clang 14.0.0
+[3.890s] -- Detecting C compiler ABI info
+[3.890s] -- Detecting C compiler ABI info - done
+[3.890s] -- Check for working C compiler: /usr/bin/clang - skipped
+[3.890s] -- Detecting C compile features
+[3.891s] -- Detecting C compile features - done
+[3.891s] -- Detecting CXX compiler ABI info
+[3.891s] -- Detecting CXX compiler ABI info - done
+[3.892s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[3.892s] -- Detecting CXX compile features
+[3.892s] -- Detecting CXX compile features - done
+[3.892s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.458s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.772s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.385s] -- Checking for module 'eigen3'
+[5.462s] --   Found eigen3, version 3.4.0
+[5.607s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.607s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.967s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[6.119s] -- Checking for module 'flann'
+[6.189s] --   Found flann, version 1.9.1
+[6.447s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[6.448s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[6.636s] -- Looking for pthread.h
+[7.075s] -- Looking for pthread.h - found
+[7.077s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.540s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.544s] -- Found Threads: TRUE  
+[7.553s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[7.588s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[8.509s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[8.510s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[8.523s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[8.572s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[8.659s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[8.745s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[9.259s] -- Found X11: /usr/include   
+[9.260s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[9.699s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[9.700s] -- Looking for gethostbyname
+[10.107s] -- Looking for gethostbyname - found
+[10.107s] -- Looking for connect
+[10.513s] -- Looking for connect - found
+[10.513s] -- Looking for remove
+[10.933s] -- Looking for remove - found
+[10.934s] -- Looking for shmat
+[11.356s] -- Looking for shmat - found
+[11.357s] -- Looking for IceConnectionNumber in ICE
+[11.813s] -- Looking for IceConnectionNumber in ICE - found
+[12.305s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[12.321s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[12.340s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[12.353s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[12.463s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[12.504s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[12.538s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[12.582s] -- Found utf8cpp: /usr/include/utf8cpp  
+[13.106s] -- Checking for module 'libusb-1.0'
+[13.203s] --   Found libusb-1.0, version 1.0.25
+[13.420s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[13.427s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[13.427s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.749s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[13.750s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[13.750s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[14.641s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[14.676s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.707s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[15.626s] -- Found Qhull version 8.0.2
+[16.426s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[17.375s] -- looking for PCL_COMMON
+[17.381s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[17.382s] -- looking for PCL_KDTREE
+[17.389s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[17.389s] -- looking for PCL_OCTREE
+[17.394s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[17.395s] -- looking for PCL_SEARCH
+[17.401s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[17.402s] -- looking for PCL_SAMPLE_CONSENSUS
+[17.408s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[17.409s] -- looking for PCL_FILTERS
+[17.415s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[17.416s] -- looking for PCL_2D
+[17.418s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[17.419s] -- looking for PCL_GEOMETRY
+[17.421s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[17.422s] -- looking for PCL_IO
+[17.428s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[17.429s] -- looking for PCL_FEATURES
+[17.435s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[17.437s] -- looking for PCL_ML
+[17.443s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[17.444s] -- looking for PCL_SEGMENTATION
+[17.451s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[17.453s] -- looking for PCL_VISUALIZATION
+[17.459s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[17.460s] -- looking for PCL_SURFACE
+[17.467s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[17.468s] -- looking for PCL_REGISTRATION
+[17.475s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[17.476s] -- looking for PCL_KEYPOINTS
+[17.482s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[17.484s] -- looking for PCL_TRACKING
+[17.491s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[17.492s] -- looking for PCL_RECOGNITION
+[17.498s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[17.500s] -- looking for PCL_STEREO
+[17.506s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[17.507s] -- looking for PCL_APPS
+[17.513s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[17.517s] -- looking for PCL_IN_HAND_SCANNER
+[17.519s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[17.520s] -- looking for PCL_MODELER
+[17.522s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[17.523s] -- looking for PCL_POINT_CLOUD_EDITOR
+[17.526s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[17.527s] -- looking for PCL_OUTOFCORE
+[17.534s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[17.535s] -- looking for PCL_PEOPLE
+[17.541s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[17.548s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[17.655s] -- Found OpenCV: /usr (found version "4.5.4") 
+[17.694s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[18.278s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.281s] -- Configured cppcheck include dirs: /root/ros2_code/humble/pcl/src/ros2_learners/point_cloud_perception/include
+[18.281s] -- Configured cppcheck exclude dirs and/or files: 
+[18.286s] -- Added test 'flake8' to check Python code syntax and style conventions
+[18.290s] -- Added test 'lint_cmake' to check CMake code style
+[18.295s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[18.302s] -- Added test 'uncrustify' to check C / C++ code style
+[18.302s] -- Configured uncrustify additional arguments: 
+[18.306s] -- Added test 'xmllint' to check XML markup files
+[18.317s] -- Configuring done
+[18.664s] -- Generating done
+[18.672s] -- Build files have been written to: /root/ros2_code/humble/pcl/build/point_cloud_perception
+[18.722s] Invoked command in '/root/ros2_code/humble/pcl/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /root/ros2_code/humble/pcl/src/ros2_learners/point_cloud_perception -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_code/humble/pcl/install/point_cloud_perception
+[18.731s] Invoking command in '/root/ros2_code/humble/pcl/build/point_cloud_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/point_cloud_perception -- -j12 -l12
+[18.994s] [ 16%] [32mBuilding CXX object CMakeFiles/planner_seg.dir/src/planner_seg.cpp.o[0m
+[19.001s] [ 33%] [32mBuilding CXX object CMakeFiles/clustering.dir/src/clustering.cpp.o[0m
+[19.002s] [ 50%] [32mBuilding CXX object CMakeFiles/voxeling.dir/src/voxelizing.cpp.o[0m
+[43.247s] [ 66%] [32m[1mLinking CXX executable voxeling[0m
+[44.040s] [ 83%] [32m[1mLinking CXX executable planner_seg[0m
+[47.950s] [ 83%] Built target voxeling
+[48.648s] [ 83%] Built target planner_seg
+[52.480s] [100%] [32m[1mLinking CXX executable clustering[0m
+[56.307s] [100%] Built target clustering
+[56.356s] Invoked command in '/root/ros2_code/humble/pcl/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/point_cloud_perception -- -j12 -l12
+[56.556s] Invoking command in '/root/ros2_code/humble/pcl/build/point_cloud_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/point_cloud_perception
+[56.615s] -- Install configuration: ""
+[56.619s] -- Execute custom install script
+[56.622s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/lib/point_cloud_perception/voxeling
+[56.662s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/lib/point_cloud_perception/planner_seg
+[56.713s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/lib/point_cloud_perception/clustering
+[56.751s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab.launch.py
+[56.790s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception//launch/rtab_mapping.launch.py
+[56.828s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/ament_index/resource_index/package_run_dependencies/point_cloud_perception
+[56.871s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/ament_index/resource_index/parent_prefix_path/point_cloud_perception
+[56.911s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/environment/ament_prefix_path.sh
+[56.952s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/environment/ament_prefix_path.dsv
+[56.994s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/environment/path.sh
+[57.042s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/environment/path.dsv
+[57.085s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/local_setup.bash
+[57.124s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/local_setup.sh
+[57.179s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/local_setup.zsh
+[57.231s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/local_setup.dsv
+[57.289s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/package.dsv
+[57.339s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/ament_index/resource_index/packages/point_cloud_perception
+[57.401s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/cmake/point_cloud_perceptionConfig.cmake
+[57.447s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/cmake/point_cloud_perceptionConfig-version.cmake
+[57.499s] -- Symlinking: /root/ros2_code/humble/pcl/install/point_cloud_perception/share/point_cloud_perception/package.xml
+[57.553s] Invoked command in '/root/ros2_code/humble/pcl/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/point_cloud_perception

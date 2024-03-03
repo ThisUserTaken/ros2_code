@@ -1,0 +1,83 @@
+[2.245s] Invoking command in '/root/ros2_code/humble/pcl/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/turtlebot3_gazebo -- -j12 -l12
+[2.545s] [ 25%] Built target turtlebot3_drive
+[2.704s] [ 50%] Built target obstacle2
+[2.706s] [ 75%] Built target obstacle1
+[2.707s] [100%] Built target obstacles
+[3.087s] Invoked command in '/root/ros2_code/humble/pcl/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/turtlebot3_gazebo -- -j12 -l12
+[4.018s] Invoking command in '/root/ros2_code/humble/pcl/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/turtlebot3_gazebo
+[4.040s] -- Install configuration: ""
+[4.043s] -- Execute custom install script
+[4.046s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[4.052s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[4.053s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[4.055s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[4.056s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[4.058s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[4.058s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[4.059s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[4.059s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[4.060s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[4.069s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[4.071s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[4.073s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[4.073s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[4.076s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[4.077s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[4.080s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[4.082s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[4.083s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[4.084s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[4.084s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[4.086s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[4.087s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[4.087s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[4.087s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[4.091s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[4.092s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[4.093s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[4.093s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[4.094s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[4.095s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[4.096s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[4.097s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[4.097s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[4.098s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[4.099s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[4.100s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[4.101s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[4.101s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[4.102s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[4.102s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[4.102s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[4.103s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[4.104s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[4.107s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[4.108s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[4.111s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[4.112s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[4.114s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[4.117s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[4.120s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[4.120s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[4.121s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[4.121s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[4.122s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[4.123s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[4.124s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[4.127s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[4.128s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[4.129s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[4.130s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[4.130s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[4.130s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[4.131s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[4.131s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[4.131s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[4.131s] -- Symlinking: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[4.156s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[4.159s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.163s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.163s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[4.164s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[4.167s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[4.355s] Invoked command in '/root/ros2_code/humble/pcl/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/turtlebot3_gazebo

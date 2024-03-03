@@ -1,0 +1,30 @@
+[2.565s] Invoking command in '/root/ros2_code/humble/pcl/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/pcl/install/robot_math:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/nodes -- -j12 -l12
+[4.597s] [35m[1mConsolidate compiler generated dependencies of target pub_node[0m
+[4.598s] [35m[1mConsolidate compiler generated dependencies of target laser_pub[0m
+[4.599s] [35m[1mConsolidate compiler generated dependencies of target sub_node[0m
+[4.600s] [ 33%] Built target laser_pub
+[4.600s] [ 66%] Built target pub_node
+[4.601s] [100%] Built target sub_node
+[4.625s] Invoked command in '/root/ros2_code/humble/pcl/build/nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/pcl/install/robot_math:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/pcl/build/nodes -- -j12 -l12
+[4.835s] Invoking command in '/root/ros2_code/humble/pcl/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/pcl/install/robot_math:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/nodes
+[4.869s] -- Install configuration: ""
+[4.870s] -- Execute custom install script
+[4.873s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/lib/nodes/pub_node
+[4.874s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/lib/nodes/sub_node
+[4.875s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/lib/nodes/laser_pub
+[4.877s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes
+[4.879s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes
+[4.880s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/share/nodes/environment/ament_prefix_path.sh
+[4.882s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/share/nodes/environment/ament_prefix_path.dsv
+[4.884s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/share/nodes/environment/path.sh
+[4.885s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/share/nodes/environment/path.dsv
+[4.888s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/share/nodes/local_setup.bash
+[4.890s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/share/nodes/local_setup.sh
+[4.892s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/share/nodes/local_setup.zsh
+[4.892s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/share/nodes/local_setup.dsv
+[4.892s] -- Symlinking: /root/ros2_code/humble/pcl/install/nodes/share/nodes/package.dsv
+[4.935s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/share/ament_index/resource_index/packages/nodes
+[4.936s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/share/nodes/cmake/nodesConfig.cmake
+[4.937s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/share/nodes/cmake/nodesConfig-version.cmake
+[4.939s] -- Up-to-date symlink: /root/ros2_code/humble/pcl/install/nodes/share/nodes/package.xml
+[4.947s] Invoked command in '/root/ros2_code/humble/pcl/build/nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/pcl/install/robot_math:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/pcl/build/nodes

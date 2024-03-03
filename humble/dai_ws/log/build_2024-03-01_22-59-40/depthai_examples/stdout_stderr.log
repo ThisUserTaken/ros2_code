@@ -1,0 +1,55 @@
+[ 12%] Built target crop_control_service
+[ 25%] Built target rgb_stereo_node
+[ 37%] Built target mobilenet_node
+[ 50%] Built target stereo_node
+[ 62%] Built target yolov4_spatial_node
+[ 75%] Built target feature_tracker
+[ 87%] Built target stereo_inertial_node
+[100%] Built target yolov4_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/params/camera/color.yaml
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/params/camera/left.yaml
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/params/camera/right.yaml
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/rviz/pointCloud.rviz
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/rviz/rgb_camera.rviz
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertial.rviz
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialDepthAlign.rviz
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialDepthAlignROS2.rviz
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialROS1.rviz
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoPointCloud.rviz
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoPointCloud_v1.rviz
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereo_config.rviz
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereo_nodelet.rviz
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/resources/deeplab_v3_plus_mnv2_decoder_256_openvino_2021.4.blob
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/resources/mobilenet-ssd_openvino_2021.2_6shave.blob
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/resources/yolov4_tiny_coco_416x416_openvino_2021.4_6shave_bgr.blob
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/lib/depthai_examples/crop_control_service
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/lib/depthai_examples/mobilenet_node
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/lib/depthai_examples/rgb_stereo_node
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/lib/depthai_examples/stereo_inertial_node
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/lib/depthai_examples/stereo_node
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/lib/depthai_examples/yolov4_spatial_node
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/lib/depthai_examples/yolov4_node
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/lib/depthai_examples/feature_tracker
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/ament_index/resource_index/package_run_dependencies/depthai_examples
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/ament_index/resource_index/parent_prefix_path/depthai_examples
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/environment/path.sh
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/environment/path.dsv
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/local_setup.bash
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/local_setup.sh
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/local_setup.zsh
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/local_setup.dsv
+-- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/package.dsv
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/ament_index/resource_index/packages/depthai_examples
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/cmake/depthai_examplesConfig.cmake
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/cmake/depthai_examplesConfig-version.cmake
+-- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/package.xml
+-- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/launch
+-- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/launch/mobile_publisher.launch.py
+-- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/launch/stereo.launch.py
+-- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/launch/rgb_stereo_node.launch.py
+-- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/launch/yolov4_publisher.launch.py
+-- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_examples/share/depthai_examples/launch/stereo_inertial_node.launch.py

@@ -1,0 +1,1 @@
+/root/ros2_code/humble/pcl/build/nodes/ament_cmake_environment_hooks/local_setup.sh

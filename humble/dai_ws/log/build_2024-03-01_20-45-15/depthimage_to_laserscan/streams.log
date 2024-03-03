@@ -1,0 +1,47 @@
+[1.752s] Invoking command in '/root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan -- -j12 -l12
+[2.056s] [ 16%] Built target DepthImageToLaserScan
+[2.069s] [ 33%] Built target gtest
+[2.073s] [ 50%] Built target gtest_main
+[2.277s] [ 66%] Built target depthimage_to_laserscan-test
+[2.294s] [ 83%] Built target DepthImageToLaserScanROS
+[2.457s] [100%] Built target depthimage_to_laserscan_node
+[2.821s] Invoked command in '/root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan -- -j12 -l12
+[3.459s] Invoking command in '/root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan
+[3.501s] -- Install configuration: ""
+[3.507s] -- Execute custom install script
+[3.510s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScan.hpp
+[3.510s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScanROS.hpp
+[3.512s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/depth_traits.hpp
+[3.514s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch/depthimage_to_laserscan-launch.py
+[3.516s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch/depthimage_to_laserscan_composed-launch.py
+[3.517s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//cfg/param.yaml
+[3.519s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/lib/depthimage_to_laserscan/depthimage_to_laserscan_node
+[3.521s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScan_export.h
+[3.522s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScanROS_export.h
+[3.524s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/library_path.sh
+[3.526s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/library_path.dsv
+[3.527s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/package_run_dependencies/depthimage_to_laserscan
+[3.529s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/parent_prefix_path/depthimage_to_laserscan
+[3.531s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/ament_prefix_path.sh
+[3.532s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/ament_prefix_path.dsv
+[3.534s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/path.sh
+[3.535s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/path.dsv
+[3.536s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.bash
+[3.537s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.sh
+[3.538s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.zsh
+[3.539s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.dsv
+[3.541s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.dsv
+[3.586s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/packages/depthimage_to_laserscan
+[3.591s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/rclcpp_components/depthimage_to_laserscan
+[3.591s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.594s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[3.596s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_targets-extras.cmake
+[3.597s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.598s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig.cmake
+[3.600s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig-version.cmake
+[3.605s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.xml
+[3.608s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/lib/libDepthImageToLaserScan.so
+[3.610s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/lib/libDepthImageToLaserScanROS.so
+[3.612s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/export_depthimage_to_laserscanExport.cmake
+[3.612s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/export_depthimage_to_laserscanExport-noconfig.cmake
+[3.621s] Invoked command in '/root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/dai_ws/build/depthimage_to_laserscan

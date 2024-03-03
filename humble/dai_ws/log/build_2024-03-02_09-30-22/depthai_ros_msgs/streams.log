@@ -1,0 +1,268 @@
+[2.653s] Invoking command in '/root/ros2_code/humble/dai_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/dai_ws/build/depthai_ros_msgs -- -j12 -l12
+[2.950s] [  0%] Built target depthai_ros_msgs__cpp
+[2.996s] [ 12%] Built target depthai_ros_msgs__rosidl_generator_c
+[3.007s] [ 12%] Built target ament_cmake_python_symlink_depthai_ros_msgs
+[3.170s] [ 24%] Built target depthai_ros_msgs__rosidl_typesupport_cpp
+[3.206s] [ 36%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_cpp
+[3.216s] [ 48%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_c
+[3.220s] [ 59%] Built target depthai_ros_msgs__rosidl_typesupport_c
+[3.230s] [ 70%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[3.243s] [ 82%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_c
+[3.370s] [ 82%] Built target depthai_ros_msgs
+[3.476s] [ 83%] Built target depthai_ros_msgs__py
+[3.605s] [ 94%] Built target depthai_ros_msgs__rosidl_generator_py
+[3.753s] [ 96%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[3.811s] [ 98%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.816s] [100%] Built target depthai_ros_msgs__rosidl_typesupport_c__pyext
+[4.771s] running egg_info
+[4.774s] writing depthai_ros_msgs.egg-info/PKG-INFO
+[4.775s] writing dependency_links to depthai_ros_msgs.egg-info/dependency_links.txt
+[4.777s] writing top-level names to depthai_ros_msgs.egg-info/top_level.txt
+[4.789s] reading manifest file 'depthai_ros_msgs.egg-info/SOURCES.txt'
+[4.793s] writing manifest file 'depthai_ros_msgs.egg-info/SOURCES.txt'
+[4.900s] [100%] Built target ament_cmake_python_build_depthai_ros_msgs_egg
+[5.351s] Invoked command in '/root/ros2_code/humble/dai_ws/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --build /root/ros2_code/humble/dai_ws/build/depthai_ros_msgs -- -j12 -l12
+[6.942s] Invoking command in '/root/ros2_code/humble/dai_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/dai_ws/build/depthai_ros_msgs
+[6.982s] -- Install configuration: ""
+[6.985s] -- Execute custom install script
+[6.987s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/depthai_ros_msgs
+[6.992s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/auto_focus_ctrl.h
+[6.993s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__functions.h
+[6.994s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__struct.h
+[6.995s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.h
+[6.996s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__functions.h
+[6.996s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__struct.h
+[6.998s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__type_support.h
+[6.998s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__functions.h
+[6.999s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__struct.h
+[7.002s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.h
+[7.003s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__functions.h
+[7.003s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__struct.h
+[7.004s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.h
+[7.008s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__functions.h
+[7.009s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__struct.h
+[7.010s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__type_support.h
+[7.010s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__functions.h
+[7.011s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__struct.h
+[7.012s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.h
+[7.013s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__functions.h
+[7.013s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__struct.h
+[7.014s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__type_support.h
+[7.014s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__functions.h
+[7.015s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__struct.h
+[7.016s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__type_support.h
+[7.016s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/hand_landmark.h
+[7.017s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/hand_landmark_array.h
+[7.017s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/imu_with_magnetic_field.h
+[7.018s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.018s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/spatial_detection.h
+[7.019s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/spatial_detection_array.h
+[7.020s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/tracked_feature.h
+[7.021s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/tracked_features.h
+[7.021s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__functions.h
+[7.022s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__struct.h
+[7.023s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.h
+[7.023s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__functions.h
+[7.024s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__struct.h
+[7.025s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__type_support.h
+[7.026s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/normalized_image_crop.h
+[7.027s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/trigger_named.h
+[7.028s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/library_path.sh
+[7.030s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/library_path.dsv
+[7.035s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_fastrtps_c.h
+[7.036s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_fastrtps_c.h
+[7.037s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_fastrtps_c.h
+[7.038s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__rosidl_typesupport_fastrtps_c.h
+[7.038s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_fastrtps_c.h
+[7.039s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_fastrtps_c.h
+[7.040s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__rosidl_typesupport_fastrtps_c.h
+[7.041s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__rosidl_typesupport_fastrtps_c.h
+[7.042s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.043s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_fastrtps_c.h
+[7.044s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_fastrtps_c.h
+[7.047s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+[7.047s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__builder.hpp
+[7.048s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__struct.hpp
+[7.049s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__traits.hpp
+[7.049s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__builder.hpp
+[7.050s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__struct.hpp
+[7.051s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__traits.hpp
+[7.051s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__builder.hpp
+[7.052s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__struct.hpp
+[7.053s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__traits.hpp
+[7.054s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__builder.hpp
+[7.054s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__struct.hpp
+[7.055s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__traits.hpp
+[7.056s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__builder.hpp
+[7.056s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__struct.hpp
+[7.057s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__traits.hpp
+[7.057s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__builder.hpp
+[7.058s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__struct.hpp
+[7.059s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__traits.hpp
+[7.060s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__builder.hpp
+[7.060s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__struct.hpp
+[7.061s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__traits.hpp
+[7.062s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__builder.hpp
+[7.063s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__struct.hpp
+[7.063s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__traits.hpp
+[7.064s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/hand_landmark.hpp
+[7.065s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/hand_landmark_array.hpp
+[7.067s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/imu_with_magnetic_field.hpp
+[7.074s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/spatial_detection.hpp
+[7.076s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/spatial_detection_array.hpp
+[7.082s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/tracked_feature.hpp
+[7.083s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/tracked_features.hpp
+[7.083s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__builder.hpp
+[7.084s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__struct.hpp
+[7.085s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__traits.hpp
+[7.085s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__builder.hpp
+[7.086s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__struct.hpp
+[7.087s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__traits.hpp
+[7.087s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/normalized_image_crop.hpp
+[7.089s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/trigger_named.hpp
+[7.090s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_fastrtps_cpp.hpp
+[7.093s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_fastrtps_cpp.hpp
+[7.093s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.094s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__rosidl_typesupport_fastrtps_cpp.hpp
+[7.097s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[7.097s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.105s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__rosidl_typesupport_fastrtps_cpp.hpp
+[7.106s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__rosidl_typesupport_fastrtps_cpp.hpp
+[7.107s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.107s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_fastrtps_cpp.hpp
+[7.112s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_fastrtps_cpp.hpp
+[7.113s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_introspection_c.h
+[7.114s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_introspection_c.h
+[7.114s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_introspection_c.h
+[7.115s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__rosidl_typesupport_introspection_c.h
+[7.116s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_introspection_c.h
+[7.116s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_introspection_c.h
+[7.117s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__rosidl_typesupport_introspection_c.h
+[7.118s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__rosidl_typesupport_introspection_c.h
+[7.118s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.119s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_introspection_c.h
+[7.119s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_introspection_c.h
+[7.120s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_introspection_cpp.hpp
+[7.120s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_introspection_cpp.hpp
+[7.121s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_introspection_cpp.hpp
+[7.122s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__rosidl_typesupport_introspection_cpp.hpp
+[7.123s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_introspection_cpp.hpp
+[7.123s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[7.124s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__rosidl_typesupport_introspection_cpp.hpp
+[7.124s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__rosidl_typesupport_introspection_cpp.hpp
+[7.125s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_introspection_cpp.hpp
+[7.125s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_introspection_cpp.hpp
+[7.126s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/pythonpath.sh
+[7.126s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/pythonpath.dsv
+[7.127s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs-2.9.0-py3.10.egg-info/PKG-INFO
+[7.127s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs-2.9.0-py3.10.egg-info/SOURCES.txt
+[7.128s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs-2.9.0-py3.10.egg-info/dependency_links.txt
+[7.129s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs-2.9.0-py3.10.egg-info/top_level.txt
+[7.130s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/__init__.py
+[7.131s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/_depthai_ros_msgs_s.ep.rosidl_typesupport_c.c
+[7.132s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/_depthai_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.132s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/_depthai_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.134s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.135s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.136s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.136s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/libdepthai_ros_msgs__rosidl_generator_py.so
+[7.137s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/__init__.py
+[7.138s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_auto_focus_ctrl.py
+[7.139s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_auto_focus_ctrl_s.c
+[7.140s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_hand_landmark.py
+[7.141s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_hand_landmark_array.py
+[7.142s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_hand_landmark_array_s.c
+[7.142s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_hand_landmark_s.c
+[7.143s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_imu_with_magnetic_field.py
+[7.144s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_imu_with_magnetic_field_s.c
+[7.145s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_spatial_detection.py
+[7.146s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_spatial_detection_array.py
+[7.147s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_spatial_detection_array_s.c
+[7.148s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_spatial_detection_s.c
+[7.157s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_tracked_feature.py
+[7.157s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_tracked_feature_s.c
+[7.158s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_tracked_features.py
+[7.159s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_tracked_features_s.c
+[7.159s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv/__init__.py
+[7.163s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv/_normalized_image_crop.py
+[7.164s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv/_normalized_image_crop_s.c
+[7.165s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv/_trigger_named.py
+[7.166s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv/_trigger_named_s.c
+[7.166s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.167s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.168s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.169s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/AutoFocusCtrl.idl
+[7.170s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmark.idl
+[7.170s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmarkArray.idl
+[7.171s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/ImuWithMagneticField.idl
+[7.172s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/TrackedFeature.idl
+[7.173s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/TrackedFeatures.idl
+[7.173s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetection.idl
+[7.174s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetectionArray.idl
+[7.175s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed.idl
+[7.175s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop.idl
+[7.176s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/AutoFocusCtrl.msg
+[7.177s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmark.msg
+[7.178s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmarkArray.msg
+[7.178s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/ImuWithMagneticField.msg
+[7.179s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/TrackedFeature.msg
+[7.180s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/TrackedFeatures.msg
+[7.181s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetection.msg
+[7.181s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetectionArray.msg
+[7.182s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed.srv
+[7.183s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed_Request.msg
+[7.184s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed_Response.msg
+[7.185s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop.srv
+[7.186s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop_Request.msg
+[7.187s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop_Response.msg
+[7.188s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/ament_index/resource_index/package_run_dependencies/depthai_ros_msgs
+[7.189s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/ament_index/resource_index/parent_prefix_path/depthai_ros_msgs
+[7.190s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/ament_prefix_path.sh
+[7.191s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/ament_prefix_path.dsv
+[7.193s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/path.sh
+[7.194s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/path.dsv
+[7.195s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.bash
+[7.197s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.sh
+[7.198s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.zsh
+[7.199s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.dsv
+[7.201s] -- Symlinking: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.dsv
+[7.252s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/ament_index/resource_index/packages/depthai_ros_msgs
+[7.253s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[7.255s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.255s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.256s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.257s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.258s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.260s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.261s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgsConfig.cmake
+[7.262s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgsConfig-version.cmake
+[7.263s] -- Up-to-date symlink: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.xml
+[7.264s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_c.so
+[7.267s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[7.269s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.271s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
+[7.274s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
+[7.276s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[7.278s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
+[7.499s] Listing '/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs'...
+[7.499s] Listing '/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg'...
+[7.499s] Listing '/root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv'...
+[7.520s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_py.so
+[7.522s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_generator_cExport.cmake
+[7.523s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.523s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.524s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.525s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_generator_cppExport.cmake
+[7.525s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.525s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.526s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.526s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.527s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cExport.cmake
+[7.528s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.528s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.529s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.530s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cppExport.cmake
+[7.530s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.531s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_generator_pyExport.cmake
+[7.531s] -- Up-to-date: /root/ros2_code/humble/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.545s] Invoked command in '/root/ros2_code/humble/dai_ws/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_code/humble/learning/install/ball_tracker:/opt/ros/humble /usr/bin/cmake --install /root/ros2_code/humble/dai_ws/build/depthai_ros_msgs
