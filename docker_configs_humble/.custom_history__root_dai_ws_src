@@ -1,0 +1,137 @@
+/root/dai_ws/src:bind '"\e[A": history-search-backward'
+/root/dai_ws/src:bind '"\e[B": history-search-forward'
+/root/dai_ws/src:[ -f "$HOME/config/.ros_commands" ]
+/root/dai_ws/src:[ -f "$CONFIG_FILE" ]
+/root/dai_ws/src:source "$CONFIG_FILE"
+/root/dai_ws/src:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/dai_ws/src:export NVM_DIR="$HOME/.nvm"
+/root/dai_ws/src:[ -s "$NVM_DIR/nvm.sh" ]
+/root/dai_ws/src:\. "$NVM_DIR/nvm.sh"
+/root/dai_ws/src:[ -s "$NVM_DIR/bash_completion" ]
+/root/dai_ws/src:\. "$NVM_DIR/bash_completion"
+/root/dai_ws/src:builtin unset VSCODE_INJECTION
+/root/dai_ws/src:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/dai_ws/src:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/dai_ws/src:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/dai_ws/src:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/dai_ws/src:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/dai_ws/src:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/dai_ws/src:__vsc_history_verify=0
+/root/dai_ws/src:__vsc_initialized=0
+/root/dai_ws/src:__vsc_original_PS1="$PS1"
+/root/dai_ws/src:__vsc_original_PS2="$PS2"
+/root/dai_ws/src:__vsc_custom_PS1=""
+/root/dai_ws/src:__vsc_custom_PS2=""
+/root/dai_ws/src:__vsc_in_command_execution="1"
+/root/dai_ws/src:__vsc_current_command=""
+/root/dai_ws/src:__vsc_nonce="$VSCODE_NONCE"
+/root/dai_ws/src:unset VSCODE_NONCE
+/root/dai_ws/src:[[ -n "${bash_preexec_imported:-}" ]]
+/root/dai_ws/src:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/dai_ws/src:[[ -z "$__vsc_dbg_trap" ]]
+/root/dai_ws/src:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/dai_ws/src:trap '__vsc_preexec_all "$_"' DEBUG
+/root/dai_ws/src:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/dai_ws/src:bind '"\e[A": history-search-backward'
+/root/dai_ws/src:bind '"\e[B": history-search-forward'
+/root/dai_ws/src:[ -f "$HOME/config/.ros_commands" ]
+/root/dai_ws/src:[ -f "$CONFIG_FILE" ]
+/root/dai_ws/src:source "$CONFIG_FILE"
+/root/dai_ws/src:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/dai_ws/src:export NVM_DIR="$HOME/.nvm"
+/root/dai_ws/src:[ -s "$NVM_DIR/nvm.sh" ]
+/root/dai_ws/src:\. "$NVM_DIR/nvm.sh"
+/root/dai_ws/src:[ -s "$NVM_DIR/bash_completion" ]
+/root/dai_ws/src:\. "$NVM_DIR/bash_completion"
+/root/dai_ws/src:builtin unset VSCODE_INJECTION
+/root/dai_ws/src:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/dai_ws/src:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/dai_ws/src:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/dai_ws/src:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/dai_ws/src:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/dai_ws/src:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/dai_ws/src:__vsc_history_verify=0
+/root/dai_ws/src:__vsc_initialized=0
+/root/dai_ws/src:__vsc_original_PS1="$PS1"
+/root/dai_ws/src:__vsc_original_PS2="$PS2"
+/root/dai_ws/src:__vsc_custom_PS1=""
+/root/dai_ws/src:__vsc_custom_PS2=""
+/root/dai_ws/src:__vsc_in_command_execution="1"
+/root/dai_ws/src:__vsc_current_command=""
+/root/dai_ws/src:__vsc_nonce="$VSCODE_NONCE"
+/root/dai_ws/src:unset VSCODE_NONCE
+/root/dai_ws/src:[[ -n "${bash_preexec_imported:-}" ]]
+/root/dai_ws/src:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/dai_ws/src:[[ -z "$__vsc_dbg_trap" ]]
+/root/dai_ws/src:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/dai_ws/src:trap '__vsc_preexec_all "$_"' DEBUG
+/root/dai_ws/src:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/dai_ws/src:bind '"\e[A": history-search-backward'
+/root/dai_ws/src:bind '"\e[B": history-search-forward'
+/root/dai_ws/src:[ -f "$HOME/config/.ros_commands" ]
+/root/dai_ws/src:[ -f "$CONFIG_FILE" ]
+/root/dai_ws/src:source "$CONFIG_FILE"
+/root/dai_ws/src:bind '"\e[A": history-search-backward'
+/root/dai_ws/src:bind '"\e[B": history-search-forward'
+/root/dai_ws/src:[ -f "$HOME/config/.ros_commands" ]
+/root/dai_ws/src:[ -f "$CONFIG_FILE" ]
+/root/dai_ws/src:source "$CONFIG_FILE"
+/root/dai_ws/src:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/dai_ws/src:export NVM_DIR="$HOME/.nvm"
+/root/dai_ws/src:[ -s "$NVM_DIR/nvm.sh" ]
+/root/dai_ws/src:\. "$NVM_DIR/nvm.sh"
+/root/dai_ws/src:[ -s "$NVM_DIR/bash_completion" ]
+/root/dai_ws/src:\. "$NVM_DIR/bash_completion"
+/root/dai_ws/src:builtin unset VSCODE_INJECTION
+/root/dai_ws/src:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/dai_ws/src:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/dai_ws/src:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/dai_ws/src:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/dai_ws/src:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/dai_ws/src:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/dai_ws/src:__vsc_history_verify=0
+/root/dai_ws/src:__vsc_initialized=0
+/root/dai_ws/src:__vsc_original_PS1="$PS1"
+/root/dai_ws/src:__vsc_original_PS2="$PS2"
+/root/dai_ws/src:__vsc_custom_PS1=""
+/root/dai_ws/src:__vsc_custom_PS2=""
+/root/dai_ws/src:__vsc_in_command_execution="1"
+/root/dai_ws/src:__vsc_current_command=""
+/root/dai_ws/src:__vsc_nonce="$VSCODE_NONCE"
+/root/dai_ws/src:unset VSCODE_NONCE
+/root/dai_ws/src:[[ -n "${bash_preexec_imported:-}" ]]
+/root/dai_ws/src:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/dai_ws/src:[[ -z "$__vsc_dbg_trap" ]]
+/root/dai_ws/src:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/dai_ws/src:trap '__vsc_preexec_all "$_"' DEBUG
+/root/dai_ws/src:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/dai_ws/src:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/dai_ws/src:export NVM_DIR="$HOME/.nvm"
+/root/dai_ws/src:[ -s "$NVM_DIR/nvm.sh" ]
+/root/dai_ws/src:\. "$NVM_DIR/nvm.sh"
+/root/dai_ws/src:[ -s "$NVM_DIR/bash_completion" ]
+/root/dai_ws/src:\. "$NVM_DIR/bash_completion"
+/root/dai_ws/src:builtin unset VSCODE_INJECTION
+/root/dai_ws/src:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/dai_ws/src:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/dai_ws/src:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/dai_ws/src:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/dai_ws/src:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/dai_ws/src:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/dai_ws/src:__vsc_history_verify=0
+/root/dai_ws/src:__vsc_initialized=0
+/root/dai_ws/src:__vsc_original_PS1="$PS1"
+/root/dai_ws/src:__vsc_original_PS2="$PS2"
+/root/dai_ws/src:__vsc_custom_PS1=""
+/root/dai_ws/src:__vsc_custom_PS2=""
+/root/dai_ws/src:__vsc_in_command_execution="1"
+/root/dai_ws/src:__vsc_current_command=""
+/root/dai_ws/src:__vsc_nonce="$VSCODE_NONCE"
+/root/dai_ws/src:unset VSCODE_NONCE
+/root/dai_ws/src:[[ -n "${bash_preexec_imported:-}" ]]
+/root/dai_ws/src:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/dai_ws/src:[[ -z "$__vsc_dbg_trap" ]]
+/root/dai_ws/src:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/dai_ws/src:trap '__vsc_preexec_all "$_"' DEBUG
+/root/dai_ws/src:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/dai_ws/src:ros2 launch depthai_ros_driver pointcloud.launch.py

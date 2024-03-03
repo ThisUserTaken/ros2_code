@@ -1,0 +1,182 @@
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[A": history-search-backward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[B": history-search-forward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$HOME/config/.ros_commands" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$CONFIG_FILE" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:source "$CONFIG_FILE"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export NVM_DIR="$HOME/.nvm"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/nvm.sh" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/nvm.sh"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/bash_completion" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/bash_completion"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:mesg n 2> /dev/null
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:true
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:echo -n 6c8b4fc0-4c61-4757-bd4d-71be00757a97
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:cat /proc/self/environ
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:echo -n 6c8b4fc0-4c61-4757-bd4d-71be00757a97
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[A": history-search-backward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[B": history-search-forward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$HOME/config/.ros_commands" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$CONFIG_FILE" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:source "$CONFIG_FILE"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export NVM_DIR="$HOME/.nvm"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/nvm.sh" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/nvm.sh"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/bash_completion" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/bash_completion"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:mesg n 2> /dev/null
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:true
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:'/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node' -p '"6ba68ef746f1" + JSON.stringify(process.env) + "6ba68ef746f1"'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[A": history-search-backward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[B": history-search-forward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$HOME/config/.ros_commands" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$CONFIG_FILE" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:source "$CONFIG_FILE"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export NVM_DIR="$HOME/.nvm"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/nvm.sh" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/nvm.sh"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/bash_completion" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/bash_completion"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:mesg n 2> /dev/null
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:true
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:echo -n 793f09d4-f76e-49cf-8340-5986a2c715ba
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:cat /proc/self/environ
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:echo -n 793f09d4-f76e-49cf-8340-5986a2c715ba
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[A": history-search-backward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[B": history-search-forward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$HOME/config/.ros_commands" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$CONFIG_FILE" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:source "$CONFIG_FILE"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export NVM_DIR="$HOME/.nvm"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/nvm.sh" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/nvm.sh"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/bash_completion" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/bash_completion"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:mesg n 2> /dev/null
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:true
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:echo -n ee98be20-81cf-40b8-9338-a1a2a367bcf7
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:cat /proc/self/environ
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:echo -n ee98be20-81cf-40b8-9338-a1a2a367bcf7
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[A": history-search-backward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[B": history-search-forward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$HOME/config/.ros_commands" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$CONFIG_FILE" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:source "$CONFIG_FILE"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export NVM_DIR="$HOME/.nvm"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/nvm.sh" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/nvm.sh"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/bash_completion" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/bash_completion"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:mesg n 2> /dev/null
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:true
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:'/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node' -p '"b6694b23cf80" + JSON.stringify(process.env) + "b6694b23cf80"'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[A": history-search-backward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[B": history-search-forward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$HOME/config/.ros_commands" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$CONFIG_FILE" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:source "$CONFIG_FILE"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export NVM_DIR="$HOME/.nvm"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/nvm.sh" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/nvm.sh"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/bash_completion" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/bash_completion"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:mesg n 2> /dev/null
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:true
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:echo -n 2140d5fb-7905-4c8d-aaab-56572150fe05
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:cat /proc/self/environ
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:echo -n 2140d5fb-7905-4c8d-aaab-56572150fe05
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[A": history-search-backward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[B": history-search-forward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$HOME/config/.ros_commands" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$CONFIG_FILE" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:source "$CONFIG_FILE"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export NVM_DIR="$HOME/.nvm"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/nvm.sh" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/nvm.sh"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/bash_completion" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/bash_completion"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:mesg n 2> /dev/null
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:true
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:echo -n 4690e6a5-507e-4289-b251-29a6c8f3ed7a
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:cat /proc/self/environ
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:echo -n 4690e6a5-507e-4289-b251-29a6c8f3ed7a
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[A": history-search-backward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[B": history-search-forward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$HOME/config/.ros_commands" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$CONFIG_FILE" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:source "$CONFIG_FILE"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export NVM_DIR="$HOME/.nvm"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/nvm.sh" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/nvm.sh"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/bash_completion" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/bash_completion"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:mesg n 2> /dev/null
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:true
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:'/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node' -p '"b8186f034606" + JSON.stringify(process.env) + "b8186f034606"'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[A": history-search-backward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[B": history-search-forward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$HOME/config/.ros_commands" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$CONFIG_FILE" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:source "$CONFIG_FILE"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export NVM_DIR="$HOME/.nvm"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/nvm.sh" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/nvm.sh"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/bash_completion" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/bash_completion"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:mesg n 2> /dev/null
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:true
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:echo -n adf6f096-7954-40e4-b6a1-371f9b2b419a
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:cat /proc/self/environ
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:echo -n adf6f096-7954-40e4-b6a1-371f9b2b419a
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[A": history-search-backward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[B": history-search-forward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$HOME/config/.ros_commands" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$CONFIG_FILE" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:source "$CONFIG_FILE"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export NVM_DIR="$HOME/.nvm"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/nvm.sh" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/nvm.sh"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/bash_completion" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/bash_completion"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:mesg n 2> /dev/null
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:true
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:'/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node' -p '"e8c3409cefd2" + JSON.stringify(process.env) + "e8c3409cefd2"'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[A": history-search-backward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[B": history-search-forward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$HOME/config/.ros_commands" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$CONFIG_FILE" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:source "$CONFIG_FILE"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export NVM_DIR="$HOME/.nvm"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/nvm.sh" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/nvm.sh"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/bash_completion" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/bash_completion"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:mesg n 2> /dev/null
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:true
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:echo -n c6976197-9bce-4a75-bb1f-890569084d3c
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:cat /proc/self/environ
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:echo -n c6976197-9bce-4a75-bb1f-890569084d3c
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[A": history-search-backward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:bind '"\e[B": history-search-forward'
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$HOME/config/.ros_commands" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -f "$CONFIG_FILE" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:source "$CONFIG_FILE"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:export NVM_DIR="$HOME/.nvm"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/nvm.sh" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/nvm.sh"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:[ -s "$NVM_DIR/bash_completion" ]
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:\. "$NVM_DIR/bash_completion"
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:mesg n 2> /dev/null
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:true
+/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2:'/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node' -p '"d7fd800365d1" + JSON.stringify(process.env) + "d7fd800365d1"'

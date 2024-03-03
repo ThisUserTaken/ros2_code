@@ -1,0 +1,204 @@
+/root/ros2_code/humble/dai_ws:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/dai_ws:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/dai_ws:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/dai_ws:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/dai_ws:source "$CONFIG_FILE"
+/root/ros2_code/humble/dai_ws:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/dai_ws:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/dai_ws:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/dai_ws:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/dai_ws:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/dai_ws:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/dai_ws:builtin unset VSCODE_INJECTION
+/root/ros2_code/humble/dai_ws:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code/humble/dai_ws:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code/humble/dai_ws:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code/humble/dai_ws:__vsc_history_verify=0
+/root/ros2_code/humble/dai_ws:__vsc_initialized=0
+/root/ros2_code/humble/dai_ws:__vsc_original_PS1="$PS1"
+/root/ros2_code/humble/dai_ws:__vsc_original_PS2="$PS2"
+/root/ros2_code/humble/dai_ws:__vsc_custom_PS1=""
+/root/ros2_code/humble/dai_ws:__vsc_custom_PS2=""
+/root/ros2_code/humble/dai_ws:__vsc_in_command_execution="1"
+/root/ros2_code/humble/dai_ws:__vsc_current_command=""
+/root/ros2_code/humble/dai_ws:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code/humble/dai_ws:unset VSCODE_NONCE
+/root/ros2_code/humble/dai_ws:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code/humble/dai_ws:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code/humble/dai_ws:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code/humble/dai_ws:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code/humble/dai_ws:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code/humble/dai_ws:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code/humble/dai_ws:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/dai_ws:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/dai_ws:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/dai_ws:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/dai_ws:source "$CONFIG_FILE"
+/root/ros2_code/humble/dai_ws:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/dai_ws:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/dai_ws:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/dai_ws:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/dai_ws:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/dai_ws:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/dai_ws:builtin unset VSCODE_INJECTION
+/root/ros2_code/humble/dai_ws:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code/humble/dai_ws:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code/humble/dai_ws:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code/humble/dai_ws:__vsc_history_verify=0
+/root/ros2_code/humble/dai_ws:__vsc_initialized=0
+/root/ros2_code/humble/dai_ws:__vsc_original_PS1="$PS1"
+/root/ros2_code/humble/dai_ws:__vsc_original_PS2="$PS2"
+/root/ros2_code/humble/dai_ws:__vsc_custom_PS1=""
+/root/ros2_code/humble/dai_ws:__vsc_custom_PS2=""
+/root/ros2_code/humble/dai_ws:__vsc_in_command_execution="1"
+/root/ros2_code/humble/dai_ws:__vsc_current_command=""
+/root/ros2_code/humble/dai_ws:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code/humble/dai_ws:unset VSCODE_NONCE
+/root/ros2_code/humble/dai_ws:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code/humble/dai_ws:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code/humble/dai_ws:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code/humble/dai_ws:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code/humble/dai_ws:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code/humble/dai_ws:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code/humble/dai_ws:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/dai_ws:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/dai_ws:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/dai_ws:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/dai_ws:source "$CONFIG_FILE"
+/root/ros2_code/humble/dai_ws:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/dai_ws:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/dai_ws:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/dai_ws:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/dai_ws:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/dai_ws:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/dai_ws:builtin unset VSCODE_INJECTION
+/root/ros2_code/humble/dai_ws:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code/humble/dai_ws:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code/humble/dai_ws:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code/humble/dai_ws:__vsc_history_verify=0
+/root/ros2_code/humble/dai_ws:__vsc_initialized=0
+/root/ros2_code/humble/dai_ws:__vsc_original_PS1="$PS1"
+/root/ros2_code/humble/dai_ws:__vsc_original_PS2="$PS2"
+/root/ros2_code/humble/dai_ws:__vsc_custom_PS1=""
+/root/ros2_code/humble/dai_ws:__vsc_custom_PS2=""
+/root/ros2_code/humble/dai_ws:__vsc_in_command_execution="1"
+/root/ros2_code/humble/dai_ws:__vsc_current_command=""
+/root/ros2_code/humble/dai_ws:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code/humble/dai_ws:unset VSCODE_NONCE
+/root/ros2_code/humble/dai_ws:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code/humble/dai_ws:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code/humble/dai_ws:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code/humble/dai_ws:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code/humble/dai_ws:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code/humble/dai_ws:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code/humble/dai_ws:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/dai_ws:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/dai_ws:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/dai_ws:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/dai_ws:source "$CONFIG_FILE"
+/root/ros2_code/humble/dai_ws:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/dai_ws:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/dai_ws:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/dai_ws:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/dai_ws:source "$CONFIG_FILE"
+/root/ros2_code/humble/dai_ws:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/dai_ws:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/dai_ws:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/dai_ws:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/dai_ws:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/dai_ws:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/dai_ws:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/dai_ws:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/dai_ws:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/dai_ws:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/dai_ws:builtin unset VSCODE_INJECTION
+/root/ros2_code/humble/dai_ws:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code/humble/dai_ws:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code/humble/dai_ws:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code/humble/dai_ws:__vsc_history_verify=0
+/root/ros2_code/humble/dai_ws:__vsc_initialized=0
+/root/ros2_code/humble/dai_ws:__vsc_original_PS1="$PS1"
+/root/ros2_code/humble/dai_ws:__vsc_original_PS2="$PS2"
+/root/ros2_code/humble/dai_ws:__vsc_custom_PS1=""
+/root/ros2_code/humble/dai_ws:__vsc_custom_PS2=""
+/root/ros2_code/humble/dai_ws:__vsc_in_command_execution="1"
+/root/ros2_code/humble/dai_ws:__vsc_current_command=""
+/root/ros2_code/humble/dai_ws:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code/humble/dai_ws:unset VSCODE_NONCE
+/root/ros2_code/humble/dai_ws:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code/humble/dai_ws:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code/humble/dai_ws:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code/humble/dai_ws:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code/humble/dai_ws:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code/humble/dai_ws:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code/humble/dai_ws:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/dai_ws:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/dai_ws:builtin unset VSCODE_INJECTION
+/root/ros2_code/humble/dai_ws:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code/humble/dai_ws:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code/humble/dai_ws:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code/humble/dai_ws:__vsc_history_verify=0
+/root/ros2_code/humble/dai_ws:__vsc_initialized=0
+/root/ros2_code/humble/dai_ws:__vsc_original_PS1="$PS1"
+/root/ros2_code/humble/dai_ws:__vsc_original_PS2="$PS2"
+/root/ros2_code/humble/dai_ws:__vsc_custom_PS1=""
+/root/ros2_code/humble/dai_ws:__vsc_custom_PS2=""
+/root/ros2_code/humble/dai_ws:__vsc_in_command_execution="1"
+/root/ros2_code/humble/dai_ws:__vsc_current_command=""
+/root/ros2_code/humble/dai_ws:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code/humble/dai_ws:unset VSCODE_NONCE
+/root/ros2_code/humble/dai_ws:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code/humble/dai_ws:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code/humble/dai_ws:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code/humble/dai_ws:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code/humble/dai_ws:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code/humble/dai_ws:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code/humble/dai_ws:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/dai_ws:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/dai_ws:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/dai_ws:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/dai_ws:source "$CONFIG_FILE"
+/root/ros2_code/humble/dai_ws:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/dai_ws:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/dai_ws:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/dai_ws:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/dai_ws:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/dai_ws:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/dai_ws:builtin unset VSCODE_INJECTION
+/root/ros2_code/humble/dai_ws:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code/humble/dai_ws:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code/humble/dai_ws:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code/humble/dai_ws:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code/humble/dai_ws:__vsc_history_verify=0
+/root/ros2_code/humble/dai_ws:__vsc_initialized=0
+/root/ros2_code/humble/dai_ws:__vsc_original_PS1="$PS1"
+/root/ros2_code/humble/dai_ws:__vsc_original_PS2="$PS2"
+/root/ros2_code/humble/dai_ws:__vsc_custom_PS1=""
+/root/ros2_code/humble/dai_ws:__vsc_custom_PS2=""
+/root/ros2_code/humble/dai_ws:__vsc_in_command_execution="1"
+/root/ros2_code/humble/dai_ws:__vsc_current_command=""
+/root/ros2_code/humble/dai_ws:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code/humble/dai_ws:unset VSCODE_NONCE
+/root/ros2_code/humble/dai_ws:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code/humble/dai_ws:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code/humble/dai_ws:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code/humble/dai_ws:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code/humble/dai_ws:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code/humble/dai_ws:__vsc_original_prompt_command=${PROMPT_COMMAND:-}

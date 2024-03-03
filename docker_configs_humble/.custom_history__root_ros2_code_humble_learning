@@ -1,0 +1,740 @@
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:ls
+/root/ros2_code/humble/learning:cd
+/root:vi .bash_history
+/root:ll
+/root:ls -als
+/root:cd config/
+/root/config:ls
+/root/config:ll
+/root/config:ls -als
+/root/config:vi .custom_history__root_ros2_code_humble_learning
+/root/config:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:vi .custom_history__root_ros2_code_humble_learning
+/root/ros2_code/humble/learning:ls --color=auto
+/root/ros2_code/humble/learning:cd
+/root:vi config/.custom_history__root_ros2_code_humble_learning
+/root:qsudo apt install ros-humble-rmw-cyclonedds-cpp
+/root:qsudo apt install ros-humble-rmw-cyclonedds-cpp
+/root:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:cd ..
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:cd control/
+/root/ros2_code/humble/control:ls --color=auto
+/root/ros2_code/humble/control:crw
+/root/ros2_code/humble/control:cbi
+/root/ros2_code/humble/control:ros2 launch joystick joystick.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:cd
+/root:vi .bashrc
+/root:vi config/.bashrc
+/root:ros2 topic list
+/root:ros2 topic echo /cmd_vel_joy
+/root/ros2_code/humble/control:cbi
+/root/ros2_code/humble/control:ros2 launch joystick joystick.launch.py
+/root:ros2 topic list
+/root:ros2 topic echo /cmd_vel_joy
+/root:vi config/.bashrc
+/root:exit
+/root/ros2_code/humble/control:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:cd ../control/
+/root/ros2_code/humble/control:ls --color=auto
+/root/ros2_code/humble/control:source install/setup.sh
+/root/ros2_code/humble/control:ros2 launch joystick joystick.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:cd
+/root:vi config/.bashrc
+/root:ros2 doctor -r
+/root:ros2 topic echo /cmd_vel_joy
+/root:ros2 doctor -r
+/root:ros2 topic echo /cmd_vel_joy
+/root/ros2_code/humble/control:ros2 launch joystick joystick.launch.py
+/root:ros2 topic echo /cmd_vel_joy
+/root:ros2 topic info /cmd_vel_joy
+/root:ros2 topic list
+/root:ros2 topic info /cmd_vel
+/root:ros2 topic echo /cmd_vel
+/root/ros2_code/humble/control:cbi
+/root/ros2_code/humble/control:ros2 launch joystick joystick.launch.py
+/root:ros2 topic echo /cmd_vel
+/root/ros2_code/humble/control:vi ~/config/.bashrc
+/root:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:source install/setup.sh
+/root/ros2_code/humble/learning:source install/setup.sh
+/root/ros2_code/humble/learning:cd ../control/
+/root/ros2_code/humble/control:source install/setup.sh
+/root/ros2_code/humble/control:ros2 launch joystick joystick.launch.py
+/root/ros2_code/humble/control:ros2 topic echo /cmd_vel
+/root/ros2_code/humble/control:ros2 topic list
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:ROS2 TOPIC LIST
+/root/ros2_code/humble/learning:ros2 topic list
+/root/ros2_code/humble/learning:ros2 topic echo /cmd_vel
+/root/ros2_code/humble/learning:cd ../../
+/root/ros2_code:cd ..
+/root:ls --color=auto
+/root:cd ros2_code/
+/root/ros2_code:rm -rf *
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:cd ../../
+/root/ros2_code:cd simulations/neobotix/
+/root/ros2_code/simulations/neobotix:ls --color=auto
+/root/ros2_code/simulations/neobotix:cbi
+/root/ros2_code/simulations/neobotix:ros2 launch neo_simulation2 simulation.launch.py
+/root/ros2_code/simulations/neobotix:export MY_ROBOT=mpo_700
+/root/ros2_code/simulations/neobotix:export MAP_NAME=neo_workshop
+/root/ros2_code/simulations/neobotix:ros2 launch neo_simulation2 simulation.launch.py
+/root/ros2_code/simulations/neobotix:ros2 launch neo_simulation2 simulation.launch.py
+/root/ros2_code/simulations/neobotix:export MAP_NAME=aws
+/root/ros2_code/simulations/neobotix:ros2 launch neo_simulation2 simulation.launch.py
+/root/ros2_code/simulations/neobotix:ros2 launch neo_simulation2 simulation.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:cd ../joystick/
+/root/ros2_code/humble/joystick:ls --color=auto
+/root/ros2_code/humble/joystick:source install/setup.sh
+/root/ros2_code/humble/joystick:ros2 launch control joystick.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:cd ../
+/root/ros2_code/humble:cd ..
+/root/ros2_code:ls --color=auto
+/root/ros2_code:cd humble/
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:sudo apt install libpcl-dev
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:mkdir udemy
+/root/ros2_code/humble:cd udemy/
+/root/ros2_code/humble/udemy:cd src
+/root/ros2_code/humble/udemy:mkdir src
+/root/ros2_code/humble/udemy:cd src/
+/root/ros2_code/humble/udemy/src:git clone https://github.com/noshluk2/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3
+/root/ros2_code/humble/udemy/src:cd ..
+/root/ros2_code/humble/udemy:cbi
+/root/ros2_code/humble/udemy:cd src/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/
+/root/ros2_code/humble/udemy/src/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3:ls --color=auto
+/root/ros2_code/humble/udemy/src/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3:cd autonomous_tb3/
+/root/ros2_code/humble/udemy/src/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/autonomous_tb3:ls --color=auto
+/root/ros2_code/humble/udemy/src/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/autonomous_tb3:ls --color=auto
+/root/ros2_code/humble/udemy/src/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/autonomous_tb3:cd launch/
+/root/ros2_code/humble/udemy/src/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/autonomous_tb3/launch:ls --color=auto
+/root/ros2_code/humble/udemy/src/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/autonomous_tb3/launch:ros2 launch autonomous_tb3 tb3_world_navigation.launch.py
+/root/ros2_code/humble/udemy/src/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/autonomous_tb3/launch:cd
+/root:vi config/.bashrc
+/root:vi config/.bashrc
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:cd ../udemy/
+/root/ros2_code/humble/udemy:ls --color=auto
+/root/ros2_code/humble/udemy:source install/setup.sh
+/root/ros2_code/humble/udemy:ros2 launch autonomous_tb3 tb3_nav_params.yaml
+/root/ros2_code/humble/udemy:ros2 launch autonomous_tb3 tb3_world_navigation.launch.py
+/root/ros2_code/humble/udemy:ros2 launch autonomous_tb3 tb3_world_navigation.launch.py
+/root/ros2_code/humble/udemy:ros2 launch autonomous_tb3 tb3_world_navigation.launch.py
+/root/ros2_code/humble/udemy:ros2 launch autonomous_tb3 tb3_world_navigation.launch.py
+/root/ros2_code/humble/udemy:ros2 launch autonomous_tb3 tb3_world_navigation.launch.py
+/root:cd -
+/root/ros2_code/humble/udemy:echo $ROS_DOMAIN_ID
+/root/ros2_code/humble/udemy:cd
+/root:vi config/.bashrc
+/root:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/udemy/src/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/autonomous_tb3/launch:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:echo $ROS_DOMAIN_ID
+/root/ros2_code/humble/learning:ros2 topic list
+/root/ros2_code/humble/learning:cd ..
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:cd learning/
+/root/ros2_code/humble/learning:ls --color=auto
+/root/ros2_code/humble/learning:cd se
+/root/ros2_code/humble/learning:cd src/
+/root/ros2_code/humble/learning/src:ls --color=auto
+/root/ros2_code/humble/learning/src:c ..
+/root/ros2_code/humble/learning/src:cd ..
+/root/ros2_code/humble/learning:cd ..
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:cd tc_ros2_nav/
+/root/ros2_code/humble/tc_ros2_nav:ls --color=auto
+/root/ros2_code/humble/tc_ros2_nav:crw
+/root/ros2_code/humble/tc_ros2_nav:cbi
+/root/ros2_code/humble/tc_ros2_nav:ros2 launch cartographer_slam joystick.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:rviz2
+/root/ros2_code/humble/learning:ros2 topic list
+/root/ros2_code/humble/tc_ros2_nav:ros2 launch cartographer_slam cartographer.launch.py
+/root/ros2_code/humble/learning:ros2 topic list
+/root/ros2_code/humble/learning:rviz2
+/root/ros2_code/humble/tc_ros2_nav:ros2 launch cartographer_slam cartographer.launch.py
+/root/ros2_code/humble/tc_ros2_nav:ros2 launch cartographer_slam cartographer.launch.py
+/root/ros2_code/humble/learning:rviz2
+/root/ros2_code/humble/tc_ros2_nav:ros2 launch cartographer_slam cartographer.launch.py
+/root/ros2_code/humble/learning:ros2 topic list
+/root/ros2_code/humble/learning:rviz2
+/root/ros2_code/humble/tc_ros2_nav:ros2 launch cartographer_slam cartographer.launch.py
+/root/ros2_code/humble/learning:rviz2
+/root/ros2_code/humble/tc_ros2_nav:ros2 launch cartographer_slam cartographer.launch.py
+/root/ros2_code/humble/learning:rviz2
+/root/ros2_code/humble/tc_ros2_nav:ls --color=auto src/
+/root/ros2_code/humble/tc_ros2_nav:ros2 topic list
+/root/ros2_code/humble/tc_ros2_nav:ros2 topic list
+/root/ros2_code/humble/learning:cds ../tc_ros2_nav/
+/root/ros2_code/humble/learning:cd ../tc_ros2_nav/
+/root/ros2_code/humble/tc_ros2_nav:cbi
+/root/ros2_code/humble/tc_ros2_nav:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_nav:ros2 launch path_planner_server pathplanner.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:cd ../tc_ros2_nav/
+/root/ros2_code/humble/tc_ros2_nav:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_nav:rviz2
+/root/ros2_code/humble/tc_ros2_nav:ros2 launch path_planner_server pathplanner.launch.py
+/root/ros2_code/humble/tc_ros2_nav:ros2 launch navigation navigation.launch.py
+/root/ros2_code/humble/tc_ros2_nav:rviz2
+/root/ros2_code/humble/tc_ros2_nav:rviz2
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:sudo apt install ros-humble-depthai-ros
+/root/ros2_code/humble/learning:apt-get update
+/root/ros2_code/humble/learning:apt-get upgrade
+/root/ros2_code/humble/learning:sudo apt install ros-humble-depthai-ros
+/root/ros2_code/humble/learning:camera.launch.py
+/root/ros2_code/humble/learning:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:ros2 launch depthai_examples stereo.launch.py
+/root/ros2_code/humble/learning:sudo apt get update
+/root/ros2_code/humble/learning:sudo apt-get update
+/root/ros2_code/humble/learning:sudo apt-get upgrade
+/root/ros2_code/humble/learning:sudo apt get update
+/root/ros2_code/humble/learning:sudo apt-get update
+/root/ros2_code/humble/learning:vi /etc/apt/sources.list
+/root/ros2_code/humble/learning:vi /etc/apt/sources.list.d/ros2.list
+/root/ros2_code/humble/learning:vi /etc/apt/sources.list.d/ros2-latest.list
+/root/ros2_code/humble/learning:vi /etc/apt/sources.list.d/ros2.list
+/root/ros2_code/humble/learning:vi /etc/apt/sources.list
+/root/ros2_code/humble/learning:vi /etc/apt/sources.list.d/cuda-ubuntu2204-x86_64.list
+/root/ros2_code/humble/learning:vi /etc/apt/sources.list.d/gazebo-stable.list
+/root/ros2_code/humble/learning:vi /etc/apt/sources.list.d/ros2-latest.list
+/root/ros2_code/humble/learning:vi /etc/apt/sources.list.d/ros2.list
+/root/ros2_code/humble/learning:vi /etc/apt/sources.list.d/ros2-latest.list
+/root/ros2_code/humble/learning:rm /etc/apt/sources.list.d/ros2-latest.list
+/root/ros2_code/humble/learning:sudo apt-get update
+/root/ros2_code/humble/learning:sudo apt-get upgraade
+/root/ros2_code/humble/learning:sudo apt-get upgrade
+/root/ros2_code/humble/learning:gazebo
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:sudo apt-get update
+/root/ros2_code/humble/learning:rm /etc/apt/sources.list.d/ros2.list
+/root/ros2_code/humble/learning:sudo apt-get update
+/root/ros2_code/humble/learning:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:rm /etc/apt/sources.list.d/ros2-latest.list
+/root/ros2_code/humble/learning:sudo apt-get update
+/root/ros2_code/humble/learning:sudo apt-get update
+/root/ros2_code/humble/learning:sudo apt-get install lsb-release wget gnupg
+/root/ros2_code/humble/learning:sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
+/root/ros2_code/humble/learning:echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main"
+/root/ros2_code/humble/learning:sudo tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null
+/root/ros2_code/humble/learning:sudo apt-get update
+/root/ros2_code/humble/learning:sudo apt-get install ignition-fortress
+/root/ros2_code/humble/learning:gz
+/root/ros2_code/humble/learning:gz sim
+/root/ros2_code/humble/learning:gz sim shapes.sdf
+/root/ros2_code/humble/learning:ign gazebo sim shapes.sdf
+/root/ros2_code/humble/learning:gazebo
+/root/ros2_code/humble/learning:gazebo
+/root/ros2_code/humble/learning:ign gazebo sim shapes.sdf
+/root/ros2_code/humble/learning:python3 -m pip install depthai-viewer
+/root/ros2_code/humble/learning:python3 -m depthai_viewer
+/root/ros2_code/humble/learning:sudo wget -qO- https://docs.luxonis.com/install_depthai.sh
+/root/ros2_code/humble/learning:bash
+/root/ros2_code/humble/learning:apt install python3.10-venv
+/root/ros2_code/humble/learning:sudo wget -qO- https://docs.luxonis.com/install_depthai.sh
+/root/ros2_code/humble/learning:bash
+/root/ros2_code/humble/learning:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd
+/root:sudo wget -qO- https://docs.luxonis.com/install_depthai.sh
+/root:bash
+/root:depthai-viewer
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:rqt
+/root/ros2_code/humble/learning:ros2 run plotjuggler plotjuggler
+/root/ros2_code/humble/learning:ros2 run plotjuggler plotjuggler
+/root/ros2_code/humble/learning:cd
+/root:wget https://github.com/foxglove/studio/releases/download/v1.86.1/foxglove-studio-1.86.1-linux-amd64.deb
+/root:sudo apt install ./foxglove-studio-*.deb
+/root:foxglove-studio
+/root:foxglove-studio --no-sandbox
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd ..
+/root/ros2_code/humble:cd vision/
+/root/ros2_code/humble/vision:source install/setup.sh
+/root/ros2_code/humble/vision:ros2 launch joystick_pkg joystick.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:ros2 doctor -r
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:$ sudo apt install ros-$ROS_DISTRO-foxglove-bridge
+/root/ros2_code/humble/learning:sudo apt install ros-$ROS_DISTRO-foxglove-bridge
+/root/ros2_code/humble/learning:ros2 launch foxglove_bridge foxglove_bridge_launch.xml port:=8765
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd
+/root:ls --color=auto
+/root:wget https://github.com/foxglove/studio/releases/download/v1.86.1/foxglove-studio-1.86.1-linux-amd64.deb
+/root:sudo apt install ./foxglove-studio-*.deb
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:rviz
+/root/ros2_code/humble/learning:rviz2
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:sudo apt install ros-humble-depthai-ros
+/root/ros2_code/humble/learning:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:lsusb
+/root/ros2_code/humble/learning:lsusb
+/root/ros2_code/humble/learning:lsusb
+/root/ros2_code/humble/learning:cd ..
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:cd
+/root:ls --color=auto
+/root:cd Luxonis/
+/root/Luxonis:ls --color=auto
+/root/Luxonis:cd depthai/
+/root/Luxonis/depthai:ls --color=auto
+/root/Luxonis/depthai:c d..
+/root/Luxonis/depthai:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd ..
+/root/ros2_code/humble:cd
+/root:sudo wget -qO- https://raw.githubusercontent.com/luxonis/depthai-ros/main/install_dependencies.sh
+/root:sudo bash
+/root:sudo apt install libopencv-dev
+/root:sudo apt install python3-rosdep
+/root:sudo rosdep init
+/root:rosdep update
+/root:mkdir -p dai_ws/src
+/root:cd dai_ws/src
+/root/dai_ws/src:git clone --branch < ros-distro > https://github.com/luxonis/depthai-ros.git
+/root/dai_ws/src:git clone --branch humble https://github.com/luxonis/depthai-ros.git
+/root/dai_ws/src:cd ..
+/root/dai_ws:rosdep install --from-paths src --ignore-src -r -y
+/root/dai_ws:source /opt/ros/humble/setup.bash
+/root/dai_ws:MAKEFLAGS="-j1 -l1" colcon build
+/root/dai_ws:source install/setup.bash
+/root/dai_ws:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd ..
+/root/ros2_code/humble:cd
+/root:cd dai_ws/
+/root/dai_ws:source install/setup.sh
+/root/dai_ws:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:cd
+/root:source dai_ws/install/setup.sh
+/root:cd
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd
+/root:source /opt/ros/humble/setup.sh
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd
+/root:source /opt/ros/humble/setup.sh
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root:ls --color=auto
+/root:exit
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:ip link add dummy0 type dummy
+/root/ros2_code/humble/learning:ip link add dummy0 type dummy > /dev/null
+/root/ros2_code/humble/learning:[[ $? -eq 0 ]]
+/root/ros2_code/humble/learning:PRIVILEGED=false
+/root/ros2_code/humble/learning:cd
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/learning:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble/learning:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble/learning:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble/learning:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble/learning:source "$CONFIG_FILE"
+/root/ros2_code/humble/learning:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble/learning:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble/learning:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble/learning:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/learning:cd
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root:exit

@@ -1,0 +1,564 @@
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code:\. "$NVM_DIR/bash_completion"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code:\. "$NVM_DIR/bash_completion"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code:__vsc_prompt_cmd
+/root/ros2_code:__vsc_prompt_cmd
+/root/ros2_code:__vsc_prompt_cmd
+/root/ros2_code:gazebo
+/root/ros2_code:rviz2
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code:\. "$NVM_DIR/bash_completion"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code:\. "$NVM_DIR/bash_completion"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code:rviz2
+/root/ros2_code:gazebo
+/root/ros2_code:ign gazebo sim shapes.sdf
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code:\. "$NVM_DIR/bash_completion"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code:\. "$NVM_DIR/bash_completion"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code:\. "$NVM_DIR/bash_completion"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code:\. "$NVM_DIR/bash_completion"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code:\. "$NVM_DIR/bash_completion"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code:rqt
+/root/ros2_code:ros2 run plotjuggler plotjuggler
+/root/ros2_code:ros2 run plotjuggler plotjuggler
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code:\. "$NVM_DIR/bash_completion"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code:\. "$NVM_DIR/bash_completion"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code:ros2 launch foxglove_bridge foxglove_bridge_launch.xml port:=8765
+/root/ros2_code:__vsc_prompt_cmd
+/root/ros2_code:__vsc_prompt_cmd
+/root/ros2_code:__vsc_prompt_cmd
+/root/ros2_code:ls --color=auto
+/root/ros2_code:cd humble/
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:mkdir n100
+/root/ros2_code/humble:cd n100
+/root/ros2_code/humble/n100:mkdir src
+/root/ros2_code/humble/n100:cd src/
+/root/ros2_code/humble/n100/src:git clone https://github.com/NDHANA94/ros2_wheeltec_n100_imu.git
+/root/ros2_code/humble/n100/src:cd ros2_wheeltec_n100_imu/
+/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu:colcon build --symlink-install
+/root/ros2_code/humble/n100/src/ros2_wheeltec_n100_imu:cd ..
+/root/ros2_code/humble/n100/src:git clone https://github.com/RoverRobotics-forks/serial-ros2.git
+/root/ros2_code/humble/n100/src:cd ..
+/root/ros2_code/humble/n100:colcon build --symlink-install
+/root/ros2_code/humble/n100:ros2 run wheeltec_n100_imu imu_node
+/root/ros2_code/humble/n100:source install/setup.sh
+/root/ros2_code/humble/n100:ros2 run wheeltec_n100_imu imu_node
+/root/ros2_code/humble/n100:lsusb
+/root/ros2_code/humble/n100:sudo apt-get install usbutils
+/root/ros2_code/humble/n100:lsusb
+/root/ros2_code/humble/n100:dmesg
+/root/ros2_code/humble/n100:dmesg
+/root/ros2_code/humble/n100:dmesg
+/root/ros2_code/humble/n100:dmesg
+/root/ros2_code/humble/n100:udevadm info --name=/dev/ttyUSB0 --attribute-walk
+/root/ros2_code/humble/n100:udevadm info --name=/dev/ttyUSB0 --attribute-walk
+/root/ros2_code/humble/n100:ls --color=auto -l /dev/USB*
+/root/ros2_code/humble/n100:ls --color=auto -l /dev/*
+/root/ros2_code/humble/n100:ls --color=auto -l /dev/tty*
+/root/ros2_code/humble/n100:ACTION=="add", SUBSYSTEM=="tty", SUBSYSTEMS=="usb", DRIVERS=="usb", SYMLINK+="tty.usb-$attr{devpath}"
+/root/ros2_code/humble/n100:lsusb -t
+/root/ros2_code/humble/n100:ls --color=auto -alF /dev/tty.usb*
+/root/ros2_code/humble/n100:ls --color=auto -alF /dev/ttyusb*
+/root/ros2_code/humble/n100:ls --color=auto -alF /dev/tty*
+/root/ros2_code/humble/n100:ls --color=auto -la /dev/serial/by-path/
+/root/ros2_code/humble/n100:SUBSYSTEMS=="usb", KERNEL=="ttyUSB*", IMPORT{program}="/bin/sh -c 'echo USB_PATH=$( echo ${ID_PATH} | cut --delimiter=- -f 4 )'", SYMLINK+="ttyUSB.$env{USB_PATH}"
+/root/ros2_code/humble/n100:lsusb
+/root/ros2_code/humble/n100:udevadm info -a -n /dev/ttyUSB0
+/root/ros2_code/humble/n100:ls --color=auto -alF /dev/
+/root/ros2_code/humble/n100:ls --color=auto -alF /dev/
+/root/ros2_code/humble/n100:ls --color=auto -alF /dev/
+/root/ros2_code/humble/n100:lsusb
+/root/ros2_code/humble/n100:/var/log/syslog
+/root/ros2_code/humble/n100:vi /var/log/syslog
+/root/ros2_code/humble/n100:tail -f /var/log/syslog
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code:\. "$NVM_DIR/bash_completion"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code:\. "$NVM_DIR/bash_completion"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+/root/ros2_code:bind '"\e[A": history-search-backward'
+/root/ros2_code:bind '"\e[B": history-search-forward'
+/root/ros2_code:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code:[ -f "$CONFIG_FILE" ]
+/root/ros2_code:source "$CONFIG_FILE"
+/root/ros2_code:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code:\. "$NVM_DIR/bash_completion"
+/root/ros2_code:builtin unset VSCODE_INJECTION
+/root/ros2_code:[ -z "$VSCODE_SHELL_INTEGRATION" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_REPLACE:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_PREPEND:-}" ]
+/root/ros2_code:[ -n "${VSCODE_ENV_APPEND:-}" ]
+/root/ros2_code:[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+/root/ros2_code:[[ "$HISTCONTROL" =~ .*(erasedups|ignoreboth|ignoredups).* ]]
+/root/ros2_code:__vsc_history_verify=0
+/root/ros2_code:__vsc_initialized=0
+/root/ros2_code:__vsc_original_PS1="$PS1"
+/root/ros2_code:__vsc_original_PS2="$PS2"
+/root/ros2_code:__vsc_custom_PS1=""
+/root/ros2_code:__vsc_custom_PS2=""
+/root/ros2_code:__vsc_in_command_execution="1"
+/root/ros2_code:__vsc_current_command=""
+/root/ros2_code:__vsc_nonce="$VSCODE_NONCE"
+/root/ros2_code:unset VSCODE_NONCE
+/root/ros2_code:[[ -n "${bash_preexec_imported:-}" ]]
+/root/ros2_code:__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+/root/ros2_code:[[ -z "$__vsc_dbg_trap" ]]
+/root/ros2_code:[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+/root/ros2_code:trap '__vsc_preexec_all "$_"' DEBUG
+/root/ros2_code:__vsc_original_prompt_command=${PROMPT_COMMAND:-}

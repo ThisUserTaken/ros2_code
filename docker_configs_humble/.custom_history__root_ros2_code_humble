@@ -1,0 +1,1412 @@
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:exit
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd
+/root:source dai_ws/install/setup.sh
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root:exit
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble:cd
+/root:source dai_ws/install/setup.sh
+/root:vi config/.bashrc
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:ros2 topic list
+/root/ros2_code/humble:rviz2
+/root:ros2 launch depthai_ros_driver pointcloud.launch.py
+/root/ros2_code/humble:rviz2
+/root/ros2_code/humble:ros2 launch depthai_ros_driver camera.launch.py
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble:ros2 component load /oak_container foxglove_bridge foxglove_bridge::FoxgloveBridge
+/root/ros2_code/humble:cd
+/root:source dai_ws/install/setup.sh
+/root:ros2 component load /oak_container foxglove_bridge foxglove_bridge::FoxgloveBridge
+/root:rviz2
+/root:rqt
+/root:rviz2
+/root:ros2 launch depthai_ros_driver pointcloud.launch.py
+/root:rviz2
+/root:ros2 launch depthai_ros_driver rgbd_pcl.launch.py
+/root:rviz2
+/root:gz sim shapes.sdf
+/root:ign gazebo sim shapes.sdf
+/root:ls --color=auto
+/root:wget https://github.com/foxglove/studio/releases/download/v1.86.1/foxglove-studio-1.86.1-linux-amd64.deb
+/root:ls --color=auto
+/root:chmod + x foxglove-studio-1.86.1-linux-amd64.deb
+/root:chmod +x foxglove-studio-1.86.1-linux-amd64.deb
+/root:ls --color=auto
+/root:sudo apt install ./foxglove-studio-*.deb
+/root:sudo apt update
+/root:sudo apt install foxglove-studio
+/root:foxglove-studio
+/root:foxglove-studio --no-sandbox
+/root:sudo apt install ros-$ROS_DISTRO-foxglove-bridge
+/root:$ ros2 launch foxglove_bridge foxglove_bridge_launch.xml port:=8765
+/root:ros2 launch foxglove_bridge foxglove_bridge_launch.xml port:=8765
+/root:ros2 component load /oak_container foxglove_bridge foxglove_bridge::FoxgloveBridge
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root:ros2 launch depthai_ros_driver pointcloud.launch.py
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:rviz2
+/root/ros2_code/humble:exit
+/root:ros2 launch depthai_ros_driver pointcloud.launch.py
+/root:ros2 launch foxglove_bridge foxglove_bridge_launch.xml port:=8765
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd ../
+/root/ros2_code:cd humble/
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:cd
+/root:ls --color=auto
+/root:cd ros2_code/humble/
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:cd
+/root:ls --color=auto
+/root:cd dai_ws/install/
+/root/dai_ws/install:pwd
+/root/dai_ws/install:cd
+/root:vi config/.bashrc
+/root:vi config/.bashrc
+/root:exit
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd
+/root:mkdir -p ~/cyglidar_ws/src/
+/root:cd ~/cyglidar_ws/src/
+/root/cyglidar_ws/src:git clone -b ROS2-v0.3.0 https://github.com/CygLiDAR-ROS/cyglidar_d1.git
+/root/cyglidar_ws/src:cd ..
+/root/cyglidar_ws:colcon build
+/root/cyglidar_ws:source install/setup.bash
+/root/cyglidar_ws:cd ~/cyglidar_ws/src/cyglidar_d1/scripts
+/root/cyglidar_ws/src/cyglidar_d1/scripts:chmod +x create_udev_rules.sh
+/root/cyglidar_ws/src/cyglidar_d1/scripts:./create_udev_rules.sh
+/root/cyglidar_ws/src/cyglidar_d1/scripts:ros2 launch cyglidar_d1_ros2 view_cyglidar.launch.py
+/root/cyglidar_ws/src/cyglidar_d1/scripts:cd
+/root:cd cyglidar_ws/
+/root/cyglidar_ws:ls --color=auto
+/root/cyglidar_ws:cd install/
+/root/cyglidar_ws/install:pwd
+/root/cyglidar_ws/install:cd
+/root:vi config/.bashrc
+/root:gazebo
+/root:ign gazebo sim shapes.sdf
+/root:ros2 launch cyglidar_d1_ros2 view_cyglidar.launch.py
+/root:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:rviz2
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble:ros2 launch depthai_ros_driver pointcloud.launch.py
+/root/ros2_code/humble:ros2 launch depthai_ros_driver example_multicam.launch.py
+/root/ros2_code/humble:ros2 launch depthai_ros_driver example_multicam.launch.py
+/root/ros2_code/humble:ros2 launch depthai_ros_driver example_multicam.launch.py
+/root/ros2_code/humble:vi example_multicam.launch.py
+/root/ros2_code/humble:ls --color=auto -alF example_multicam.launch.py
+/root/ros2_code/humble:ls --color=auto -al
+/root/ros2_code/humble:cd /root
+/root:ls --color=auto -alF
+/root:cd
+/root:ls --color=auto -alF
+/root:cd dai_ws/
+/root/dai_ws:ls --color=auto -alF
+/root/dai_ws:cd src/
+/root/dai_ws/src:ls --color=auto -alF
+/root/dai_ws/src:cd depthai-ros/
+/root/dai_ws/src/depthai-ros:ls --color=auto -alF
+/root/dai_ws/src/depthai-ros:cd depthai_examples/
+/root/dai_ws/src/depthai-ros/depthai_examples:ls --color=auto -alF
+/root/dai_ws/src/depthai-ros/depthai_examples:cd src/
+/root/dai_ws/src/depthai-ros/depthai_examples/src:ls --color=auto -alF
+/root/dai_ws/src/depthai-ros/depthai_examples/src:vi ..
+/root/dai_ws/src/depthai-ros/depthai_examples/src:cd ..
+/root/dai_ws/src/depthai-ros/depthai_examples:find .
+/root/dai_ws/src/depthai-ros/depthai_examples:grep --color=auto multi
+/root/dai_ws/src/depthai-ros/depthai_examples:cd ..
+/root/dai_ws/src/depthai-ros:find .
+/root/dai_ws/src/depthai-ros:grep --color=auto multi
+/root/dai_ws/src/depthai-ros:cd ./depthai_ros_driver/launch/
+/root/dai_ws/src/depthai-ros/depthai_ros_driver/launch:vi example_multicam.launch.py
+/root/dai_ws/src/depthai-ros/depthai_ros_driver/launch:ls --color=auto -alF
+/root/dai_ws/src/depthai-ros/depthai_ros_driver/launch:cd -
+/root/dai_ws/src/depthai-ros:find
+/root/dai_ws/src/depthai-ros:grep --color=auto multicam_example.yaml
+/root/dai_ws/src/depthai-ros:vi ./depthai_ros_driver/config/multicam_example.yaml
+/root/dai_ws/src/depthai-ros:pwd
+/root/dai_ws/src/depthai-ros:cd /root/Luxonis/depthai/
+/root/Luxonis/depthai:find .
+/root/Luxonis/depthai:grep --color=auto multi_cam
+/root/Luxonis/depthai:find .
+/root/Luxonis/depthai:grep --color=auto multi
+/root/Luxonis/depthai:cd ..
+/root/Luxonis:ls --color=auto -alF
+/root/Luxonis:cd ..
+/root:ls --color=auto -alF
+/root:cd dai_ws/
+/root/dai_ws:ls --color=auto -alF
+/root/dai_ws:cd src/
+/root/dai_ws/src:ls --color=auto -alF
+/root/dai_ws/src:cd depthai-ros/
+/root/dai_ws/src/depthai-ros:ls --color=auto -alF
+/root/dai_ws/src/depthai-ros:cd depthai_examples/
+/root/dai_ws/src/depthai-ros/depthai_examples:ls --color=auto -alF
+/root/dai_ws/src/depthai-ros/depthai_examples:cd src
+/root/dai_ws/src/depthai-ros/depthai_examples/src:ls --color=auto -alF
+/root/dai_ws/src/depthai-ros/depthai_examples/src:cd ..
+/root/dai_ws/src/depthai-ros/depthai_examples:ls --color=auto -alF
+/root/dai_ws/src/depthai-ros/depthai_examples:cd s
+/root/dai_ws/src/depthai-ros/depthai_examples:ls --color=auto -alF
+/root/dai_ws/src/depthai-ros/depthai_examples:cd scripts/
+/root/dai_ws/src/depthai-ros/depthai_examples/scripts:ls --color=auto -alF
+/root/dai_ws/src/depthai-ros/depthai_examples/scripts:cd ..
+/root/dai_ws/src/depthai-ros/depthai_examples:ls --color=auto -alF
+/root/dai_ws/src/depthai-ros/depthai_examples:find .
+/root/dai_ws/src/depthai-ros/depthai_examples:cd
+/root:pwd
+/root:cd /opt
+/opt:ls --color=auto -alF
+/opt:cd ros/
+/opt/ros:ls --color=auto -alF
+/opt/ros:cd humble/
+/opt/ros/humble:ls --color=auto -alF
+/opt/ros/humble:docker pull luxonis/depthai:03ba356b1797db62120f60a90dc6e7838b3d0acd
+/opt/ros/humble:docker
+/opt/ros/humble:cd
+/root:cd dai_ws/
+/root/dai_ws:ls --color=auto -alF
+/root/dai_ws:find .
+/root/dai_ws:grep --color=auto yaml
+/root/dai_ws:ls --color=auto -alF
+/root/dai_ws:history
+/root/dai_ws:vi ./depthai_ros_driver/config/multicam_example.yaml
+/root/dai_ws:ls --color=auto -alF
+/root/dai_ws:cd install
+/root/dai_ws/install:ls --color=auto -alF
+/root/dai_ws/install:cd depthai_examples/
+/root/dai_ws/install/depthai_examples:ls --color=auto -alF
+/root/dai_ws/install/depthai_examples:cd share
+/root/dai_ws/install/depthai_examples/share:ls --color=auto -alF
+/root/dai_ws/install/depthai_examples/share:cd depthai_examples/
+/root/dai_ws/install/depthai_examples/share/depthai_examples:ls --color=auto -alF
+/root/dai_ws/install/depthai_examples/share/depthai_examples:find .
+/root/dai_ws/install/depthai_examples/share/depthai_examples:grep --color=auto yaml
+/root/dai_ws/install/depthai_examples/share/depthai_examples:cd ..
+/root/dai_ws/install/depthai_examples/share:cd ..
+/root/dai_ws/install/depthai_examples:find .
+/root/dai_ws/install/depthai_examples:grep --color=auto yaml
+/root/dai_ws/install/depthai_examples:cd ..
+/root/dai_ws/install:ls --color=auto -alF
+/root/dai_ws/install:find .
+/root/dai_ws/install:grep --color=auto yaml
+/root/dai_ws/install:vi ./depthai_ros_driver/share/depthai_ros_driver/config/multicam_example.yaml
+/root/dai_ws/install:cd ./depthai_ros_driver/share/depthai_ros_driver/config
+/root/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config:ls --color=auto -alF
+/root/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config:cp multicam_example.yaml multicam_example.yaml.bak
+/root/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config:vi multicam_example.yaml
+/root/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config:ros2 launch depthai_ros_driver example_multicam.launch.py
+/root/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config:ros2 launch depthai_ros_driver example_multicam.launch.py
+/root/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config:vi multicam_example.yaml
+/root/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config:ros2 launch depthai_ros_driver example_multicam.launch.py
+/root/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config:vi multicam_example.yaml
+/root/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config:vi multicam_example.yaml.bak
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd
+/root:ls --color=auto
+/root:cd dai_ws/
+/root/dai_ws:ls --color=auto
+/root/dai_ws:exit
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd tc_ros2_urdf/
+/root/ros2_code/humble/tc_ros2_urdf:colcon build --symlink-install
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.bash
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd tc_ros2_urdf/
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd tc_ros2_urdf/
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_sensor.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run joint_state_publisher_gui joint_state_publisher_gui
+/root/ros2_code/humble/tc_ros2_urdf:rviz2 -d ~/ros2_ws/src/urdfbot_description/rviz/urdf_vis.rviz
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch urdfbot_description urdf_visualize.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:rviz2 -d ~/ros2_ws/src/urdfbot_description/rviz/urdf_vis.rviz
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch urdfbot_description urdf_visualize.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:rviz2 -d ~/ros2_ws/src/urdfbot_description/rviz/urdf_vis.rviz
+/root/ros2_code/humble/tc_ros2_urdf:rviz2 -d ~/ros2_code/humble/tc_ros2_urdf/src/urdfbot_description/rviz/urdf_vis.rviz
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run joint_state_publisher_gui joint_state_publisher_gui
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch urdfbot_description urdf_visualize_rviz.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run joint_state_publisher_gui joint_state_publisher_gui
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_description urdf_visualize_geometric.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run joint_state_publisher_gui joint_state_publisher_gui
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_description urdf_visualize_meshes.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run joint_state_publisher_gui joint_state_publisher_gui
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run spawn_robot_tools_pkg inertia_wizzard
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_physical.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_control.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run teleop_twist_keyboard teleop_twist_keyboard
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_control_complete.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_control_complete.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:vi /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/config/controller_position.yaml
+/root/ros2_code/humble/tc_ros2_urdf:vi src/my_box_bot_description/config/controller_position.yaml
+/root/ros2_code/humble/tc_ros2_urdf:vi /root/ros2_code/humble/tc_ros2_urdf/install/my_box_bot_description/share/my_box_bot_description/
+/root/ros2_code/humble/tc_ros2_urdf:colcon build --symlink-install
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.bash
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_control_complete.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run teleop_twist_keyboard teleop_twist_keyboard
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run my_box_bot_gazebo move_laser.py 0.0
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run my_box_bot_gazebo move_laser.py 0.0
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run my_box_bot_gazebo move_laser.py 0.0
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run my_box_bot_gazebo move_laser.py -0.05
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run my_box_bot_gazebo move_laser.py 0.0
+/root/ros2_code/humble/tc_ros2_urdf:ros2 topic info /velocity_controller/commands
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_control_velocity.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:ros2 topic info /velocity_controller/commands
+/root/ros2_code/humble/tc_ros2_urdf:ros2 topic pub /velocity_controller/commands std_msgs/msg/Float64MultiArray "layout:
+  dim: []
+  data_offset: 0
+data: [20.0]
+"
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_sensor.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:colcon build --symlink-install
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.bash
+/root/ros2_code/humble/tc_ros2_urdf:colcon build --symlink-install
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.bash
+/root/ros2_code/humble/tc_ros2_urdf:bss
+/root/ros2_code/humble/tc_ros2_urdf:colcon build --symlink-install
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.bash
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_sensor.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_sensor.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_sensor.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run teleop_twist_keyboard teleop_twist_keyboard
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_sensor.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:exit
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:ping 192.168.65.3
+/root/ros2_code/humble:192.168.65.3
+/root/ros2_code/humble:sudo apt install iputils-ping
+/root/ros2_code/humble:ping 192.168.65.3
+/root/ros2_code/humble:cd
+/root:rpm -qa > installed-software.txt
+/root:sudo apt-get install apt-clone
+/root:apt-clone clone installedsoftware
+/root:ls --color=auto
+/root:ls --color=auto -alF
+/root:scp installedsoftware.apt-clone.tar.gz svt9202@192.168.68.146:/home/svt9202
+/root:scp installedsoftware.apt-clone.tar.gz svt9202@192.168.68.146:/home/svt9202
+/root:sudo apt-get install apt-clone
+/root:sudo apt-get update
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:ros2 run demo_nodes_py listener
+/root/ros2_code/humble:ros2 run demo_nodes_py listener
+/root/ros2_code/humble:ros2 run demo_nodes_cpp talker
+/root/ros2_code/humble:cd
+/root:ls --color=auto
+/root:dpkg --get-selections > /some-path/packages.list
+/root:dpkg --get-selections > packages.list
+/root:sudo cp -R /etc/apt/sources.list* .
+/root:sudo apt-key exportall > Repo.keys
+/root:ls --color=auto
+/root:scp packages.list Repo.keys sources.list /root/ros2_code/.
+/root:vi config/.bashrc
+/root:ros2 run demo_nodes_py talker
+/root:ifconfig
+/root:ros2 run demo_nodes_py listener
+/root:ros2 run demo_nodes_cpp talker
+/root:ros2 run demo_nodes_cpp talker
+/root:ifconfig
+/root:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root:cd ros2_code/humble/tc_ros2_urdf/
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd tc_ros2_urdf/
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_description urdf_visualize_meshes.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_sensor.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_sensor.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_sensor.launch.xml
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd
+/root:ls --color=auto
+/root:cd dai_ws/
+/root/dai_ws:ls --color=auto
+/root/dai_ws:source install/setup.sh
+/root/dai_ws:cd src/
+/root/dai_ws/src:ls --color=auto
+/root/dai_ws/src:cd depthai-ros/
+/root/dai_ws/src/depthai-ros:ls --color=auto
+/root/dai_ws/src/depthai-ros:cd depthai_examples/
+/root/dai_ws/src/depthai-ros/depthai_examples:ls --color=auto
+/root/dai_ws/src/depthai-ros/depthai_examples:cd src/
+/root/dai_ws/src/depthai-ros/depthai_examples/src:ls --color=auto
+/root/dai_ws/src/depthai-ros/depthai_examples/src:cd ..
+/root/dai_ws/src/depthai-ros/depthai_examples:ls --color=auto
+/root/dai_ws/src/depthai-ros/depthai_examples:cd launch/
+/root/dai_ws/src/depthai-ros/depthai_examples/launch:ls --color=auto
+/root/dai_ws/src/depthai-ros/depthai_examples/launch:ros2 launch depthai_examples rgb_stereo_node.launch.py
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd
+/root:cd dai_ws/
+/root/dai_ws:source install/setup.sh
+/root/dai_ws:ros2 launch depthai_ros_driver pointcloud.launch.py
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd
+/root:cd dai_ws/
+/root/dai_ws:source install/setup.sh
+/root/dai_ws:ros2 launch depthai_descriptions urdf_launch.py
+/root/dai_ws:ros2 launch depthai_ros_driver camera.launch.py
+/root/dai_ws:ros2 launch depthimage_to_laserscan
+/root/dai_ws:ros2 launch depthimage_to_laserscan depthimage_to_laserscan-launch.py
+/root/dai_ws:ros2 launch depthimage_to_laserscan depthimage_to_laserscan_composed-launch.py
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:ros2 topic list
+/root/dai_ws:ros2 launch depthimage_to_laserscan depthimage_to_laserscan-launch.py
+/root/ros2_code/humble:ros2 topic list
+/root/ros2_code/humble:ros2 topic list
+/root/ros2_code/humble:ros2 topic echo /scan
+/root/dai_ws:ros2 launch depthimage_to_laserscan depthimage_to_laserscan-launch.py
+/root/ros2_code/humble:rviz2
+/root/dai_ws:ros2 launch depthai_ros_driver camera.launch.py
+/root/dai_ws:ros2 launch depthai_ros_driver pointcloud.launch.py
+/root/dai_ws:ros2 launch depthimage_to_laserscan depthimage_to_laserscan-launch.py
+/root/ros2_code/humble:ros2 run plotjuggler plotjuggler
+/root/ros2_code/humble:rqt
+/root/ros2_code/humble:rviz2
+/root/ros2_code/humble:cd /opt/ros/humble/share/
+/opt/ros/humble/share:ls --color=auto
+/opt/ros/humble/share:cd depthimage_to_laserscan/
+/opt/ros/humble/share/depthimage_to_laserscan:ls --color=auto
+/opt/ros/humble/share/depthimage_to_laserscan:sudo apt remove ros-humble-depthimage_to_laserscan
+/opt/ros/humble/share/depthimage_to_laserscan:sudo apt install ros-humble-depthimage_to_laserscan
+/opt/ros/humble/share/depthimage_to_laserscan:cd
+/root:ros2 doctor -r
+/root:ros2 doctor -r
+/root:grep --color=auto depth
+/root:sudo apt install ros-humble-depthimage_to_laserscan
+/root:sudo apt-get install ros-groovy-depthimage-to-laserscan
+/root:sudo apt-get install ros-humble-depthimage-to-laserscan
+/root:sudo apt-get remove ros-humble-depthimage-to-laserscan
+/root:sudo apt-get install ros-humble-depthimage-to-laserscan
+/root:sudo apt-get update
+/root:sudo apt-get install ros-humble-depthimage-to-laserscan
+/root:sudo apt-get remove ros-humble-depthimage-to-laserscan
+/root:cd -
+/opt/ros/humble/share/depthimage_to_laserscan:ls --color=auto
+/opt/ros/humble/share/depthimage_to_laserscan:cd ..
+/opt/ros/humble/share:rm -rf depthimage_to_laserscan
+/root/dai_ws:cd -
+/root:cd ros2_code/humble/
+/root/ros2_code/humble:git clone --recursive https://github.com/ros-perception/depthimage_to_laserscan.git
+/root/ros2_code/humble:cd depthimage_to_laserscan/
+/root/ros2_code/humble/depthimage_to_laserscan:ls --color=auto
+/root/ros2_code/humble/depthimage_to_laserscan:cd ..
+/root/ros2_code/humble:cd
+/root:cd dai_ws/src/
+/root/dai_ws/src:ls --color=auto
+/root/dai_ws/src:mv /root/ros2_code/humble/depthimage_to_laserscan .
+/root/dai_ws/src:ls --color=auto
+/root/dai_ws/src:cd log/
+/root/dai_ws/src/log:ls --color=auto
+/root/dai_ws/src/log:cd ..
+/root/dai_ws/src:rm -rf log
+/root/dai_ws/src:cd ..
+/root/dai_ws:ls --color=auto
+/root/dai_ws:crw
+/root/dai_ws:colcon build --symlink-install
+/root/dai_ws:cd src/
+/root/dai_ws/src:ls --color=auto
+/root/dai_ws/src:rm -rf depthimage_to_laserscan
+/root/dai_ws/src:git clone --branch ros2 https://github.com/ros-perception/depthimage_to_laserscan.git
+/root/dai_ws/src:ls --color=auto
+/root/dai_ws/src:cd ..
+/root/dai_ws:colcon build --symlink-install
+/root/dai_ws:source install/setup.bash
+/root/dai_ws:ls --color=auto
+/root/dai_ws:cd src/
+/root/dai_ws/src:ls --color=auto
+/root/dai_ws/src:cd ..
+/root/dai_ws:cd ..
+/root:mv dai_ws ros2_code/humble/.
+/root:cd ros2_code/humble/dai_ws/
+/root/ros2_code/humble/dai_ws:crw
+/root/ros2_code/humble/dai_ws:ls --color=auto
+/root/ros2_code/humble/dai_ws:cd src/
+/root/ros2_code/humble/dai_ws/src:ls --color=auto
+/root/ros2_code/humble/dai_ws/src:cd ..
+/root/ros2_code/humble/dai_ws:colcon build --symlink-install
+/root/ros2_code/humble/dai_ws:source install/setup.bash
+/root/ros2_code/humble/dai_ws:ls --color=auto
+/root/ros2_code/humble/dai_ws:source install/setup.sh
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthimage_to_laserscan depthimage_to_laserscan-launch.py
+/root/dai_ws:cd
+/root:exit
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble:ros2 launch depthai_ros_driver rgbd_pcl.launch.py
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:rviz2
+/root/ros2_code/humble:cd dai_ws/
+/root/ros2_code/humble/dai_ws:ls --color=auto
+/root/ros2_code/humble/dai_ws:cd src/
+/root/ros2_code/humble/dai_ws/src:git clone --branch humble https://github.com/ros-perception/pointcloud_to_laserscan.git
+/root/ros2_code/humble/dai_ws/src:ls --color=auto
+/root/ros2_code/humble/dai_ws/src:colcon build --symlink-install
+/root/ros2_code/humble/dai_ws/src:ls --color=auto
+/root/ros2_code/humble/dai_ws/src:cd ..
+/root/ros2_code/humble/dai_ws:colcon build --symlink-install
+/root/ros2_code/humble/dai_ws:source install/setup.bash
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver rtabmap.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver stereo_from_rosbag.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver sr_rgbd_pcl.launch.py
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:rviz2
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble:rviz2
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver camera.launch.py
+/root/ros2_code/humble:denter
+/root/ros2_code/humble:ros2 topic list
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver pointcloud.launch.py
+/root/ros2_code/humble:ros2 topic list
+/root/ros2_code/humble:cd dai_ws/
+/root/ros2_code/humble/dai_ws:source install/setup.sh
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan --show-args
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan --show-arguments
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --show-arguments
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --show-args
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --ros-args -r /cloud_in:=/oak/points
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --ros-args -r cloud_in:=/oak/points
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --ros-args -r /cloud_in:=/oak/points
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --ros-args -r cloud_in:=/oak/points
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --ros-args cloud_in:=/oak/points
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --ros2-args cloud_in:=/oak/points
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --ros\-args cloud_in:=/oak/points
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py -ros-args cloud_in:=/oak/points
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --ros-args -p cloud_in:=/oak/points
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --ros-args -r cloud_in:=/oak/points
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --ros-args -r cloud_in:=oak/points
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r cloud_in:=oak/points
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r /cloud_in:=/oak/points
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:ros2 topic list
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd tc_ros2_urdf/
+/root/ros2_code/humble/tc_ros2_urdf:crw
+/root/ros2_code/humble/tc_ros2_urdf:colcon build --symlink-install
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.bash
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_final.launch.xml
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble:cd tc_ros2_urdf/
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_final.launch.xml
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd tc_ros2_urdf/
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_urdf:ros2 run teleop_twist_keyboard teleop_twist_keyboard
+/root/ros2_code/humble/tc_ros2_urdf:cd ../dai_ws/
+/root/ros2_code/humble/dai_ws:source install/setup.sh
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver pointcloud.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:cd ../dai_ws/
+/root/ros2_code/humble/dai_ws:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_urdf:rviz2
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:ros2 topics list
+/root/ros2_code/humble:ros2 topic list
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --ros-args -r cloud_in:=/oak/points
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --ros-args -r cloud_in:=/oak/points
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r cloud_in:=/oak/points
+/root/ros2_code/humble:cd dai_ws/src/
+/root/ros2_code/humble/dai_ws/src:ls --color=auto
+/root/ros2_code/humble/dai_ws:cd ../
+/root/ros2_code/humble:mkdir articubot
+/root/ros2_code/humble:cd articubot/
+/root/ros2_code/humble/articubot:mkdir src
+/root/ros2_code/humble/articubot:cd src/
+/root/ros2_code/humble/articubot/src:git clone -b humble --single-branch https://github.com/joshnewans/articubot_one.git
+/root/ros2_code/humble/articubot/src:cd ..
+/root/ros2_code/humble/articubot:colcon build --symlink-install
+/root/ros2_code/humble/articubot:source install/setup.bash
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/dai_ws:rviz2
+/root/ros2_code/humble/articubot:colcon build --symlink-install
+/root/ros2_code/humble/articubot:source install/setup.bash
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/tc_ros2_urdf:ros2 topic list
+/root/ros2_code/humble/tc_ros2_urdf:ros2 topic echo /cmd_vel
+/root/ros2_code/humble/tc_ros2_urdf:ros2 topic echo //joy
+/root/ros2_code/humble/tc_ros2_urdf:ros2 topic echo /joy
+/root/ros2_code/humble/dai_ws/src:cd ../../vision/
+/root/ros2_code/humble/vision:source install/setup.sh
+/root/ros2_code/humble/vision:ros2 launch joystick_pkg joystick.launch.py
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/dai_ws:rviz2
+/root/ros2_code/humble/tc_ros2_urdf:cd ../dai_ws/
+/root/ros2_code/humble/dai_ws:source install/setup.sh
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r cloud_in:=/camera/points
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd ..
+/root/ros2_code:cd
+/root:cd ros2_code/humble/tc_ros2_urdf/
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_urdf:cd ../articubot/
+/root/ros2_code/humble/articubot:ls --color=auto
+/root/ros2_code/humble/articubot:source install/setup.sh
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:rviz2
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd dai_ws/
+/root/ros2_code/humble/dai_ws:source install/setup.sh
+/root/ros2_code/humble/dai_ws:rqt
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd dai_ws/
+/root/ros2_code/humble/dai_ws:source install/setup.sh
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/depth/camera_info -r scan:=laser_scan
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height=100
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=100
+/root/ros2_code/humble/articubot:colcon build --symlink-install
+/root/ros2_code/humble/articubot:source install/setup.bash
+/root/ros2_code/humble/articubot:colcon build --symlink-install
+/root/ros2_code/humble/articubot:source install/setup.bash
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/articubot:colcon build --symlink-install
+/root/ros2_code/humble/articubot:source install/setup.bash
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/articubot:cd ..
+/root/ros2_code/humble:chmod -R 777 articubot
+/root/ros2_code/humble:cd articubot/
+/root/ros2_code/humble/articubot:crw
+/root/ros2_code/humble/articubot:colcon build --symlink-install
+/root/ros2_code/humble/articubot:source install/setup.bash
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble:rviz2
+/root/ros2_code/humble/articubot:source install/setup.sh
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/dai_ws:rviz2
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=10
+/root/ros2_code/humble:ros2 run plotjuggler plotjuggler
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=100
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r depth:=/camera/depth/image_raw -r depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=100
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r depth:=/camera/depth/image_raw -r depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=100
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=5
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r /scan:=/laser_scan -p scan_height:=5
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r /scan:=/laser_scan -p scan_height:=1
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r /scan:=/laser_scan -p scan_height:=1
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=1
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=1000
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=400
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=400
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=200
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=200
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=20
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=50
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=50
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/camera_info -r scan:=laser_scan -p scan_height:=50
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/depth/camera_info -r scan:=laser_scan -p scan_height:=5
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/depth/camera_info -r scan:=laser_scan -p scan_height:=5
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/depth/camera_info -r scan:=laser_scan -p scan_height:=5
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/depth/camera_info -r scan:=laser_scan -p scan_height:=5
+/root/ros2_code/humble:ros2 run plotjuggler plotjuggler
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/depth/camera_info -r scan:=laser_scan -p scan_height:=5
+/root/ros2_code/humble/articubot:cd ../tc_ros2_urdf/
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble:cd tc_ros2_urdf/
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_final.launch.xml
+/root/ros2_code/humble/dai_ws:ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_raw -r /depth_camera_info:=/camera/depth/camera_info -r scan:=cal_laser_scan -p scan_height:=5
+/root/ros2_code/humble/dai_ws:ros2 run plotjuggler plotjuggler
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_final.launch.xml
+/root/ros2_code/humble/tc_ros2_urdf:rviz2
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/tc_ros2_urdf:cd ../articubot/
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/tc_ros2_urdf:rviz2
+/root/ros2_code/humble/articubot:colcon build --symlink-install
+/root/ros2_code/humble/articubot:source install/setup.bash
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/articubot:colcon build --symlink-install
+/root/ros2_code/humble/articubot:source install/setup.bash
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/dai_ws:ros2 topic list
+/root/ros2_code/humble/dai_ws:ros2 topic list
+/root/ros2_code/humble/dai_ws:ros2 topic /echo /camera/depth/camera_info
+/root/ros2_code/humble/articubot:colcon build --symlink-install
+/root/ros2_code/humble/articubot:source install/setup.bash
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/articubot:colcon build --symlink-install
+/root/ros2_code/humble/articubot:source install/setup.bash
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/articubot:colcon build --symlink-install
+/root/ros2_code/humble/articubot:source install/setup.bash
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/dai_ws:source install/setup.sh
+/root/ros2_code/humble/dai_ws:sqt
+/root/ros2_code/humble/dai_ws:rqt
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r /cloud:=/camera/points -r -r scan_in:=c_laser_scan
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r /cloud:=/camera/points -r scan_in:=c_laser_scan
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r /cloud:=/camera/points -r scan_in:=c_laser_scan
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r /cloud:=/camera/points -r scan_in:=c_laser_scan
+/root/ros2_code/humble/articubot:colcon build --symlink-install
+/root/ros2_code/humble/articubot:source install/setup.bash
+/root/ros2_code/humble/articubot:colcon build --symlink-install
+/root/ros2_code/humble/articubot:source install/setup.bash
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r /cloud:=/camera/points -r scan_in:=c_laser_scan
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r /cloud:=/camera/points
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/tc_ros2_urdf:rviz2
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r /cloud:=/camera/points
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r /cloud_in:=/camera/points -r scan:=c_laser_scan
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r /cloud_in:=/camera/points -r scan:=c_laser_scan
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd dai_ws/
+/root/ros2_code/humble/dai_ws:source install/setup.sh
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver pointcloud.launch.py
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:rviz2
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r /cloud_in:=/oak/points
+/root/ros2_code/humble:cd dai_ws/
+/root/ros2_code/humble/dai_ws:source install/setup.sh
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r /cloud_in:=/oak/points
+/root/ros2_code/humble/dai_ws:colcon build --symlink-install
+/root/ros2_code/humble/dai_ws:source install/setup.bash
+/root/ros2_code/humble/dai_ws:colcon build --symlink-install
+/root/ros2_code/humble/dai_ws:source install/setup.bash
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:colcon build --symlink-install
+/root/ros2_code/humble/dai_ws:source install/setup.bash
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:colcon build --symlink-install
+/root/ros2_code/humble/dai_ws:source install/setup.bash
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:colcon build --symlink-install
+/root/ros2_code/humble/dai_ws:source install/setup.bash
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r /cloud_in:=/oak/points
+/root/ros2_code/humble/dai_ws:colcon build --symlink-install
+/root/ros2_code/humble/dai_ws:source install/setup.bash
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:colcon build --symlink-install
+/root/ros2_code/humble/dai_ws:source install/setup.bash
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:colcon build --packages-select pointcloud_to_laserscan
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:colcon build --packages-select pointcloud_to_laserscan
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py --symlink-install
+/root/ros2_code/humble/dai_ws:colcon build --packages-select pointcloud_to_laserscan --symlink-install
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:colcon build --packages-select pointcloud_to_laserscan --symlink-install
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:cd ../articubot/
+/root/ros2_code/humble/articubot:source install/setup.sh
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/articubot:cd ../tc_ros2_urdf/
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble:ros2 launch my_box_bot_description urdf_visualize_meshes.launch.py
+/root/ros2_code/humble:cd tc_ros2_urdf/
+/root/ros2_code/humble/tc_ros2_urdf:source install/setup.sh
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_description urdf_visualize_meshes.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo start_world.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:ros2 launch my_box_bot_gazebo spawn_robot_ros2_final.launch.xml
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/tc_ros2_urdf:cd ../articubot/
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/tc_ros2_urdf:rviz2
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/articubot:cd ../dai_ws/
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver example_marker_publish.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:rviz2
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver example_segmentation.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:rviz2
+/root/ros2_code/humble/dai_ws:ros2 launch depthimage_to_laserscan depthimage_to_laserscan
+/root/ros2_code/humble/dai_ws:source install/setup.sh
+/root/ros2_code/humble/dai_ws:ros2 launch depthimage_to_laserscan depthimage_to_laserscan
+/root/ros2_code/humble/dai_ws:colcon build --symlink-install
+/root/ros2_code/humble/dai_ws:source install/setup.bash
+/root/ros2_code/humble/dai_ws:ros2 launch depthimage_to_laserscan depthimage_to_laserscan
+/root/ros2_code/humble/dai_ws:ros2 launch depthimage_to_laserscan depthimage_to_laserscan-launch.py -
+/root/ros2_code/humble/dai_ws:ros2 launch depthimage_to_laserscan depthimage_to_laserscan-launch.py
+/root/ros2_code/humble/dai_ws:colcon build --packages-select pointcloud_to_laserscan --symlink-install
+/root/ros2_code/humble/dai_ws:colcon build --packages-select depthimage_to_laserscan --symlink-install
+/root/ros2_code/humble/dai_ws:ros2 launch depthimage_to_laserscan depthimage_to_laserscan-launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthimage_to_laserscan depthimage_to_laserscan-launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_filters example_feature_3d.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_filters example_det2d_overlay.launch.py
+/root/ros2_code/humble/dai_ws:ros2 run plotjuggler plotjuggler
+/root/ros2_code/humble/dai_ws:ros2 topic list
+/root/ros2_code/humble/dai_ws:ros2 topic /echo /oak/nn/detections
+/root/ros2_code/humble/dai_ws:rqt
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_filters example_wls_filter.launch.py -
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_filters example_wls_filter.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_filters example_seg_overlay.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_descriptions urdf_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples mobile_publisher.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples rgb_stereo_node.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples yolov4_publisher.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver example_segmentation.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver pointcloud.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples stereo.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples stereo.launch.py ]
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples stereo.launch.py
+/root/ros2_code/humble/dai_ws:colcon build --symlink-install
+/root/ros2_code/humble/dai_ws:source install/setup.bash
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples stereo.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples stereo.launch.py camera_model=OAK-D-PRO
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples stereo.launch.py camera_model:=OAK-D-PRO
+/root/ros2_code/humble/dai_ws:colcon build --symlink-install
+/root/ros2_code/humble/dai_ws:source install/setup.bash
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples stereo.launch.py camera_model:=OAK-D-PRO
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples stereo.launch.py camera_model:=OAK-D-PRO
+/root/ros2_code/humble/dai_ws:colcon build --symlink-install
+/root/ros2_code/humble/dai_ws:source install/setup.bash
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples stereo.launch.py camera_model:=OAK-D-PRO
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples stereo_inertial_node.launch.py -
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples stereo_inertial_node.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples stereo_inertial_node.launch.py camera_model:=OAK-D-PRO
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples rgb_stereo_node.launch.py camera_model:=OAK-D-PRO
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples rgb_stereo_node.launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples stereo.launch.py camera_model:=OAK-D-PRO
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver pointcloud.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:rviz2
+/root/ros2_code/humble/dai_ws:colcon build --packages-select pointcloud_to_laserscan --symlink-install
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples stereo.launch.py camera_model:=OAK-D-PRO
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_ros_driver pointcloud.launch.py
+/root/ros2_code/humble/tc_ros2_urdf:rviz2
+/root/ros2_code/humble/dai_ws:ros2 launch depthai_examples rgb_stereo_node.launch.py
+/root/ros2_code/humble/dai_ws:cd ../articubot/
+/root/ros2_code/humble/articubot:ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+/root/ros2_code/humble/tc_ros2_urdf:rviz2
+/root/ros2_code/humble/dai_ws:ros2 launch depthimage_to_laserscan depthimage_to_laserscan-launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/dai_ws:ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py
+/root/ros2_code/humble/articubot:ros2 launch depthai_ros2 depthai_launch.py
+/root/ros2_code/humble/articubot:cd
+/root:sudo apt update
+/root:sudo apt install -y python3-rosdep
+/root:sudo rosdep init
+/root:rosdep update
+/root:cd ros2_code/humble/
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:git clone --branch humble https://github.com/luxonis/depthai_ros2.git
+/root/ros2_code/humble:cd depthai_ros2/
+/root/ros2_code/humble/depthai_ros2:colcon build --symlink-install
+/root/ros2_code/humble/depthai_ros2:source install/setup.sh s
+/root/ros2_code/humble/depthai_ros2:source install/setup.sh
+/root/ros2_code/humble/depthai_ros2:ros2 launch depthai_ros2 depthai_launch.py
+/root/ros2_code/humble/depthai_ros2:ls --color=auto
+/root/ros2_code/humble/depthai_ros2:cd ..
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:rm -rf depthai_ros2
+/root/ros2_code/humble:exit
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd dai_ws/
+/root/ros2_code/humble/dai_ws:ls --color=auto
+/root/ros2_code/humble/dai_ws:cd src/
+/root/ros2_code/humble/dai_ws/src:ls --color=auto
+/root/ros2_code/humble/dai_ws/src:cd ..
+/root/ros2_code/humble/dai_ws:source install/setup.sh
+/root/ros2_code/humble/dai_ws:sudo apt install libpcl-dev
+/root/ros2_code/humble/dai_ws:cd ..
+/root/ros2_code/humble:git clone https://github.com/noshluk2/ros2_learners.git
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:chmod -R 777 ros2_learners
+/root/ros2_code/humble:cd ros2_learners/
+/root/ros2_code/humble/ros2_learners:ls --color=auto
+/root/ros2_code/humble/ros2_learners:cd ..
+/root/ros2_code/humble:mkdir PCL
+/root/ros2_code/humble:rm -rf PCL
+/root/ros2_code/humble:mkdir pcl
+/root/ros2_code/humble:mv ros2_learners pcl/src/.
+/root/ros2_code/humble:mkdir pcl/src
+/root/ros2_code/humble:mv ros2_learners pcl/src/.
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:cd pcl/
+/root/ros2_code/humble/pcl:colcon build --symlink-install
+/root/ros2_code/humble/pcl:source install/setup.bash
+/root/ros2_code/humble/pcl:colcon build --symlink-install
+/root/ros2_code/humble/pcl:source install/setup.bash
+/root/ros2_code/humble/pcl:sudo apt install ros-humble-rtabmap
+/root/ros2_code/humble/pcl:sudo apt install ros-humble-rtabmap
+/root/ros2_code/humble/pcl:sudo apt update
+/root/ros2_code/humble/pcl:sudo apt upgrade
+/root/ros2_code/humble/pcl:sudo apt upgrade
+/root/ros2_code/humble/pcl:exit
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:sudo apt update
+/root/ros2_code/humble:sudo apt upgrade
+/root/ros2_code/humble:exit
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:sudo apt update
+/root/ros2_code/humble:sudo apt upgrade
+/root/ros2_code/humble:sudo apt upgrade
+/root/ros2_code/humble:sudo apt install ros-humble-rtabmap
+/root/ros2_code/humble:sudo dpkg --configure -a
+/root/ros2_code/humble:sudo apt-get install -f
+/root/ros2_code/humble:sudo apt-get remove --purge tzdata
+/root/ros2_code/humble:sudo dpkg --configure -a
+/root/ros2_code/humble:sudo dpkg --configure -a
+/root/ros2_code/humble:dpkg --configure -a
+/root/ros2_code/humble:exit
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:sudo dpkg --configure -a
+/root/ros2_code/humble:sudo apt update
+/root/ros2_code/humble:sudo apt upgrade
+/root/ros2_code/humble:sudo apt install ros-humble-rtabmap
+/root/ros2_code/humble:sudo apt-get install -y tzdata
+/root/ros2_code/humble:exit
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:sudo apt update
+/root/ros2_code/humble:sudo apt upgrade
+/root/ros2_code/humble:sudo apt install ros-humble-rtabmap
+/root/ros2_code/humble:sudo apt install ros-humble-rtabmap-ros
+/root/ros2_code/humble:sudo apt install ros-humble-pcl
+/root/ros2_code/humble:sudo apt install ros-humble-pcl-msgs
+/root/ros2_code/humble:sudo apt install ros-humble-pcl-ros
+/root/ros2_code/humble:sudo apt install ros-humble-pcl-*
+/root/ros2_code/humble:ls --color=auto
+/root/ros2_code/humble:cd pcl/
+/root/ros2_code/humble/pcl:ls --color=auto
+/root/ros2_code/humble/pcl:cd src/
+/root/ros2_code/humble/pcl/src:ls --color=auto
+/root/ros2_code/humble/pcl/src:cd ros2_learners/
+/root/ros2_code/humble/pcl/src/ros2_learners:ls --color=auto
+/root/ros2_code/humble/pcl/src/ros2_learners:cd ..
+/root/ros2_code/humble/pcl/src:cd ..
+/root/ros2_code/humble/pcl:colcon build --symlink-install
+/root/ros2_code/humble/pcl:source install/setup.bash
+/root/ros2_code/humble/pcl:exit
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:cd
+/root:vi config/.bashrc
+/root:ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:source vision/install/setup.sh
+/root/ros2_code/humble:ros2 launch joystick_pkg joystick.launch.py
+/root/ros2_code/humble:bind '"\e[A": history-search-backward'
+/root/ros2_code/humble:bind '"\e[B": history-search-forward'
+/root/ros2_code/humble:[ -f "$HOME/config/.ros_commands" ]
+/root/ros2_code/humble:[ -f "$CONFIG_FILE" ]
+/root/ros2_code/humble:source "$CONFIG_FILE"
+/root/ros2_code/humble:export PATH=$PATH:/root/Luxonis/depthai/entrypoint
+/root/ros2_code/humble:export NVM_DIR="$HOME/.nvm"
+/root/ros2_code/humble:[ -s "$NVM_DIR/nvm.sh" ]
+/root/ros2_code/humble:\. "$NVM_DIR/nvm.sh"
+/root/ros2_code/humble:[ -s "$NVM_DIR/bash_completion" ]
+/root/ros2_code/humble:\. "$NVM_DIR/bash_completion"
+/root/ros2_code/humble:ros2 launch rtabmap_launch rtabmap.launch.py visual_odometry:=false frame_id:=base_footprint subscribe_scan:=true depth:=false approx_sync:=true odom_topic:=/odom scan_topic:=/scan qos:=2 args:="-d --RGBD/NeighborLinkRefining true --Reg/Strategy 1" use_sim_time:=true rviz:=true

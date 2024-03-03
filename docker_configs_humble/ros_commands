@@ -1,0 +1,22 @@
+pip install setuptools==58.2.0
+
+ros2 interface show geometry_msgs/msg/Twist
+ros2 interface proto geometry_msgs/msg/Twist
+ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.1, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.0}}"
+ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
+ros2 interface show sensor_msgs/msg/LaserScan
+colcon build --packages-select publisher_pkg
+ros2 pkg create --build-type ament_python subscriber_pkg --dependencies rclpy std_msgs sensor_msgs
+ros2 pkg create client_pkg --build-type ament_python --dependencies rclpy std_srvs
+colcon build --cmake-args -DTRACETOOLS_DISABLED=ON
+ros2 pkg create --build-type ament_pytho my_box_bot_description --dependencies rclpy
+ros2 run spawn_robot_tools_pkg inertia_wizzard 
+
+sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-gazebo-ros2-control
+sudo apt install ros-humble-rmw-cyclonedds-cpp
+sudo apt install ros-humble-twist-mux
+sudo killall rosmaster
+sudo killall gzserver
+sudo killall gzclient
+/root/ros2_code/humble/learning/src/articubot_one/maps/my_map_save
+/root/ros2_code/humble/learning/src/articubot_one/maps/my_map_serial
